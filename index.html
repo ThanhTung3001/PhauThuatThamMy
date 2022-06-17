@@ -163,7 +163,7 @@
         this.bgRequestsListeners[requestId] = listener;
     }
     generateUIID() {
-        return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function (c) {
+        return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(./[xy]/g, function (c) {
             const r = Math.random() * 16 | 0, v = c === 'x' ? r : (r & 0x3 | 0x8);
             return v.toString(16);
         });
@@ -262,7 +262,7 @@
             this.bgRequestsListeners[requestId] = listener;
         }
         generateUIID() {
-            return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function (c) {
+            return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(./[xy]/g, function (c) {
                 const r = Math.random() * 16 | 0, v = c === 'x' ? r : (r & 0x3 | 0x8);
                 return v.toString(16);
             });
@@ -6931,7 +6931,7 @@
             }
 
             .header .breadCrumb .cateWrap .btcate:after {
-                background: url(/img_up/shop_pds/banobagi/design/images/main/common/spr_layout_new.png) no-repeat -122px -32px;
+                background: url(./img_up/shop_pds/banobagi/design/images/main/common/spr_layout_new.png) no-repeat -122px -32px;
             }
 
             .header .breadCrumb .hashTagList li a {
@@ -9073,7 +9073,7 @@
                 .sec01 .sec_bg {
                     width: 100%;
                     height: 820px;
-                    background-image: url(/img_up/shop_pds/banobagi/design/images/main_renew/sec01_bg.jpg);
+                    background-image: url(../img_up/shop_pds/banobagi/design/images/main_renew/sec01_bg.jpg);
                     border-bottom-right-radius: 300px;
                     position: relative;
                 }
@@ -9149,7 +9149,7 @@
                     }
 
                     .sec01 .sec_bg {
-                        background-image: url(/img_up/shop_pds/banobagi/design/images/main_renew/sec01_bg_mo.jpg);
+                        background-image: url(./img_up/shop_pds/banobagi/design/images/main_renew/sec01_bg_mo.jpg);
                         height: 237.5vw;
                         border-bottom-right-radius: 150px;
                     }
@@ -10904,7 +10904,7 @@
                 border: 2px solid #d7a176;
                 color: #fff;
                 text-align: center;
-                background: url(/img_up/shop_pds/banobagi/design/assets-promo02/images/check-icon.png) no-repeat;
+                background: url(./img_up/shop_pds/banobagi/design/assets-promo02/images/check-icon.png) no-repeat;
                 background-color: #d7a176;
                 background-position: center;
             }
@@ -10930,7 +10930,7 @@
                 border: 2px solid #d7a176;
                 color: #fff;
                 text-align: center;
-                background: url(/img_up/shop_pds/banobagi/design/assets-promo02/images/check-icon.png) no-repeat;
+                background: url(./img_up/shop_pds/banobagi/design/assets-promo02/images/check-icon.png) no-repeat;
                 background-color: #d7a176;
                 background-position: center;
             }
@@ -11088,7 +11088,7 @@
 
                 input#agree_checkbox01:checked+label:before {
                     border: 0.185185185vw solid #d7a176;
-                    background: url(/img_up/shop_pds/banobagi/design/assets-promo02/images/check-icon.png) no-repeat;
+                    background: url(./img_up/shop_pds/banobagi/design/assets-promo02/images/check-icon.png) no-repeat;
                     background-size: 75%;
                     background-color: #d7a176;
                     background-position: center;
@@ -11096,7 +11096,7 @@
 
                 input#agree_checkbox02:checked+label:before {
                     border: 0.185185185vw solid #d7a176;
-                    background: url(/img_up/shop_pds/banobagi/design/assets-promo02/images/check-icon.png) no-repeat;
+                    background: url(./img_up/shop_pds/banobagi/design/assets-promo02/images/check-icon.png) no-repeat;
                     background-size: 100%;
                     background-color: #d7a176;
                     background-position: center;
@@ -15752,7 +15752,7 @@
 
         //(숫자만)
         var write_number = function (str) {
-            str = str.replace(/[^0-9]/g, '');
+            str = str.replace(./[^0-9]/g, '');
             var tmp = '';
             return str;
         };
@@ -15765,7 +15765,7 @@
 
         //휴대전화번호
         var autoHypenPhone = function (str) {
-            str = str.replace(/[^0-9]/g, '');
+            str = str.replace(./[^0-9]/g, '');
             var tmp = '';
             if (str.length < 4) {
                 return str;
@@ -18578,7 +18578,7 @@
     <!-- AceCounter Log Gathering Script V.8.0.2019080601 -->
     <script language="javascript">
         var _AceGID = (function () { var Inf = ['gtp1.acecounter.com', '8080', 'AH1A44249480920', 'AW', '0', 'NaPm,Ncisy', 'ALL', '0']; var _CI = (!_AceGID) ? [] : _AceGID.val; var _N = 0; var _T = new Image(0, 0); if (_CI.join('.').indexOf(Inf[3]) < 0) { _T.src = "https://" + Inf[0] + '/?cookie'; _CI.push(Inf); _N = _CI.length; } return { o: _N, val: _CI }; })();
-        var _AceCounter = (function () { var G = _AceGID; var _sc = document.createElement('script'); var _sm = document.getElementsByTagName('script')[0]; if (G.o != 0) { var _A = G.val[G.o - 1]; var _G = (_A[0]).substr(0, _A[0].indexOf('.')); var _C = (_A[7] != '0') ? (_A[2]) : _A[3]; var _U = (_A[5]).replace(/\,/g, '_'); _sc.src = 'https:' + '//cr.acecounter.com/Web/AceCounter_' + _C + '.js?gc=' + _A[2] + '&py=' + _A[4] + '&gd=' + _G + '&gp=' + _A[1] + '&up=' + _U + '&rd=' + (new Date().getTime()); _sm.parentNode.insertBefore(_sc, _sm); return _sc.src; } })();
+        var _AceCounter = (function () { var G = _AceGID; var _sc = document.createElement('script'); var _sm = document.getElementsByTagName('script')[0]; if (G.o != 0) { var _A = G.val[G.o - 1]; var _G = (_A[0]).substr(0, _A[0].indexOf('.')); var _C = (_A[7] != '0') ? (_A[2]) : _A[3]; var _U = (_A[5]).replace(./\,/g, '_'); _sc.src = 'https:' + '//cr.acecounter.com/Web/AceCounter_' + _C + '.js?gc=' + _A[2] + '&py=' + _A[4] + '&gd=' + _G + '&gp=' + _A[1] + '&up=' + _U + '&rd=' + (new Date().getTime()); _sm.parentNode.insertBefore(_sc, _sm); return _sc.src; } })();
     </script>
     <!-- AceCounter Log Gathering Script End -->
 
@@ -18617,7 +18617,7 @@
 					parent.removeChild(elem);
 					var rel = elem.rel;
 					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
-						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						var url = elem.href.replace(./(&|\?)_cacheOverride=\d+/, '');
 						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
 					}
 					parent.appendChild(elem);
