@@ -143,3 +143,6 @@ body {
     display: flex;
     justify-content: space-around;
 }
+#map_google{
+    border: 1px solid gray;
+}
