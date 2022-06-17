@@ -1,0 +1,130 @@
+@charset "utf-8";
+
+$font-pt:'Roboto',sans-serif;
+
+$font-normal:"Noto Sans KR", "맑은 고딕", "Malgun Gothic", '돋음, Dotum', "Helvetica Neue", 'Helvetica, Arial', 'serif';
+//mixin
+@mixin background-image-retina($file, $type, $width, $height:null ) {
+	background-image: url($file + '.' + $type);
+	@media only screen and (-webkit-min-device-pixel-ratio: 2),
+		only screen and (-moz-min-device-pixel-ratio: 2),
+		only screen and (-o-min-device-pixel-ratio: 2/1),
+		only screen and (min-device-pixel-ratio: 2),
+		only screen and (min-resolution: 192dpi),
+		only screen and (min-resolution: 2dppx){
+		& {
+			background-image: url($file + '@2x.' + $type);
+			-webkit-background-size: $width $height;
+			-moz-background-size: $width $height;
+			-o-background-size: $width $height;
+			background-size: $width $height;
+		}
+	}
+}
+
+@mixin hidden { overflow:hidden; position:absolute; width:0; height:0; }
+@mixin block {
+	&:before,
+	&:after { clear:both; display:block; overflow:hidden; height:0; content:""; }
+}
+@mixin line-clamp($lines, $line-height) { display:block; display:-webkit-box; -webkit-box-orient:vertical; position:relative; text-overflow: ellipsis; -webkit-line-clamp:$lines; white-space:normal;
+	&:after { position:absolute; right:0; bottom:0; width:77px; height:$line-height+em; background:url(../images/common/line-clamp.png) repeat-y right bottom; content:''; pointer-events:none; }
+	@supports (-webkit-line-clamp: $lines) {
+		height:auto;
+		&:after { content:none}
+	}
+}
+
+@mixin img-wrap {
+	&__img-wrap { overflow:hidden; position:relative; }
+	&__img { position:absolute; top:0; left:0; right:0; bottom:0; margin:auto; max-width:100%; }
+}
+
+@mixin placeholder-color($place-color){
+	&:-ms-input-placeholder { color: $place-color;}
+	&::-webkit-input-placeholder { color: $place-color;}
+	&::-moz-placeholder { color: $place-color;}
+	&::-moz-placeholder { color: $place-color;}
+}
+
+
+
+
+$mobile-size:680px;
+$tablet-size:1025px;
+$minpc-size1:1700px;
+$minpc-size2:1480px; //1280?
+$minpc-size3:1180px;
+$iphone-size:340px;
+$minH-size:900px;
+
+$thin:100;
+$lightDown:200;
+$light:300;
+$regular :400;
+$medium :500;
+$bold:600;
+$black:700;
+
+$black1:#000;
+$black2:#444;
+$black3:#777;
+$black4:#999;
+
+$black5:#555;
+
+
+
+$color-normal:#444;
+$color-line:#FF4340;
+$color-point:#b916a4;
+$color-yellow:#fff191;
+$color-orange:#ffa96a;
+$color-point2:#8d217f;
+$color-point3:#f43cdc;
+$color-point4:#eca0e2;
+$color-rapid:#551e4e;
+$special1:#003378;
+$special2:#035dbd;
+$special3:#d9f1fc;
+$nose1:#88355f;
+$nose2:#f17b9c;
+$nose3:#f7e1ed;
+$svf1:#88355f;
+$svf2:#ffc332;
+$svf3:#f7e1ed;
+$reoperation1:#5b2626;
+$reoperation2:#ff6263;
+$reoperation3:#ffbebf;
+$eye1:#28443b;
+$eye2:#4b977e;
+$eye3:#ceefe5;
+$body1:#5e391b;
+$body2:#ffa800;
+$body3:#ffe7c0;
+$contour1:#4569b1;
+$contour2:#7fa0e3;
+$contour3:#d0defb;
+$chest1:#4f2c74;
+$chest2:#a482c9;
+$chest3:#ebd9ff;
+$wrinkle1:#5c4b3f;
+$wrinkle2:#aa8b77;
+$wrinkle3:#fae3d4;
+$hair1:#00c58e;
+$hair2:#006544;
+$hair3:#d7f9e4;
+$hair4:#fb4357;
+
+//i버튼
+$infoBtn:info-btn;
+$infoDesc:info-desc;
+
+%box{
+	@media only screen and (max-width: $tablet-size){margin-left:-40px !important; margin-right:-40px !important;}
+	@media only screen and (max-width: $mobile-size){margin-left:-12px !important; margin-right:-12px !important;}
+}
+%box-padding{
+	@media only screen and (max-width: $tablet-size){padding-left:40px !important; padding-right:40px !important; box-sizing:border-box;}
+	@media only screen and (max-width: $mobile-size){padding-left:12px !important; padding-right:12px !important;}
+}

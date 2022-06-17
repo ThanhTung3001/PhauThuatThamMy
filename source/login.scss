@@ -1,0 +1,178 @@
+@charset "UTF-8";
+@import "mixins";
+
+
+.p-login{display: none; position:fixed; top:0; left:0; right:0; bottom:0; z-index:120; height:570px; text-align:center; margin:auto;
+	$this:&;
+	&.is-active{display:block;}
+	// &:before{position:absolute; z-index:-1; display:block; width:100%; height:100%; background-color:rgba(0,0,0,0.7); content:'';}
+	// &:after{display:inline-block; height:100%; vertical-align:middle; content:'';}
+	&__wrap{position:relative; display:inline-block; height:inherit; background-color:#fff;
+		&:after{display:block; clear:both; content:'';}
+	}
+	&__content{position:relative; float:left; width:760px; height:inherit;}
+	&__layer{position:absolute; top:0; left:0; display:none; width:100%; height:100%; background-color:#fff; z-index:500;
+		&.is-active{display:block}
+	}
+	&__box{position:relative; width:100%;  padding:78px 115px 0; box-sizing:border-box;}
+	&__list{float:left; margin:0; padding:0;}
+	&__tit{margin:0; font-size:36px; font-family:$font-pt; font-weight:$bold; color:$color-point; line-height:1;}
+	&__txt{margin:4px 0 0 0; font-size:15px; font-weight: 400; color:#666;
+		strong{color:#3d3d3f; font-weight:500;}
+	}
+	&__input{width: 100%; padding:0 25px; border:1px solid #c7c7c7; font-size:16px; height:40px; line-height:40px; box-sizing:border-box;
+		& + &{margin-top:10px;}
+		&:-ms-input-placeholder{color:#c7c7c7; }
+		&::placeholder{color:#c7c7c7;}
+		&::-ms-input-placeholder {color:#c7c7c7;}
+	}
+	&__area{position: relative; margin-top:22px; padding-right: 220px; text-align: left; font-size: 0; box-sizing:border-box;}
+	&__btn{position: absolute;top: 0;right: 0;width: 200px;height:90px; line-height:90px; background-color:#424242; color:#fff; border:none; font-size:15px; font-weight:500; cursor:pointer;}
+	&__list{width:190px; height:100%; border-left:1px solid #e2e2e2;}
+	&__item{position:relative; width:100%; height:230px;text-align:center;
+		&.nth-1{
+			#{$this}__subject{
+				&:before{width:46px; height:54px; background:url('../images/login/join_icon.png')}
+			}
+		}
+		&.nth-2{background-color:#595959;
+			#{$this}__subject{color:#fff;
+				&:before{width:46px; height:56px; background:url('../images/login/pass_icon.png')}
+			}
+		}
+	}
+
+	&__outer{margin-top: 40px;padding: 0 115px; text-align: left; box-sizing:border-box;
+		&:before{content: '';display: block;width: 100%;height: 1px;margin-bottom: 40px;background-color: #ccc;}
+		&:after{content: '';display: block;clear: both;}
+	}
+	&__inner{float: left;padding-top: 6px;}
+	&__txt2{margin:0; font-size: 20px;color: #000;}
+	&__txt3{margin:4px 0 0 0; font-size: 15px;color: #aaaaaa;}
+	&__join{display: inline-block;float: right; padding: 18px 3%;border: 1px solid #000;background-color: #fff;font-size: 18px;color: #000; box-sizing:border-box;
+		text-decoration:none;}
+	&__span{display: block;position: relative;padding-right: 64px;
+		&:before{content: '';position: absolute;top: 0;right: 0px;width: 7px;height: 100%;background: url('../images/login/join_arrow.png') no-repeat center center;}
+	}
+
+	&__subject{display:inline-block; font-size:15px; font-weight:500; color:#3d3d3f;
+		&:before{display:block; margin:0px auto 15px; content:'';}
+	}
+	&__vertical{display:table-cell; width:1%; height:inherit; vertical-align:middle;}
+	&__link{overflow:hidden; position:absolute; top:0; left:0; display:block; width:100%; height:100%; z-index:10; text-indent:-999px;}
+	&__close{overflow:hidden; position:absolute; top:0; right:-44px; display:block; width:44px; height:44px;
+		background:url('../images/login/close_icon.png') no-repeat center center #333; z-index:120; text-indent:-999px;}
+	&__close2{overflow:hidden; position:absolute; top:18px; right:18px; display:block; width:28px; height:28px; background:url('../images/login/join_close.png') no-repeat center center; z-index:100;
+		text-indent:-9999px;}
+	@media only screen and (max-width:$tablet-size){top:50%; bottom:auto; transform: translateY(-50%); height:auto; width:calc(100% - 84px);
+		&__tit{font-size:36px;}
+		&__content{float:none; width:auto;}
+		&__list{float:none; height:auto; width:100%; margin-top:90px; border-left:none; border-top:1px solid #e2e2e2;
+			&:after{display:block; clear:both; content:'';}
+		}
+		&__box{padding: 74px 55px 0;}
+		&__item{float:left; display:block; height:auto; width:50%; height:68px;
+			&.nth-1{
+				#{$this}__subject{
+					&:before{width:33px; height:38px; background:url('../images/login/join_icon.png') no-repeat center center / contain;}
+				}
+			}
+			&.nth-2{background-color:#595959;
+				#{$this}__subject{color:#fff;
+					&:before{width:33px; height:39px; background:url('../images/login/pass_icon.png') no-repeat center center / contain;}
+				}
+			}
+		}
+		&__subject{position:relative; padding-left:42px;
+			&:before{position:absolute; top:0; left:0; bottom:0; margin:auto 0;}
+		}
+		&__close{right: 0;}
+
+		&__outer{padding: 0 55px 82px;}
+	}
+	@media only screen and (max-width:$mobile-size){width:calc(100% - 42px);
+		&__list{margin-top:0; padding:10px 0 26px; text-align:center;}
+		&__vertical{display:block; width:auto;}
+		&__item{float:none; display:inline-block; width:auto; height:auto;
+			&.nth-1{position:relative; padding-right:20px; box-sizing:border-box;
+				&:after{position:absolute; top:0; bottom:0; right:9px; width:0; height:11px; margin:auto 0; border-left:1px solid #c7c7c7; content:'';}
+				#{$this}__subject{color:#3d3d3f;}
+			}
+			&.nth-2{background-color:#fff;
+				#{$this}__subject{color:#6c6a6a;}
+			}
+		}
+		&__area{margin-top:10px;padding-right: 0;}
+		&__wrap{width: 100%; padding:0 15px; box-sizing:border-box;}
+		&__box{padding: 36px 0 0;}
+		&__tit{font-size:2.6rem;}
+		&__txt{margin-top:8px; font-size:1.3rem;}
+		&__subject{padding-left:0; font-size:1.4rem;
+			&:before{display:none;}
+		}
+		&__input{padding:0 15px; height:35px; line-height:35px; font-size:1.4rem;
+			& + &{margin-top: 15px;}
+		}
+		&__btn{position:static; width: 100%; height:40px;margin-top: 15px; line-height:40px; background:#424242;}
+		&__close{position:static; top:auto; right:auto; width:auto; margin: 16px -15px 0; background-image:none; background-color:#575757; text-indent:0; color:#fff; font-size:1.4rem; font-weight:500; line-height:45px; text-decoration:none;}
+		&__close2{top:20px; right:0px; width:27px; height:27px; background:url('../images/login/join_close_m.png') no-repeat center center / 27px 27px;}
+
+		&__outer{margin-top: 15px;padding: 0px;text-align: center;
+			&:before{margin-bottom: 10px;}
+		}
+		&__inner{display: none;}
+		&__join{float: none;width: 100%;border: 0;padding: 0;font-size: 1.4rem;}
+		&__span{padding-right: 0;
+			&:before{display: none;}
+		}
+	}
+}
+.p-sns{
+	&__txt{display: none;}
+	&__list{margin:30px 0 0 -10px; padding:0;
+		&:after{display:block; clear:both; content:'';}
+	}
+	&__item{float:left; width:33.333%; padding-left:10px; list-style:none; box-sizing:border-box;}
+	&__link{position:relative; display:block; height:40px; padding-left:36px; line-height:40px; font-size:15px; color:#fff; font-weight:500; box-sizing:border-box; text-decoration:none;
+		&.type-ba{background-color:#333;
+			&:before{background:url('../images/login/banobagi_icon.png') no-repeat center center;}
+		}
+		&.type-na{background-color:#2db400;
+			&:before{background:url('../images/login/naver_icon.png') no-repeat center center;}
+		}
+		&.type-fa{background-color:#3b5998;
+			&:before{background:url('../images/login/facebook_icon.png') no-repeat center center;}
+		}
+		&.type-ka{background-color:#ffeb00; color:#3c1e1e;
+			&:before{background:url('../images/login/ka_icon.png') no-repeat center center; border-right:1px solid rgba(255,255,255,0.5);}
+		}
+		&:before{position:absolute; top:0; left:0; width:40px; height:100%; border-right:1px solid rgba(255,255,255,0.18); content:'';}
+	}
+	@media only screen and (max-width:$mobile-size){
+		&__txt{display: block;margin: 17px 0 0 0;font-size: 1.4rem;color: #000;}
+		&__list{margin-left:0; margin-top:16px;text-align: center;font-size: 0;}
+		&__item{float: none;display: inline-block;width: 50px;padding-left:0;
+			& + &{margin-left: 18px;}
+			// & + &{margin-top:14px;}
+			// & + & + &{margin-top:14px;}
+		}
+		&__link{padding-left: 0; height:50px; line-height:50px; text-indent: -9999px;overflow: hidden;
+			&.type-ba{background-color:#333;
+				&:before{background:url('../images/login/banobagi_icon_m.png') no-repeat center center / 17px 21px;}
+			}
+			&.type-na{background-color:#2db400;
+				&:before{background:url('../images/login/naver_icon_m.png') no-repeat center center / 22px 20px;}
+			}
+			&.type-fa{background-color:#3b5998;
+				&:before{background:url('../images/login/facebook_icon_m.png') no-repeat center center / 14px 30px;}
+			}
+			&.type-ka{background-color:#ffeb00; color:#3c1e1e;
+				&:before{background:url('../images/login/ka_icon_m.png') no-repeat center center / 26px 24px;}
+			}
+			&:before{width:50px;border-right: 0;}
+		}
+	}
+}
+.p-login-dim{overflow:hidden; display:none; position:fixed; top:0; left:0;  z-index:119; width:100%; height:100%; background-color:rgba(0,0,0,0.7);  text-indent:-999px; content:'';
+	&.is-active{display:block;}
+}

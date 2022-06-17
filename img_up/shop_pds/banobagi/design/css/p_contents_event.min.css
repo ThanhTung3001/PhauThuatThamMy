@@ -1,0 +1,5205 @@
+.iScrollWrap.anchorType > button,
+.promoComment .commentArea .photoCommentList li .del,
+.prodModule .ancTabContent .tabContTitle,
+.frList.type02 li > span {
+  overflow: hidden;
+  text-indent: -9999px;
+}
+.promoComment .commentArea .photoCommentList li .del:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.promoComment .commentWrite textarea::-webkit-scrollbar,
+.clauseBox .boxGray::-webkit-scrollbar,
+.weddingInvitation .agreeBox .boxGray::-webkit-scrollbar {
+  overflow: hidden;
+  width: 3px;
+  margin-right: 6px;
+}
+.promoComment .commentWrite textarea::-webkit-scrollbar-thumb,
+.clauseBox .boxGray::-webkit-scrollbar-thumb,
+.weddingInvitation .agreeBox .boxGray::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #aaa;
+}
+.promoComment .commentWrite textarea::-webkit-scrollbar-track,
+.clauseBox .boxGray::-webkit-scrollbar-track,
+.weddingInvitation .agreeBox .boxGray::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+.iScrollWrap.anchorType > button,
+.promoComment .commentArea .photoCommentList li .del,
+.prodModule .ancTabContent .tabContTitle,
+.frList.type02 li > span {
+  overflow: hidden;
+  text-indent: -9999px;
+}
+.promoComment .commentArea .photoCommentList li .del:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.promoComment .commentWrite textarea::-webkit-scrollbar,
+.clauseBox .boxGray::-webkit-scrollbar,
+.weddingInvitation .agreeBox .boxGray::-webkit-scrollbar {
+  overflow: hidden;
+  width: 3px;
+  margin-right: 6px;
+}
+.promoComment .commentWrite textarea::-webkit-scrollbar-thumb,
+.clauseBox .boxGray::-webkit-scrollbar-thumb,
+.weddingInvitation .agreeBox .boxGray::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #aaa;
+}
+.promoComment .commentWrite textarea::-webkit-scrollbar-track,
+.clauseBox .boxGray::-webkit-scrollbar-track,
+.weddingInvitation .agreeBox .boxGray::-webkit-scrollbar-track {
+  border-radius: 10px;
+} 
+@font-face {
+  font-family: 'notokr';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Noto Sans Regular'), local('NotoSans-Regular'),
+    url('/img_up/shop_pds/banobagi/design/fonts//NotoSansKR-Regular.eot'),
+    url('/img_up/shop_pds/banobagi/design/fonts//NotoSansKR-Regular.eot?#iefix') format('embedded-opentype'),
+    url('/img_up/shop_pds/banobagi/design/fonts//NotoSansKR-Regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'notokr';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Noto Sans Medium'), local('NotoSans-Medium'),
+    url('/img_up/shop_pds/banobagi/design/fonts//NotoSansKR-Medium.eot'),
+    url('/img_up/shop_pds/banobagi/design/fonts//NotoSansKR-Medium.eot?#iefix') format('embedded-opentype'),
+    url('/img_up/shop_pds/banobagi/design/fonts//NotoSansKR-Medium.woff') format('woff');
+}
+@font-face {
+  font-family: 'notokr';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Noto Sans Bold'), local('NotoSans-Bold'),
+    url('/img_up/shop_pds/banobagi/design/fonts//NotoSansKR-Bold.eot'),
+    url('/img_up/shop_pds/banobagi/design/fonts//NotoSansKR-Bold.eot?#iefix') format('embedded-opentype'),
+    url('/img_up/shop_pds/banobagi/design/fonts//NotoSansKR-Bold.woff') format('woff');
+}
+@font-face {
+  font-family: 'Metro';
+  font-weight: 400;
+  src: local('Metropolis Regular'), local('Metropolis-Regular'),
+    url('/img_up/shop_pds/banobagi/design/fonts//Metropolis-Regular.eot'),
+    url('/img_up/shop_pds/banobagi/design/fonts//Metropolis-Regular.eot?#iefix') format('embedded-opentype'),
+    url('/img_up/shop_pds/banobagi/design/fonts//Metropolis-Regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'Metro';
+  font-weight: 500;
+  src: local('Metropolis Medium'), local('Metropolis-Medium'),
+    url('/img_up/shop_pds/banobagi/design/fonts//Metropolis-Medium.eot'),
+    url('/img_up/shop_pds/banobagi/design/fonts//Metropolis-Medium.eot?#iefix') format('embedded-opentype'),
+    url('/img_up/shop_pds/banobagi/design/fonts//Metropolis-Medium.woff') format('woff');
+}
+@font-face {
+  font-family: 'Metro';
+  font-weight: 700;
+  src: local('Metropolis Bold'), local('Metropolis-Bold'),
+    url('/img_up/shop_pds/banobagi/design/fonts//Metropolis-Bold.eot'),
+    url('/img_up/shop_pds/banobagi/design/fonts//Metropolis-Bold.eot?#iefix') format('embedded-opentype'),
+    url('/img_up/shop_pds/banobagi/design/fonts//Metropolis-Bold.woff') format('woff');
+}
+@font-face {
+  font-family: 'Nanum Gothic';
+  font-weight: 500;
+  src: local('Nanum Gothic'), local('ë‚˜ëˆ”ê³ ë”•'),
+    local('NanumGothic Regular'), url('/img_up/shop_pds/banobagi/design/fonts//NanumGothic-Regular.eot'),
+    url('/img_up/shop_pds/banobagi/design/fonts//NanumGothic-Regular.eot?#iefix') format('embedded-opentype'),
+    url('/img_up/shop_pds/banobagi/design/fonts//NanumGothic-Regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'Nanum Gothic';
+  font-weight: 700;
+  src: local('NanumGothic Bold'), url('/img_up/shop_pds/banobagi/design/fonts//NanumGothic-Bold.eot'),
+    url('/img_up/shop_pds/banobagi/design/fonts//NanumGothic-Bold.eot?#iefix') format('embedded-opentype'),
+    url('/img_up/shop_pds/banobagi/design/fonts//NanumGothic-Bold.woff') format('woff');
+}
+.moduleType .titDep2,
+.moduleType .titDep3,
+.moduleType .titDep4,
+.moduleType .desc01 {
+  padding: 0 24px 8px;
+}
+.moduleType .titDep1 {
+  color: #1e2023;
+  padding: 24px;
+  font-weight: 600;
+  font-size: 1.5em;
+  text-align: center;
+  background: #cecece;
+}
+.moduleType .titDep2 {
+  margin: 0;
+  padding: 24px;
+  background: #eaeaea;
+}
+.moduleType .titDep3 {
+  margin: 0;
+  padding: 24px;
+  background: #f7f7f7;
+}
+.moduleType .titDep4 {
+  padding-bottom: 0;
+}
+.promoContainer {
+  margin-bottom: -120px;
+  width: 100%;
+}
+.promoContainer .htmlType {
+  position: relative;
+}
+.promoContainer .htmlType .tabTarget {
+  position: absolute;
+  top: -152px;
+  font-size: 0;
+  line-height: 0;
+}
+.promotionTop .titDep1 {
+  margin-bottom: 8px;
+}
+.promotionCon {
+  min-width: 1280px;
+  padding-bottom: 120px;
+}
+.promotionContext {
+  width: 1000px;
+  margin: 0 auto;
+  text-align: left;
+  border-radius: 4px;
+}
+.promotionContext .oferTxt {
+  text-align: center;
+}
+.badgeEssential {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 40px;
+  padding: 7px 4px;
+  color: #fff;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.16;
+  text-align: center;
+  border-radius: 8px 8px 0 8px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background: rgba(28, 57, 181, 0.8);
+  z-index: 1;
+}
+.textType {
+  display: block;
+  padding: 8px 0;
+}
+.textType.type02 {
+  padding: 64px 0 12px;
+}
+.textType.typeL {
+  padding: 64px 48px 12px;
+  color: #1e2023;
+  font-weight: 500;
+  font-size: 3.6rem;
+  line-height: 1.22222;
+  letter-spacing: -0.03em;
+}
+.textType.typeM {
+  padding: 8px 48px;
+  color: #1e2023;
+  font-weight: 500;
+  font-size: 2.4rem;
+  line-height: 1.33333;
+  line-height: 1.41667;
+}
+.textType.typeS {
+  padding: 8px 48px;
+  font-size: 1.5rem;
+  line-height: 1.53333;
+}
+.textType.typeS > li ~ li {
+  margin-top: 4px;
+}
+.textType.colorB {
+  color: #1e2023;
+}
+.textType.alignC {
+  text-align: center;
+}
+.textType.darkTheme {
+  color: #f2f5f9;
+}
+.textType.darkTheme.typeS {
+  color: #b9bcc0;
+}
+.videoBox .iframeVideoWrap > a,
+.videoBox .iframeVideoWrap > a img {
+  display: block;
+  width: 100%;
+}
+.videoArea.videoType {
+  padding: 24px 48px;
+}
+.videoArea.videoType.videoPlayButton > a img {
+  display: block;
+  width: auto;
+  height: 400px;
+  margin: 0 auto;
+}
+.videoArea.videoType > a {
+  background: #000;
+}
+.videoArea.videoType > a:after {
+  z-index: 1;
+}
+.videoArea.videoType.btnTypeB > a {
+  border-radius: 0;
+}
+.videoArea.videoType.btnTypeB > a:before {
+  border: 0;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/common/ytb_play.png) no-repeat;
+}
+.videoArea.videoType.btnTypeB > a:after {
+  display: none;
+}
+.relationType {
+  padding: 13px 0 16px;
+}
+.relationType .tit {
+  padding-left: 24px;
+  color: #1e2023;
+  font-weight: 600;
+  font-size: 1.8rem;
+}
+.relationType .swiperWrap {
+  padding: 0 24px 0;
+}
+.relationType .swiperWrap .swiper-container .swiper-wrapper {
+  padding: 18px 0 0;
+}
+.relationType .swiperWrap .swiper-container .swiper-wrapper .swiper-slide {
+  background: transparent;
+}
+.tabType {
+  position: relative;
+  margin: 0 auto 64px;
+  z-index: 50;
+}
+.tabType:before {
+  content: '';
+  display: none;
+}
+.tabType:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.tabType li {
+  float: left;
+  display: table;
+  position: relative;
+  width: 200px;
+  height: 68px;
+  z-index: 10;
+}
+.tabType li > a {
+  display: table-cell;
+  width: 100%;
+  height: 68px;
+  padding: 0 10px;
+  color: #8b8f94;
+  font-size: 1.8rem;
+  text-align: center;
+  vertical-align: middle;
+}
+.tabType li.tabON > a {
+  color: #373a3c;
+  font-weight: 700;
+}
+.tabType li.tabON:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 67px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: #373a3c;
+}
+.tabType li:first-child:nth-last-child(2),
+.tabType li:first-child:nth-last-child(2) ~ li {
+  width: 500px;
+}
+.tabType li:first-child:nth-last-child(3),
+.tabType li:first-child:nth-last-child(3) ~ li {
+  width: calc(1000px / 3);
+}
+.tabType li:first-child:nth-last-child(4),
+.tabType li:first-child:nth-last-child(4) ~ li {
+  width: 250px;
+}
+.tabType ~ .subTitleImg {
+  margin-top: -40px;
+}
+.tabType ~ .subTitleImg ~ .prodType {
+  margin-top: -24px;
+}
+.iScrollWrap.anchorType {
+  position: relative;
+  padding: 0;
+}
+.iScrollWrap.anchorType.disableLeft .scrollPrev {
+  display: none;
+}
+.iScrollWrap.anchorType.disableRight .scrollNext {
+  display: none;
+}
+.iScrollWrap.anchorType:after {
+  display: none;
+}
+.iScrollWrap.anchorType > button {
+  display: block;
+  position: absolute;
+  top: calc(50% - 12px);
+  width: 24px;
+  height: 24px;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/common/spr_swiper02.png) no-repeat 0 0;
+  z-index: 100;
+}
+.iScrollWrap.anchorType .scrollPrev {
+  left: calc(50% - 524px);
+  opacity: 0.6;
+}
+.iScrollWrap.anchorType .scrollPrev:hover {
+  opacity: 1;
+}
+.iScrollWrap.anchorType .scrollNext {
+  left: calc(50% + 500px);
+  background-position: 100% 0;
+  opacity: 0.6;
+}
+.iScrollWrap.anchorType .scrollNext:hover {
+  opacity: 1;
+}
+.iScrollWrap.anchorType .iScrollCont {
+  overflow: hidden;
+  width: 1000px;
+  height: 80px;
+  margin: 0 auto;
+}
+.iScrollWrap.anchorType ul {
+  white-space: nowrap;
+  width: auto;
+  font-size: 0;
+}
+.iScrollWrap.anchorType ul li {
+  float: inherit;
+  display: inline-block;
+  padding: 0;
+  height: 80px;
+  line-height: 80px;
+}
+.iScrollWrap.anchorType ul li > a {
+  width: 200px;
+  height: 80px;
+  line-height: 80px;
+  color: #5a5f64;
+}
+.iScrollWrap.anchorType ul li.tabON:after {
+  display: none;
+}
+.iScrollWrap.anchorType ul li.tabON > a {
+  color: #1e2023;
+}
+.iScrollWrap.anchorType ul li:first-child:nth-last-child(2),
+.iScrollWrap.anchorType ul li:first-child:nth-last-child(2) ~ li {
+  width: 500px;
+}
+.iScrollWrap.anchorType ul li:first-child:nth-last-child(2) > a,
+.iScrollWrap.anchorType ul li:first-child:nth-last-child(2) ~ li > a {
+  width: 500px;
+}
+.iScrollWrap.anchorType ul li:first-child:nth-last-child(3),
+.iScrollWrap.anchorType ul li:first-child:nth-last-child(3) ~ li {
+  width: calc(1000px / 3);
+}
+.iScrollWrap.anchorType ul li:first-child:nth-last-child(3) > a,
+.iScrollWrap.anchorType ul li:first-child:nth-last-child(3) ~ li > a {
+  width: calc(1000px / 3);
+}
+.iScrollWrap.anchorType ul li:first-child:nth-last-child(4),
+.iScrollWrap.anchorType ul li:first-child:nth-last-child(4) ~ li {
+  width: 250px;
+}
+.iScrollWrap.anchorType ul li:first-child:nth-last-child(4) > a,
+.iScrollWrap.anchorType ul li:first-child:nth-last-child(4) ~ li > a {
+  width: 250px;
+}
+.iScrollWrap.anchorType.darkTheme ul li > a {
+  color: #b9bcc0;
+}
+.iScrollWrap.anchorType.darkTheme ul li.tabON > a {
+  color: #f2f5f9;
+}
+.iScrollWrap.anchorType.darkTheme > button {
+  background: url(/img_up/shop_pds/banobagi/design/images/main/view/spr_swiper_dark.png) no-repeat 0 0;
+}
+.iScrollWrap.anchorType.darkTheme > button.scrollNext {
+  background-position: -24px 0;
+}
+.promotionType .fixedWrap {
+  height: 80px;
+}
+.promotionType .fixedWrap.fixed .iScrollWrap {
+  position: fixed;
+  top: 72px;
+  width: 100%;
+  left: 0;
+  margin: 0;
+  z-index: 10;
+}
+.promotionType .fixedWrap.fixed .iScrollCont {
+  width: 1000px;
+  margin: 0 auto;
+}
+.promotionType .fixedWrap.fixed .tabType06 > li.tabON a {
+  border-top: 0;
+}
+.promotionType .fixedWrap ~ .tabCont {
+  position: relative;
+  min-height: 250px;
+}
+.promotionType .fixedWrap ~ .tabCont .tabTitle {
+  overflow: hidden;
+  position: absolute;
+  top: -150px;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+.promotionType.ie .fixedWrap.fixed .iScrollWrap .iScrollCont {
+  position: relative;
+  left: -8px;
+}
+.evBanner {
+  margin: 64px 0 24px;
+}
+.evBanner.darkTheme .textType {
+  color: #f2f5f9;
+}
+.evBanner .bannerType.colType .titEvent,
+.evBanner .bannerType.colType .subTit {
+  color: #1e2023;
+}
+.btnAreaBox .btnType[disabled] {
+  cursor: default;
+  pointer-events: none;
+}
+.btnAreaBox {
+  padding: 12px 0 48px;
+  text-align: center;
+}
+.btnAreaBox.darkTheme button {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.btnAreaBox .btnType.typeL {
+  padding: 0 70px;
+}
+.btnType {
+  display: inline-block;
+  height: 56px;
+  line-height: 56px;
+  font-weight: 700;
+  text-align: center;
+  border-radius: 28px;
+  -webkit-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.15);
+}
+.btnType.typeL {
+  min-width: 368px;
+  padding: 0 24px;
+  color: #1e2023;
+  font-size: 1.8rem;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 368px;
+  display: inline-block;
+}
+.btnType.typeL[disabled] {
+  background: #b9bcc0 !important;
+}
+.btnType.typeS {
+  min-width: 184px;
+}
+.swiperWrap.swiperLogo {
+  padding: 24px 88px 59px;
+  text-align: center;
+}
+.swiperWrap.swiperLogo .swiper-container .swiper-slide {
+  width: 216px;
+  padding: 0 20px;
+  text-align: center;
+}
+.swiperWrap.swiperLogo .logoInfo {
+  display: block;
+  width: 176px;
+}
+.swiperWrap.swiperLogo .logoInfo figure {
+  overflow: hidden;
+  position: relative;
+  width: 176px;
+  height: 176px;
+  margin-bottom: 24px;
+  border-radius: 50%;
+  background: #b9bcc0;
+}
+.swiperWrap.swiperLogo .logoInfo figure:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 2;
+}
+.swiperWrap.swiperLogo .logoInfo figure > img {
+  position: relative;
+  width: 100%;
+  height: 176px;
+  border-radius: 50%;
+  z-index: 1;
+}
+.swiperWrap.swiperLogo .logoInfo figure .logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding-top: 58px;
+  text-align: center;
+  z-index: 10;
+}
+.swiperWrap.swiperLogo .logoInfo figure .logo img {
+  height: 60px;
+}
+.swiperWrap.swiperLogo .logoInfo .tit {
+  display: block;
+  color: #1e2023;
+  font-weight: 700;
+}
+.swiperWrap.swiperLogo .logoInfo .txt {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-top: 3px;
+  line-height: 1.1;
+}
+[lang='zh'] .swiperWrap.swiperLogo .logoInfo .txt {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.swiperWrap.swiperLogo .ts-paging {
+  bottom: 24px;
+}
+.swiperWrap.swiperLogo .ts-prev,
+.swiperWrap.swiperLogo .ts-next {
+  margin-top: -60px;
+  width: 64px;
+  height: 64px;
+  background: none;
+  opacity: 0.5;
+}
+.swiperWrap.swiperLogo .ts-prev:after,
+.swiperWrap.swiperLogo .ts-next:after {
+  width: 28px;
+  height: 44px;
+  margin: -22px 0 0 -14px;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/common/spr_swiper.png) no-repeat -240px 0;
+}
+.swiperWrap.swiperLogo .ts-prev.ts-next:after,
+.swiperWrap.swiperLogo .ts-next.ts-next:after {
+  background-position: -270px 0;
+}
+.swiperWrap.swiperLogo.darkTheme button {
+  opacity: 0.5;
+}
+.swiperWrap.swiperLogo.darkTheme .ts-prev:after {
+  background-position: -300px 0;
+}
+.swiperWrap.swiperLogo.darkTheme .ts-next:after {
+  background-position: -330px 0;
+}
+.swiperWrap.swiperLogo.darkTheme .logoInfo .tit {
+  color: #f2f5f9;
+}
+.swiperWrap.swiperLogo.darkTheme .logoInfo .txt {
+  color: #b9bcc0;
+}
+.logoType {
+  position: relative;
+  overflow: hidden;
+}
+.logoType.topLogo {
+  width: 100%;
+  height: 60px;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.logoType.topLogo a {
+  display: inline-block;
+}
+.logoType.topLogo a ~ a {
+  margin-left: 8px;
+}
+.logoType.topLogo img {
+  width: auto;
+  max-height: 40px;
+}
+.logoType.topLogo.shortType {
+  padding: 12px 24px;
+}
+.logoType.topLogo.shortType .logo {
+  display: inline-block;
+}
+.logoType.topLogo.shortType .logo img {
+  height: 40px;
+}
+.logoType.topLogo.shortType .goLink {
+  position: absolute;
+  top: calc(50% - 16px);
+  right: 32px;
+  width: 32px;
+  height: 32px;
+  border-radius: 16px;
+  border: 1px solid #eaeaea;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/view/brand_home.png) no-repeat 50% 50%;
+}
+.logoType.topLogo.shortType.colorW .txtLink {
+  color: #fff;
+}
+.logoType.topLogo.shortType.colorW .txtLink:after {
+  border-color: #fff;
+}
+.logoType.topLogo.affType > * {
+  vertical-align: middle;
+}
+.logoType.topLogo.affType .logoBy {
+  position: relative;
+  display: inline-table;
+  width: 24px;
+  height: 24px;
+  margin: 0 10px;
+}
+.logoType.topLogo.affType .logoBy:before {
+  content: '';
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/view/ico_mix.png) no-repeat 50% 50%;
+}
+.logoType.topLogo.affType > .logo {
+  position: relative;
+  display: inline-block;
+}
+.logoType.topLogo.affType.darkTheme .logoBy:before {
+  background: url(/img_up/shop_pds/banobagi/design/images/main/view/ico_mix_dark.png) no-repeat 50% 50%;
+}
+.logoType.topLogo.brandType {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 8px 0;
+}
+.logoType.topLogo.brandType .logo {
+  text-align: center;
+  vertical-align: middle;
+}
+.logoType.topLogo.brandType .logo > a:first-child:nth-last-child(1) img,
+.logoType.topLogo.brandType .logo > a:first-child:nth-last-child(2) img,
+.logoType.topLogo.brandType .logo > a:first-child:nth-last-child(2) ~ a img,
+.logoType.topLogo.brandType .logo > a:first-child:nth-last-child(3) img,
+.logoType.topLogo.brandType .logo > a:first-child:nth-last-child(3) ~ a img,
+.logoType.topLogo.brandType .logo > a:first-child:nth-last-child(4) img,
+.logoType.topLogo.brandType .logo > a:first-child:nth-last-child(4) ~ a img,
+.logoType.topLogo.brandType .logo > a:first-child:nth-last-child(5) img,
+.logoType.topLogo.brandType .logo > a:first-child:nth-last-child(5) ~ a img,
+.logoType.topLogo.brandType .logo > a:first-child:nth-last-child(6) img,
+.logoType.topLogo.brandType .logo > a:first-child:nth-last-child(6) ~ a img {
+  height: 40px;
+}
+.logoType.topLogo.brandType .logo > a img {
+  height: 32px;
+}
+.logoType.midLogo {
+  text-align: center;
+}
+.logoType.midLogo li {
+  display: inline-block;
+  width: 176px;
+  height: 240px;
+  margin: 24px 20px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  vertical-align: top;
+}
+.logoType.midLogo li .logoInfo {
+  display: block;
+  position: relative;
+}
+.logoType.midLogo li figure {
+  overflow: hidden;
+  position: relative;
+  width: 176px;
+  height: 176px;
+  border-radius: 50%;
+  background: #ebedf2;
+}
+.logoType.midLogo li figure > img {
+  display: block;
+  height: 100%;
+}
+.logoType.midLogo li figure .logo {
+  position: absolute;
+  top: calc(50% - 30px);
+  left: calc(50% - 80px);
+  width: 160px;
+  height: 60px;
+  z-index: 1;
+}
+.logoType.midLogo li figure .logo > img {
+  display: block;
+  height: 100%;
+}
+.logoType.midLogo li figure .txt {
+  display: block;
+  margin: 8px 15px 0;
+  display: block;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  max-height: 44px;
+  white-space: normal;
+  word-break: break-all;
+}
+.logoType.midLogo .tit {
+  display: block;
+  margin-top: 16px;
+  color: #1e2023;
+  font-weight: 700;
+}
+.logoType.midLogo .txt {
+  display: block;
+  margin-top: 4px;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 400;
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+[lang='zh'] .logoType.midLogo .txt {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.logoType.midLogo .brandLink {
+  display: block;
+  width: 100%;
+  height: 44px;
+  margin-top: 16px;
+  line-height: 44px;
+  color: #f2f5f9;
+  font-weight: 700;
+  font-size: 1.3rem;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  border-radius: 4px;
+  background: #1e2023;
+}
+[lang='zh'] .logoType.midLogo .brandLink {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.logoType.midLogo.offType li {
+  width: 220px;
+  height: 376px;
+  margin: 24px 20px;
+}
+.logoType.midLogo.offType li figure {
+  width: 220px;
+  height: 220px;
+  border-radius: 8px;
+}
+.logoType.midLogo.offType li .tit {
+  font-size: 1.8rem;
+  line-height: 1.44444;
+}
+.logoType.midLogo.offType li .txt {
+  display: block;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  max-height: 48px;
+  white-space: normal;
+  font-family: Noto Sans KR, 'notokr', 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-top: 8px;
+  height: 48px;
+}
+[lang='zh'] .logoType.midLogo.offType li .txt {
+  font-family: Microsoft Yahei, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.logoType.midLogo.saleType .logoInfo {
+  width: 220px;
+  height: 220px;
+}
+.logoType.midLogo.saleType figure {
+  width: 220px;
+  height: 160px;
+  border-radius: 8px;
+  vertical-align: middle;
+  background: #f5f7fa;
+  padding: 24px 16px 0;
+}
+.logoType.midLogo.saleType figure:after {
+  display: none;
+}
+.logoType.midLogo.saleType figure img {
+  display: inline-block;
+  width: 160px;
+  height: auto;
+}
+.logoType.midLogo.saleType .brandLink {
+  margin-top: 16px;
+}
+.logoType.midLogo.saleType.darkTheme figure {
+  background: rgba(245, 247, 250, 0.08);
+}
+.logoType.midLogo.darkTheme .tit {
+  color: #f2f5f9;
+}
+.logoType.midLogo.darkTheme .txt {
+  color: #b9bcc0;
+}
+.logoType.midLogo.darkTheme .brandLink {
+  color: #1e2023;
+  background: #f2f5f9;
+}
+.logoType.darkTheme .goLike {
+  border: none;
+}
+.btnMores {
+  padding: 32px 0 48px;
+  text-align: center;
+}
+.btnMores button {
+  display: inline-block;
+  width: 368px;
+  height: 56px;
+  font-size: 1.8rem;
+  color: #373a3c;
+  text-align: center;
+  font-weight: 700;
+  line-height: 54px;
+  border: 1px solid #dcdfe3;
+  border-radius: 28px;
+}
+.btnMores button span {
+  display: inline-block;
+  padding-right: 16px;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/common/ico_design_select.png) no-repeat 100% 50%;
+}
+.btnMores.darkTheme button {
+  color: #f2f5f9;
+}
+.btnMores.darkTheme button span {
+  background: url(/img_up/shop_pds/banobagi/design/images/main/view/ico_design_select_dark.png) no-repeat 100% 50%;
+}
+.prodType {
+  position: relative;
+  text-align: center;
+}
+.prodType > ul {
+  display: inline-block;
+  text-align: left;
+}
+.prodType a {
+  display: block;
+  position: relative;
+}
+.prodType .prodItem {
+  position: relative;
+  display: inline-block;
+  margin: 24px 8px;
+  text-align: left;
+  vertical-align: top;
+}
+.prodType .prodItem .prodState.soldOut {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  width: 70px;
+  height: 32px;
+  margin: -16px 0 0 -35px;
+  color: #fff;
+  font-size: 1.3rem;
+  line-height: 32px;
+  border-radius: 8px;
+  background: rgba(55, 58, 60, 0.6);
+  z-index: 999;
+}
+.prodType .prodItem .prodState.adult {
+  position: absolute;
+  left: 5px;
+  right: 5px;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  top: 90px;
+  height: 80px;
+  color: #1e2023;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 80px;
+  background: #f7f8fc;
+  text-align: center;
+  z-index: 4;
+}
+[lang='zh'] .prodType .prodItem .prodState.adult {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.prodType .prodItem .prodState.adult:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 80px;
+  height: 80px;
+  margin-left: -40px;
+  line-height: 80px;
+  border: 2px solid #e6230a;
+  border-radius: 50%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.prodType .prodItem figure {
+  overflow: hidden;
+  position: relative;
+  padding: 16px;
+  border-radius: 8px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/view/bg_prodLogo.png) no-repeat 50% 50%;
+  background-size: 70% auto;
+}
+.prodType .prodItem figure:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(12, 38, 159, 0.03);
+  z-index: 1;
+}
+.prodType .prodItem figure img {
+  display: block;
+  width: 100%;
+  background: #fff;
+}
+.prodType .prodItem .prodInfo .brandName {
+  display: block;
+  margin-top: 16px;
+  font-size: 1.3rem;
+  line-height: 1.38462;
+  color: #1e2023;
+  font-weight: 700;
+}
+.prodType .prodItem .prodInfo .brandName .eng {
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+[lang='zh'] .prodType .prodItem .prodInfo .brandName .eng {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.prodType .prodItem .prodInfo .prodName {
+  display: block;
+  font-size: 1.3rem;
+  line-height: 1.38462;
+  display: block;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  max-height: 37px;
+  height: 37px;
+}
+.prodType .prodItem .prodInfo .priceArea {
+  display: block;
+  margin-top: 12px;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1.3rem;
+  line-height: 1.38462;
+}
+[lang='zh'] .prodType .prodItem .prodInfo .priceArea {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.prodType .prodItem .prodInfo .priceArea .originPrice {
+  text-decoration: line-through;
+}
+.prodType .prodItem .prodInfo .priceArea .saleCont {
+  display: block;
+}
+.prodType .prodItem .prodInfo .priceArea .saleNum {
+  font-size: 1.5rem;
+  line-height: 1.53333;
+  color: #f42d10;
+}
+.prodType .prodItem .prodInfo .priceArea .saleDollar {
+  font-size: 1.5rem;
+  line-height: 1.53333;
+  color: #1e2023;
+}
+.prodType .prodItem .prodInfo .priceArea .salWon > span {
+  font-family: Noto Sans KR, 'notokr', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+[lang='zh'] .prodType .prodItem .prodInfo .priceArea .salWon > span {
+  font-family: Microsoft Yahei, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.prodType.swiperWrap {
+  width: 100%;
+  padding: 0 80px 24px;
+  margin: 24px auto 0;
+}
+.prodType.swiperWrap .swiper-container {
+  padding-bottom: 24px;
+}
+.prodType.swiperWrap .ts-controls {
+  position: relative;
+}
+.prodType.frameType > ul {
+  width: 870px;
+}
+.prodType.frameType > ul li:only-child {
+  display: block;
+  margin: 24px auto;
+}
+.prodType.frameType .prodItem {
+  width: 272px;
+}
+.prodType.frameType .prodItem a {
+  display: block;
+}
+.prodType.frameType .prodItem figure {
+  width: 272px;
+  height: 272px;
+}
+.prodType.thumType > ul {
+  width: 777px;
+  text-align: center;
+}
+.prodType.thumType > ul li:only-child {
+  display: block;
+  margin: 24px auto;
+}
+.prodType.thumType .prodItem {
+  width: 176px;
+}
+.prodType.thumType .prodItem figure {
+  width: 176px;
+  height: 176px;
+}
+.prodType.thumType .prodItem .saleWon {
+  display: block;
+}
+.prodType.thumType .prodItem .prodState.adult {
+  top: 45px;
+}
+.prodType.thumType .prodItem .prodInfo .title {
+  display: block;
+  margin-top: 16px;
+  font-size: 1.3rem;
+  line-height: 1.38462;
+  color: #1e2023;
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.prodType.thumType .prodItem .prodInfo .desc {
+  display: block;
+  margin-top: 4px;
+  font-size: 1.3rem;
+  line-height: 1.38462;
+  display: block;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  max-height: 55px;
+}
+.prodType.listType > ul {
+  width: 795px;
+}
+.prodType.listType .prodItem {
+  margin: 24px 0;
+}
+.prodType.listType .prodItem > a {
+  display: table;
+  table-layout: fixed;
+  width: 376px;
+}
+.prodType.listType .prodItem > a .prodState.adult {
+  top: 25px;
+}
+.prodType.listType .prodItem > a figure {
+  display: table-cell;
+  width: 136px;
+  height: 136px;
+}
+.prodType.listType .prodItem > a .prodInfo {
+  display: table-cell;
+  width: 240px;
+  padding-left: 16px;
+  vertical-align: middle;
+}
+.prodType.listType .prodItem > a .prodInfo .brandName {
+  margin-top: 0;
+}
+.prodType.listType .prodItem:nth-child(even) {
+  margin-left: 40px;
+}
+[lang='zh'] .prodType.listType .prodItem:nth-child(even) {
+  margin-left: 37px;
+}
+.prodType.listType .prodItem:only-child {
+  display: block;
+  width: 376px;
+  margin: 24px auto;
+}
+.prodType.darkTheme .prodItem .prodInfo .brandName,
+.prodType.darkTheme .prodItem .prodInfo .saleDollar {
+  color: #f2f5f9;
+}
+.prodType.darkTheme .prodItem .prodInfo .prodName,
+.prodType.darkTheme .prodItem .prodInfo .originPrice,
+.prodType.darkTheme .prodItem .prodInfo .saleWon {
+  color: #b9bcc0;
+}
+.promotionImg {
+  width: 1000px;
+  margin: 0 auto !important;
+  text-align: center;
+}
+.promotionImg img {
+  display: inline-block;
+  width: 100%;
+}
+.promotionImg.swiperWrap img {
+  display: block;
+  width: 100%;
+}
+.promotionImg.swiperWrap .ts-prev {
+  width: 44px;
+  height: 44px;
+  left: 24px;
+  background: none;
+}
+.promotionImg.swiperWrap .ts-prev:after {
+  width: 44px;
+  height: 44px;
+  left: 0;
+  top: 0;
+  margin: 0;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/view/ev_swiper_arr.png) no-repeat 0 0;
+}
+.promotionImg.swiperWrap .ts-prev.ts-button-disabled:after {
+  opacity: 0.5;
+}
+.promotionImg.swiperWrap .ts-next {
+  width: 44px;
+  height: 44px;
+  right: 24px;
+  background: none;
+}
+.promotionImg.swiperWrap .ts-next:after {
+  width: 44px;
+  height: 44px;
+  left: 0;
+  top: 0;
+  margin: 0;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/view/ev_swiper_arr.png) no-repeat -44px 0;
+}
+.promotionImg.swiperWrap .ts-controls {
+  position: absolute;
+  bottom: 21px;
+  width: 100%;
+  z-index: 100;
+}
+.promotionImg.swiperWrap.darkType .ts-prev:after {
+  background-position: 0 -44px;
+}
+.promotionImg.swiperWrap.darkType .ts-next:after {
+  background-position: -44px -44px;
+}
+.promotionImg.swiperWrap.darkType .ts-paging .ts-paging-btn:after {
+  background: rgba(255, 255, 255, 0.2);
+}
+.promotionImg.swiperWrap.darkType
+  .ts-paging
+  .ts-paging-btn.ts-paging-active:after {
+  background: rgba(255, 255, 255, 0.6);
+}
+.promotionImg.swiperWrap.swiperDivi {
+  padding-bottom: 0;
+}
+.promotionImg.autoImg {
+  text-align: center;
+}
+.promotionImg.autoImg img {
+  display: inline-block;
+  width: auto;
+}
+.promotionMix {
+  display: table;
+  width: 100%;
+  padding: 24px 204px;
+  table-layout: fixed;
+}
+.promotionMix .imgArea {
+  display: table-cell;
+  width: 320px;
+  padding-right: 48px;
+  vertical-align: top;
+}
+.promotionMix .imgArea img {
+  display: block;
+  width: 100%;
+  border-radius: 8px;
+}
+.promotionMix .imgArea ~ .textArea {
+  margin-left: 45px;
+}
+.promotionMix .textArea {
+  display: table-cell;
+  width: 272px;
+  vertical-align: middle;
+}
+.promotionMix .textArea .title {
+  display: block;
+  font-size: 2.4rem;
+  line-height: 1.33333;
+  line-height: 1.41667;
+  color: #1e2023;
+  font-weight: 700;
+  display: block;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  max-height: 136px;
+}
+.promotionMix .textArea .text {
+  margin-top: 8px;
+  color: #6b6e73;
+  display: block;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  max-height: 68px;
+}
+.promotionMix .textArea .btnType {
+  margin-top: 24px;
+  font-size: 1.8rem;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+[lang='zh'] .promotionMix .textArea .btnType {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.promotionMix .textArea ~ .imgArea {
+  padding: 0 0 0 48px;
+}
+.promotionMix.darkTheme .title {
+  color: #f2f5f9;
+}
+.promotionMix.darkTheme .text {
+  color: #b9bcc0;
+}
+.promotionGuide {
+  width: 1000px;
+  margin: 48px auto 0;
+  padding: 24px 40px;
+  text-align: left;
+  background: #fff;
+  border-radius: 4px;
+  border: 1px solid #eaeaea;
+}
+.promotionGuide .titGuide {
+  color: #1e2023;
+}
+.promotionGuide .bultType01 > li {
+  color: #5a5f64;
+}
+.promotionGuide.darkTheme .titGuide {
+  color: #f2f5f9;
+}
+.promotionGuide.darkTheme .titGuide:before {
+  background: url(/img_up/shop_pds/banobagi/design/images/main/view/ico_report_dark.png) no-repeat 0 0;
+}
+.promotionGuide.darkTheme .bultType01 > li {
+  color: #b9bcc0;
+}
+.offerType {
+  margin: 24px 0 48px;
+  padding-bottom: 48px;
+}
+.offerType .btnAreaBox {
+  margin-top: 25px;
+  padding-bottom: 0;
+}
+.offerType .textType {
+  color: #6b6e73;
+}
+.offerType .frmInp {
+  margin: 8px 0 16px;
+}
+.offerType .frmInp .inpNum {
+  display: inline-block;
+  width: 100%;
+  height: 56px;
+  line-height: 56px;
+  padding: 0 34px;
+  font-weight: 700;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
+  letter-spacing: 0.32em;
+  border-radius: 50px;
+  background: #f2f5f9;
+}
+[lang='zh'] .offerType .frmInp .inpNum {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.offerType .frmInp .inpNum:focus {
+  border-color: #f2f5f9;
+}
+.offerType .frmInp .inpNum::-webkit-input-placeholder,
+.offerType .frmInp .inpNum::-webkit-input-placeholder {
+  color: #9fa2a8;
+  letter-spacing: -0.54px;
+}
+.offerType .frmInp .inpNum::placeholder,
+.offerType .frmInp .inpNum::-webkit-input-placeholder {
+  color: #9fa2a8;
+  letter-spacing: -0.54px;
+}
+.offerType.soldout {
+  position: relative;
+}
+.offerType.soldout:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.5);
+  z-index: 10;
+}
+.offerType.soldout .badge {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -14px 0 0 -45px;
+  width: 90px;
+  height: 28px;
+  padding: 0;
+  color: #fff;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+  border-radius: 12px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background: rgba(55, 58, 60, 0.6);
+  z-index: 11;
+}
+.offerType.offerCoupon {
+  margin-bottom: 0;
+}
+.offerType.offerCoupon .couponItem {
+  position: relative;
+  padding: 24px 100px 24px 200px;
+  border-bottom: 1px solid #eaeaea;
+}
+.offerType.offerCoupon .couponItem .limit {
+  overflow: hidden;
+  display: inline-block;
+  position: relative;
+  width: 64px;
+  height: 64px;
+  margin: 0 0 -32px 256px;
+  padding: 13px 15px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 1.2;
+  color: #fff;
+  background: #eb4f3b;
+  border-radius: 32px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  z-index: 10;
+}
+.offerType.offerCoupon .couponItem .limit figure {
+  margin: -13px -15px;
+}
+.offerType.offerCoupon .couponItem .limit img {
+  display: block;
+  width: 100%;
+}
+.offerType.offerCoupon .couponItem.frmSel {
+  width: 100%;
+  padding-left: 0;
+}
+.offerType.offerCoupon .couponItem.frmSel input {
+  opacity: 0;
+}
+.offerType.offerCoupon .couponItem.frmSel input + label {
+  padding-left: 200px;
+}
+.offerType.offerCoupon .couponItem.frmSel input + label:before {
+  left: 100px;
+  top: calc(50% - 12px);
+}
+.offerType.offerCoupon
+  .couponItem.frmSel
+  input[type='checkbox']:checked
+  + label:before {
+  background: url(/img_up/shop_pds/banobagi/design/images/main/view/ico_check_ev.png) no-repeat 0 -24px;
+}
+.offerType.offerCoupon
+  .couponItem.frmSel
+  input[type='radio']:checked
+  + label:before {
+  height: 24px;
+  background: #373a3c;
+  border-radius: 12px;
+}
+.offerType.offerCoupon
+  .couponItem.frmSel
+  input[type='radio']:checked
+  + label:after {
+  content: '';
+  position: absolute;
+  left: 108px;
+  top: calc(50% - 4px);
+  width: 8px;
+  height: 8px;
+  background: #fff;
+  border-radius: 4px;
+}
+.offerType.offerCoupon .couponItem.frmSel.cb_checked,
+.offerType.offerCoupon .couponItem.frmSel.rd_checked {
+  background: rgba(0, 0, 0, 0.05);
+}
+.offerType.offerCoupon .couponItem:first-child + .btnAreaBox {
+  position: relative;
+  margin-top: 2px;
+}
+.offerType.offerCoupon .couponItem:first-child + .btnAreaBox:before {
+  content: '';
+  position: absolute;
+  top: -3px;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: #fff;
+}
+.offerType.offerCoupon .promoCoupon {
+  display: table-cell;
+  position: relative;
+  width: 300px;
+  height: 160px;
+  padding-right: 58px;
+  vertical-align: middle;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/view/ev_img_coupon.png) no-repeat;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.offerType.offerCoupon .promoCoupon .name {
+  display: block;
+  color: #4d6ee4;
+  text-align: center;
+}
+[lang='zh'] .offerType.offerCoupon .promoCoupon .name {
+  color: #fe324b;
+}
+.offerType.offerCoupon .promoCoupon .benefit {
+  display: block;
+  font-size: 2rem;
+  line-height: 1.4;
+  font-weight: 700;
+  color: #373a3c;
+  text-align: center;
+}
+.offerType.offerCoupon .promoCoupon .benefit strong {
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 3.6rem;
+  line-height: 1.22222;
+  letter-spacing: -2px;
+}
+[lang='zh'] .offerType.offerCoupon .promoCoupon .benefit strong {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.offerType.offerCoupon .promoCoupon .benefit strong span {
+  font-size: 2.4rem;
+  line-height: 1.33333;
+  line-height: 1.41667;
+}
+[lang='zh'] .offerType.offerCoupon .promoCoupon {
+  background: url(/img_up/shop_pds/banobagi/design/images/main/cmall/ev_c_img_coupon.png) no-repeat;
+}
+[lang='zh'] .offerType.offerCoupon .promoCoupon .benefit {
+  font-size: 1.5rem;
+  line-height: 1.53333;
+}
+[lang='zh'] .offerType.offerCoupon .promoCoupon .benefit strong span {
+  font-size: 1.8rem;
+  line-height: 1.44444;
+}
+.offerType.offerCoupon .couponImg {
+  display: table-cell;
+  position: relative;
+}
+.offerType.offerCoupon .couponImg figure {
+  width: 300px;
+  height: 160px;
+}
+.offerType.offerCoupon .couponImg figure img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.offerType.offerCoupon .textType {
+  display: table-cell;
+  padding-left: 60px;
+  vertical-align: middle;
+}
+.offerType.offerChk {
+  padding: 16px 24px 1px;
+}
+.offerType.offerChk .promoCoupon {
+  margin: 32px auto;
+}
+.offerType.offerChk .promoCoupon ~ .btnType {
+  margin-top: 0 !important;
+}
+.offerType.offerChk .grayBox {
+  margin-bottom: 12px;
+  padding: 16px;
+  border-radius: 8px;
+  background: #ebedf2;
+}
+.offerType.offerChk .grayBox .listBox li {
+  padding: 13px 24px;
+  border: 0;
+}
+.offerType.offerChk
+  .grayBox
+  .listBox
+  li
+  .frmSel.typeBl
+  input[type='radio']
+  + label {
+  line-height: inherit;
+}
+.offerType.offerChk
+  .grayBox
+  .listBox
+  li
+  .frmSel.typeBl
+  input[type='radio']
+  + label:before {
+  width: 16px;
+  height: 16px;
+  margin-top: -8px;
+  border-width: 2px;
+}
+.offerType.offerChk
+  .grayBox
+  .listBox
+  li
+  .frmSel.typeBl
+  input[type='radio']
+  + label:after {
+  width: 4px;
+  height: 4px;
+  top: 13px;
+  left: 6px;
+  background: #fff;
+}
+.offerType.offerChk
+  .grayBox
+  .listBox
+  li
+  .frmSel.typeBl
+  input:checked
+  + label:before {
+  border-width: 0;
+  background: #373a3c;
+}
+.offerType.offerTbl {
+  padding: 0 48px;
+}
+.offerType.offerTbl .tblH {
+  overflow: hidden;
+  padding-bottom: 40px;
+  border: 1px solid #5a5f64;
+  border-radius: 20px;
+  background: #fff;
+}
+.offerType.offerTbl .tblH th {
+  padding: 0 0 0 48px;
+  font-weight: 400;
+  font-size: 2.4rem;
+  text-align: left;
+  border: 0;
+  background: #f7f7fd;
+  line-height: 80px;
+  color: #5a5f64;
+}
+.offerType.offerTbl .tblH th:first-child {
+  border-radius: 20px 0 0 0;
+}
+.offerType.offerTbl .tblH th:last-child {
+  border-radius: 0 20px 0 0;
+}
+.offerType.offerTbl .tblH td {
+  padding: 24px 0 24px 48px;
+  color: #1e2023;
+  font-size: 3.2rem;
+  font-weight: 500;
+  line-height: 47px;
+  border-bottom: 1px dotted #dcdfe3;
+  border-left: 0;
+  border-top: 0;
+}
+.offerType.offerTbl .tblH tbody td {
+  position: relative;
+}
+.offerType.offerTbl .tblH tbody td:first-of-type:before,
+.offerType.offerTbl .tblH tbody td:last-of-type:after {
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  width: 40px;
+  height: 1px;
+  background: #fff;
+}
+.offerType.offerTbl .tblH tbody td:first-of-type:before {
+  left: 0;
+}
+.offerType.offerTbl .tblH tbody td:last-of-type:after {
+  right: 0;
+}
+.offerType.offerTbl .tblH:last-child {
+  margin-bottom: -8px;
+}
+.offerType.offerTbl .textType {
+  margin-top: 24px;
+  padding: 0 12px;
+}
+.offerType.offerTbl .textType li:nth-child(n + 2) {
+  margin-top: 4px;
+}
+.offerType.offerTbl.tcenter th,
+.offerType.offerTbl.tcenter td {
+  text-align: center;
+  padding-left: 0;
+}
+.offerType.darkTheme .textType {
+  color: #b9bcc0;
+}
+.offerType .oferTxt {
+  margin-top: 12px;
+  text-align: center;
+}
+.offerType .oferTxt strong {
+  color: #373a3c;
+}
+.offerBox {
+  padding: 16px 0 40px;
+}
+.offerBox .offerType {
+  padding-top: 0;
+}
+.offerBox .offerType figure {
+  margin: 0px 0 14px 15px;
+}
+.offerBox .offerType .textType {
+  min-height: 32px;
+  margin: 0 0 2px 34px;
+  text-align: left;
+}
+.offerBox .offerType + .offerType:before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 1px;
+  margin: 16px 0 24px;
+  background: #eaeaea;
+}
+.offerBox .offerType + .btnType {
+  margin-top: 8px;
+}
+.gwpType {
+  padding: 32px 0 48px;
+  text-align: center;
+}
+.gwpType .gwpTitle {
+  display: block;
+  margin-bottom: 32px;
+  font-size: 2.4rem;
+  line-height: 1.33333;
+  line-height: 1.41667;
+  color: #1e2023;
+  text-align: center;
+}
+.gwpType .gwpBox {
+  display: inline-block;
+  vertical-align: top;
+}
+.gwpType .gwpBox figure {
+  overflow: hidden;
+  display: inline-block;
+  position: relative;
+  background: #fff;
+  border-radius: 50%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.gwpType .gwpBox figure:after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background: rgba(12, 38, 159, 0.03);
+}
+.gwpType .gwpBox figure img {
+  width: 100%;
+}
+.gwpType .gwpBox .gwpTxt {
+  display: block;
+  font-size: 1.8rem;
+  line-height: 1.44444;
+  color: #1e2023;
+  font-weight: 700;
+}
+.gwpType .gwpBox:only-child {
+  display: block;
+  margin: 0 auto;
+}
+.gwpType .gwpBox.soldout {
+  position: relative;
+}
+.gwpType .gwpBox.soldout figure:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.gwpType .gwpBox.soldout .gwpInfo {
+  opacity: 0.5;
+}
+.gwpType .gwpBox.soldout .soldout {
+  content: '';
+  display: block;
+  position: absolute;
+  top: calc(50% - 14px);
+  left: calc(50% - 36px);
+  width: 73px;
+  height: 28px;
+  font-size: 1.4rem;
+  color: #fff;
+  line-height: 28px;
+  text-align: center;
+  background: rgba(55, 58, 60, 0.6);
+  border-radius: 8px;
+  z-index: 10;
+}
+.gwpType .gwpBoxList {
+  display: inline-block;
+  text-align: left;
+}
+.gwpType.largeType .gwpBoxList {
+  max-width: 691px;
+}
+.gwpType.largeType .gwpBox {
+  width: 280px;
+  margin: 0 32px;
+  text-align: center;
+}
+[lang='zh'] .gwpType.largeType .gwpBox {
+  margin: 0 31px;
+}
+.gwpType.largeType .gwpBox .badge {
+  position: absolute;
+  top: 43px;
+  left: 44px;
+  width: 64px;
+  height: 64px;
+  padding: 13px;
+  line-height: 1.2;
+  color: #fff;
+  text-align: center;
+  background: #373a3c;
+  border-radius: 32px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.gwpType.largeType .gwpBox figure {
+  width: 280px;
+  height: 280px;
+}
+.gwpType.largeType .gwpBox .gwpInfo {
+  margin-top: 16px;
+}
+.gwpType.largeType .gwpBox .gwpInfo .gwpTxt {
+  margin-top: 4px;
+}
+.gwpType.largeType .gwpBox:nth-child(n + 3) {
+  margin-top: 48px;
+}
+.gwpType.smallType {
+  text-align: center;
+}
+.gwpType.smallType .gwpBoxList {
+  max-width: 947px;
+}
+.gwpType.smallType .gwpBox {
+  width: 432px;
+  margin: 0 20px;
+}
+[lang='zh'] .gwpType.smallType .gwpBox {
+  margin: 0 19px;
+}
+.gwpType.smallType .gwpBox figure {
+  display: table-cell;
+  width: 160px;
+  height: 160px;
+}
+.gwpType.smallType .gwpBox .gwpInfo {
+  display: table-cell;
+  padding-left: 24px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  vertical-align: middle;
+  text-align: left;
+}
+.gwpType.smallType .gwpBox .gwpInfo .gwpDesc {
+  display: block;
+  margin-top: 8px;
+}
+.gwpType.smallType .gwpBox .badge {
+  display: inline-block;
+  padding: 0 10px;
+  height: 27px;
+  line-height: 27px;
+  font-size: 1.3rem;
+  color: #fff;
+  font-weight: 500;
+  background: #373a3c;
+  border-radius: 14px;
+}
+.gwpType.smallType .gwpBox:nth-child(n + 3) {
+  margin-top: 32px;
+}
+.gwpType .gwpBox .soldout {
+  display: none;
+}
+.gwpType .accordianList {
+  margin: 0 48px -16px;
+  text-align: left;
+  border-radius: 8px;
+  background: #fff;
+  border: 0;
+}
+.gwpType .accordianList > .toggleAction {
+  border: 0;
+}
+.gwpType .accordianList > .toggleAction .ctrl {
+  color: #1e2023;
+  border: 0;
+}
+.gwpType .accordianList > .toggleAction .ctrl:after {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/view/ico_ev_acco.png) no-repeat 0 0;
+}
+.gwpType .accordianList > .toggleAction .accordCont {
+  padding: 0 0 32px;
+  background: #fff;
+}
+.gwpType .accordianList > .toggleAction .accordCont .bultType01 {
+  overflow: hidden;
+  margin-top: -4px;
+}
+.gwpType .accordianList > .toggleAction .accordCont .bultType01 > li {
+  float: left;
+  width: calc(50% - 48px);
+  padding-top: 4px;
+  padding-bottom: 4px;
+  margin: 0 24px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.gwpType .accordianList > .toggleAction .accordCont .bultType01 > li:before {
+  top: 7px;
+}
+.gwpType .accordianList.accordianON > .toggleAction .ctrl:after {
+  background-position: 0 -16px;
+}
+.gwpType.darkTheme .gwpDesc {
+  color: #b9bcc0;
+}
+.gwpType.darkTheme .gwpTxt,
+.gwpType.darkTheme .gwpTitle {
+  color: #f2f5f9;
+}
+.gwpWrap .textType.typeL {
+  padding: 40px 0 8px;
+}
+.gwpWrap .logoType.midLogo li:only-child {
+  width: 220px;
+  height: 285px;
+  margin-bottom: 24px;
+}
+.gwpWrap .logoType.midLogo li:only-child figure {
+  width: 220px;
+  height: 220px;
+}
+.gwpWrap.darkTheme .prodInfo .prodName,
+.gwpWrap.darkTheme .prodInfo .priceArea .originPrice,
+.gwpWrap.darkTheme .prodInfo .priceArea .saleWon {
+  color: #b9bcc0;
+}
+.gwpWrap.darkTheme .prodInfo .brandName,
+.gwpWrap.darkTheme .prodInfo .priceArea .saleDollar {
+  color: #f2f5f9;
+}
+.gwpWrap.darkTheme .logoType .txt {
+  color: #b9bcc0;
+}
+.gwpWrap.darkTheme .textType.typeL,
+.gwpWrap.darkTheme .logoType .tit {
+  color: #f2f5f9;
+}
+.gwpWrap.darkTheme .btnMores button {
+  color: #f2f5f9;
+}
+.gwpWrap.darkTheme .btnMores button span {
+  background: url(/img_up/shop_pds/banobagi/design/images/main/view/ico_design_select_dark.png) no-repeat 100% 50%;
+}
+.swiperWrap.darkTheme .ts-paging .ts-paging-btn.ts-paging-active:after {
+  background: #fff;
+}
+.swiperWrap.darkTheme .ts-paging .ts-paging-btn:after {
+  background: rgba(242, 245, 249, 0.2);
+}
+.promoComment {
+  padding: 32px 0 48px;
+}
+.promoComment.tabContentWrap {
+  padding-top: 0;
+}
+.promoComment .reviewCountTxt:first-child {
+  margin-top: 0;
+}
+.promoComment .titDep5,
+.promoComment .grade.mixGrade p {
+  color: #373a3c;
+}
+.promoComment .subject {
+  margin-bottom: 16px;
+}
+.promoComment .subject .item {
+  display: inline-block;
+}
+.promoComment .subject .item input {
+  opacity: 0;
+  position: absolute;
+}
+.promoComment .subject .item input + label {
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 16px;
+  color: #8b8f94;
+  border: 1px solid #dcdfe3;
+  border-radius: 4px;
+}
+.promoComment .subject .item input:checked + label {
+  color: #fff;
+  font-weight: 700;
+  background: #373a3c;
+  border: 0;
+}
+.promoComment .subject .item ~ .item {
+  margin-left: 5px;
+}
+.promoComment .commentWrite {
+  display: table;
+  position: relative;
+  width: 100%;
+}
+.promoComment .commentWrite textarea {
+  display: table-cell;
+  width: 816px;
+  height: 114px;
+  background: #f5f7fa;
+}
+.promoComment .commentWrite .btnAreaBox {
+  display: table-cell;
+  margin: 0;
+  text-align: right;
+  vertical-align: middle;
+  padding: 0;
+}
+.promoComment .commentWrite .btnAreaBox button {
+  min-width: 160px;
+  width: 160px;
+  padding: 0;
+}
+.promoComment .commentWrite .maxText {
+  margin-right: 20px;
+}
+.promoComment .commentWrite.withMix textarea {
+  width: 100%;
+}
+.promoComment .commentWrite.withMix .inp {
+  display: table-cell;
+  width: 824px;
+  height: 56px;
+  margin-top: 3px;
+  padding-left: 16px;
+  line-height: 56px;
+  background: #f5f7fa;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.promoComment .commentWrite.withMix .btnAreaBox {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.promoComment .attachList {
+  text-align: center;
+  font-size: 0;
+  margin-top: 8px;
+  width: 100%;
+}
+.promoComment .attachList > li {
+  width: 184px;
+  height: 184px;
+  margin: 0 10px;
+  border-radius: 8px;
+}
+.promoComment .attachList > li .cont {
+  height: 184px;
+  width: 184px;
+}
+.promoComment .attachList > li .cont.txt {
+  display: table-cell;
+  font-size: 1.5rem;
+  line-height: 1.53333;
+  color: #373a3c;
+  font-weight: 500;
+  vertical-align: middle;
+}
+.promoComment .attachList > li .cont.txt p {
+  padding: 0 24px;
+  text-align: left;
+  position: absolute;
+  top: 50%;
+  margin-top: -22px;
+  display: block;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  max-height: auto;
+}
+.promoComment .attachList > li .cont.txt:after {
+  display: none;
+}
+.promoComment .attachList > li .cont .del {
+  width: 48px;
+  height: 48px;
+}
+.promoComment .attachList > li .cont figure {
+  height: 184px;
+}
+.promoComment .attachList ~ .btnAreaBox {
+  margin-top: 24px;
+}
+.promoComment .attachList .movieIco {
+  width: 48px;
+  height: 48px;
+  margin: -24px 0 0 -24px;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/view/ico_vplay.png) no-repeat;
+}
+.promoComment .commentArea:first-child {
+  margin-top: -24px;
+}
+.promoComment .commentArea .commentList > li {
+  position: relative;
+  padding: 16px 0 16px 48px;
+  border-bottom: 1px solid #eaeaea;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.promoComment .commentArea .commentList > li .writer figure {
+  overflow: hidden;
+  position: absolute;
+  top: 18px;
+  left: 0;
+  top: 16px;
+  left: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background: rgba(0, 0, 0, 0.2);
+}
+.promoComment .commentArea .commentList > li .writer figure img {
+  display: block;
+  width: 100%;
+}
+.promoComment .commentArea .commentList > li .writer figure .noImg {
+  text-align: center;
+  line-height: 40px;
+  color: #373a3c;
+  font-weight: 700;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+[lang='zh'] .promoComment .commentArea .commentList > li .writer figure .noImg {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.promoComment .commentArea .commentList > li .writer > span {
+  position: relative;
+  font-size: 1.3rem;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #6b6e73;
+}
+[lang='zh'] .promoComment .commentArea .commentList > li .writer > span {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.promoComment .commentArea .commentList > li .writer > span ~ span {
+  margin-left: 10px;
+  padding-left: 9px;
+}
+.promoComment .commentArea .commentList > li .writer > span ~ span:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1px;
+  height: 12px;
+  background: #eaeaea;
+}
+.promoComment .commentArea .commentList > li .writer > span.style {
+  font-family: Noto Sans KR, 'notokr', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+[lang='zh'] .promoComment .commentArea .commentList > li .writer > span.style {
+  font-family: Microsoft Yahei, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.promoComment .commentArea .commentList > li .subjectValue {
+  margin: 4px 0 8px;
+  color: #373a3c;
+  font-weight: 500;
+}
+.promoComment .commentArea .commentList > li .btnArea {
+  position: absolute;
+  top: 14px;
+  right: 0;
+  margin: 0;
+}
+.promoComment .commentArea .commentList > li .btnArea .txtLink {
+  font-size: 1.3rem;
+  color: #6b6e73;
+}
+.promoComment .commentArea .commentList > li .context {
+  color: #373a3c;
+}
+.promoComment .commentArea .commentList.mixType {
+  margin-top: -16px;
+}
+.promoComment .commentArea .commentList.mixType > li {
+  display: table;
+  width: 100%;
+  padding: 24px;
+}
+.promoComment .commentArea .commentList.mixType .reviewPhoto {
+  display: table-cell;
+  width: 100px;
+}
+.promoComment .commentArea .commentList.mixType .reviewPhoto figure {
+  overflow: hidden;
+  width: 100px;
+  height: 100px;
+  border-radius: 8px;
+}
+.promoComment .commentArea .commentList.mixType .reviewPhoto figure img {
+  display: block;
+  width: 100%;
+}
+.promoComment .commentArea .commentList.mixType .reviewPhoto ~ .commentCon {
+  padding-left: 16px;
+}
+.promoComment .commentArea .commentList.mixType .prodInfo {
+  display: table-cell;
+  position: relative;
+  left: -24px;
+  width: 360px;
+  padding: 16px;
+  background: #f7f8fc;
+  border-radius: 8px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.promoComment .commentArea .commentList.mixType .prodInfo figure {
+  display: table-cell;
+  position: relative;
+  width: 96px;
+  height: 96px;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/view/bg_prodLogo.png) no-repeat 50% 50%;
+  background-size: 70% auto;
+}
+.promoComment .commentArea .commentList.mixType .prodInfo figure img {
+  display: block;
+  width: 100%;
+}
+.promoComment .commentArea .commentList.mixType .prodInfo figure:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(12, 38, 159, 0.03);
+}
+.promoComment .commentArea .commentList.mixType .prodInfo .name {
+  display: table-cell;
+  padding-left: 8px;
+  vertical-align: middle;
+  font-weight: 700;
+}
+.promoComment .commentArea .commentList.mixType .prodInfo .name .brandName {
+  font-size: 1.5rem;
+  line-height: 1.53333;
+}
+.promoComment .commentArea .commentList.mixType .prodInfo .name .prName {
+  display: block;
+  margin-top: 8px;
+  display: block;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  max-height: 44px;
+}
+.promoComment .commentArea .commentList.mixType .prodInfo + .commentCon {
+  padding-left: 0;
+}
+.promoComment .commentArea .commentList.mixType .reviewArea {
+  display: table-cell;
+  vertical-align: middle;
+}
+.promoComment .commentArea .commentList.mixType .reviewArea .context {
+  color: #6b6e73;
+}
+.promoComment .commentArea .commentList.mixType .commentCon {
+  display: table-cell;
+  vertical-align: middle;
+}
+.promoComment .commentArea .commentList.mixType .commentCon .grade {
+  text-align: left;
+}
+.promoComment .commentArea .commentList.mixType .commentCon .grade:before {
+  display: none;
+}
+.promoComment .commentArea .commentList.mixType .option {
+  color: #373a3c;
+  font-weight: 500;
+}
+.promoComment .commentArea .commentList.mixType .context {
+  margin-top: 4px;
+  display: block;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  max-height: 44px;
+  color: #373a3c;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  word-break: break-all;
+}
+.promoComment .commentArea .commentList.mixType .swiper-slide {
+  display: inline-block;
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+}
+.promoComment .commentArea .commentList.mixType .swiper-slide > a {
+  display: table;
+  width: 100%;
+  text-align: left;
+}
+.promoComment .commentArea.swiperWrap.swiperDivi {
+  padding-bottom: 40px;
+}
+.promoComment .commentArea.swiperWrap .commentList {
+  margin-top: 24px;
+}
+.promoComment .commentArea.swiperWrap .commentList .context {
+  color: #6b6e73;
+}
+.promoComment .commentArea .photoCommentList {
+  font-size: 0;
+  margin: -10px;
+}
+.promoComment .commentArea .photoCommentList li {
+  overflow: hidden;
+  display: inline-block;
+  width: 184px;
+  height: 184px;
+  margin: 10px;
+  border-radius: 8px;
+  position: relative;
+}
+.promoComment .commentArea .photoCommentList li a {
+  display: block;
+  position: relative;
+  height: 100%;
+  background: #f8fafc;
+}
+.promoComment .commentArea .photoCommentList li a figure {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.promoComment .commentArea .photoCommentList li a figure img {
+  display: inline-block;
+  width: 100%;
+}
+.promoComment .commentArea .photoCommentList li a figure:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+}
+.promoComment .commentArea .photoCommentList li a.txt {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.promoComment .commentArea .photoCommentList li a.txt .txtCon {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  padding: 0 24px;
+  font-size: 1.5rem;
+  line-height: 1.53333;
+  color: #373a3c;
+  font-weight: 500;
+  word-break: break-all;
+  display: block;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  max-height: auto;
+}
+.promoComment .commentArea .photoCommentList li a .uploadNum {
+  position: absolute;
+  right: 12px;
+  bottom: 12px;
+  padding: 0 8px;
+  height: 18px;
+  line-height: 18px;
+  font-size: 1.3rem;
+  color: #fff;
+  font-weight: 500;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  background: rgba(0, 0, 0, 0.3);
+}
+[lang='zh'] .promoComment .commentArea .photoCommentList li a .uploadNum {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.promoComment .commentArea .photoCommentList li a .movieIco {
+  width: 48px;
+  height: 48px;
+  margin: -24px 0 0 -24px;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/view/ico_vplay.png) no-repeat;
+}
+.promoComment .commentArea .photoCommentList li .del {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 36px;
+  height: 36px;
+  z-index: 3;
+}
+.promoComment .commentArea .photoCommentList li .del:before {
+  width: 16px;
+  height: 16px;
+  margin: -8px 0 0 -8px;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/common/spr_ico.png) no-repeat -240px -50px;
+}
+.promotionCon + .promotionContext {
+  padding: 64px 0 120px;
+}
+.promotionCon + .promotionContext > .tabType01 {
+  margin: 0 0 32px;
+}
+.promotionCon + script + .promotionContext {
+  padding: 64px 0 120px;
+}
+.promotionContext .tabContentWrap.prodReview .selectWrap {
+  width: 100%;
+}
+.promotionContext .tabContentWrap.prodReview .selectWrap .ui-selectmenu-button {
+  border: 1px solid #eaeaea;
+  border-radius: 4px;
+}
+.promotionContext
+  .tabContentWrap.prodReview
+  .selectWrap
+  .ui-selectmenu-button:after {
+  background: url(/img_up/shop_pds/banobagi/design/images/main/common/ico_design_select.png) no-repeat;
+}
+.promotionContext
+  .tabContentWrap.prodReview
+  .selectWrap
+  .ui-selectmenu-button.ui-selectmenu-button-open {
+  border-color: #4d6ee4;
+  border-radius: 4px 4px 0 0;
+}
+[lang='zh']
+  .promotionContext
+  .tabContentWrap.prodReview
+  .selectWrap
+  .ui-selectmenu-button.ui-selectmenu-button-open {
+  border-color: #fe324b;
+}
+.promotionContext
+  .tabContentWrap.prodReview
+  .selectWrap
+  .ui-selectmenu-button.ui-selectmenu-button-open:after {
+  background-image: url(/img_up/shop_pds/banobagi/design/images/main/common/spr_form.png);
+  background-repeat: no-repeat;
+  background-position: -18px 0;
+}
+[lang='zh']
+  .promotionContext
+  .tabContentWrap.prodReview
+  .selectWrap
+  .ui-selectmenu-button.ui-selectmenu-button-open:after {
+  background-image: url(/img_up/shop_pds/banobagi/design/images/main/cmall/spr_formC.png);
+  background-repeat: no-repeat;
+}
+.promotionContext .tabContentWrap.prodReview .selectWrap .ui-selectmenu-text {
+  text-align: center;
+}
+.reviewCountTxt {
+  margin: 24px 0 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #1e2023;
+  font-weight: 500;
+  font-size: 1.8rem;
+  color: #373a3c;
+}
+.reviewCountTxt.noLine {
+  margin-bottom: 0;
+  border-bottom: 0;
+}
+.reviewTit {
+  margin: 32px 0 6px;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #373a3c;
+}
+.divType {
+  position: relative;
+  height: 56px;
+}
+.divType:after {
+  content: '';
+  width: 100%;
+  height: 8px;
+  position: absolute;
+  top: 24px;
+  background: #f5f7fa;
+}
+.divType.darkTheme:after {
+  background: #5a5f64;
+}
+.saleType {
+  padding: 12px 24px;
+}
+.saleType .logoType.topLogo.brandType {
+  position: relative;
+  display: block;
+  height: auto;
+  padding: 23px 0 22px;
+  border-radius: 8px;
+}
+.saleType .logoType.topLogo.brandType .prodInfo {
+  display: block;
+  text-align: center;
+}
+.saleType .logoType.topLogo.brandType .prodInfo > * {
+  font-weight: 400;
+  font-size: 1.3rem;
+}
+.saleType .logoType.topLogo.brandType .prodInfo .eng:before {
+  content: '';
+  display: inline-block;
+  width: 1px;
+  height: 12px;
+  margin: 0 8px;
+  background: #eaeaea;
+}
+.saleType .prodType.halfType.flexWrap {
+  margin: 0 -8px;
+  padding: 0;
+}
+.saleType .prodType.halfType.flexWrap li {
+  padding: 0;
+}
+.saleType .prodType.halfType.flexWrap li .badge {
+  left: 8px;
+}
+.saleType .prodType.halfType.flexWrap .priceArea {
+  margin-bottom: 1px;
+}
+.saleType .listType {
+  height: 96px;
+  padding: 0;
+}
+.integrationType {
+  position: relative;
+  padding: 16px 25px 40px 24px;
+  overflow: hidden;
+}
+.integrationType.flexWrap {
+  -ms-flex-flow: wrap;
+  flex-flow: wrap;
+}
+.integrationType.flexWrap .flexBox {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 50%;
+  flex: 0 50%;
+  margin: 0;
+  text-align: center;
+}
+.integrationType.flexWrap .flexBox:nth-of-type(n + 3) {
+  margin-top: 24px;
+}
+.integrationType.flexWrap .flexBox .sailInfo {
+  position: relative;
+  height: 159px;
+  padding: 20px 0 0;
+  margin: 0 3.5px;
+}
+.integrationType.flexWrap .flexBox .sailInfo:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 107px;
+  margin-bottom: 56px;
+  border-radius: 4px;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.03);
+}
+.integrationType.flexWrap .flexBox .sailInfo .logo {
+  position: relative;
+  display: inline-block;
+  width: 96px;
+  height: 45px;
+}
+.integrationType.flexWrap .flexBox .sailInfo .logo > img {
+  vertical-align: text-top;
+}
+.integrationType.flexWrap .flexBox .sailInfo .txt {
+  display: block;
+  color: #6b6e73;
+  font-weight: 400;
+  font-size: 1.3rem;
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.integrationType.flexWrap .flexBox .sailInfo .brandLink {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 44px;
+  margin-top: 8px;
+  line-height: 44px;
+  color: #373a3c;
+  font-weight: 600;
+  font-size: 1.3rem;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  border: solid 1px #dcdfe3;
+  border-radius: 4px;
+  background: #fff;
+}
+[lang='zh'] .integrationType.flexWrap .flexBox .sailInfo .brandLink {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.calendarType {
+  padding: 32px 48px 48px;
+}
+.calendarType .calHead {
+  position: relative;
+  margin: 23px 0 0;
+}
+.calendarType .calHead .yymm {
+  display: inline-block;
+  color: #1e2023;
+  font: 600 2.8rem var(--eng_font);
+}
+.calendarType .calHead .eventDay {
+  position: absolute;
+  top: 8px;
+  right: 0;
+  color: #1e2023;
+  font-size: 1.2rem;
+}
+.calendarType .calHead .eventDay:before {
+  content: '';
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin: 0 4px -2px 0;
+  border-radius: 50px;
+  background: #dde0f3;
+}
+.calendarType .calBody {
+  width: 100%;
+  margin-bottom: 7px;
+  border-collapse: separate;
+  text-align: center;
+}
+.calendarType .calBody th {
+  position: relative;
+  width: 44px;
+  height: 53px;
+  color: #8b8f94;
+  font-size: 1.3rem;
+}
+.calendarType .calBody thead tr th {
+  border-bottom: 7px solid transparent;
+}
+.calendarType .calBody thead tr th:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  height: 1px;
+  margin-top: 7px;
+  background: #eaeaea;
+}
+.calendarType .calBody tbody tr td {
+  border: 2px solid #fff;
+}
+.calendarType .calBody td {
+  width: 44px;
+  height: calc((100vw - 24px - 24px) / 7);
+  color: #5a5f64;
+  font: 600 1.5rem var(--eng_font);
+}
+.htmlType {
+  position: relative;
+  margin-bottom: 24px;
+}
+.htmlType .tit {
+  color: #1e2023;
+  font: 600 2.4rem var(--eng_font);
+  text-align: center;
+}
+.htmlType figure {
+  display: block;
+  text-align: center;
+}
+.htmlType figure > img {
+  overflow: hidden;
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+}
+.htmlType figure .branLogo {
+  display: block;
+  margin-top: 8px;
+}
+.htmlType .swiperWrap {
+  overflow: visible;
+  position: static;
+  width: calc(100% - 260px);
+  margin: 20px auto 0;
+}
+.htmlType .swiperWrap .swiper-slide {
+  width: 220px !important;
+}
+.htmlType .swiperWrap .swiper-slide.swiperDivi {
+  padding-bottom: 40px;
+}
+.htmlType .swiperWrap .ts-prev {
+  width: 44px;
+  height: 44px;
+  margin-top: -12px;
+  background: none;
+}
+.htmlType .swiperWrap .ts-prev:after {
+  top: 0;
+  left: 0;
+  width: 44px;
+  height: 44px;
+  margin: 0;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/view/arr_map.png) no-repeat 0 0;
+}
+.htmlType .swiperWrap .ts-next {
+  width: 44px;
+  height: 44px;
+  margin-top: -12px;
+  background: none;
+}
+.htmlType .swiperWrap .ts-next:after {
+  top: 0;
+  left: 0;
+  width: 44px;
+  height: 44px;
+  margin: 0;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/view/arr_map.png) no-repeat -44px 0;
+}
+.htmlType .swiperWrap .ts-prev.ts-button-disabled:after {
+  opacity: 0.5;
+}
+.htmlType .swiperWrap .ts-paging .ts-paging-btn.ts-paging-active:after {
+  background: #1e2023;
+}
+.htmlType.darkTheme .textType {
+  color: #f2f5f9;
+}
+.htmlType.darkTheme .swiperWrap .swiper-container {
+  padding-bottom: 24px;
+}
+.htmlType.darkTheme
+  .swiperWrap
+  .ts-paging
+  .ts-paging-btn.ts-paging-active:after {
+  background: #fff;
+}
+.htmlType.darkTheme .swiperWrap .ts-paging .ts-paging-btn:after {
+  background: rgba(242, 245, 249, 0.2);
+}
+.htmlType.darkTheme .swiperWrap .ts-controls {
+  position: relative;
+}
+.subTitleImg {
+  overflow: hidden;
+  margin: 24px 0 16px;
+}
+.subTitleImg img {
+  display: block;
+  width: 100%;
+}
+.subTitleText {
+  margin: 24px 0 16px;
+  font-size: 2.4rem;
+  line-height: 1.33333;
+  line-height: 1.41667;
+  font-weight: 700;
+  color: #373a3c;
+}
+.subTitleText span {
+  font-weight: 400;
+  color: #6b6e73;
+}
+.ancTabContent ~ .ancTabContent .subTitleText {
+  margin-top: 48px;
+}
+.prodModule .fixedWrap {
+  height: 68px;
+}
+.prodModule .fixedWrap.fixed .fixTab {
+  position: fixed;
+  top: 72px;
+  left: 0;
+  width: 100%;
+  z-index: 99999;
+  background: #fff;
+  left: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: center;
+}
+.prodModule .fixedWrap.fixed .fixTab .tabType06 {
+  margin: 0 auto;
+  min-width: 1280px;
+  max-width: 1680px;
+  padding: 0 72px;
+}
+.prodModule .fixedWrap .tabType06 {
+  margin-bottom: 0;
+}
+.prodModule .fixedWrap .tabType06 > li a {
+  height: 67px;
+  font-size: 1.8rem;
+  line-height: 67px;
+  border: none;
+  border-bottom: 1px solid #dcdfe3;
+}
+.prodModule .fixedWrap .tabType06 > li.tabON a {
+  border-bottom: 2px solid #1e2023;
+}
+.prodModule .prodListNum {
+  height: 48px;
+  line-height: 48px;
+}
+.prodModule .ancTabContent {
+  position: relative;
+}
+.prodModule .ancTabContent .tabContTitle {
+  position: absolute;
+  top: -155px;
+}
+.prodModule .ancTabContent .prodList.prodThumb {
+  margin-right: -7px;
+}
+.prodModule .prodFlag {
+  margin-bottom: 0;
+}
+.prodModule .btnMore {
+  display: block;
+  width: 369px;
+  height: 56px;
+  line-height: 54px;
+  margin: 32px auto 0;
+  color: #373a3c;
+  font-size: 1.8rem;
+  line-height: 1.44444;
+  font-weight: 700;
+  text-align: center;
+  border: 1px solid #dcdfe3;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 80px;
+}
+.prodModule .btnMore > span {
+  display: inline-block;
+  padding-right: 16px;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/common/ico_design_select.png) no-repeat 100% 50%;
+}
+.promotionKing .purchaseAmount {
+  overflow: hidden;
+  padding: 24px 48px;
+  background: #f7f7fd;
+}
+.promotionKing .purchaseAmount:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.promotionKing .purchaseAmount .tit {
+  float: left;
+  padding-top: 10px;
+  font-size: 2.4rem;
+  line-height: 1.33333;
+  line-height: 1.41667;
+  font-weight: 400;
+}
+.promotionKing .purchaseAmount .price {
+  float: right;
+}
+.promotionKing .purchaseAmount .price em {
+  display: inline-block;
+  padding-right: 32px;
+  text-align: right;
+  vertical-align: middle;
+  font-size: 3.6rem;
+  line-height: 1.22222;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #4d6ee4;
+  font-weight: 700;
+}
+[lang='zh'] .promotionKing .purchaseAmount .price em {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+[lang='zh'] .promotionKing .purchaseAmount .price em {
+  color: #fe324b;
+}
+.promotionKing .lankingInfo {
+  padding: 48px;
+}
+.promotionKing .titDep3 {
+  margin: 0 0 24px;
+  font-weight: 700;
+  font-size: 3.6rem;
+  line-height: 1.22222;
+  color: #1e2023;
+  text-align: center;
+  font-weight: 500;
+}
+.promotionKing table thead th {
+  border-bottom: 12px solid #fff;
+  font-size: 2.4rem;
+  line-height: 1.33333;
+  line-height: 1.41667;
+  color: #6b6e73;
+  text-align: center;
+}
+.promotionKing table thead th span {
+  display: block;
+  height: 80px;
+  background: #f7f7fd;
+  line-height: 82px;
+}
+.promotionKing table thead th:first-child span {
+  border-radius: 4px 0 0 4px;
+}
+.promotionKing table thead th:last-child span {
+  border-radius: 0 4px 4px 0;
+}
+.promotionKing table td {
+  padding: 24px 0;
+  font-size: 3.2rem;
+  line-height: 1.25;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #373a3c;
+  text-align: center;
+  vertical-align: middle;
+  border-bottom: 1px dashed #dcdfe3;
+  font-weight: 500;
+}
+[lang='zh'] .promotionKing table td {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.promotionKing table td.ranking span {
+  display: inline-block;
+  padding-left: 22px;
+}
+.promotionKing table td.id {
+  font-weight: 700;
+}
+.promotionKing table tbody tr:first-child td {
+  padding: 22px 0;
+  background: #373a3c;
+  font-size: 3.6rem;
+  line-height: 1.22222;
+  color: #fff;
+  border-bottom: 0;
+  font-weight: 700;
+}
+.promotionKing table tbody tr:first-child td:first-child {
+  border-radius: 4px 0 0 4px;
+}
+.promotionKing table tbody tr:first-child td:first-child span {
+  position: relative;
+}
+.promotionKing table tbody tr:first-child td:first-child span:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: -20px;
+  margin-top: -14px;
+  width: 28px;
+  height: 28px;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/view/ico_crown.png) 0 50% no-repeat;
+}
+.promotionKing table tbody tr:first-child td:last-child {
+  border-radius: 0 4px 4px 0;
+}
+.promotionKing table tbody tr:last-child td {
+  border-bottom: 0;
+}
+.affiliate {
+  position: relative;
+  padding: 40px 0 0;
+}
+.affiliate .promotionImg.autoImg + .textType.typeL {
+  margin-top: 8px;
+}
+.affiliate .textType.typeL {
+  padding: 0;
+}
+.affiliate .textType.typeL em {
+  display: block;
+  padding-top: 12px;
+  font-size: 1.5rem;
+  line-height: 1.53333;
+  color: #5a5f64;
+  font-weight: 400;
+}
+.affiliate .textType.typeL + .btnAreaBox {
+  margin-top: 32px;
+}
+.affiliate .frmInp {
+  margin-top: 0;
+  text-align: center;
+}
+.affiliate .frmInp + .btnAreaBox {
+  margin-top: 32px;
+}
+.affiliate .frmInp label {
+  margin-top: 5px;
+  text-align: center;
+}
+.affiliate .frmInp .inpA {
+  display: table;
+  table-layout: fixed;
+  width: 368px;
+  height: 56px;
+  margin: 16px auto 0;
+  padding: 0 15px;
+  background: #f8fafc;
+  border-radius: 28px;
+  border-bottom: 0;
+}
+.affiliate .frmInp .inpA > * {
+  display: table-cell;
+  width: 100%;
+  vertical-align: middle;
+}
+.affiliate .frmInp .inpA .dash {
+  width: 8px;
+  color: #9fa2a8;
+}
+.affiliate .frmInp input {
+  background: none;
+  border-bottom: 0;
+  border: 0;
+  padding: 0;
+  height: 56px;
+  min-width: auto;
+  line-height: 55px;
+  font-size: 1.8rem;
+  line-height: 1.44444;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #373a3c;
+  text-align: center;
+}
+[lang='zh'] .affiliate .frmInp input {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.affiliate .frmInp ::-webkit-input-placeholder {
+  color: #b9bcc0;
+}
+.affiliate .frmInp :-ms-input-placeholder {
+  color: #b9bcc0;
+}
+.affiliate .frmInp ::-ms-input-placeholder {
+  color: #b9bcc0;
+}
+.affiliate .frmInp ::placeholder {
+  color: #b9bcc0;
+}
+.affiliate .agreeBox {
+  margin: 64px 24px 0;
+  padding-bottom: 8px;
+  border-top: 1px solid #373a3c;
+  padding-top: 16px;
+}
+.affiliate .agreeBox > .frmSel {
+  padding-bottom: 16px;
+  border-bottom: 1px solid #eaeaea;
+}
+.affiliate .agreeBox > .frmSel.labelBold label {
+  font-size: 2rem;
+  line-height: 1.4;
+  font-weight: 700;
+}
+.affiliate .agreeBox .agreeList li + li {
+  margin-top: 29px;
+}
+.affiliate .agreeBox .frmSel {
+  width: 100%;
+}
+.affiliate .agreeBox .frmSel label {
+  color: #373a3c;
+  font-size: 1.8rem;
+  line-height: 1.44444;
+  font-weight: 500;
+}
+.affiliate .agreeBox .frmSel label:before {
+  top: 4px;
+}
+.affiliate .agreeBox .withdrawalChk {
+  margin: 10px 0 19px;
+}
+.affiliate .agreeBox .boxGray {
+  border-radius: 8px;
+  background: #f8fafc;
+  height: 150px;
+}
+.affiliate .agreeBox .boxGray .scrollCont {
+  height: 113px;
+}
+.affiliate .certifi_result {
+  padding: 20px 0 16px;
+}
+.affiliate .certifi_result .subTxt {
+  display: block;
+  padding-bottom: 16px;
+  color: #6b6e73;
+  text-align: center;
+}
+.affiliate .eventBtn_area {
+  margin-top: 16px;
+}
+.affiliate.type2 .btnAreaBox {
+  padding: 32px 0 0;
+}
+.affiliate .gradeInfo {
+  padding-bottom: 32px;
+}
+.gradeInfo {
+  margin-top: 64px;
+  padding-top: 65px;
+  border-top: 1px dashed #dcdfe3;
+}
+.gradeInfo .tit {
+  display: block;
+  padding-bottom: 32px;
+  font-size: 3.6rem;
+  line-height: 1.22222;
+  color: #373a3c;
+  font-weight: 500;
+  text-align: center;
+}
+.gradeInfo .gradeInfo_box table {
+  width: 904px;
+  margin: 0 auto;
+}
+.gradeInfo .gradeInfo_box table th {
+  padding: 15px 0;
+  text-align: center;
+  border-bottom: 1px solid #eaeaea;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  font-weight: 700;
+  color: #1e2023;
+  vertical-align: middle;
+}
+.gradeInfo .gradeInfo_box table th span {
+  font-size: 1.3rem;
+  line-height: 1.38462;
+  color: #6b6e73;
+  font-weight: 400;
+}
+.gradeInfo .gradeInfo_box table thead th {
+  background: #f7f7fd;
+}
+.gradeInfo .gradeInfo_box table td {
+  border-bottom: 1px solid #eaeaea;
+  text-align: center;
+  padding: 12px 0;
+  vertical-align: middle;
+  line-height: 24px;
+  color: #1e2023;
+}
+.gradeInfo .gradeInfo_box table td .terms {
+  display: block;
+  color: #6b6e73;
+}
+.gradeInfo .gradeInfo_box table td .terms span {
+  font-weight: 700;
+}
+.gradeInfo .gradeInfo_box table td .terms .col_default {
+  color: #373a3c;
+}
+.gradeInfo .gradeInfo_box table td .terms:first-child:nth-last-child(3),
+.gradeInfo
+  .gradeInfo_box
+  table
+  td
+  .terms:first-child:nth-last-child(3)
+  ~ .terms {
+  display: inline-block;
+  margin-left: 40px;
+}
+.external_affiliate {
+  padding: 48px 0;
+  text-align: center;
+}
+.external_affiliate .tit {
+  display: block;
+  font-size: 3.6rem;
+  line-height: 1.22222;
+  font-weight: 500;
+  color: #1e2023;
+}
+.external_affiliate .btnAreaBox {
+  margin: 32px 0;
+  padding: 0;
+}
+.external_affiliate input {
+  background: #f8fafc;
+  width: 368px;
+  height: 56px;
+  margin: 0 auto;
+  line-height: 55px;
+  border-radius: 28px;
+  text-align: center;
+  border: 0;
+  font-size: 1.8rem;
+  line-height: 1.44444;
+  color: #373a3c;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+.external_affiliate input::-webkit-input-placeholder {
+  font-weight: 400;
+}
+.external_affiliate input:-ms-input-placeholder {
+  font-weight: 400;
+}
+.external_affiliate input::-ms-input-placeholder {
+  font-weight: 400;
+}
+.external_affiliate input::placeholder {
+  font-weight: 400;
+}
+.external_affiliate .couponNum {
+  margin: 0 auto;
+  width: 368px;
+  height: 56px;
+  line-height: 56px;
+  border-radius: 28px;
+  background: #f5f7fa;
+  color: #8b8f94;
+  text-align: center;
+}
+.external_affiliate .couponNum.issue {
+  font-weight: 700;
+  font-size: 1.8rem;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+[lang='zh'] .external_affiliate .couponNum.issue {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.promoDesc + .usedInfoList li a {
+  color: #4d6ee4;
+  text-decoration: underline;
+}
+[lang='zh'] .promoDesc + .usedInfoList li a {
+  color: #fe324b;
+}
+.promoDesc .tit {
+  display: block;
+  padding-top: 6px;
+  text-align: center;
+}
+.promoDesc .tit > * {
+  display: inline-block;
+  vertical-align: middle;
+}
+.promoDesc .subTxt {
+  display: block;
+  padding-top: 20px;
+  font-size: 2.4rem;
+  line-height: 1.33333;
+  line-height: 1.41667;
+  color: #373a3c;
+  font-weight: 700;
+  text-align: center;
+}
+.promoDesc .promoCoupon {
+  display: table;
+  table-layout: fixed;
+  width: 429px;
+  height: 192px;
+  margin: 22px auto 0;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/view/ev_img_coupon_big.png) no-repeat 0 0;
+}
+.promoDesc .promoCoupon .info {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 0 140px 0 40px;
+}
+.promoDesc .promoCoupon .info > * {
+  display: block;
+}
+.promoDesc .promoCoupon .name {
+  color: #4d6ee4;
+}
+[lang='zh'] .promoDesc .promoCoupon .name {
+  color: #fe324b;
+}
+.promoDesc .promoCoupon .benefit {
+  padding: 5px 0 10px;
+  font-size: 3.2rem;
+  line-height: 1.25;
+  color: #373a3c;
+  font-weight: 700;
+}
+.promoDesc .promoCoupon .benefit strong {
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 5rem;
+  line-height: 1.16;
+}
+[lang='zh'] .promoDesc .promoCoupon .benefit strong {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.promoDesc .promoCoupon .terms {
+  font-size: 1.8rem;
+  line-height: 1.44444;
+  color: #373a3c;
+}
+.promoDesc .txtArea {
+  padding-top: 16px;
+  text-align: center;
+}
+.promoDesc .txtArea li {
+  color: #8b8f94;
+  padding: 2px 0;
+}
+.promoDesc .txtArea li span {
+  position: relative;
+  display: inline-block;
+}
+.promoDesc .txtArea li span:before {
+  content: '*';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: -10px;
+  color: #8b8f94;
+}
+.promotionBuying {
+  position: relative;
+  padding: 48px;
+  font-size: 0;
+}
+.promotionBuying .canvasArea {
+  display: inline-block;
+  position: relative;
+  width: 440px;
+  text-align: center;
+}
+.promotionBuying .canvasArea .canvasWrap {
+  display: inline-block;
+  width: 280px;
+  height: 280px;
+  margin: 0 auto;
+  border: 25px solid #eaeaea;
+  border-radius: 50%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  vertical-align: top;
+}
+.promotionBuying .canvasArea .canvasWrap canvas {
+  margin: -25px 0 0 -25px;
+}
+.promotionBuying .canvasArea .moneyTxt {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 280px;
+  margin-top: 0;
+  padding: 104px 0;
+  font-size: 2.4rem;
+  line-height: 1.33333;
+  line-height: 1.41667;
+  color: #373a3c;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  line-height: 36px;
+}
+.promotionBuying .canvasArea .moneyTxt strong {
+  display: block;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 3.6rem;
+  line-height: 1.22222;
+  font-weight: 700;
+  color: #4d6ee4;
+}
+[lang='zh'] .promotionBuying .canvasArea .moneyTxt strong {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+[lang='zh'] .promotionBuying .canvasArea .moneyTxt strong {
+  color: #fe324b;
+}
+.promotionBuying .canvasArea.complete {
+  padding-top: 0;
+}
+.promotionBuying .canvasArea.complete:after {
+  content: '';
+  position: absolute;
+  top: 30px;
+  left: 0;
+  width: 440px;
+  height: 88px;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/view/sprinkle2.png) no-repeat 50% 0;
+}
+.promotionBuying .contextArea {
+  display: inline-block;
+  position: relative;
+  width: 440px;
+  vertical-align: top;
+  margin-left: 21px;
+}
+.promotionBuying .contextArea:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -12px;
+  width: 1px;
+  height: 280px;
+  background: #eaeaea;
+}
+.promotionBuying .contextArea:only-child {
+  width: 100%;
+}
+.promotionBuying .contextArea:only-child:after {
+  display: none;
+}
+.promotionBuying .contextArea:only-child .txtCont {
+  margin-top: 0;
+}
+.promotionBuying .contextArea .btnAreaBox {
+  padding: 32px 0 0;
+}
+.promotionBuying .txtCont {
+  margin-top: 56px;
+  color: #373a3c;
+  font-size: 2.4rem;
+  text-align: center;
+}
+.promotionBuying .txtCont .money {
+  display: block;
+  margin-top: 8px;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 3.6rem;
+  color: #5a5f64;
+  line-height: 36px;
+}
+[lang='zh'] .promotionBuying .txtCont .money {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.promotionBuying .txtCont .money b {
+  color: #1e2023;
+}
+.promotionBuying .txtCont .money strong {
+  color: #8b8f94;
+}
+.promotionBuying .txtCont .money.type02 strong {
+  color: #4d6ee4;
+}
+[lang='zh'] .promotionBuying .txtCont .money.type02 strong {
+  color: #fe324b;
+}
+.promotionBuying .completeANI {
+  display: none;
+  position: absolute;
+  top: 80px;
+  left: 0;
+  width: 100%;
+}
+.promotionBuying02 {
+  position: relative;
+  padding: 48px 160px 20px;
+  background: #fff;
+}
+.promotionBuying02.complete {
+  background: url(/img_up/shop_pds/banobagi/design/images/main/view/sprinkle.png) no-repeat 50% 50%;
+}
+.promotionBuying02 .txtCont {
+  font-size: 2.4rem;
+  line-height: 1.33333;
+  line-height: 1.41667;
+  text-align: center;
+}
+.promotionBuying02 .txtCont strong {
+  display: block;
+  padding-top: 8px;
+  font-size: 3.6rem;
+  line-height: 1.22222;
+  color: #373a3c;
+  font-weight: 500;
+}
+.promotionBuying02 .txtCont strong .point {
+  color: #4d6ee4;
+}
+[lang='zh'] .promotionBuying02 .txtCont strong .point {
+  color: #fe324b;
+}
+.promotionBuying02 .graphArea {
+  margin-top: 35px;
+}
+.promotionBuying02 .buyingGraphy {
+  position: relative;
+  height: 16px;
+  z-index: 2;
+}
+.promotionBuying02 .buyingGraphy:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 16px;
+  border-radius: 8px;
+  background: #eaeaea;
+}
+.promotionBuying02 .buyingGraphy .bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 16px;
+  min-width: 32px;
+  margin: 0;
+  border-radius: 8px;
+  background: #4d6ee4;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+.promotionBuying02 .buyingGraphy .num {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  width: 60px;
+  height: 60px;
+  margin-top: -30px;
+  border: 3px solid #4d6ee4;
+  background: #4d6ee4;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: #fff;
+  letter-spacing: -0.05em;
+  line-height: 56px;
+  border-radius: 50%;
+  text-align: center;
+  -webkit-box-shadow: 0 3px 6px 0 rgba(255, 162, 49, 0.2);
+  box-shadow: 0 3px 6px 0 rgba(255, 162, 49, 0.2);
+}
+[lang='zh'] .promotionBuying02 .buyingGraphy .num {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.promotionBuying02 .buyingGraphy .completeANI {
+  display: none;
+  position: absolute;
+  top: -55px;
+  left: 0;
+  width: 100%;
+}
+.promotionBuying02 .buyingCount {
+  position: relative;
+  height: 27px;
+  z-index: 1;
+}
+.promotionBuying02 .buyingCount li {
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  color: #8b8f94;
+  font-size: 1.8rem;
+  line-height: 1.1;
+  font-weight: 500;
+}
+.promotionBuying02 .buyingCount li em {
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+[lang='zh'] .promotionBuying02 .buyingCount li em {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.promotionBuying02 .buyingCount li:last-child {
+  right: 0;
+  left: auto;
+}
+.attendanceText {
+  padding: 12px 0;
+}
+.promotionAttendance {
+  padding: 0 48px;
+}
+.promotionAttendance .txtCont {
+  padding: 48px 0 19px;
+  color: #1e2023;
+  font-weight: 500;
+  font-size: 3.6rem;
+  text-align: center;
+}
+.checkCalendar {
+  position: relative;
+  margin: 32px 0 48px;
+  padding: 48px 88px 60px;
+  border: 1px solid #707070;
+  border-radius: 20px;
+  background: #fff;
+}
+.checkCalendar .head {
+  position: relative;
+  height: 34px;
+}
+.checkCalendar .head .date {
+  color: #1e2023;
+  font-size: 3.6rem;
+  line-height: 1;
+  font-weight: 700;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
+}
+[lang='zh'] .checkCalendar .head .date {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.checkCalendar .head .optionState {
+  position: absolute;
+  bottom: 0;
+  right: 16px;
+  display: inline-block;
+}
+.checkCalendar .head .optionState .state {
+  position: relative;
+  display: inline-block;
+  padding-left: 20px;
+  color: #373a3c;
+  font-size: 1.8rem;
+  line-height: 1;
+}
+.checkCalendar .head .optionState .state:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  margin: -8px 0 0 0;
+  border-radius: 50%;
+}
+.checkCalendar .head .optionState .state.today:before {
+  background: #e9ebfb;
+}
+.checkCalendar .head .optionState .state.check:before {
+  background: #0532a7;
+}
+.checkCalendar:before {
+  content: '';
+  position: absolute;
+  top: 168px;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: #eaeaea;
+}
+.checkCalendar .checkTbl {
+  margin-top: 28px;
+  table-layout: fixed;
+}
+.checkCalendar .checkTbl thead th {
+  font-weight: 500;
+}
+.checkCalendar .checkTbl tbody tr:first-child td {
+  padding-top: 4px;
+}
+.checkCalendar .checkTbl th {
+  color: #8b8f94;
+  font-size: 2rem;
+  height: 58px;
+  text-align: center;
+}
+.checkCalendar .checkTbl td {
+  position: relative;
+  padding: 8px 16px;
+  text-align: center;
+}
+.checkCalendar .checkTbl td button {
+  width: 40px;
+  height: 40px;
+  font-size: 3.2rem;
+  font-weight: 700;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  border-radius: 50%;
+}
+[lang='zh'] .checkCalendar .checkTbl td button {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.checkCalendar .checkTbl td.past {
+  color: #b9bcc0;
+}
+.checkCalendar .checkTbl td.today button {
+  background-color: #e9ebfb;
+}
+[lang='zh'] .checkCalendar .checkTbl td.today button {
+  background-color: #ffeef1;
+}
+.checkCalendar .checkTbl td input {
+  position: absolute;
+  top: 44px;
+  left: 44px;
+  z-index: 1;
+}
+.checkCalendar .checkTbl td input:checked + label:after {
+  content: 'ì¶œì„';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background: #373a3c;
+  font-weight: 400;
+  font-size: 1.8rem;
+  color: #fff;
+  line-height: 74px;
+  -webkit-box-shadow: 1px 2px 0 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 2px 0 0 rgba(0, 0, 0, 0.2);
+}
+.checkCalendar .checkTbl td label {
+  position: relative;
+  display: block;
+  width: 72px;
+  height: 72px;
+  font-size: 3.2rem;
+  font-weight: 700;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  line-height: 74px;
+  border-radius: 50%;
+  margin: 0 auto;
+  background: #fff;
+  z-index: 2;
+}
+[lang='zh'] .checkCalendar .checkTbl td label {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.checkCalendar .checkTbl td.today label {
+  background: #e9ebfb;
+}
+.titDep1.typeL {
+  margin-top: 56px;
+  text-align: left;
+}
+.titDep1.typeL .txtSub {
+  display: inline-block;
+  margin: 0 0 0 8px;
+}
+.formList.type2 {
+  margin-bottom: 48px;
+}
+.formList.type2 > li ~ li {
+  border-top: 1px solid #eaeaea;
+  padding-top: 16px !important;
+}
+.formList.type2 > li .inpA .btnSSG {
+  margin-left: 5px;
+}
+.formList.type2 > li .inpA > p ~ p {
+  margin-top: 8px;
+}
+.formList.type2 > li .inpA.inpPhone .selectWrap {
+  margin-right: 5px;
+}
+.formList.type2 > li .frmSel input[type='radio'] {
+  opacity: 0;
+}
+.formList.type2 > li span.frmSel label:before {
+  top: 2px;
+}
+.formList.type2 > li span.frmSel ~ .frmSel {
+  margin-left: 24px;
+}
+.formList.type2 > li span.frmSel ~ .tabContentWrap {
+  margin-top: 10px;
+}
+.formList.type2 > li span.frmSel ~ .tabContentWrap .inpA {
+  width: 604px;
+}
+.formList.type2 > li textarea {
+  width: 464px;
+  min-height: 100px;
+}
+.clauseBox {
+  margin-top: 32px;
+  border-top: 1px solid #373a3c;
+}
+.clauseBox .allChk {
+  border-bottom: 1px solid #eaeaea;
+  padding: 16px 0;
+}
+.clauseBox .allChk .frmSel.labelBold label {
+  font-size: 2rem;
+}
+.clauseBox .allChk .desc {
+  display: block;
+  padding-bottom: 15px;
+}
+.clauseBox .partWrap .frmSel {
+  margin-top: 8px;
+  padding: 12px 0 11px;
+  font-weight: 500;
+}
+.clauseBox .partWrap .frmSel.labelBold label {
+  font-size: 1.8rem;
+  line-height: 1.44444;
+}
+.clauseBox .partWrap .frmSel input {
+  opacity: 0;
+}
+.clauseBox .boxGray {
+  overflow-y: auto;
+  max-height: 220px;
+  border-radius: 8px;
+}
+.clauseBox .bultType01 {
+  margin-top: 0;
+}
+.clauseBox .bultType01 li {
+  font-size: 1.5rem;
+  line-height: 1.53333;
+}
+.frRecommend {
+  padding-top: 48px;
+}
+.frRecommend .tit {
+  display: block;
+  margin-bottom: 32px;
+  font-size: 3.6rem;
+  color: #1e2023;
+  font-weight: 500;
+  text-align: center;
+}
+.frRecommend .tit em {
+  font-weight: 700;
+  color: #4d6ee4;
+}
+[lang='zh'] .frRecommend .tit em {
+  color: #fe324b;
+}
+.frRecommend > .frmInp {
+  width: 368px;
+  margin: 0 auto;
+  text-align: center;
+}
+.frRecommend > .frmInp input[type='text'] {
+  width: 100%;
+  height: 56px;
+  line-height: 56px;
+  border-radius: 28px;
+}
+.frRecommend > .frmInp .frmSel {
+  font-size: 1.8rem;
+  line-height: 1.44444;
+  margin: 10px 0 15px;
+}
+.frRecommend > .frmInp .frmSel input {
+  opacity: 0;
+}
+.frRecommend > .frmInp .frmSel label:before {
+  top: 4px;
+}
+.frRecommend > .frmInp .frmSel ~ .frmSel {
+  margin-left: 32px;
+}
+.frRecommend > .frmInp .tabContentWrap li ~ li {
+  margin-top: 8px;
+}
+.frRecommend .btnAreaBox {
+  margin-top: 32px;
+}
+.frRecommend .btnAreaBox > button {
+  margin: 0 auto;
+  width: 368px;
+}
+.frRecommend .btnAreaBox > button .point {
+  position: relative;
+  padding-left: 28px;
+}
+.frRecommend .btnAreaBox > button .point:before {
+  content: '';
+  position: absolute;
+  top: 5px;
+  left: 0;
+  width: 26px;
+  height: 26px;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/view/ico_point.png) no-repeat;
+}
+.frRecommend .btnAreaBox > button .point em {
+  display: inline-block;
+}
+.frRecommend .btnAreaBox > button:disabled .point {
+  padding: 0;
+}
+.frRecommend .btnAreaBox > button:disabled .point:before,
+.frRecommend .btnAreaBox > button:disabled .point em {
+  display: none;
+}
+.frRecommend button:disabled {
+  cursor: default;
+}
+.frlistCon {
+  margin-top: 16px;
+  padding-top: 49px;
+  border-top: 1px dashed #dcdfe3;
+}
+.frlistCon .tit {
+  font-size: 2.4rem;
+  line-height: 1.33333;
+  line-height: 1.41667;
+  font-weight: 500;
+}
+.frlistCon .frListTxt {
+  display: block;
+  padding-bottom: 5px;
+  font-size: 2.4rem;
+  line-height: 1.33333;
+  line-height: 1.41667;
+  text-align: center;
+}
+.frList {
+  width: 774px;
+  margin: 28px auto 0;
+}
+.frList button {
+  display: inline-block;
+  width: 184px;
+  height: 56px;
+  border-radius: 999px;
+  background: #373a3c;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #fff;
+  line-height: 40px;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.frList button:disabled {
+  cursor: default;
+  background: #b9bcc0;
+}
+.frList li ~ li {
+  margin-top: 17px;
+}
+.frList li .listInfo {
+  display: inline-block;
+  font-size: 0;
+}
+.frList li .listInfo > * {
+  display: inline-block;
+  height: 52px;
+  margin: 0 6px;
+  padding: 0 32px;
+  border-radius: 999px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #1e2023;
+  background: #f5f7fa;
+  font-size: 1.8rem;
+  line-height: 52px;
+  font-weight: 500;
+  text-align: left;
+}
+.frList li .frName {
+  width: 280px;
+}
+.frList li .frId {
+  width: 280px;
+}
+.frList.type02 {
+  text-align: center;
+}
+.frList.type02 li {
+  padding: 0 0 0 25px;
+}
+.frList.type02 li > * {
+  display: inline-block;
+  vertical-align: middle;
+}
+.frList.type02 li > span {
+  position: relative;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: #f7f7fd;
+}
+.frList.type02 li > span:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -16px 0 0 -16px;
+  width: 32px;
+  height: 32px;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/view/ico_eventfr.png) 0 -32px no-repeat;
+}
+.promoExpe {
+  padding: 0 48px 48px;
+}
+.promoExpe .titDep2 {
+  margin-bottom: 16px;
+  font-size: 3.6rem;
+  text-align: center;
+}
+.promoExpe .titDep3 {
+  margin: 0 0 16px;
+  padding-top: 48px;
+  border-top: 1px solid #eaeaea;
+  text-align: center;
+}
+.promoExpe .prodType.listType > ul {
+  width: 100%;
+}
+.promoExpe .prodType.listType > ul li {
+  width: 444px;
+  margin: 0 0 20px 0;
+  padding: 16px;
+  background: #f8fafc;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 8px;
+  position: relative;
+}
+.promoExpe .prodType.listType > ul li:nth-child(even) {
+  margin-left: 13px !important;
+}
+.promoExpe .prodType.listType > ul li figure {
+  padding: 0;
+}
+.promoExpe .prodType.listType > ul li figure:after {
+  background: none;
+}
+.promoExpe .prodType.listType > ul li .prodInfo .prodName {
+  color: #6b6e73;
+}
+.promoExpe .prodType.listType > ul li .icCart {
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+}
+.tabType.tabBrdTop {
+  margin: 24px 0 -20px;
+}
+.tabType.tabBrdTop:after {
+  top: 0;
+  background-color: #dcdfe3;
+}
+.tabType.tabBrdTop li {
+  border-top: 2px solid #dcdfe3;
+}
+.tabType.tabBrdTop li a {
+  display: block;
+  padding-top: 20px;
+  height: 96px;
+  text-align: center;
+  font-weight: 400;
+}
+.tabType.tabBrdTop li a .subTxt {
+  display: block;
+  margin: 0;
+  font-weight: 500;
+  color: #b9bcc0;
+}
+.tabType.tabBrdTop li a .promotionDate {
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1.5rem;
+  color: #b9bcc0;
+  opacity: 1;
+}
+[lang='zh'] .tabType.tabBrdTop li a .promotionDate {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.tabType.tabBrdTop li:after {
+  display: none;
+}
+.tabType.tabBrdTop li.tabON {
+  border-color: #4d6ee4;
+}
+[lang='zh'] .tabType.tabBrdTop li.tabON {
+  border-color: #fe324b;
+}
+.tabType.tabBrdTop li.tabON a {
+  color: #4d6ee4;
+  font-weight: 400;
+}
+[lang='zh'] .tabType.tabBrdTop li.tabON a {
+  color: #fe324b;
+}
+.tabType.tabBrdTop li.tabON a .subTxt,
+.tabType.tabBrdTop li.tabON a .promotionDate {
+  color: #4d6ee4;
+}
+[lang='zh'] .tabType.tabBrdTop li.tabON a .subTxt,
+[lang='zh'] .tabType.tabBrdTop li.tabON a .promotionDate {
+  color: #fe324b;
+}
+.promoInfo {
+  margin: 0 -48px 48px;
+  padding: 24px 0;
+  border-radius: 4px 4px 0 0;
+  background-color: #f8fafc;
+}
+.promoInfo > li {
+  float: left;
+  width: 33.33%;
+  border-left: 1px solid #dcdfe3;
+  text-align: center;
+}
+.promoInfo > li:first-child {
+  border: none;
+}
+.promoInfo .infoTit {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 400;
+}
+.promoInfo .infoCont {
+  display: block;
+  color: #373a3c;
+}
+.sampleList {
+  overflow: hidden;
+}
+.sampleList > li {
+  float: left;
+  width: 444px;
+  height: 107px;
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+}
+.sampleList > li.rd_checked {
+  background-color: #e9ebfb;
+}
+[lang='zh'] .sampleList > li.rd_checked {
+  background-color: #ffeef1;
+}
+.sampleList > li:nth-child(even) {
+  float: right;
+}
+.sampleList > li input {
+  top: 50%;
+  left: 32px;
+  margin: -6px 0 0 6px;
+}
+.sampleList > li label:before {
+  top: 50%;
+  left: 32px;
+  margin-top: -12px;
+}
+.sampleList > li .inner {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+.sampleList > li .inner label {
+  display: table-cell;
+  padding: 0 32px 0 72px;
+  vertical-align: middle;
+}
+.sampleList > li .inner strong {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 400;
+  font-size: 1.8rem;
+  color: #1e2023;
+}
+.sampleList > li:only-child {
+  width: 100%;
+  text-align: center;
+}
+.sampleList > li:only-child input {
+  opacity: 0;
+}
+.sampleList > li:only-child label {
+  padding-left: 32px;
+}
+.sampleList > li:only-child label:before {
+  display: none;
+}
+.weddingTop {
+  position: relative;
+  margin: 0 auto 40px;
+  width: 1000px;
+  border: 1px solid #373a3c;
+  border-radius: 8px;
+  background: #fff;
+}
+.weddingTop .btnWedd {
+  display: inline-block;
+  width: 100%;
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 78px;
+  color: #373a3c;
+  text-align: center;
+}
+.weddingTop dl {
+  display: table;
+  padding: 21px 0 20px;
+  width: 100%;
+}
+.weddingTop dl dt,
+.weddingTop dl dd {
+  display: table-cell;
+  vertical-align: middle;
+}
+.weddingTop dl dt {
+  position: relative;
+  padding-left: 48px;
+  width: 20%;
+  font-size: 1.8rem;
+  text-align: left;
+  color: #373a3c;
+}
+.weddingTop dl dt:last-of-type:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  margin-top: -16px;
+  width: 1px;
+  height: 32px;
+  background: #dcdfe3;
+}
+.weddingTop dl dd {
+  padding-right: 48px;
+  width: 30%;
+  text-align: right;
+}
+.weddingTop dl dd .date {
+  display: inline-block;
+  margin-right: 12px;
+  font-weight: 500;
+  font-size: 2.4rem;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #1e2023;
+  vertical-align: middle;
+}
+[lang='zh'] .weddingTop dl dd .date {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.weddingTop dl dd .status {
+  display: inline-block;
+  padding: 0 8px;
+  height: 27px;
+  border-radius: 8px;
+  background: #fff1f0;
+  color: #f42d10;
+  font-size: 1.3rem;
+  line-height: 25px;
+}
+.weddingTop dl dd .status.confirm {
+  background-color: #e9ebfb;
+  color: #4d6ee4;
+}
+[lang='zh'] .weddingTop dl dd .status.confirm {
+  background-color: #ffeef1;
+}
+[lang='zh'] .weddingTop dl dd .status.confirm {
+  color: #fe324b;
+}
+.weddingTop dl dd .btnXXS {
+  width: 183px;
+}
+.weddingTop dl.size dt {
+  width: 13%;
+}
+.weddingTop dl.size dd {
+  width: 27%;
+}
+.weddingTop dl.size dd ~ dd {
+  width: 37%;
+}
+.grade {
+  display: block;
+  text-align: center;
+}
+.grade figure {
+  display: inline-block;
+  height: 16px;
+}
+.grade figure img {
+  vertical-align: middle;
+}
+.grade.gradeTier4,
+.grade.gradeTier3,
+.grade.gradeTier2,
+.grade.gradeTier1 {
+  height: 32px;
+}
+.grade.gradeTier4:before,
+.grade.gradeTier3:before,
+.grade.gradeTier2:before,
+.grade.gradeTier1:before {
+  width: 40px;
+  height: 40px;
+}
+.grade.gradeTier4:before figure,
+.grade.gradeTier3:before figure,
+.grade.gradeTier2:before figure,
+.grade.gradeTier1:before figure {
+  height: 24px;
+}
+.wedding {
+  padding: 48px;
+  background: #fff;
+}
+.wedding .titDep2 {
+  margin-bottom: 64px;
+  font-weight: 700;
+  font-size: 3.6rem;
+  color: #1e2023;
+  text-align: center;
+}
+.wedding .titDep2 .date {
+  display: block;
+  margin-top: 8px;
+  font-weight: 400;
+  font-size: 1.8rem;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #6b6e73;
+  letter-spacing: 0;
+}
+[lang='zh'] .wedding .titDep2 .date {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.wedding .titDep2 .subTxt {
+  display: block;
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: #6b6e73;
+  letter-spacing: 0;
+}
+.wedding .titDep2:nth-of-type(2) {
+  margin: 48px -48px 64px;
+  padding-top: 48px;
+  border-top: 1px dashed #dcdfe3;
+}
+.wedding .subBox {
+  padding: 24px 0;
+}
+.wedding .subBox > .tit {
+  font-weight: 500;
+  font-size: 2.4rem;
+  color: #4d6ee4;
+  text-align: center;
+}
+[lang='zh'] .wedding .subBox > .tit {
+  color: #fe324b;
+}
+.wedding .subBox .desc {
+  text-align: center;
+}
+.wedding .subBox .desc strong {
+  display: block;
+  margin: 8px 0;
+  font-weight: 500;
+  font-size: 3.6rem;
+  color: #373a3c;
+  line-height: 45px;
+}
+.wedding .subBox .desc .time {
+  font-size: 1.8rem;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #6b6e73;
+  letter-spacing: 0;
+}
+[lang='zh'] .wedding .subBox .desc .time {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.wedding .subBox .desc + .tblList {
+  margin-top: 32px;
+}
+.wedding .subBox .gradeArea {
+  margin: 24px 0 48px;
+  text-align: center;
+}
+.wedding .subBox .gradeArea > li {
+  display: inline-block;
+}
+.wedding .subBox .gradeArea .grade {
+  display: inline-block;
+  margin: 0 20px;
+  padding-top: 100px;
+  font-size: 1.4rem;
+  background: #f7f7fd;
+  width: 240px;
+  height: 240px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 50%;
+}
+.wedding .subBox .couponList .tblList > li .tit {
+  float: left;
+}
+.wedding .subBox .couponList .tblList > li b {
+  float: left;
+}
+.wedding .subBox .tblList {
+  margin-top: 12px;
+  border-radius: 8px;
+}
+.wedding .subBox .tblList:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.wedding .subBox .tblList > li {
+  overflow: hidden;
+}
+.wedding .subBox .tblList > li .tit {
+  -webkit-box-flex: 0;
+  -ms-flex: 0;
+  flex: 0;
+  color: var(--default_col);
+}
+.wedding .subBox .tblList > li b {
+  font-weight: 500;
+  color: #373a3c;
+}
+.wedding .subBox .tblList + .coupon {
+  margin-top: 40px;
+}
+.wedding .subBox .tblList.type02 {
+  display: table;
+  padding: 27px 0;
+  width: 100%;
+  background: #f8fafc;
+}
+.wedding .subBox .tblList.type02 > li {
+  display: table-cell;
+  width: 50%;
+  font-size: 1.8rem;
+  text-align: center;
+}
+.wedding .subBox .tblList.type02 > li .tit {
+  display: block;
+  margin-bottom: 4px;
+}
+.wedding .subBox .tblList.type02 > li .data {
+  color: #373a3c;
+}
+.wedding .subBox .tblList.type02 > li ~ li {
+  border-left: 1px solid #dcdfe3;
+}
+.wedding .subBox .tblList.type02 + .tblH {
+  margin-top: 16px;
+}
+.wedding .subBox .tblH {
+  margin-top: 24px;
+  border-bottom: 0;
+}
+.wedding .subBox .tblH thead th {
+  padding: 0;
+  height: 80px;
+  border: 0;
+  background: #8a9aaa;
+  color: #fff;
+  border-left: 0;
+  font-weight: 500;
+  font-size: 2.4rem;
+  vertical-align: middle;
+}
+.wedding .subBox .tblH thead th:first-child {
+  border-radius: 8px 0 0;
+}
+.wedding .subBox .tblH thead th:last-child {
+  border-radius: 0 8px 0 0;
+}
+.wedding .subBox .tblH td {
+  padding: 0;
+  height: 84px;
+  border: 0;
+  border-bottom: 1px solid #eaeaea;
+  border-color: #ebedf2;
+  font-size: 2.4rem;
+  color: #373a3c;
+  vertical-align: middle;
+  text-align: center;
+}
+.wedding .subBox .tblH td:last-child {
+  font-weight: 700;
+}
+.wedding .subBox .tblH + .bultType01 {
+  margin-top: 48px;
+}
+.wedding .subBox .cardTit {
+  display: block;
+  padding-top: 48px;
+  font-size: 3.6rem;
+  font-weight: 500;
+  color: #373a3c;
+  text-align: center;
+}
+.wedding .subBox .creditCard {
+  overflow: hidden;
+  margin-top: 32px;
+  padding: 14px 140px 24px;
+  background: #f8fafc;
+  border-radius: 8px;
+}
+.wedding .subBox .creditCard > li {
+  float: left;
+  padding: 18px 0 17px;
+  width: 25%;
+  font-size: 1.3rem;
+  text-align: center;
+}
+.wedding .subBox .creditCard > li:nth-child(n + 5) {
+  margin-top: 24px;
+}
+.wedding .subBox .creditCard > li .text {
+  display: block;
+  margin-top: 6px;
+  font-size: 2rem;
+  color: #6b6e73;
+}
+.wedding .subBox + .subBox {
+  margin-top: 64px;
+}
+.wedding .couponList > li {
+  overflow: hidden;
+  position: relative;
+  margin-top: 32px;
+}
+.wedding .couponList > li .couponArea {
+  position: relative;
+  float: left;
+  padding-top: 47px;
+  width: 428px;
+  height: 240px;
+}
+.wedding .couponList > li .couponArea:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 94px;
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  background: #f7f7fd;
+}
+.wedding .couponList > li .couponArea .coupon {
+  position: relative;
+  z-index: 10;
+  margin-top: 0;
+}
+.wedding .couponList > li .tblList {
+  float: right;
+  margin-top: 27px;
+  padding: 45px 0 45px 40px;
+  width: 452px;
+  border-left: 1px dashed #eaeaea;
+  color: #373a3c;
+}
+.wedding .couponList > li .tblList > li ~ li {
+  margin-top: 12px;
+}
+.wedding .couponList > li .tblList .tit {
+  display: inline-block;
+  width: 112px;
+  color: #8b8f94;
+}
+.wedding .couponList > li ~ li {
+  margin-top: 48px;
+  padding-top: 48px;
+  border-top: 1px solid #eaeaea;
+}
+.wedding .coupon {
+  position: relative;
+  margin: 24px auto;
+  padding: 39px 0 0 22px;
+  width: 272px;
+  height: 145px;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/view/bg_wedd_coupon02.png) no-repeat;
+}
+.wedding .coupon.online {
+  background: url(/img_up/shop_pds/banobagi/design/images/main/view/bg_wedd_coupon02.png) no-repeat;
+}
+.wedding .coupon .name {
+  display: block;
+  margin-bottom: 4px;
+  font-weight: 500;
+}
+.wedding .coupon .money {
+  font-weight: 700;
+  color: #373a3c;
+}
+.wedding .coupon .money strong {
+  font-weight: 700;
+  font-size: 3.3rem;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  letter-spacing: -0.025em;
+}
+[lang='zh'] .wedding .coupon .money strong {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.wedding .bultType01 {
+  padding: 24px 40px;
+  border: 1px solid #eaeaea;
+  border-radius: 4px;
+}
+.wedding .bultType01 + .subBox {
+  margin-top: 88px;
+}
+.accordianList.faqList {
+  margin-top: 16px;
+  border-top-color: #373a3c;
+}
+.accordianList.faqList .ctrl {
+  padding-left: 47px;
+}
+.accordianList.faqList .ctrl:before {
+  content: 'Q';
+  position: absolute;
+  top: 18px;
+  left: 24px;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #4d6ee4;
+}
+[lang='zh'] .accordianList.faqList .ctrl:before {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+[lang='zh'] .accordianList.faqList .ctrl:before {
+  color: #fe324b;
+}
+.contactUs {
+  margin: 64px 0 0;
+  padding: 24px 0;
+  border-radius: 8px;
+  text-align: center;
+}
+.contactUs .txt {
+  margin-bottom: 12px;
+}
+.contactUs > a {
+  margin: 0 30px;
+  font-size: 1.5rem;
+  letter-spacing: 0;
+}
+.contactUs a[href^='tel:'] {
+  position: relative;
+  padding-left: 19px;
+  font-weight: 700;
+  color: #4d6ee4;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+[lang='zh'] .contactUs a[href^='tel:'] {
+  color: #fe324b;
+}
+[lang='zh'] .contactUs a[href^='tel:'] {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.contactUs a[href^='tel:']:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  margin-top: -7px;
+  width: 9px;
+  height: 12px;
+  border: 2px solid #373a3c;
+  border-radius: 2px;
+}
+.contactUs a[href^='tel:']:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 4px;
+  margin-top: 3px;
+  width: 5px;
+  height: 2px;
+  border-radius: 2px;
+  background: #373a3c;
+}
+.contactUs .txtLink.arrR {
+  padding-right: 16px;
+  font-weight: 500;
+}
+.contactUs .txtLink.arrR:before {
+  margin-top: -5px;
+  width: 12px;
+  height: 12px;
+  border: 0;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/common/arr_link.png) no-repeat;
+  -webkit-transform: rotate(0);
+  transform: rotate(0);
+}
+.contactUs .txtLink.arrR:after {
+  display: none;
+}
+.wedding.v210809 .couponList > li .couponArea {
+  padding-top: 41px;
+}
+.wedding.v210809 .coupon {
+  margin: 24px auto;
+  padding: 48px 0 0 0;
+  width: 300px;
+  height: 160px;
+  text-align: center;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/view/bg_wedd_coupon02_v210809.png) no-repeat;
+}
+.wedding.v210809 .coupon.online {
+  background: url(/img_up/shop_pds/banobagi/design/images/main/view/bg_wedd_coupon02_v210809.png) no-repeat;
+}
+.wedding.v210809 .coupon span {
+  display: block;
+  width: 242px;
+}
+.wedding.v210809 .coupon .name {
+  color: #4d6ee4;
+}
+.weddingInvitation .titDep3 {
+  margin-top: 32px;
+  font-size: 1.8rem;
+}
+.weddingInvitation .titDep3 + .formList {
+  margin-top: 0;
+}
+.weddingInvitation .frmSel.frmSmall label:before {
+  top: 4px;
+}
+.weddingInvitation .bultType01 li {
+  color: #8b8f94;
+}
+.weddingInvitation .bultType01 li .point {
+  color: #e6230a;
+}
+.weddingInvitation .bultType01 li strong {
+  color: #373a3c;
+  font-weight: 400;
+}
+.weddingInvitation .ui-datepicker {
+  width: 100%;
+}
+.weddingInvitation .formList.type02 .frmInp {
+  padding: 6px 0;
+}
+.weddingInvitation .formList.type02 .frmInp .inpA .txtLink {
+  margin: 13px 0 0 16px;
+}
+.weddingInvitation .formList.type02 .frmInp .inpA .btnSSG {
+  margin-top: 4px;
+}
+.weddingInvitation .formList.type02 .frmInp .inpA span {
+  font-size: 1.8rem;
+  line-height: 1.44444;
+  line-height: 48px;
+  color: #373a3c;
+  font-weight: 500;
+}
+.weddingInvitation .formList .frmInp ~ .frmInp {
+  border-top: 1px solid #eaeaea;
+}
+.weddingInvitation .formList .frmInp > label {
+  width: 139px;
+  line-height: 48px;
+}
+.weddingInvitation .formList .frmInp input:-moz-read-only {
+  border: none;
+  background: none;
+  font-size: 1.8rem;
+  color: #373a3c;
+  line-height: 23px;
+}
+.weddingInvitation .formList .frmInp input:read-only {
+  border: none;
+  background: none;
+  font-size: 1.8rem;
+  color: #373a3c;
+  line-height: 23px;
+}
+.weddingInvitation .formList .frmInp input:-moz-read-only.eng {
+  font-weight: 500;
+}
+.weddingInvitation .formList .frmInp input:read-only.eng {
+  font-weight: 500;
+}
+.weddingInvitation .formList .frmInp .inpA {
+  width: calc(100% - 139px);
+}
+.weddingInvitation .formList .frmInp .inpA .frmSel {
+  margin-top: 12px;
+}
+.weddingInvitation .formList .frmInp .inpA .frmSel + .frmSel {
+  margin-left: 24px;
+}
+.weddingInvitation .formList .frmInp .inpA .frmSel input {
+  width: auto;
+}
+.weddingInvitation .formList .frmInp .inpA.inpPhone input {
+  width: calc(100% - 167px);
+}
+.weddingInvitation .formList .frmInp .inpA.inpPhone .selectWrap {
+  margin-right: 4px;
+}
+.weddingInvitation .formList .frmInp .inpA .tabContentWrap {
+  margin-top: 16px;
+}
+.weddingInvitation .formList .frmInp .inpA .tabContentWrap ul {
+  margin-left: -139px;
+}
+.weddingInvitation .formList .frmInp .inpA .tabContentWrap ul .frmInp {
+  padding: 0;
+}
+.weddingInvitation
+  .formList
+  .frmInp
+  .inpA
+  .tabContentWrap
+  ul
+  .frmInp
+  ~ .frmInp {
+  margin-top: 16px;
+  border: 0;
+}
+.weddingInvitation .frmList {
+  margin-top: 22px;
+}
+.weddingInvitation .frmList > li ~ li {
+  margin-left: 50px;
+}
+.weddingInvitation .frmList .frmSel.frmSmall label:before {
+  top: 2px;
+}
+.weddingInvitation .inpFile {
+  margin-top: 14px;
+}
+.weddingInvitation .inpFile .icDel {
+  position: absolute;
+  top: 2px;
+  right: 0;
+}
+.weddingInvitation .inpFile .attachFile .icDel {
+  display: none;
+}
+.weddingInvitation .inpFile .attachFile:after {
+  background-position: -55px -20px;
+}
+.weddingInvitation .inpFile .attachFile.fileON {
+  padding-left: 45px;
+}
+.weddingInvitation .inpFile .attachFile.fileON .icDel {
+  display: block;
+}
+.weddingInvitation .inpFile .attachFile.fileON ~ input {
+  display: none;
+}
+.weddingInvitation .inpFile .attachFile.fileON ~ label {
+  display: none;
+}
+.weddingInvitation .inpFile .attachFile.fileON:after {
+  display: block;
+  left: 16px;
+  right: auto;
+  background-position: -464px 0;
+}
+.weddingInvitation .inpWrite input {
+  width: calc(100% - 168px);
+}
+.weddingInvitation .inpWrite input.url {
+  width: 100%;
+}
+.weddingInvitation .inpWrite input + button {
+  display: inline-block;
+  margin-left: 5px;
+  width: 160px;
+  vertical-align: top;
+}
+.weddingInvitation .agreeBox {
+  margin: 24px 0 16px;
+}
+.weddingInvitation .agreeBox .chkAgree {
+  font-size: 1.8rem;
+  line-height: 1.44444;
+  color: #373a3c;
+  font-weight: 500;
+}
+.weddingInvitation .agreeBox .boxGray {
+  margin-top: 10px;
+  height: 150px;
+  overflow-y: auto;
+}
+.promotionSurvey {
+  position: relative;
+  padding: 48px 48px 0;
+}
+.promotionSurvey > * {
+  font-size: 1.8rem;
+}
+.promotionMid + .promotionSurvey {
+  margin-top: -30px;
+}
+.promotionSurvey .txt {
+  margin-bottom: 13px;
+  letter-spacing: -0.03em;
+  line-height: 1.1;
+}
+.promotionSurvey .surveyList {
+  counter-reset: section;
+}
+.promotionSurvey .surveyList > li {
+  margin-top: 50px;
+}
+.promotionSurvey .surveyList > li ~ li {
+  padding-top: 40px;
+  border-top: 1px dashed #eaeaea;
+}
+.promotionSurvey .surveyList > li .tit {
+  position: relative;
+  display: block;
+  margin-bottom: 24px;
+  color: #373a3c;
+  letter-spacing: -0.03em;
+  font-weight: 400;
+  color: #1e2023;
+}
+.promotionSurvey .surveyList > li .tit .q {
+  font-size: 2.4rem;
+  line-height: 1;
+  color: #8b8f94;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 700;
+  margin-right: 12px;
+}
+[lang='zh'] .promotionSurvey .surveyList > li .tit .q {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.promotionSurvey .surveyList > li .tit .ness {
+  margin-left: -12px;
+  margin-right: 8px;
+  padding: 0;
+}
+.promotionSurvey .surveyList > li textarea {
+  width: 100%;
+  height: 116px;
+  margin: 24px 0 0;
+  padding: 16px;
+  color: #373a3c;
+  font-size: 1.5rem;
+  line-height: 1.53333;
+  border-radius: 4px;
+  background: #f5f7fa;
+}
+.promotionSurvey .questList {
+  margin: -12px 0 32px -12px;
+  font-size: 0;
+}
+.promotionSurvey .questList li {
+  position: relative;
+  display: inline-block;
+  margin-top: 12px;
+  padding-left: 12px;
+  width: 33.33%;
+  font-size: 1.8rem;
+}
+.promotionSurvey .questList li input {
+  position: absolute;
+  top: 10px;
+  left: 30px;
+  z-index: 1;
+}
+.promotionSurvey .questList li input:checked + label {
+  background: #f5f7fa;
+}
+.promotionSurvey .questList li input:checked + label:before {
+  border: 6px solid #5a5f64;
+}
+.promotionSurvey .questList li input[type='checkbox'] + label:before {
+  left: 26px;
+  border-radius: 0;
+  width: 13px;
+  height: 8px;
+  margin-top: -6px;
+  border-width: 0 0 2px 2px;
+  -webkit-transform: rotate(-40deg);
+  transform: rotate(-40deg);
+}
+.promotionSurvey .questList li input[type='checkbox']:checked + label {
+  background: #f5f7fa;
+}
+.promotionSurvey .questList li input[type='checkbox']:checked + label:before {
+  background: #f5f7fa;
+}
+.promotionSurvey .questList li label {
+  position: relative;
+  display: inline-block;
+  min-height: 52px;
+  padding: 15px 0 8px 52px;
+  width: 100%;
+  color: #373a3c;
+  border-radius: 52px;
+  line-height: 1.3;
+  background: #fff;
+  z-index: 2;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.promotionSurvey .questList li label:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 24px;
+  width: 20px;
+  height: 20px;
+  margin-top: -10px;
+  border: 1px solid #dcdfe3;
+  border-radius: 50%;
+  background: #fff;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.promotionTop {
+  position: relative;
+  width: 1000px;
+  margin: 56px auto 20px;
+  text-align: center;
+}
+.promotionTop .titPromotion {
+  display: block;
+  width: 90%;
+  color: #1e2023;
+  font-weight: 500;
+  font-size: 3.6rem;
+  text-align: center;
+  padding-left: 10%;
+}
+.promotionTop .subTxt {
+  display: block;
+  margin-top: 8px;
+  color: #6b6e73;
+  font-size: 1.8rem;
+}
+.promotionTop .promotionDate {
+  display: block;
+  margin-top: 5px;
+  color: #373a3c;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  letter-spacing: 0;
+  opacity: 0.8;
+}
+[lang='zh'] .promotionTop .promotionDate {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.promotionTop .icoArea {
+  position: absolute;
+  top: 12px;
+  right: 0;
+}
+.coverCont {
+  padding: 0 48px 48px 48px;
+  background: #f9ece8;
+}
+.coverCont .signCont {
+  text-align: right;
+}
+.fentyFaceCont {
+  padding: 0 48px 48px 48px;
+}
+.fentyFaceCont .prList {
+  padding-top: 40px;
+  margin-top: 48px;
+  border-top: 1px solid #dcdfe3;
+}
+.fentyFaceCont .prList ul li {
+  position: relative;
+  padding-left: 352px;
+  min-height: 182px;
+}
+.fentyFaceCont .prList ul li .img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 304px;
+  height: auto;
+}
+.fentyFaceCont .prList ul li .img img {
+  width: 100%;
+}
+.fentyFaceCont .prList ul li + li {
+  margin-top: 48px;
+}
+.fentyFaceCont .prList .textType {
+  padding-left: 0;
+}
+.evBanner .textType {
+  padding-left: 0;
+  margin-bottom: 20px;
+}
+.evBanner .textType.alignC {
+  padding-left: 48px;
+}
+@media screen and (min-width: 1663px) {
+  .prodModule .fixedWrap.fixed .fixTab .tabType06 {
+    padding: 0 80px;
+  }
+}

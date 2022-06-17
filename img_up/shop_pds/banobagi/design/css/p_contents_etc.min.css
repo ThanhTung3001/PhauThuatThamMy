@@ -1,0 +1,3750 @@
+.snsList .list .moreArea .snsMore,
+#filterWrap
+  .filterCont
+  .filterOption
+  .colorPicker
+  .frmSel
+  .colorWrap
+  input
+  + label,
+#filterWrap .filterCont .filterOption .filterSelectList > li .del,
+#filterWrap .filterCont .filterOption .filterSelectList > li .color,
+#filterWrap .btnArea button.btnRefresh,
+#filterWrap .close {
+  overflow: hidden;
+  text-indent: -9999px;
+}
+.snsList .list .moreArea .snsMore:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.scrollArea::-webkit-scrollbar,
+.memberWrap .idTotalWrap.hscroll::-webkit-scrollbar,
+#filterWrap .filterCont::-webkit-scrollbar,
+#filterWrap .filterCont .filterOption .cateScrollArea::-webkit-scrollbar {
+  overflow: hidden;
+  width: 3px;
+  margin-right: 6px;
+}
+.scrollArea::-webkit-scrollbar-thumb,
+.memberWrap .idTotalWrap.hscroll::-webkit-scrollbar-thumb,
+#filterWrap .filterCont::-webkit-scrollbar-thumb,
+#filterWrap .filterCont .filterOption .cateScrollArea::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #aaa;
+}
+.scrollArea::-webkit-scrollbar-track,
+.memberWrap .idTotalWrap.hscroll::-webkit-scrollbar-track,
+#filterWrap .filterCont::-webkit-scrollbar-track,
+#filterWrap .filterCont .filterOption .cateScrollArea::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+.snsList .list .moreArea .snsMore,
+#filterWrap
+  .filterCont
+  .filterOption
+  .colorPicker
+  .frmSel
+  .colorWrap
+  input
+  + label,
+#filterWrap .filterCont .filterOption .filterSelectList > li .del,
+#filterWrap .filterCont .filterOption .filterSelectList > li .color,
+#filterWrap .btnArea button.btnRefresh,
+#filterWrap .close {
+  overflow: hidden;
+  text-indent: -9999px;
+}
+.snsList .list .moreArea .snsMore:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.scrollArea::-webkit-scrollbar,
+.memberWrap .idTotalWrap.hscroll::-webkit-scrollbar,
+#filterWrap .filterCont::-webkit-scrollbar,
+#filterWrap .filterCont .filterOption .cateScrollArea::-webkit-scrollbar {
+  overflow: hidden;
+  width: 3px;
+  margin-right: 6px;
+}
+.scrollArea::-webkit-scrollbar-thumb,
+.memberWrap .idTotalWrap.hscroll::-webkit-scrollbar-thumb,
+#filterWrap .filterCont::-webkit-scrollbar-thumb,
+#filterWrap .filterCont .filterOption .cateScrollArea::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #aaa;
+}
+.scrollArea::-webkit-scrollbar-track,
+.memberWrap .idTotalWrap.hscroll::-webkit-scrollbar-track,
+#filterWrap .filterCont::-webkit-scrollbar-track,
+#filterWrap .filterCont .filterOption .cateScrollArea::-webkit-scrollbar-track {
+  border-radius: 10px;
+} 
+@font-face {
+  font-family: 'notokr';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Noto Sans Regular'), local('NotoSans-Regular'),
+    url('/img_up/shop_pds/banobagi/design/fonts//NotoSansKR-Regular.eot'),
+    url('/img_up/shop_pds/banobagi/design/fonts//NotoSansKR-Regular.eot?#iefix') format('embedded-opentype'),
+    url('/img_up/shop_pds/banobagi/design/fonts//NotoSansKR-Regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'notokr';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Noto Sans Medium'), local('NotoSans-Medium'),
+    url('/img_up/shop_pds/banobagi/design/fonts//NotoSansKR-Medium.eot'),
+    url('/img_up/shop_pds/banobagi/design/fonts//NotoSansKR-Medium.eot?#iefix') format('embedded-opentype'),
+    url('/img_up/shop_pds/banobagi/design/fonts//NotoSansKR-Medium.woff') format('woff');
+}
+@font-face {
+  font-family: 'notokr';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Noto Sans Bold'), local('NotoSans-Bold'),
+    url('/img_up/shop_pds/banobagi/design/fonts//NotoSansKR-Bold.eot'),
+    url('/img_up/shop_pds/banobagi/design/fonts//NotoSansKR-Bold.eot?#iefix') format('embedded-opentype'),
+    url('/img_up/shop_pds/banobagi/design/fonts//NotoSansKR-Bold.woff') format('woff');
+}
+@font-face {
+  font-family: 'Metro';
+  font-weight: 400;
+  src: local('Metropolis Regular'), local('Metropolis-Regular'),
+    url('/img_up/shop_pds/banobagi/design/fonts//Metropolis-Regular.eot'),
+    url('/img_up/shop_pds/banobagi/design/fonts//Metropolis-Regular.eot?#iefix') format('embedded-opentype'),
+    url('/img_up/shop_pds/banobagi/design/fonts//Metropolis-Regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'Metro';
+  font-weight: 500;
+  src: local('Metropolis Medium'), local('Metropolis-Medium'),
+    url('/img_up/shop_pds/banobagi/design/fonts//Metropolis-Medium.eot'),
+    url('/img_up/shop_pds/banobagi/design/fonts//Metropolis-Medium.eot?#iefix') format('embedded-opentype'),
+    url('/img_up/shop_pds/banobagi/design/fonts//Metropolis-Medium.woff') format('woff');
+}
+@font-face {
+  font-family: 'Metro';
+  font-weight: 700;
+  src: local('Metropolis Bold'), local('Metropolis-Bold'),
+    url('/img_up/shop_pds/banobagi/design/fonts//Metropolis-Bold.eot'),
+    url('/img_up/shop_pds/banobagi/design/fonts//Metropolis-Bold.eot?#iefix') format('embedded-opentype'),
+    url('/img_up/shop_pds/banobagi/design/fonts//Metropolis-Bold.woff') format('woff');
+}
+@font-face {
+  font-family: 'Nanum Gothic';
+  font-weight: 500;
+  src: local('Nanum Gothic'), local('ë‚˜ëˆ”ê³ ë”•'),
+    local('NanumGothic Regular'), url('/img_up/shop_pds/banobagi/design/fonts//NanumGothic-Regular.eot'),
+    url('/img_up/shop_pds/banobagi/design/fonts//NanumGothic-Regular.eot?#iefix') format('embedded-opentype'),
+    url('/img_up/shop_pds/banobagi/design/fonts//NanumGothic-Regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'Nanum Gothic';
+  font-weight: 700;
+  src: local('NanumGothic Bold'), url('/img_up/shop_pds/banobagi/design/fonts//NanumGothic-Bold.eot'),
+    url('/img_up/shop_pds/banobagi/design/fonts//NanumGothic-Bold.eot?#iefix') format('embedded-opentype'),
+    url('/img_up/shop_pds/banobagi/design/fonts//NanumGothic-Bold.woff') format('woff');
+}
+.searchResultTop .searchWord {
+  font-weight: 500;
+  font-size: 2.8rem;
+  color: #373a3c;
+  text-align: center;
+}
+.searchResultTop .searchWord > span {
+  display: block;
+}
+.searchResultTop .searchWord .word {
+  color: #4d6ee4;
+}
+[lang='zh'] .searchResultTop .searchWord .word {
+  color: #fe324b;
+}
+.searchResultTop .searchWord .suggest a {
+  font-size: 1.8rem;
+}
+.searchResultTop .searchWord .suggest a em {
+  position: relative;
+  color: #4d6ee4;
+}
+[lang='zh'] .searchResultTop .searchWord .suggest a em {
+  color: #fe324b;
+}
+.searchResultTop .searchWord .suggest a em:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 2px;
+  width: 100%;
+  height: 1px;
+  background-color: #4d6ee4;
+}
+[lang='zh'] .searchResultTop .searchWord .suggest a em:after {
+  background-color: #fe324b;
+}
+.searchResultTop .relatedSearch {
+  position: relative;
+  margin: 20px 0 32px;
+  padding: 15px 16px 15px 72px;
+  background: #f5f7fa;
+}
+.searchResultTop .relatedSearch .tit {
+  position: absolute;
+  top: 50%;
+  left: 16px;
+  margin-top: -13px;
+  width: 40px;
+  height: 27px;
+  background: #fff;
+  border: 1px solid #eaeaea;
+  border-radius: 4px;
+  font-size: 1.3rem;
+  line-height: 24px;
+  text-align: center;
+}
+.searchResultTop .relatedSearch ul li {
+  display: inline-block;
+  margin: 2px 20px 2px 0;
+}
+.searchResultTop .tabType01 {
+  margin-top: 48px;
+}
+.searchOffline {
+  margin-top: 32px;
+  padding: 292px 0 93px;
+  text-align: center;
+  border-radius: 12px;
+  background: #f8fafc url( /img_up/shop_pds/banobagi/design/images/main/common/bg_searchOffline.png) no-repeat 50%
+    80px;
+}
+.searchOffline strong {
+  font-size: 2.8rem;
+  color: #373a3c;
+}
+.searchOffline .subTxt {
+  display: block;
+  margin: 12px 0 32px;
+  font-size: 1.8rem;
+  color: #6b6e73;
+}
+.searchOffline .btn {
+  display: block;
+}
+.searchOffline .btn .btnSSG {
+  margin: 0 2px;
+  width: 160px;
+}
+.searchNoData {
+  position: relative;
+  padding: 170px 0 97px;
+  text-align: center;
+}
+.searchNoData:before {
+  content: '';
+  position: absolute;
+  top: 98px;
+  left: 50%;
+  margin-left: -28px;
+  width: 56px;
+  height: 56px;
+  background: url( /img_up/shop_pds/banobagi/design/images/main/common/img_no_data.png) no-repeat;
+}
+[lang='zh'] .searchNoData:before {
+  background: url( /img_up/shop_pds/banobagi/design/images/main/cmall/cp_nodata_search.png) no-repeat;
+}
+.searchNoData strong {
+  display: block;
+  font-size: 2rem;
+  color: #373a3c;
+}
+.searchNoData .txt {
+  display: block;
+  margin-top: 8px;
+}
+.searchNoData .btnL {
+  margin-top: 40px;
+  width: 284px;
+}
+.powerLink {
+  position: relative;
+  margin-bottom: 56px;
+  padding: 24px 36px;
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+}
+.powerLink .titDep4 {
+  font-weight: 700;
+}
+.powerLink .flagAd {
+  position: absolute;
+  top: 30px;
+  right: 36px;
+  width: 34px;
+  height: 20px;
+  border: 1px solid #eaeaea;
+  border-radius: 20px;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1.2rem;
+  text-align: center;
+  color: #6b6e73;
+}
+[lang='zh'] .powerLink .flagAd {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.powerLink .swiperWrap {
+  padding-bottom: 30px;
+}
+.powerLink .prodCont {
+  overflow: hidden;
+}
+.powerLink .prodCont figure {
+  min-height: 200px;
+}
+.powerLink .prodCont .priceArea .saleCont .saleWon {
+  display: block;
+  margin: 0;
+  font-size: 1.3rem;
+}
+.powerLink .prodCont .priceArea .originPrice {
+  display: inline-block;
+}
+.imgList > ul {
+  margin: -56px 0 0 -16px;
+  font-size: 0;
+}
+.imgList > ul:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.imgList > ul.col2 > li {
+  width: 50%;
+}
+[lang='zh'] .imgList > ul.col2 > li {
+  width: calc(50% - 1px);
+}
+.imgList > ul.col3 > li {
+  width: calc(100% / 3);
+}
+[lang='zh'] .imgList > ul.col3 > li {
+  width: calc(100% / 3 - 1px);
+}
+.imgList > ul.col4 > li {
+  width: 25%;
+}
+[lang='zh'] .imgList > ul.col4 > li {
+  width: calc(25% - 1px);
+}
+.imgList > ul > li {
+  display: inline-block;
+  margin-top: 56px;
+  padding-left: 16px;
+  font-size: 1.5rem;
+  color: #6b6e73;
+  vertical-align: top;
+}
+.imgList > ul > li a {
+  display: block;
+}
+.imgList > ul > li figure {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  border-radius: 8px;
+  text-align: center;
+}
+.imgList > ul > li figure img {
+  width: 100%;
+}
+.imgList > ul > li figure .adTag {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 34px;
+  height: 24px;
+  color: #fff;
+  font-size: 1.2rem;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  line-height: 24px;
+  border-radius: 8px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.4);
+}
+[lang='zh'] .imgList > ul > li figure .adTag {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.imgList > ul > li .cont {
+  position: relative;
+  width: 100%;
+  text-align: left;
+}
+.imgList > ul > li .cont > *,
+.imgList > ul > li .cont > a,
+.imgList > ul > li .cont > a > * {
+  display: block;
+}
+.imgList > ul > li .cont .icoArea {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.imgList > ul > li .cont time {
+  margin-top: 10px;
+  font-size: 1.3rem;
+  line-height: 1.38462;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #6b6e73;
+}
+[lang='zh'] .imgList > ul > li .cont time {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.imgList > ul > li .keywordList {
+  margin-top: 24px;
+}
+.imgList > ul > li .keywordList a {
+  padding: 0 16px;
+  font-size: 1.3rem;
+  line-height: 1.38462;
+  color: #778cea;
+  background: #f7f7fd;
+  height: 26px;
+  line-height: 26px;
+}
+.imgList > ul > li .brand {
+  margin: 16px 0 8px;
+}
+.imgList > ul > li .brand > a {
+  display: inline-block;
+}
+.imgList > ul > li .brand figure {
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  margin: 0 12px 0 0;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: #f7f7fd;
+  vertical-align: middle;
+}
+.imgList > ul > li .brand figure img {
+  position: absolute !important;
+  top: 50%;
+  left: 50%;
+  margin: -9px 0 0 -24px;
+  width: 48px;
+  height: 18px;
+}
+.imgList > ul > li .brand .txt {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 1.8rem;
+  color: #1e2023;
+  vertical-align: -2px;
+}
+.imgList > ul > li .brand .txt em {
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #6b6e73;
+  vertical-align: 2px;
+}
+.imgList > ul > li .brand .txt em:before {
+  content: '';
+  display: inline-block;
+  margin: 0 8px;
+  width: 1px;
+  height: 17px;
+  background: #eaeaea;
+  vertical-align: -4px;
+}
+.imgList > ul > li .brand + .tit {
+  margin-top: 8px;
+}
+.imgList > ul > li .tit {
+  display: block;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  max-height: 68px;
+  margin-top: 24px;
+  padding-right: 100px;
+  font-weight: 500;
+  font-size: 2.4rem;
+  line-height: 1.42;
+  color: #373a3c;
+}
+.imgList > ul > li .desc {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-top: 8px;
+}
+.imgList > ul > li .desc.line4 {
+  display: block;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  max-height: 88px;
+  white-space: inherit;
+}
+.imgList > ul > li .date {
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1.3rem;
+  line-height: 1.38462;
+}
+[lang='zh'] .imgList > ul > li .date {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.imgList > ul > li .date .flag {
+  margin-bottom: 4px;
+}
+.imgList > ul .swiper-slide {
+  height: 100%;
+}
+.imgList > ul.benefit .bannerType.typeBannerA {
+  overflow: visible;
+}
+.imgList > ul.benefit .bannerType.typeBannerA .eventInfo {
+  padding-left: 0;
+}
+.imgList > ul.benefit .tit {
+  margin-top: 16px;
+  font-weight: 700;
+  font-size: 1.8rem;
+  display: block;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  max-height: 50px;
+}
+.imgList > ul.benefit .desc {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin: 2px 0 12px;
+}
+.imgList > ul.library > li .tit {
+  font-size: 2.4rem;
+  color: #1e2023;
+}
+.imgList > ul.library > li .desc {
+  display: block;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  max-height: 88px;
+}
+.imgList > ul.library > li .category {
+  margin-top: 15px;
+  font-weight: 500;
+}
+.imgList > ul.library > li .category.travel {
+  color: #4d6ee4;
+}
+[lang='zh'] .imgList > ul.library > li .category.travel {
+  color: #fe324b;
+}
+.imgList > ul.library > li .category.brand {
+  color: #006d69;
+}
+.imgList > ul.library > li .category.newTopia {
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #ad00c4;
+}
+[lang='zh'] .imgList > ul.library > li .category.newTopia {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.imgList > ul.library > li .category.stay {
+  color: #ff448f;
+}
+.imgList > ul.library > li .category + .tag {
+  margin-top: 8px;
+}
+.imgList > ul.library > li .tag {
+  margin-top: 24px;
+}
+.imgList > ul.library > li .tag > em,
+.imgList > ul.library > li .tag > a {
+  display: inline-block;
+  margin: 0 4px 4px 0;
+  padding: 0 8px;
+  background: #f7f7fd;
+  border-radius: 999px;
+  color: #778cea;
+  font-size: 1.3rem;
+  line-height: 26px;
+}
+.imgList > ul.keyword {
+  text-align: center;
+}
+.imgList > ul.keyword > li > a {
+  display: block;
+  width: 100%;
+}
+.imgList > ul.keyword > li > a:hover figure:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  width: 100%;
+  height: 100%;
+  background: 5d74d9;
+  opacity: 0.5;
+}
+.imgList > ul.keyword > li figure {
+  overflow: hidden;
+  position: relative;
+  margin: 0;
+  border-radius: 8px;
+  background: #fff url( /img_up/shop_pds/banobagi/design/images/main/view/bg_prodLogo.png) no-repeat 50% 50%;
+}
+.imgList > ul.keyword > li figure:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(30, 32, 35, 0.2);
+}
+.imgList > ul.keyword > li figure img {
+  width: 100%;
+}
+.imgList > ul.keyword > li .keywordTxt {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  z-index: 10;
+  margin-top: -15px;
+  width: 100%;
+  padding: 0 20px;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 500;
+  display: block;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  max-height: 60;
+}
+[lang='zh'] .imgList > ul.keyword > li .keywordTxt {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.imgList > ul.keyword > li .tit {
+  margin-top: 16px;
+  font-size: 2rem;
+  padding: 0;
+}
+.imgList > ul.keyword > li .date {
+  margin-top: 12px;
+}
+.imgList > ul.keyword.beauty > li > a:hover figure:before {
+  background-image: linear-gradient(27deg, #f860b7 3%, #5d74d9 97%);
+}
+.imgList > ul.keyword.fashion > li > a:hover figure:before {
+  background-image: linear-gradient(198deg, #36a0cf 7%, #41d8be 96%);
+}
+.imgList > ul.keyword.col4 > li .keywordTxt {
+  font-size: 2.4rem;
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.imgList > ul.keyword.hotTheme {
+  text-align: center;
+}
+.imgList > ul.keyword.hotTheme .keywordArea {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  z-index: 10;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 100%;
+  font-size: 1.9rem;
+  color: #fff;
+}
+.imgList > ul.keyword.hotTheme .keywordArea .keywordTxt {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  position: static;
+  display: block;
+  margin: 0 10px;
+  font-weight: 500;
+  font-size: 3.6rem;
+}
+.imgList > ul.keyword.hotTheme .keywordArea .desc {
+  display: block;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  max-height: 38px;
+  display: block;
+  padding: 0 30px;
+  font-size: 1.3rem;
+}
+.imgList > ul.keyword.hotTheme .cont {
+  text-align: center;
+}
+.imgList > ul.keyword.hotTheme .tit {
+  margin-top: 18px;
+  font-size: 1.8rem;
+}
+.imgList > ul.keyword.hotTheme .theme {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  z-index: 10;
+  margin-left: -45%;
+  padding: 12px 12px 0;
+  width: 90%;
+  font-size: 1.2rem;
+}
+.imgList > ul.keyword.hotTheme .theme em {
+  display: block;
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.imgList > ul.magazine > li > figure {
+  position: relative;
+  height: auto !important;
+}
+.imgList > ul.magazine > li > figure .coming {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  text-align: center;
+}
+.imgList > ul.magazine > li > figure .coming > span {
+  display: inline-block;
+  margin-top: -18px;
+  padding: 0 24px;
+  height: 36px;
+  border-radius: 999px;
+  background: rgba(30, 32, 35, 0.7);
+  line-height: 36px;
+  text-align: center;
+  color: #fff;
+}
+.imgList > ul.magazine > li > figure .coming > span em {
+  display: inline-block;
+  margin-right: 4px;
+}
+.imgList > ul.magazine .cont .tit {
+  display: block;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  max-height: 68px;
+  padding: 0;
+  font-size: 2.4rem;
+  color: #1e2023;
+}
+.imgList > ul.brand > li .rankingNum {
+  left: 16px;
+}
+.imgList > ul.brand > li > a {
+  display: block;
+  width: 100%;
+}
+.imgList > ul.brand > li > a > figure {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  border-radius: 8px;
+  text-align: center;
+  padding-top: 100%;
+  background: #fff url( /img_up/shop_pds/banobagi/design/images/main/view/bg_prodLogo.png) no-repeat 50% 50%;
+}
+.imgList > ul.brand > li > a > figure:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 11;
+}
+.imgList > ul.brand > li > a > figure img {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.imgList > ul.brand > li > a > figure .imgLogo {
+  position: absolute;
+  z-index: 2;
+  left: 50%;
+  top: 50%;
+  display: block;
+  margin: -30px 0 0 -80px;
+  -webkit-transition: margin-top 0.3s;
+  transition: margin-top 0.3s;
+  width: 160px;
+  height: 60px;
+  z-index: 20;
+}
+.imgList > ul.brand > li > a > figure .imgLogo img {
+  width: 100%;
+}
+.imgList > ul.brand > li > a > figure .chkFavo {
+  position: absolute;
+  z-index: 10;
+  left: 50%;
+  top: 55%;
+  margin-left: -12px;
+  margin-top: 20px;
+  opacity: 0;
+  -webkit-transition: margin-top 0.3s, opacity 0.3s;
+  transition: margin-top 0.3s, opacity 0.3s;
+}
+.imgList > ul.brand > li > a:hover figure .imgLogo {
+  margin-top: -46px;
+}
+.imgList > ul.brand > li > a:hover figure:before {
+  background: rgba(30, 32, 35, 0.7);
+}
+.imgList > ul.brand > li > a:hover figure .chkFavo {
+  margin-top: 0;
+  opacity: 1;
+  z-index: 22;
+}
+.imgList > ul.brand .name {
+  margin-top: 16px;
+  font-size: 1.5rem;
+  color: #1e2023;
+}
+.imgList > ul.brand .name .eng {
+  display: block;
+  margin-top: 4px;
+  font-weight: 400;
+  color: #6b6e73;
+}
+.swiperWrap .imgList {
+  padding-bottom: 16px;
+}
+.swiperWrap .imgList > ul {
+  margin: 0;
+}
+.swiperWrap .imgList > ul li {
+  margin: 0;
+  padding-left: 0;
+}
+.swiperWrap .imgList > ul li > a {
+  width: 100%;
+}
+.txtList {
+  border-top: 1px solid #373a3c;
+}
+.txtList > li {
+  padding: 24px 16px;
+  border-bottom: 1px solid #eaeaea;
+}
+.txtList > li > span {
+  display: block;
+  color: #6b6e73;
+}
+.txtList > li:hover {
+  background: #f7f7fd;
+}
+.txtList > li mark {
+  background: none;
+  color: #4d6ee4;
+  font-weight: 500;
+}
+[lang='zh'] .txtList > li mark {
+  color: #fe324b;
+}
+.txtList .tit {
+  display: block;
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 500;
+  font-size: 2rem;
+  color: #373a3c;
+}
+.txtList .desc {
+  margin-top: 8px;
+  display: block;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  max-height: 44px;
+}
+.txtList .depth {
+  margin-top: 15px;
+  font-size: 1.3rem;
+  text-decoration: underline;
+}
+.txtList .depth span {
+  display: inline-block;
+  border-bottom: 1px solid #8b8f94;
+}
+.txtList .depth span em ~ em:before {
+  content: '>';
+  display: inline-block;
+  margin: 0 5px;
+}
+.searchReviewType02 {
+  display: table;
+  width: 100%;
+  border-top: 1px solid #373a3c;
+}
+.searchReviewType02 > li {
+  position: relative;
+  padding-right: 36.1%;
+  border-bottom: 1px solid #eaeaea;
+}
+.searchReviewType02 > li .reviewCont {
+  display: table;
+  width: 100%;
+  min-height: 120px;
+  margin: 32px 0;
+  padding: 0 28px 0 0;
+}
+.searchReviewType02 > li .reviewCont.lineReview .reviewS {
+  border: none;
+}
+.searchReviewType02 > li .reviewCont a {
+  display: table-cell;
+  width: 100%;
+}
+.searchReviewType02 > li .reviewCont .reviewS {
+  padding-right: 45px;
+  vertical-align: top;
+  border-right: 1px solid #eaeaea;
+}
+.searchReviewType02 > li .reviewCont .grade {
+  display: inline-block;
+  text-align: left;
+}
+.searchReviewType02 > li .reviewCont .grade * {
+  vertical-align: top;
+}
+.searchReviewType02 > li .reviewCont .grade:before {
+  display: none;
+}
+.searchReviewType02 > li .reviewCont .grade p {
+  display: inline-block;
+  margin-left: 5px;
+  line-height: 20px;
+  color: #373a3c;
+  font-weight: 700;
+}
+.searchReviewType02 > li .reviewCont .writeInfo {
+  display: inline-block;
+  margin-left: 20px;
+}
+.searchReviewType02 > li .reviewCont .writeInfo li {
+  display: inline-block;
+  position: relative;
+  padding: 0 10px 0 11px;
+  color: #6b6e73;
+  font-size: 1.3rem;
+  line-height: 1;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+[lang='zh'] .searchReviewType02 > li .reviewCont .writeInfo li {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.searchReviewType02 > li .reviewCont .writeInfo li:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 1px;
+  height: 12px;
+  margin-top: -6px;
+  background: #eaeaea;
+}
+.searchReviewType02 > li .reviewCont .writeInfo li:first-child:before {
+  display: none;
+}
+.searchReviewType02 > li .reviewCont .txt {
+  display: block;
+  margin-top: 10px;
+  color: #6b6e73;
+  word-break: break-all;
+}
+.searchReviewType02 > li .reviewCont .reviewFlag {
+  margin-top: 13px;
+}
+.searchReviewType02 > li .reviewCont .reviewImg {
+  overflow: hidden;
+  display: block;
+  position: relative;
+  width: 120px;
+  height: 120px;
+  border-radius: 8px;
+}
+.searchReviewType02 > li .reviewCont .reviewImg > img {
+  position: absolute;
+  top: -100%;
+  left: -100%;
+  right: -100%;
+  bottom: -100%;
+  width: 150%;
+  height: auto;
+  margin: auto;
+}
+.searchReviewType02 > li .reviewCont .reviewImg .num {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  height: 18px;
+  padding: 0 8px;
+  color: #fff;
+  font-size: 1.3rem;
+  line-height: 21px;
+  border-radius: 18px;
+  background: rgba(0, 0, 0, 0.3);
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+[lang='zh'] .searchReviewType02 > li .reviewCont .reviewImg .num {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.searchReviewType02 > li .reviewProdS {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: inline-block;
+  width: 36.1%;
+  height: 120px;
+  vertical-align: top;
+}
+.searchReviewType02 > li .reviewProdS a {
+  overflow: hidden;
+  position: relative;
+  display: block;
+  padding-left: 127px;
+  background: rgba(12, 38, 159, 0.03);
+  border-radius: 8px;
+}
+.searchReviewType02 > li .reviewProdS a figure {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 120px;
+  height: 120px;
+  display: inline-block;
+  vertical-align: top;
+  background: #fff url( /img_up/shop_pds/banobagi/design/images/main/view/bg_prodLogo.png) no-repeat 50% 50%/72%
+    auto;
+}
+.searchReviewType02 > li .reviewProdS a figure:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(12, 38, 159, 0.03);
+}
+.searchReviewType02 > li .reviewProdS a figure img {
+  width: 100%;
+}
+.searchReviewType02 > li .reviewProdS a .prodInfo {
+  display: block;
+  width: 290px;
+  height: 120px;
+}
+.searchReviewType02 > li .reviewProdS a .prodInfo .inner {
+  position: relative;
+  display: block;
+  top: 50%;
+  padding-right: 27px;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.searchReviewType02 > li .reviewProdS a .prodInfo .brandName {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding-right: 0;
+}
+.searchReviewType02 > li .reviewProdS a .prodInfo .prodName {
+  display: block;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  max-height: auto;
+}
+.searchReview {
+  margin-left: -16px;
+  font-size: 0;
+  line-height: 0;
+}
+.searchReview > li {
+  display: inline-block;
+  padding-left: 16px;
+  width: 25%;
+  font-size: 1.5rem;
+  line-height: 1.53333;
+}
+.searchReview > li:nth-child(n + 5) {
+  margin-top: 56px;
+}
+.searchReview > li .prodInfo {
+  margin-top: 16px;
+  color: #6b6e73;
+}
+.searchReview > li .prodInfo > * {
+  font-size: 1.5rem !important;
+}
+.searchReview > li .prodInfo .bandName {
+  margin-top: 4px;
+}
+.searchReview > li .prodInfo .bandName .eng {
+  font-family: Noto Sans KR, 'notokr', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+[lang='zh'] .searchReview > li .prodInfo .bandName .eng {
+  font-family: Microsoft Yahei, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.searchReview > li .prodInfo .reviewStar {
+  display: block;
+  margin-top: 8px;
+}
+.searchReview > li .prodInfo .reviewStar .mdstar {
+  vertical-align: -4px;
+}
+.searchReview > li .review {
+  overflow: hidden;
+  margin-top: 16px;
+  padding-top: 12px;
+  border-top: 1px solid #dcdfe3;
+  color: #6b6e73;
+}
+.searchReview > li .review > a {
+  display: block;
+}
+.searchReview > li .review .textArea {
+  display: table;
+  width: 100%;
+}
+.searchReview > li .review .textArea > .inner {
+  display: table;
+  width: 100%;
+}
+.searchReview > li .review .textArea > .inner > * {
+  display: table-cell;
+  vertical-align: bottom;
+}
+.searchReview > li .review .textArea > .inner .img {
+  padding-left: 8px;
+}
+.searchReview > li .review .textArea .writer {
+  display: inline-block;
+  margin-left: 8px;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1.3rem;
+  color: #8b8f94;
+}
+[lang='zh'] .searchReview > li .review .textArea .writer {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.searchReview > li .review .textArea .starIco {
+  background-image: url( /img_up/shop_pds/banobagi/design/images/main/common/spr_gr_starXS.png);
+}
+.searchReview > li .review .textArea .txt {
+  display: block;
+  margin-top: 5px;
+  display: block;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  max-height: 40px;
+  font-size: 1.3rem;
+}
+.searchReview > li .review .textArea figure {
+  overflow: hidden;
+  padding: 0;
+  width: 60px;
+  min-height: 60px;
+  border-radius: 8px;
+}
+.searchReview > li .review .authorInfo {
+  display: block;
+  margin-top: 5px;
+}
+.searchReview > li .review .authorInfo span {
+  color: #6b6e73;
+}
+.searchReview > li .review .authorInfo span:after {
+  top: 50%;
+  margin-top: -5px;
+}
+.layCont.counSelect {
+  overflow: hidden;
+}
+.layCont.counSelect .noData {
+  padding: 128px 0 0;
+}
+.layCont.counSelect .noData:before {
+  top: 64px;
+}
+.radBox.radBoxCountry {
+  width: 100%;
+}
+.radBox.radBoxCountry .frmSel input:checked + label {
+  color: #373a3c;
+  border-color: #f8fafc;
+  background: #f8fafc;
+}
+.radBox.radBoxCountry .frmSel label {
+  font-size: 1.5rem;
+  height: 48px;
+  color: #5a5f64;
+  line-height: 46px;
+}
+.layCont .frmSearch.countrySearch {
+  width: 100%;
+  margin: 24px 0 0 0;
+}
+.scrollArea {
+  overflow: auto;
+  max-height: 360px;
+  min-height: 320px;
+  margin: 33px -24px -24px;
+}
+.scrollArea .noData {
+  margin: 0 24px;
+}
+.scrollArea .noData .txtNoResult + .btnSSG {
+  margin-top: 24px;
+  width: 160px;
+}
+.countryList {
+  border-bottom: 1px solid #eaeaea;
+}
+.countryList .frmSel {
+  display: block;
+  border-top: 1px solid #eaeaea;
+}
+.countryList .frmSel input {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 1;
+}
+.countryList .frmSel input:checked + label {
+  color: #373a3c;
+  font-weight: 700;
+  background: #f5f7fa;
+}
+.countryList .frmSel input:checked + label:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 30px;
+  width: 12px;
+  height: 12px;
+  margin-top: -6px;
+  background: url( /img_up/shop_pds/banobagi/design/images/main/common/spr_form.png) no-repeat -37px 0;
+}
+.countryList .frmSel label {
+  position: relative;
+  height: 56px;
+  padding: 0 24px;
+  color: #6b6e73;
+  line-height: 56px;
+  background: #fff;
+  z-index: 2;
+}
+.countryList .frmSel label:before {
+  display: none;
+}
+.memberWrap .btnArea .btnSSG {
+  width: auto;
+  margin: 0;
+}
+.memberWrap > .txtPage {
+  margin-bottom: 8px;
+  padding: 2px 0;
+  font-weight: 500;
+  font-size: 2.4rem;
+}
+.memberWrap > .txtPage + .resultTxt {
+  margin: 2px 0 21px;
+  font-weight: 400;
+  font-size: 1.8rem;
+  text-align: center;
+}
+.memberWrap > .txtPage + .resultTxt > .userID {
+  color: #4d6ee4;
+  font-weight: 700;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+[lang='zh'] .memberWrap > .txtPage + .resultTxt > .userID {
+  color: #fe324b;
+}
+[lang='zh'] .memberWrap > .txtPage + .resultTxt > .userID {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.memberWrap > .txtPage + .resultTxt + .btnArea {
+  margin-top: 0;
+}
+.memberWrap .listWBox.memberJoin {
+  margin-top: 8px;
+  text-align: center;
+}
+.memberWrap .listWBox.memberJoin:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.memberWrap .listWBox.memberJoin a.wBox {
+  position: relative;
+  display: block;
+  float: left;
+  width: 191px;
+  height: 172px;
+  margin-top: 0;
+  padding: 96px 0 0;
+  color: #373a3c;
+  font-weight: 700;
+  font-size: 1.8rem;
+  text-align: center;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: 1px solid #eaeaea;
+}
+.memberWrap .listWBox.memberJoin a.wBox:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 48px;
+  left: 50%;
+  width: 36px;
+  height: 36px;
+  margin-left: -18px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.memberWrap .listWBox.memberJoin a.wBox.phoneJoin:after {
+  background-image: url( /img_up/shop_pds/banobagi/design/images/main/common/ico_join_phone.png);
+}
+.memberWrap .listWBox.memberJoin a.wBox.emailJoin:after {
+  background-image: url( /img_up/shop_pds/banobagi/design/images/main/common/ico_join_email.png);
+}
+.memberWrap .listWBox.memberJoin a.wBox + .wBox {
+  float: right;
+}
+.memberWrap .listWBox.memberJoin a.wBox:hover,
+.memberWrap .listWBox.memberJoin a.wBox:focus {
+  -webkit-box-shadow: 0 5px 20px 0 rgba(142, 158, 217, 0.2);
+  box-shadow: 0 5px 20px 0 rgba(142, 158, 217, 0.2);
+}
+.memberWrap .boxGray.age14 {
+  margin-top: 22px;
+  padding: 12px 24px 17px;
+  background: #f8fafc;
+  text-align: center;
+}
+.memberWrap .boxGray.age14 .bultType01 {
+  display: inline-block;
+}
+.memberWrap .boxGray.age14 .bultType01 li {
+  color: #5a5f64;
+}
+.memberWrap .formList + .btnArea {
+  margin-top: 40px;
+}
+.memberWrap .formList + .btnArea .btnL {
+  height: 56px;
+  font-size: 1.8rem;
+}
+.memberWrap .frmInp .inpA.inpPhone .selectWrap,
+.memberWrap .frmInp .btnSelect {
+  margin-right: 5px;
+}
+.memberWrap .frmInp .inpA.inpPhone .selectWrap + input[type='text'],
+.memberWrap .frmInp .btnSelect + input[type='text'] {
+  width: calc(100% - 168px);
+}
+.memberWrap .frmInp input[type='text'],
+.memberWrap .frmInp input[type='password'] {
+  display: inline-block;
+  min-width: 100px;
+  height: 48px;
+  padding: 0 15px;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 47px;
+  border: 1px solid #f8fafc;
+  border-radius: 4px;
+  background: #f8fafc;
+}
+.memberWrap .frmInp input[type='text']::-ms-clear,
+.memberWrap .frmInp input[type='text']::-ms-reveal,
+.memberWrap .frmInp input[type='password']::-ms-clear,
+.memberWrap .frmInp input[type='password']::-ms-reveal {
+  display: none;
+}
+.memberWrap .frmInp.labelTop input[type='text'][disabled],
+.memberWrap .frmInp.labelTop input[type='password'][disabled] {
+  color: #8b8f94;
+}
+.memberWrap .frmInp.labelTop input[type='text'][disabled] ~ .inpA_Btm,
+.memberWrap .frmInp.labelTop input[type='text'][disabled] ~ .compTxt:after,
+.memberWrap .frmInp.labelTop input[type='password'][disabled] ~ .inpA_Btm,
+.memberWrap .frmInp.labelTop input[type='password'][disabled] ~ .compTxt:after {
+  display: none;
+}
+.memberWrap .frmInp.labelTop input[type='text'].focused,
+.memberWrap .frmInp.labelTop input[type='password'].focused {
+  background: #fff;
+}
+.memberWrap .frmInp.labelTop input[type='text'].focused,
+.memberWrap .frmInp.labelTop input[type='text'].valid,
+.memberWrap .frmInp.labelTop input[type='text'][disabled],
+.memberWrap .frmInp.labelTop input[type='password'].focused,
+.memberWrap .frmInp.labelTop input[type='password'].valid,
+.memberWrap .frmInp.labelTop input[type='password'][disabled] {
+  margin-top: 21px;
+}
+.memberWrap .frmInp.labelTop input[type='text'].focused + label,
+.memberWrap .frmInp.labelTop input[type='text'].valid + label,
+.memberWrap .frmInp.labelTop input[type='text'][disabled] + label,
+.memberWrap .frmInp.labelTop input[type='password'].focused + label,
+.memberWrap .frmInp.labelTop input[type='password'].valid + label,
+.memberWrap .frmInp.labelTop input[type='password'][disabled] + label {
+  padding-left: 0;
+  color: #5a5f64;
+  font-size: 1.3rem;
+  top: 15px !important;
+  line-height: 22px !important;
+}
+.memberWrap .frmInp.labelTop input[type='text'].focused + label span,
+.memberWrap .frmInp.labelTop input[type='text'].valid + label span,
+.memberWrap .frmInp.labelTop input[type='text'][disabled] + label span,
+.memberWrap .frmInp.labelTop input[type='password'].focused + label span,
+.memberWrap .frmInp.labelTop input[type='password'].valid + label span,
+.memberWrap .frmInp.labelTop input[type='password'][disabled] + label span {
+  display: none;
+}
+.memberWrap .frmInp.labelTop input[type='text'].focused + label > em,
+.memberWrap .frmInp.labelTop input[type='text'].valid + label > em,
+.memberWrap .frmInp.labelTop input[type='text'][disabled] + label > em,
+.memberWrap .frmInp.labelTop input[type='password'].focused + label > em,
+.memberWrap .frmInp.labelTop input[type='password'].valid + label > em,
+.memberWrap .frmInp.labelTop input[type='password'][disabled] + label > em {
+  visibility: visible;
+}
+.memberWrap .frmInp.labelTop input[type='text'].focused ~ .inpA_Btm,
+.memberWrap .frmInp.labelTop input[type='text'].valid ~ .inpA_Btm,
+.memberWrap .frmInp.labelTop input[type='text'][disabled] ~ .inpA_Btm,
+.memberWrap .frmInp.labelTop input[type='password'].focused ~ .inpA_Btm,
+.memberWrap .frmInp.labelTop input[type='password'].valid ~ .inpA_Btm,
+.memberWrap .frmInp.labelTop input[type='password'][disabled] ~ .inpA_Btm {
+  top: 51px;
+}
+.memberWrap .frmInp.labelTop input[type='text'].focused ~ .btIco,
+.memberWrap .frmInp.labelTop input[type='text'].valid ~ .btIco,
+.memberWrap .frmInp.labelTop input[type='text'][disabled] ~ .btIco,
+.memberWrap .frmInp.labelTop input[type='password'].focused ~ .btIco,
+.memberWrap .frmInp.labelTop input[type='password'].valid ~ .btIco,
+.memberWrap .frmInp.labelTop input[type='password'][disabled] ~ .btIco {
+  top: 41px;
+}
+.memberWrap .frmInp.labelTop input[type='text'] + label,
+.memberWrap .frmInp.labelTop input[type='password'] + label {
+  padding-left: 16px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 1.5rem;
+}
+.memberWrap .frmInp.labelTop input[type='text'] + label > em,
+.memberWrap .frmInp.labelTop input[type='password'] + label > em {
+  visibility: hidden;
+}
+.memberWrap .frmInp.labelTop .inpA_Btm {
+  position: absolute;
+  top: 31px;
+  right: 0;
+  text-align: right;
+  z-index: 3;
+}
+.memberWrap .frmInp.labelTop .inpA_Btm .certificationTime {
+  display: inline-block;
+  margin-right: 12px;
+  color: #4d6ee4;
+  font-size: 1.3rem;
+}
+.memberWrap .frmInp.labelTop .inpA_Btm .side {
+  position: absolute;
+  top: 37px;
+  right: 0;
+}
+.memberWrap .frmInp.labelTop .inpA_Btm .side .txtLink {
+  white-space: nowrap;
+}
+.memberWrap .frmInp.labelTop .inpError input {
+  border-color: #ce0700;
+  background: #fff;
+}
+.memberWrap .frmInp.labelTop .btIco {
+  background-color: transparent;
+}
+.memberWrap .frmInp.labelTop .btIco {
+  top: 31px;
+}
+.memberWrap .frmInp.labelTop.stePW .inpComp input {
+  border: 1px solid;
+  border-color: #4d6ee4;
+  background: #fff;
+}
+[lang='zh'] .memberWrap .frmInp.labelTop.stePW .inpComp input {
+  border-color: #fe324b;
+}
+.memberWrap .frmInp.labelTop.stePW .inpComp .compTxt:after {
+  display: none;
+}
+.memberWrap
+  .phoneForm
+  > .frmInp
+  .inpA.inpPhone
+  select[disabled]
+  + .ui-selectmenu-button
+  span {
+  color: #8b8f94;
+  font-weight: 500;
+}
+.memberWrap .phoneForm > .frmInp .inpA.inpPhone .tEng[disabled] {
+  color: #8b8f94;
+}
+.memberWrap .phoneForm .btnArea {
+  margin-top: 32px;
+}
+.memberWrap .certNum {
+  width: 100%;
+  padding-bottom: 32px;
+}
+.memberWrap .certNum .btnArea {
+  margin-top: 55px;
+}
+.memberWrap .certNum .inpError {
+  margin-bottom: -25px;
+}
+.memberWrap .certNum + .loginForm {
+  margin-top: 15px;
+}
+.memberWrap .certNum .inpComp .inpA_Btm {
+  display: none;
+  z-index: 2;
+}
+.memberWrap .certNum .inpComp .compTxt:after {
+  display: none;
+}
+.memberWrap .certNum .errorTxt,
+.memberWrap .certNum .compTxt,
+.memberWrap .certNum .compMsg {
+  padding-right: 55px;
+  z-index: 1;
+}
+.memberWrap .txtPage + .loginForm .frmInp:first-of-type {
+  margin-top: 8px;
+}
+.memberWrap .loginForm .frmSel.labelBold.agreeType {
+  display: block;
+  padding: 12px 0 2px;
+  margin-bottom: 6px;
+}
+.memberWrap .loginForm .frmSel.labelBold.agreeType input[type='checkbox'] {
+  top: 17px;
+}
+.memberWrap .loginForm .frmSel.labelBold.agreeType label {
+  font-size: 1.8rem;
+}
+.memberWrap .loginForm .privacyValidity {
+  margin-top: 22px;
+}
+.memberWrap .loginForm .privacyValidity .titDep4 {
+  display: inline-block;
+  margin-bottom: 0;
+  font-size: 1.8rem;
+  line-height: 48px;
+}
+.memberWrap .loginForm .privacyValidity .tipArea {
+  width: 24px;
+  height: 24px;
+  margin-left: 6px;
+}
+.memberWrap .loginForm .privacyValidity .tipArea .btTip {
+  width: 24px;
+  height: 24px;
+}
+.memberWrap .loginForm .privacyValidity .tipCont {
+  width: 270px;
+  top: 34px;
+  left: -10px;
+  color: #8b8f94;
+  font-size: 1.3rem;
+  line-height: 1.62;
+}
+.memberWrap .loginForm .privacyValidity .selectWrap {
+  float: right;
+}
+.memberWrap
+  .loginForm
+  .privacyValidity
+  .selectWrap
+  .ui-selectmenu-menu.ui-selectmenu-open {
+  border-top: 1px solid;
+  border-color: #4d6ee4;
+}
+[lang='zh']
+  .memberWrap
+  .loginForm
+  .privacyValidity
+  .selectWrap
+  .ui-selectmenu-menu.ui-selectmenu-open {
+  border-color: #fe324b;
+}
+.memberWrap .loginForm .privacyValidity .selectWrap .ui-selectmenu-button {
+  padding-right: 30px;
+  line-height: 32px;
+  border: 0;
+  z-index: 0;
+  background: #fff;
+}
+.memberWrap .loginForm .agreeBtn {
+  position: relative;
+  padding-top: 105px;
+  margin-bottom: 52px;
+}
+.memberWrap .loginForm .agreeBtn .btnL {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  margin-top: 32px;
+}
+.memberWrap .loginForm .agreeBtn .agreeTxt {
+  padding: 23px 22px 21px;
+  color: #6b6e73;
+  border-radius: 8px;
+}
+.memberWrap .loginForm .agreeBtn .agreeTxt b {
+  color: #373a3c;
+}
+.memberWrap .loginForm .agreeBtn .agreeTxt a {
+  padding: 0 1px 5px;
+  font-size: inherit;
+  display: inline;
+  word-break: break-all;
+  text-decoration: underline;
+}
+.memberWrap .loginForm .agreeBtn .agreeTxt a:after {
+  display: none;
+}
+.memberWrap .loginForm .btnArea {
+  margin-top: 32px;
+}
+.memberWrap .txtPage.txtSNS:before {
+  content: '';
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  margin: -1px 12px 0 0;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 36px;
+  vertical-align: middle;
+}
+.memberWrap .txtPage.txtSNS.kakao:before {
+  background-image: url( /img_up/shop_pds/banobagi/design/images/main/common/img_sns_kakaotalk.png);
+}
+.memberWrap .txtPage.txtSNS.naver:before {
+  background-image: url( /img_up/shop_pds/banobagi/design/images/main/common/img_sns_naver.png);
+}
+.memberWrap .txtPage.txtSNS.google:before {
+  background-image: url( /img_up/shop_pds/banobagi/design/images/main/common/img_sns_google.png);
+}
+.memberWrap .txtPage.txtSNS.apple:before {
+  background-image: url( /img_up/shop_pds/banobagi/design/images/main/common/img_sns_apple.png);
+}
+.memberWrap .txtPage.txtSNS.facebook:before {
+  background-image: url( /img_up/shop_pds/banobagi/design/images/main/common/img_sns_facebook.png);
+}
+.memberWrap .txtPage.txtSNS.toss:before {
+  background-image: url( /img_up/shop_pds/banobagi/design/images/main/common/img_sns_toss.png);
+}
+.memberWrap .txtPage.txtSNS.wechat:before {
+  background-image: url( /img_up/shop_pds/banobagi/design/images/main/common/img_sns_wechat.png);
+}
+.memberWrap .txtPage.txtSNS.weibo:before {
+  background-image: url( /img_up/shop_pds/banobagi/design/images/main/common/img_sns_weibo.png);
+}
+.memberWrap .txtPage.txtSNS.alipay:before {
+  background-image: url( /img_up/shop_pds/banobagi/design/images/main/common/img_sns_alipay.png);
+}
+.memberWrap .txtPage.txtSNS.qq:before {
+  background-image: url( /img_up/shop_pds/banobagi/design/images/main/common/img_sns_qq.png);
+}
+.memberWrap .accountInfo .boxGray {
+  margin-bottom: 32px;
+  padding: 18px 24px 17px;
+}
+.memberWrap .accountInfo .boxGray .tit {
+  display: block;
+  margin-bottom: 10px;
+  color: #1e2023;
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 1.44444;
+}
+.memberWrap .accountInfo .boxGray .txt {
+  display: block;
+  color: #5a5f64;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.53333;
+  line-height: 1.53;
+}
+.memberWrap .accountInfo .btnArea {
+  margin-top: 24px;
+}
+.memberWrap .accountInfo .btnArea > .btnSSG {
+  width: 194px;
+  min-width: 194px;
+  margin: 0;
+  vertical-align: top;
+}
+.memberWrap .accountInfo .btnArea > .btnSSG + .btnSSG {
+  margin-left: 5px;
+}
+.memberWrap .frmList {
+  margin: 16px 0 0 -6px;
+}
+.memberWrap .frmList .frmSel.frmChkS input[type='checkbox']:checked + label {
+  color: #4d6ee4;
+}
+[lang='zh']
+  .memberWrap
+  .frmList
+  .frmSel.frmChkS
+  input[type='checkbox']:checked
+  + label {
+  color: #fe324b;
+}
+.memberWrap .frmList .frmSel.frmChkS input[type='checkbox'] + label {
+  color: #6b6e73;
+}
+.memberWrap .frmList .frmSel.frmChkS label {
+  font-size: 1.3rem;
+}
+.memberWrap .frmList + .btnArea {
+  margin-top: 29px;
+}
+.memberWrap .frmList + .btnArea + .anotherLogin ~ .loginBtns {
+  margin-bottom: 18px;
+}
+.memberWrap .frmList + .btnArea + .anotherLogin ~ .loginBtns > .txtLink {
+  color: #6b6e73;
+}
+.memberWrap .tabContentWrap {
+  margin-top: 16px;
+}
+.memberWrap .tabContentWrap.tabON#loginTab01 ~ .frmList .chkID {
+  display: inline-block;
+}
+.memberWrap .tabContentWrap.tabON#loginTab01 ~ .frmList .chkPhone {
+  display: none;
+}
+.memberWrap .tabContentWrap.tabON#loginTab02 ~ .frmList .chkID {
+  display: none;
+}
+.memberWrap .tabContentWrap.tabON#loginTab02 ~ .frmList .chkPhone {
+  display: inline-block;
+}
+.memberWrap .boxGray.certifyText {
+  margin: 24px 0 29px;
+  padding: 17px 0;
+  color: #5a5f64;
+  text-align: center;
+}
+.memberWrap .boxGray + .findIdPwd {
+  margin-top: 40px;
+}
+.memberWrap .frmList.findAccount {
+  margin: 0;
+}
+.memberWrap .frmList.findAccount .frmSel.frmSmall label:before {
+  top: 2px;
+}
+.memberWrap .frmList.findAccount.col02 {
+  padding-left: 3px;
+}
+.memberWrap .frmList.findAccount.col02 li {
+  width: 50%;
+  margin: 16px 0 0 -3px;
+}
+.memberWrap .frmList.findAccount.col02 li:first-child,
+.memberWrap .frmList.findAccount.col02 li:nth-child(2) {
+  margin-top: 0;
+}
+.memberWrap .findIdPwd .btnArea {
+  margin-top: 32px;
+}
+.memberWrap .findIdPwd .certNum > .btnArea {
+  margin-top: 55px;
+}
+.memberWrap .certifyBtn {
+  margin-top: 24px;
+}
+.memberWrap .certifyBtn > a {
+  position: relative;
+  display: block;
+  padding: 19px 20px 19px 64px;
+  color: #6b6e73;
+  overflow: hidden;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: 1px solid #eaeaea;
+}
+.memberWrap .certifyBtn > a:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 20px;
+  left: 24px;
+  width: 28px;
+  height: 28px;
+}
+.memberWrap .certifyBtn > a .tit {
+  display: block;
+  margin-bottom: 5px;
+  color: #4d6ee4;
+  font-weight: 700;
+  font-size: 1.8rem;
+}
+[lang='zh'] .memberWrap .certifyBtn > a .tit {
+  color: #fe324b;
+}
+.memberWrap .certifyBtn > a.phoneCert:before {
+  background: url( /img_up/shop_pds/banobagi/design/images/main/member/ico_phone_28x.png) no-repeat;
+}
+.memberWrap .certifyBtn > a.passCert:before {
+  background: url( /img_up/shop_pds/banobagi/design/images/main/member/ico_passport_28x.png) no-repeat;
+}
+.memberWrap .certifyBtn > a:hover,
+.memberWrap .certifyBtn > a:focus {
+  -webkit-box-shadow: 0 5px 20px 0 rgba(142, 158, 217, 0.2);
+  box-shadow: 0 5px 20px 0 rgba(142, 158, 217, 0.2);
+}
+.memberWrap .certifyBtn > a.localCert:before {
+  background-image: url( /img_up/shop_pds/banobagi/design/images/main/member/ico_user28.png);
+}
+.memberWrap .certifyBtn > a.foreignCert:before {
+  background-image: url( /img_up/shop_pds/banobagi/design/images/main/member/ico_passport_28x.png);
+}
+.memberWrap .certifyBtn + .certifyBtn {
+  margin-top: 16px;
+}
+.memberWrap .idTotalChk {
+  margin-top: 68px;
+}
+.memberWrap .idTotalChk h3 {
+  position: relative;
+  text-align: center;
+}
+.memberWrap .idTotalChk h3:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: #eaeaea;
+  z-index: 1;
+}
+.memberWrap .idTotalChk h3 span {
+  position: relative;
+  display: inline-block;
+  padding: 0 32px;
+  color: #6b6e73;
+  font-size: 1.8rem;
+  line-height: 1;
+  background: #fff;
+  z-index: 2;
+}
+.memberWrap .idTotalChk > ul {
+  margin-top: 24px;
+}
+.memberWrap .idTotalChk > ul .certifyBtn {
+  margin-top: 12px;
+}
+.memberWrap .idTotalWrap.hscroll {
+  max-height: 408px;
+  overflow-y: auto;
+  margin: 0 -8px;
+}
+.memberWrap .idTotalWrap .listBox > li {
+  padding: 0 8px;
+}
+.memberWrap .idTotalWrap .listBox > li:nth-child(n + 2) {
+  margin-top: 12px;
+}
+.memberWrap .idTotalWrap .listBox > li .boxTxtCont {
+  position: relative;
+  display: block;
+  height: 70px;
+  margin-left: 8px;
+  padding: 16px 24px;
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+  background-color: #fff;
+}
+.memberWrap .idTotalWrap .listBox > li .boxTxtCont:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 24px;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: url(/mo/images/common/spr_ico.svg) no-repeat -133px 0;
+  -webkit-transform: translateY(-50%) rotate(-180deg);
+  transform: translateY(-50%) rotate(-180deg);
+}
+.memberWrap .idTotalWrap .listBox > li .boxTxtCont > span {
+  display: block;
+  line-height: 1;
+}
+.memberWrap .idTotalWrap .listBox > li .boxTxtCont .userId {
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-left: 0;
+  color: #1e2023;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1;
+}
+[lang='zh'] .memberWrap .idTotalWrap .listBox > li .boxTxtCont .userId {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.memberWrap .idTotalWrap .listBox > li .boxTxtCont .date {
+  color: #6b6e73;
+}
+.memberWrap .idTotalWrap .listBox > li .boxTxtCont .sleep {
+  position: absolute;
+  top: 50%;
+  right: 56px;
+  margin-top: -14px;
+  padding: 0 8px;
+  color: #1e2023;
+  font-size: 1.3rem;
+  border-radius: 4px;
+  line-height: 27px;
+  background: #f7f7fd;
+}
+.memberWrap .idTotalWrap .listBox > li .boxTxtCont:hover,
+.memberWrap .idTotalWrap .listBox > li .boxTxtCont:focus {
+  -webkit-box-shadow: 0 5px 20px 0 rgba(142, 158, 217, 0.2);
+  box-shadow: 0 5px 20px 0 rgba(142, 158, 217, 0.2);
+}
+.memberWrap .idTotalWrap .listBox > li .boxTxtCont:hover .sleep,
+.memberWrap .idTotalWrap .listBox > li .boxTxtCont:focus .sleep {
+  background: transparent;
+}
+.memberWrap .newPwdForm {
+  margin-top: 24px;
+}
+.memberWrap .newPwdForm .frmInp:first-of-type {
+  margin-top: 0;
+}
+.memberWrap .newPwdForm .frmInp {
+  margin-top: 32px;
+}
+.memberWrap .newPwdForm .frmInp.labelTop {
+  padding-top: 0;
+}
+.memberWrap .newPwdForm .frmInp.labelTop .btIco {
+  top: 5px;
+}
+.memberWrap .newPwdForm .btnArea {
+  margin-top: 40px;
+}
+.anotherLogin {
+  margin-top: 67px;
+}
+.anotherLogin h3 {
+  position: relative;
+  text-align: center;
+}
+.anotherLogin h3:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: #eaeaea;
+  z-index: 1;
+}
+.anotherLogin h3 span {
+  position: relative;
+  display: inline-block;
+  padding: 0 32px;
+  color: #6b6e73;
+  font-size: 1.8rem;
+  line-height: 1;
+  background: #fff;
+  z-index: 2;
+}
+.snsList h3 {
+  margin: 0 24px 26px 24px;
+  text-align: center;
+}
+.snsList .list {
+  overflow: auto;
+  position: relative;
+  display: block;
+  margin: 0;
+  padding: 0 0 42px;
+  white-space: nowrap;
+  text-align: center;
+}
+.snsList .list * {
+  vertical-align: top;
+}
+.snsList .list a {
+  display: inline-block;
+}
+.snsList .list a:nth-of-type(n + 2) {
+  margin-left: 9px;
+}
+.snsList .list a img {
+  width: 48px;
+}
+.snsList .list::-webkit-scrollbar {
+  display: none;
+}
+.snsList .list .moreArea {
+  display: inline-block;
+}
+.snsList .list .moreArea .snsMore {
+  position: relative;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: #9fa2a8;
+}
+.snsList .list .moreArea .snsMore:after {
+  width: 16px;
+  height: 16px;
+  margin: -8px 0 0 -8px;
+  background: url( /img_up/shop_pds/banobagi/design/images/main/common/spr_bult.svg) no-repeat -82px 0;
+}
+.snsList .list .moreArea .snsMore[aria-expanded='true'] {
+  display: none;
+}
+.snsList .list .moreArea .snsMore[aria-expanded='true'] + .moreCont {
+  display: block;
+}
+.snsList .list .moreArea .moreCont {
+  display: none;
+  width: auto;
+  white-space: nowrap;
+}
+.layCont .lCont .noData {
+  padding: 57px 0 18px;
+}
+.layCont .lCont .noData:before {
+  top: 0;
+}
+.layCont .lCont .noData .tit {
+  padding: 12px 0;
+  color: #373a3c;
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 1.44444;
+}
+.layCont .lCont .noData .desc {
+  font-size: 1.3rem;
+  line-height: 1.62;
+}
+.layCont .lCont .snsList {
+  margin-top: 52px;
+}
+.layCont .lCont .snsList h3 {
+  margin-bottom: 25px;
+}
+.layCont .lCont .snsList .list {
+  padding-bottom: 15px;
+}
+.layCont .lCont .listBox {
+  margin: -8px 0;
+}
+.layCont .lCont .listBox li > .cont {
+  position: relative;
+  margin-top: 12px;
+  padding: 24px 24px 20px 60px;
+}
+.layCont .lCont .listBox li > .cont:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 23px;
+  left: 24px;
+  width: 24px;
+  height: 24px;
+}
+.layCont .lCont .listBox li > .cont.cert:before {
+  background: url( /img_up/shop_pds/banobagi/design/images/main/member/ico_user_20x_1.5s.png) no-repeat;
+}
+.layCont .lCont .listBox li > .cont.passport:before {
+  background: url( /img_up/shop_pds/banobagi/design/images/main/member/ico_phone_20x_1.5s.png) no-repeat;
+}
+.layCont .lCont .listBox li > .cont > a {
+  position: relative;
+  display: block;
+}
+.layCont .lCont .listBox li > .cont > a .tit {
+  display: block;
+  margin-bottom: 8px;
+  color: #4d6ee4;
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 1;
+}
+[lang='zh'] .layCont .lCont .listBox li > .cont > a .tit {
+  color: #fe324b;
+}
+.layCont .lCont .listBox li > .cont > a .txt {
+  color: #6b6e73;
+}
+.layCont .lCont .listBox li > .cont > a:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 0;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: url(/mo/images/common/spr_ico.svg) no-repeat -133px 0;
+  -webkit-transform: translateY(-50%) rotate(-180deg);
+  transform: translateY(-50%) rotate(-180deg);
+}
+.confirmData {
+  text-align: center;
+}
+.confirmData:before {
+  content: '';
+  display: block;
+  width: 200px;
+  height: 100px;
+  margin: 0 auto 12px;
+  background: url( /img_up/shop_pds/banobagi/design/images/main/common/bg_layPop_airplane.svg) no-repeat 50% 50%;
+  background-size: contain;
+}
+.confirmData .tit {
+  padding: 12px 0;
+  color: #373a3c;
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 1.44444;
+}
+.confirmData .txt {
+  margin-bottom: 7px;
+  font-size: 1.3rem;
+  line-height: 1.62;
+}
+.joinBtn a {
+  display: block;
+  position: relative;
+  width: 59.26%;
+  height: 56px;
+  margin: 0 auto;
+  padding-right: 7px;
+  color: #fff;
+  line-height: 56px;
+  font-size: 1.6rem;
+  text-align: center;
+  border-radius: 30px;
+}
+.joinBtn a:before {
+  content: '';
+  display: inline-table;
+  width: 26px;
+  height: 26px;
+  margin: -3px 6px 0 0;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 50px;
+}
+.joinBtn a.kakao {
+  background-color: #ffe300;
+}
+.joinBtn a.kakao:before {
+  background-image: url( /img_up/shop_pds/banobagi/design/images/main/common/img_sns_kakaotalk.png);
+}
+.joinBtn a.naver {
+  background-color: #03cf5d;
+}
+.joinBtn a.naver:before {
+  background-image: url( /img_up/shop_pds/banobagi/design/images/main/common/img_sns_naver.png);
+}
+.joinBtn a.google {
+  background-color: #e74133;
+}
+.joinBtn a.google:before {
+  background-image: url( /img_up/shop_pds/banobagi/design/images/main/common/img_sns_google.png);
+}
+.joinBtn a.apple {
+  background-color: #010101;
+}
+.joinBtn a.apple:before {
+  background-image: url( /img_up/shop_pds/banobagi/design/images/main/common/img_sns_apple.png);
+}
+.joinBtn a.facebook {
+  background-color: #1877f2;
+}
+.joinBtn a.facebook:before {
+  background-image: url( /img_up/shop_pds/banobagi/design/images/main/common/img_sns_facebook.png);
+}
+.joinBtn a.toss {
+  background-color: #0050ff;
+}
+.joinBtn a.toss:before {
+  background-image: url( /img_up/shop_pds/banobagi/design/images/main/common/img_sns_toss.png);
+}
+.joinBtn a.wechat {
+  background-color: #2dc100;
+}
+.joinBtn a.wechat:before {
+  background-image: url( /img_up/shop_pds/banobagi/design/images/main/common/img_sns_wechat.png);
+  background-size: 50px;
+}
+.joinBtn a.weibo {
+  background-color: #e6162d;
+}
+.joinBtn a.weibo:before {
+  background-image: url( /img_up/shop_pds/banobagi/design/images/main/common/img_sns_weibo.png);
+  background-size: 48px;
+}
+.joinBtn a.alipay {
+  background-color: #00a5e9;
+}
+.joinBtn a.alipay:before {
+  background-image: url( /img_up/shop_pds/banobagi/design/images/main/common/img_sns_alipay.png);
+  background-size: 48px;
+}
+.joinBtn a.qq {
+  background-color: #eaedf2;
+}
+.joinBtn a.qq:before {
+  background-image: url( /img_up/shop_pds/banobagi/design/images/main/common/img_sns_qq.png);
+  background-size: 48px;
+}
+.joinBtn a.kakao,
+.joinBtn a.qq {
+  color: #373a3c;
+}
+.layCont .sleepCon .sleepState {
+  text-align: center;
+}
+.layCont .sleepCon .sleepState:before {
+  content: '';
+  display: block;
+  width: 40px;
+  height: 40px;
+  margin: 0 auto;
+  background: url( /img_up/shop_pds/banobagi/design/images/main/member/ico_lock_40x.png) no-repeat 50% 50%;
+}
+.layCont .sleepCon .sleepState .userID {
+  color: #4d6ee4;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-top: 8px;
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1;
+}
+[lang='zh'] .layCont .sleepCon .sleepState .userID {
+  color: #fe324b;
+}
+[lang='zh'] .layCont .sleepCon .sleepState .userID {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.layCont .sleepCon .sleepState .tit {
+  padding: 16px 0 12px;
+  color: #373a3c;
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 1.44444;
+}
+.layCont .sleepCon .sleepState .txt {
+  font-size: 1.3rem;
+  line-height: 1.62;
+}
+.layCont .sleepCon .sleepTxt {
+  margin: 23px 0 15px;
+  padding: 15px 20px;
+  color: #6b6e73;
+  font-size: 1.3rem;
+  text-align: center;
+  line-height: 1.62;
+}
+.layCont .memberWrap .popTxtTop {
+  color: #373a3c;
+  font-size: 1.8rem;
+  line-height: 1.44;
+}
+.layCont .memberWrap .popTxtTop + .loginForm {
+  margin: 12px 0 15px;
+}
+.frmSel.frmChkS.chkLineBox {
+  display: inline-block;
+  min-width: 79px;
+  height: 40px;
+  padding: 7px 16px 7px 10px;
+  border: solid 1px #dadada;
+  border-radius: 4px;
+  background: #fff;
+}
+.frmSel.frmChkS.chkLineBox + .chkLineBox {
+  margin-left: 1px;
+}
+.frmSel.frmChkS.chkLineBox input {
+  top: 13px;
+  left: 16px;
+}
+.frmSel.frmChkS.chkLineBox input[type='checkbox']:checked + label {
+  color: #1e2023;
+}
+.frmSel.frmChkS.chkLineBox label {
+  padding-left: 24px;
+  color: #dcdfe3;
+}
+.frmSel.frmChkS.chkLineBox label:before {
+  top: -1px;
+}
+.btnArr {
+  color: #373a3c;
+  font-weight: 500;
+}
+.btnArr:after {
+  content: '';
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin-left: 4px;
+  background: url( /img_up/shop_pds/banobagi/design/images/main/common/ico_arr_right.png) no-repeat 0;
+}
+.bultType02 > li {
+  position: relative;
+  padding-left: 7px;
+  margin-top: 8px;
+}
+.bultType02 > li:before {
+  content: '-';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.searchArea.wType .selectWrap .ui-selectmenu-button {
+  background: #fff;
+}
+.infoBox {
+  margin-top: 65px;
+  border-top: 1px solid #5a5f64;
+  border-bottom: none;
+}
+.infoBox .titInfo {
+  position: relative;
+  display: block;
+  height: 56px;
+  padding: 0 17px 0 44px;
+  color: #373a3c;
+  font-weight: 700;
+  line-height: 56px;
+  border-top: none;
+}
+.infoBox .titInfo:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 17px;
+  width: 22px;
+  height: 24px;
+  margin-top: -12px;
+  background: url( /img_up/shop_pds/banobagi/design/images/main/common/spr_ico.png) no-repeat;
+}
+.infoBox .titInfo.titGuide:before {
+  background-position: -214px 0;
+}
+.infoBox .bultType01 {
+  padding: 0 16px;
+}
+.infoBox .bultType01 > li {
+  color: #6b6e73;
+}
+.listNum.inTab {
+  border-bottom: 0;
+}
+.listNum.inTab .totalNum + .tabType02 {
+  position: relative;
+  margin-left: 16px;
+  padding-left: 5px;
+}
+.listNum.inTab .totalNum + .tabType02:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  height: 20px;
+  margin-top: -10px;
+  border-left: 1px solid #dcdfe3;
+}
+.listNum.inTab .tabType02 {
+  float: left;
+  margin-bottom: 0;
+  line-height: 48px;
+}
+.listNum.inTab .tabType02 > li {
+  margin-left: -2px;
+}
+.listNum.inTab .tabType02 > li a {
+  color: #5a5f64;
+  font-size: 1.5rem;
+}
+.listNum.inTab .tabType02 > li.tabON a {
+  color: #1e2023;
+}
+.listNum.inTab .side {
+  float: right;
+}
+.contInner .contents > .topVisual {
+  overflow: hidden;
+  position: relative;
+  height: 230px;
+  margin-bottom: 48px;
+}
+.contInner .contents > .topVisual img {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -616px;
+}
+.fullBanner,
+.bosImgWrap {
+  text-align: center;
+}
+h3.titPopDep3 {
+  margin-bottom: 24px;
+  color: #373a3c;
+  font-size: 1.8rem;
+}
+.blText {
+  color: #1e2023;
+  font-size: 15px;
+}
+.blText dt,
+.blText dd {
+  display: inline-block;
+  position: relative;
+  line-height: 1.2;
+}
+.blText dd {
+  margin-left: 11px;
+  padding-left: 13px;
+}
+.blText dd:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  height: 15px;
+  margin: -7.5px 0 0;
+  border-left: 1px solid #eaeaea;
+}
+.memberAgree {
+  margin-top: 49px;
+}
+.memberAgree .agreeList {
+  margin-top: 14px;
+  padding-top: 10px;
+  border-top: 1px solid #373a3c;
+}
+.memberAgree .agreeList li {
+  margin-top: 20px;
+}
+.memberAgree .agreeList li:first-child {
+  margin-top: 0;
+}
+.memberAgree .agreeList li .frmSel {
+  display: block;
+  padding-right: 70px;
+}
+.memberAgree .agreeList li .frmSel label {
+  padding: 0 0 0 28px;
+  color: #373a3c;
+  line-height: 1.53;
+}
+.memberAgree .agreeList li .frmSel label:before {
+  top: 1px;
+}
+.memberWrap.toggleLayer .frmToggleBtn {
+  margin-bottom: 16px;
+}
+.memberWrap.toggleLayer .btnPhone,
+.memberWrap.toggleLayer .chkID {
+  display: inline-block;
+}
+.memberWrap.toggleLayer .frmID {
+  display: block;
+}
+.memberWrap.toggleLayer .btnPID,
+.memberWrap.toggleLayer .frmPhone,
+.memberWrap.toggleLayer .chkPhone {
+  display: none;
+}
+.memberWrap.toggleLayer .frmID,
+.memberWrap.toggleLayer .frmPhone {
+  margin-top: 0 !important;
+}
+.memberWrap.toggleLayer.idLogin .btnPID,
+.memberWrap.toggleLayer.idLogin .chkPhone {
+  display: inline-block;
+}
+.memberWrap.toggleLayer.idLogin .frmPhone {
+  display: block;
+}
+.memberWrap.toggleLayer.idLogin .frmID,
+.memberWrap.toggleLayer.idLogin .chkID,
+.memberWrap.toggleLayer.idLogin .btnPhone {
+  display: none;
+}
+.memberWrap .loginForm .frmID input {
+  width: 100%;
+}
+.memberWrap .loginForm .formList .frmInp {
+  margin-top: 32px;
+}
+.memberWrap .loginForm .formList .frmInp.labelTop {
+  padding-top: 0;
+}
+.memberWrap .loginForm .formList .frmInp.labelTop .btIco {
+  top: 5px;
+}
+.memberWrap .loginForm .frmList {
+  margin: 16px 0 0 -6px;
+}
+.memberWrap .loginForm .frmList .frmSel.frmChkS {
+  display: block;
+}
+.memberWrap
+  .loginForm
+  .frmList
+  .frmSel.frmChkS
+  input[type='checkbox']:checked
+  + label {
+  color: #4d6ee4;
+}
+[lang='zh']
+  .memberWrap
+  .loginForm
+  .frmList
+  .frmSel.frmChkS
+  input[type='checkbox']:checked
+  + label {
+  color: #fe324b;
+}
+.memberWrap .loginForm .frmList .frmSel.frmChkS input[type='checkbox'] + label {
+  color: #6b6e73;
+}
+.memberWrap .loginForm .frmList + .btnArea {
+  margin: 40px 0 0;
+}
+.memberWrap .loginBtns {
+  margin-top: 24px;
+  text-align: center;
+}
+.memberWrap .loginBtns .txtLink {
+  padding: 0 24px 0 25px;
+  font-size: 1.5rem;
+  margin-left: -2px;
+}
+.memberWrap .loginBtns .txtLink:first-child:before {
+  display: none;
+}
+.memberWrap .loginBtns .txtLink:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 1px;
+  height: 16px;
+  margin-top: -8px;
+  background: #eaeaea;
+}
+.memberWrap .loginBtns .txtLink:after {
+  left: 24px;
+  right: 24px;
+  width: auto;
+}
+.memberWrap .snsList h3.fLine {
+  margin-right: 0;
+  margin-left: 0;
+}
+.layCont .memberWrap .popTxtTop {
+  color: #373a3c;
+  font-size: 1.8rem;
+  line-height: 1.44;
+}
+body > #wrapper.commWrapper .header .headInner .selectWrap.selectS {
+  position: absolute;
+  top: 14px;
+  right: -7px;
+  width: auto;
+}
+body
+  > #wrapper.commWrapper
+  .header
+  .headInner
+  .selectWrap.selectS
+  .ui-selectmenu-menu {
+  top: 43px !important;
+}
+.tabType03.fullType > li a {
+  min-width: 198px;
+}
+.infoBox .titInfo.titGuide + .bultType01 {
+  margin-top: 0;
+}
+.memberWrap .infoBox {
+  margin-bottom: 65px;
+}
+.memberWrap .frmList li + li {
+  margin-left: 22px;
+}
+.certAgeBox {
+  margin: 0 0 24px;
+  padding-bottom: 13px;
+}
+.certAgeBox .txt {
+  padding-left: 72px;
+  color: var(--col_gray03);
+  font-size: 1.3rem;
+  background: url( /img_up/shop_pds/banobagi/design/images/main/member/bg_age19.png) no-repeat 0 50%;
+}
+.txtAge {
+  margin: 24px 0 12px;
+  color: #6b6e73;
+  text-align: center;
+}
+.btMore {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  line-height: 24px;
+  font-size: 15px;
+}
+.btMore:hover {
+  cursor: pointer;
+}
+.btMore::before {
+  content: '';
+  display: block;
+  float: left;
+  width: 24px;
+  height: 24px;
+  background: #a3b1bf;
+  margin-right: 4px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.btMore span {
+  position: static;
+}
+.btMore span::after,
+.btMore span::before {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  background: #fff;
+  border-radius: 2px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.btMore span::after {
+  width: 10px;
+  height: 2px;
+  left: 7px;
+}
+.btMore span::before {
+  height: 10px;
+  width: 2px;
+  left: 11px;
+}
+.SwitchRight {
+  margin-top: 24px;
+  height: 48px;
+}
+.SwitchRight::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.SwitchRight .frmSwitch {
+  float: right;
+  margin-top: 14px;
+}
+.SwitchRight .frmSwitch label {
+  color: #373a3c;
+  font-weight: 500;
+}
+.SwitchRight .totalNum {
+  float: left;
+  color: #5a5f64;
+  font-size: 15px;
+  line-height: 48px;
+}
+.switchRight {
+  margin-top: 24px;
+  height: 48px;
+}
+.switchRight::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.switchRight .frmSwitch {
+  float: right;
+  margin-top: 14px;
+}
+.switchRight .frmSwitch label {
+  color: #373a3c;
+  font-weight: 500;
+}
+.switchRight .totalNum {
+  float: left;
+  color: #5a5f64;
+  font-size: 15px;
+  line-height: 48px;
+}
+#wrapper.chatWrapper {
+  width: 100%;
+  min-height: auto;
+}
+#wrapper.chatWrapper .header {
+  width: 100%;
+  min-width: 100%;
+  height: 100px;
+  background: #fff;
+}
+#wrapper.chatWrapper .header .headInner {
+  height: auto;
+  padding: 0;
+}
+#wrapper.chatWrapper .header .headInner > p {
+  height: auto;
+  overflow: visible;
+}
+#wrapper.chatWrapper .header .headInner > p a {
+  display: inline-block;
+  padding: 30px;
+}
+#wrapper.chatWrapper .header .headInner .selectWrap {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+#wrapper.chatWrapper .header .headInner .selectWrap .ui-selectmenu-menu {
+  left: auto !important;
+  right: 5px !important;
+}
+#wrapper.chatWrapper .header img {
+  width: auto;
+}
+#wrapper.chatWrapper .memberWrap {
+  width: auto;
+}
+#wrapper.chatWrapper .memberWrap .btnSelect {
+  width: 120px;
+}
+#wrapper.chatWrapper .memberWrap .btnSelect + input[type='text'] {
+  width: calc(100% - 128px);
+}
+#wrapper.chatWrapper .memberWrap .loginBtns a {
+  padding: 0 14px 0 15px;
+}
+#wrapper.chatWrapper .tabType03.fullType {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+#wrapper.chatWrapper .tabType03.fullType > li {
+  display: table-cell;
+  width: 100%;
+}
+#wrapper.chatWrapper .tabType03.fullType > li a {
+  padding: 0 10px;
+  min-width: auto;
+}
+#wrapper.chatWrapper ::-webkit-input-placeholder {
+  font-size: 1.5rem;
+}
+#wrapper.chatWrapper :-ms-input-placeholder {
+  font-size: 1.5rem;
+}
+#wrapper.chatWrapper ::-ms-input-placeholder {
+  font-size: 1.5rem;
+}
+#wrapper.chatWrapper ::placeholder {
+  font-size: 1.5rem;
+}
+#btnFilter {
+  position: fixed;
+  top: 332px;
+  left: 8px;
+  padding-top: 11px;
+}
+#btnFilter button {
+  overflow: visible;
+  text-indent: -9999px;
+  position: relative;
+  width: 48px;
+  height: 48px;
+  border-radius: 8px 0 8px 8px;
+  background: #373a3c url( /img_up/shop_pds/banobagi/design/images/main/view/btn_filter.png) center no-repeat;
+  -webkit-box-shadow: 0 5px 10px 0 rgba(30, 32, 35, 0.1);
+  box-shadow: 0 5px 10px 0 rgba(30, 32, 35, 0.1);
+}
+#btnFilter .num {
+  text-indent: 0;
+  position: absolute;
+  top: -11px;
+  right: -8px;
+  padding: 0 6px;
+  min-width: 22px;
+  height: 22px;
+  background-color: #4d6ee4;
+  border-radius: 999px;
+  border: 2px solid #fff;
+  font-weight: 500;
+  font-size: 1.2rem;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #fff;
+  text-align: center;
+}
+[lang='zh'] #btnFilter .num {
+  background-color: #fe324b;
+}
+[lang='zh'] #btnFilter .num {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#filterWrap {
+  display: none;
+  position: relative;
+  padding: 32px 24px 0;
+  width: 320px;
+  height: 100%;
+  background: #fff;
+}
+#filterWrap.fixToBottom {
+  position: absolute;
+  bottom: 0;
+}
+#filterWrap .titWrap {
+  position: relative;
+}
+#filterWrap .titWrap .tit {
+  padding: 0 0 16px;
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 1.33333;
+  line-height: 1.41667;
+  color: #1e2023;
+}
+#filterWrap .titWrap .frmSwitch {
+  position: absolute;
+  top: 6px;
+  right: 0;
+}
+#filterWrap .titWrap .frmSwitch label {
+  padding-right: 70px;
+}
+#filterWrap .titWrap .frmSwitch .tipArea {
+  position: absolute;
+  top: 0;
+  right: 47px;
+}
+#filterWrap .titWrap .frmSwitch .tipArea .tipCont {
+  left: -207px;
+  width: 272px;
+  z-index: 5;
+}
+#filterWrap .titWrap .frmSwitch .tipArea .tipCont:before {
+  left: 209px;
+}
+#filterWrap .filterCont {
+  overflow-y: auto;
+  position: relative;
+  margin-right: -20px;
+  padding: 2px 0 20px;
+}
+#filterWrap .filterCont .filterOption {
+  width: 272px;
+}
+#filterWrap .filterCont .filterOption.accordianList {
+  border: none;
+}
+#filterWrap
+  .filterCont
+  .filterOption.accordianList
+  .toggleAction:first-child
+  .ctrl {
+  margin-top: 0;
+}
+#filterWrap .filterCont .filterOption.accordianList .ctrl {
+  position: relative;
+  margin: 16px 0 14px;
+  padding: 0;
+  border: none;
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 1.44444;
+  color: #373a3c;
+  opacity: 0.3;
+}
+#filterWrap .filterCont .filterOption.accordianList .ctrl:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 8px;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  margin: 0;
+  width: 11px;
+  height: 7px;
+  background: url( /img_up/shop_pds/banobagi/design/images/main/view/ico_accordian.png) no-repeat;
+}
+#filterWrap
+  .filterCont
+  .filterOption.accordianList
+  .ctrl[aria-expanded='true'] {
+  margin: 0;
+  padding: 16px 0;
+  opacity: 1;
+}
+#filterWrap
+  .filterCont
+  .filterOption.accordianList
+  .ctrl[aria-expanded='true']:after {
+  background-position: -11px 0;
+}
+#filterWrap .filterCont .filterOption.accordianList .ctrl > .num {
+  display: inline-block;
+  margin: 3px 0 0 5px;
+  font-size: 1.5rem;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #4d6ee4;
+  vertical-align: top;
+}
+[lang='zh'] #filterWrap .filterCont .filterOption.accordianList .ctrl > .num {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+[lang='zh'] #filterWrap .filterCont .filterOption.accordianList .ctrl > .num {
+  color: #fe324b;
+}
+#filterWrap .filterCont .filterOption.accordianList .accordCont {
+  padding: 0;
+  background: none;
+}
+#filterWrap .filterCont .filterOption.accordianList .optionList .tit {
+  padding-bottom: 4px;
+}
+#filterWrap .filterCont .filterOption .cateScrollArea {
+  overflow: auto;
+  max-height: 330px;
+}
+#filterWrap .filterCont .filterOption .cateScrollArea::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.1);
+}
+#filterWrap .filterCont .filterOption .cateScrollArea .accordianList {
+  border-bottom: none;
+}
+#filterWrap
+  .filterCont
+  .filterOption
+  .cateScrollArea
+  .accordianList
+  .toggleAction {
+  border-top: 1px solid #f2f5f9;
+}
+#filterWrap
+  .filterCont
+  .filterOption
+  .cateScrollArea
+  .accordianList
+  .toggleAction
+  .frmSel.ctrl {
+  margin: 0;
+  opacity: 1;
+}
+#filterWrap
+  .filterCont
+  .filterOption
+  .cateScrollArea
+  .accordianList
+  .toggleAction
+  .frmSel.ctrl:after {
+  display: none;
+}
+#filterWrap
+  .filterCont
+  .filterOption
+  .cateScrollArea
+  .accordianList
+  .toggleAction
+  .frmSel.ctrl[aria-expanded='true'] {
+  padding: 0;
+}
+#filterWrap
+  .filterCont
+  .filterOption
+  .cateScrollArea
+  .accordianList
+  .toggleAction
+  .frmSel.ctrl
+  input[type='checkbox'] {
+  opacity: 0;
+}
+#filterWrap
+  .filterCont
+  .filterOption
+  .cateScrollArea
+  .accordianList
+  .toggleAction
+  .frmSel.ctrl
+  input[type='checkbox']:checked
+  + label:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 12px;
+  width: 12px;
+  height: 12px;
+  margin-top: -6px;
+  background: url( /img_up/shop_pds/banobagi/design/images/main/common/spr_form.png) no-repeat -36px 0;
+}
+#filterWrap
+  .filterCont
+  .filterOption
+  .cateScrollArea
+  .accordianList
+  .toggleAction
+  .frmSel.ctrl
+  label {
+  padding: 0 11px;
+  line-height: 36px;
+  height: 36px;
+  color: #6b6e73;
+  font-size: 1.5rem;
+  font-weight: 500;
+  background: #f8fafc;
+}
+#filterWrap
+  .filterCont
+  .filterOption
+  .cateScrollArea
+  .accordianList
+  .toggleAction
+  .frmSel.ctrl
+  label:before {
+  display: none;
+}
+#filterWrap
+  .filterCont
+  .filterOption
+  .cateScrollArea
+  .accordianList
+  .toggleAction
+  .ctrl {
+  opacity: 1;
+}
+#filterWrap
+  .filterCont
+  .filterOption
+  .cateScrollArea
+  .filterCateDep1
+  .toggleAction
+  .accordCont {
+  padding-bottom: 0;
+  border-bottom: none !important;
+}
+#filterWrap
+  .filterCont
+  .filterOption
+  .cateScrollArea
+  .accordianList.filterCateDep2 {
+  border-bottom: 1px solid #f2f5f9;
+}
+#filterWrap
+  .filterCont
+  .filterOption
+  .cateScrollArea
+  .accordianList.filterCateDep2
+  .toggleAction
+  .frmSel.ctrl
+  label {
+  padding: 0 18px;
+  font-weight: 400;
+  background: #fff;
+}
+#filterWrap
+  .filterCont
+  .filterOption
+  .cateScrollArea
+  .accordianList.filterCateDep2
+  .toggleAction
+  .frmSel.ctrl[aria-expanded='true']
+  label {
+  background: #f8fafc;
+}
+#filterWrap
+  .filterCont
+  .filterOption
+  .cateScrollArea
+  .accordianList.filterCateDep2
+  .filterCateDep3 {
+  padding: 0;
+}
+#filterWrap
+  .filterCont
+  .filterOption
+  .cateScrollArea
+  .accordianList.filterCateDep2
+  .filterCateDep3
+  .frmSel {
+  display: block;
+  border-top: 1px solid #f2f5f9;
+}
+#filterWrap
+  .filterCont
+  .filterOption
+  .cateScrollArea
+  .accordianList.filterCateDep2
+  .filterCateDep3
+  .frmSel
+  label {
+  padding: 0 0 0 32px;
+  font-size: 1.2rem;
+  line-height: 31px;
+}
+#filterWrap
+  .filterCont
+  .filterOption
+  .cateScrollArea
+  .accordianList.filterCateDep2
+  .filterCateDep3
+  .frmSel
+  label:before {
+  top: 50%;
+  left: 20px;
+  width: 5px;
+  height: 5px;
+  margin-top: -3px;
+  border: solid #dcdfe3;
+  border-width: 0 0 1px 1px;
+  background: none;
+}
+#filterWrap
+  .filterCont
+  .filterOption
+  .cateScrollArea
+  .accordianList.filterCateDep2
+  .filterCateDep3
+  .frmSel
+  input[type='checkbox'] {
+  opacity: 0;
+}
+#filterWrap
+  .filterCont
+  .filterOption
+  .cateScrollArea
+  .accordianList.filterCateDep2
+  .filterCateDep3
+  .frmSel
+  input[type='checkbox']:checked
+  + label {
+  color: #4d6ee4;
+}
+[lang='zh']
+  #filterWrap
+  .filterCont
+  .filterOption
+  .cateScrollArea
+  .accordianList.filterCateDep2
+  .filterCateDep3
+  .frmSel
+  input[type='checkbox']:checked
+  + label {
+  color: #fe324b;
+}
+#filterWrap
+  .filterCont
+  .filterOption
+  .cateScrollArea
+  .accordianList.filterCateDep2
+  .filterCateDep3
+  .frmSel
+  input[type='checkbox']:checked
+  + label:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 12px;
+  width: 12px;
+  height: 12px;
+  margin-top: -6px;
+  background: url( /img_up/shop_pds/banobagi/design/images/main/common/spr_form.png) no-repeat -36px 0;
+}
+#filterWrap .filterCont .filterOption .priceRange {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 16px;
+}
+#filterWrap .filterCont .filterOption .priceRange:before {
+  content: '~';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+#filterWrap .filterCont .filterOption .priceRange .frmInp {
+  float: left;
+  width: 47.05%;
+}
+#filterWrap .filterCont .filterOption .priceRange .frmInp .unit {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 100%;
+  font-weight: 500;
+  font-size: 1.5rem;
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+  line-height: 48px;
+  color: #373a3c;
+  text-align: center;
+}
+#filterWrap .filterCont .filterOption .priceRange .frmInp input[type='text'] {
+  width: 100%;
+  min-width: auto;
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #373a3c;
+  line-height: 39px;
+  text-align: right;
+}
+#filterWrap
+  .filterCont
+  .filterOption
+  .priceRange
+  .frmInp
+  input[type='text']::-webkit-input-placeholder {
+  font-weight: 400;
+  font-family: Noto Sans KR, 'notokr', 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: inherit;
+  color: #8b8f94;
+}
+#filterWrap
+  .filterCont
+  .filterOption
+  .priceRange
+  .frmInp
+  input[type='text']:-ms-input-placeholder {
+  font-weight: 400;
+  font-family: Noto Sans KR, 'notokr', 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: inherit;
+  color: #8b8f94;
+}
+#filterWrap
+  .filterCont
+  .filterOption
+  .priceRange
+  .frmInp
+  input[type='text']::-ms-input-placeholder {
+  font-weight: 400;
+  font-family: Noto Sans KR, 'notokr', 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: inherit;
+  color: #8b8f94;
+}
+#filterWrap
+  .filterCont
+  .filterOption
+  .priceRange
+  .frmInp
+  input[type='text']::placeholder {
+  font-weight: 400;
+  font-family: Noto Sans KR, 'notokr', 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: inherit;
+  color: #8b8f94;
+}
+[lang='zh']
+  #filterWrap
+  .filterCont
+  .filterOption
+  .priceRange
+  .frmInp
+  input[type='text']::-webkit-input-placeholder {
+  font-family: Microsoft Yahei, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+[lang='zh']
+  #filterWrap
+  .filterCont
+  .filterOption
+  .priceRange
+  .frmInp
+  input[type='text']:-ms-input-placeholder {
+  font-family: Microsoft Yahei, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+[lang='zh']
+  #filterWrap
+  .filterCont
+  .filterOption
+  .priceRange
+  .frmInp
+  input[type='text']::-ms-input-placeholder {
+  font-family: Microsoft Yahei, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+[lang='zh']
+  #filterWrap
+  .filterCont
+  .filterOption
+  .priceRange
+  .frmInp
+  input[type='text']::placeholder {
+  font-family: Microsoft Yahei, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#filterWrap .filterCont .filterOption .priceRange .frmInp:first-child {
+  margin-right: 5.9%;
+}
+#filterWrap .filterCont .filterOption .colorPicker {
+  margin: -8px 0 0 -8px;
+}
+#filterWrap .filterCont .filterOption .colorPicker .frmSel {
+  float: left;
+  margin: 8px 0 0 8px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#filterWrap .filterCont .filterOption .colorPicker .frmSel .colorWrap {
+  padding: 6px;
+}
+#filterWrap .filterCont .filterOption .colorPicker .frmSel .colorWrap input {
+  opacity: 0;
+}
+#filterWrap
+  .filterCont
+  .filterOption
+  .colorPicker
+  .frmSel
+  .colorWrap
+  input
+  + label {
+  position: relative;
+  overflow: visible;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  border-radius: 100%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#filterWrap
+  .filterCont
+  .filterOption
+  .colorPicker
+  .frmSel
+  .colorWrap
+  input
+  + label:before {
+  display: none;
+}
+#filterWrap
+  .filterCont
+  .filterOption
+  .colorPicker
+  .frmSel
+  .colorWrap
+  input
+  + label.transparent {
+  background: url( /img_up/shop_pds/banobagi/design/images/main/common/bg_color_transparent.gif) center no-repeat !important;
+}
+#filterWrap
+  .filterCont
+  .filterOption
+  .colorPicker
+  .frmSel
+  .colorWrap
+  input
+  + label
+  img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+}
+#filterWrap
+  .filterCont
+  .filterOption
+  .colorPicker
+  .frmSel
+  .colorWrap
+  input:checked
+  + label:before {
+  content: '';
+  display: block;
+  top: -6px;
+  left: -6px;
+  width: 32px;
+  height: 32px;
+  border: 1px solid;
+  border-color: #4d6ee4;
+  border-radius: 100%;
+  background: none;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+[lang='zh']
+  #filterWrap
+  .filterCont
+  .filterOption
+  .colorPicker
+  .frmSel
+  .colorWrap
+  input:checked
+  + label:before {
+  border-color: #fe324b;
+}
+#filterWrap .filterCont .filterOption .filterSearch {
+  position: relative;
+  margin-right: 0;
+  width: 100%;
+}
+#filterWrap .filterCont .filterOption .filterSearch > input[type='text'] {
+  display: block;
+  width: 100%;
+  padding-right: 60px;
+  border: 1px solid #5a5f64;
+  background: #fff;
+}
+#filterWrap .filterCont .filterOption .filterSearch .btIco.icDel {
+  top: 4px;
+  right: 38px;
+  width: 20px;
+}
+#filterWrap .filterCont .filterOption .filterSearch .btIco.icDel:after {
+  width: 16px;
+  height: 16px;
+  margin: -8px 0 0 -8px;
+  background: url( /img_up/shop_pds/banobagi/design/images/main/common/ico_search_del.png) no-repeat;
+}
+#filterWrap .filterCont .filterOption .filterSearch .searchType {
+  position: relative;
+  margin: 20px 0 0;
+  padding: 0;
+  height: 48px;
+  border-radius: 4px;
+  border: 1px solid #5a5f64;
+  background: none;
+}
+#filterWrap .filterCont .filterOption .filterSearch .searchType fieldset {
+  margin: 0;
+  width: 100%;
+}
+#filterWrap
+  .filterCont
+  .filterOption
+  .filterSearch
+  .searchType
+  input[type='text'] {
+  display: block;
+  height: 46px;
+  border: none;
+  font-size: 1.5rem;
+}
+#filterWrap
+  .filterCont
+  .filterOption
+  .filterSearch
+  .searchType
+  input[type='text']::-webkit-input-placeholder {
+  font-size: 1.5rem;
+  color: #b9bcc0;
+}
+#filterWrap
+  .filterCont
+  .filterOption
+  .filterSearch
+  .searchType
+  input[type='text']:-ms-input-placeholder {
+  font-size: 1.5rem;
+  color: #b9bcc0;
+}
+#filterWrap
+  .filterCont
+  .filterOption
+  .filterSearch
+  .searchType
+  input[type='text']::-ms-input-placeholder {
+  font-size: 1.5rem;
+  color: #b9bcc0;
+}
+#filterWrap
+  .filterCont
+  .filterOption
+  .filterSearch
+  .searchType
+  input[type='text']::placeholder {
+  font-size: 1.5rem;
+  color: #b9bcc0;
+}
+#filterWrap .filterCont .filterOption .filterSearch .searchType .icDel {
+  display: none;
+  position: absolute;
+  top: 50%;
+  right: 38px;
+  width: 20px;
+  margin-top: -20px;
+}
+#filterWrap .filterCont .filterOption .filterSearch .searchType .icDel:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 50;
+  margin: -8px 0 0 -8px;
+  width: 16px;
+  height: 16px;
+  background: url( /img_up/shop_pds/banobagi/design/images/main/common/ico_search_del.png) no-repeat;
+}
+#filterWrap
+  .filterCont
+  .filterOption
+  .filterSearch
+  .searchType
+  .icSearch:after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -8px 0 0 -8px;
+  width: 16px;
+  height: 16px;
+  background: url( /img_up/shop_pds/banobagi/design/images/main/common/spr_ico.png) no-repeat -266px -24px;
+}
+#filterWrap .filterCont .filterOption .noData {
+  padding: 51px 0 16px;
+}
+#filterWrap .filterCont .filterOption .noData:before {
+  top: 7px;
+  margin-left: -16px;
+  width: 32px;
+  height: 32px;
+  background: url( /img_up/shop_pds/banobagi/design/images/main/common/ico_s_nodata.png) no-repeat;
+}
+#filterWrap .filterCont .filterOption .filterSelectList {
+  margin-top: 10px;
+}
+#filterWrap .filterCont .filterOption .filterSelectList > li {
+  display: inline-block;
+  margin: 8px 4px 0 0;
+  padding: 4px 4px 7px 8px;
+  background: #f8fafc;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 1.3rem;
+  color: #6b6e73;
+}
+#filterWrap .filterCont .filterOption .filterSelectList > li > * {
+  display: inline-block;
+  vertical-align: middle;
+}
+#filterWrap .filterCont .filterOption .filterSelectList > li .del {
+  position: relative;
+  margin: 0 0 0 3px;
+  width: 16px;
+  height: 16px;
+  background: url( /img_up/shop_pds/banobagi/design/images/main/view/btn_s_del.png) center no-repeat;
+}
+#filterWrap .filterCont .filterOption .filterSelectList > li .color {
+  position: relative;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+#filterWrap .filterCont .filterOption .filterSelectList > li .color img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+#filterWrap .filterCont .filterOption > .toggleAction.on > .ctrl {
+  border-top: 1px solid #5a5f64;
+}
+#filterWrap .filterCont .filterOption > .toggleAction.on .accordCont {
+  padding-bottom: 16px;
+  border-bottom: 1px solid #5a5f64;
+}
+#filterWrap .btnArea {
+  position: relative;
+  margin: 0;
+  padding: 0 0 24px;
+}
+#filterWrap .btnArea:before {
+  content: '';
+  position: absolute;
+  top: -24px;
+  width: 100%;
+  height: 24px;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgba(255, 255, 255, 0.5)),
+    to(#fff)
+  );
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), #fff);
+}
+#filterWrap .btnArea button {
+  margin: 0;
+  min-width: 88px;
+  font-size: 1.5rem;
+}
+#filterWrap .btnArea button.btnRefresh {
+  min-width: 48px;
+  height: 48px;
+  border-radius: 4px;
+  background: url( /img_up/shop_pds/banobagi/design/images/main/view/ico_refresh.png) center no-repeat;
+  background-color: #e9ebfb;
+}
+[lang='zh'] #filterWrap .btnArea button.btnRefresh {
+  background-color: #ffeef1;
+}
+#filterWrap .btnArea button.action {
+  margin-left: 2px;
+  min-width: calc(100% - 56px);
+}
+#filterWrap .close {
+  position: absolute;
+  top: 39px;
+  right: -28px;
+  width: 28px;
+  height: 56px;
+  border-radius: 0 8px 8px 0;
+  background: #fff;
+  -webkit-box-shadow: 6px 2px 10px 0px rgba(30, 32, 35, 0.1);
+  box-shadow: 6px 2px 10px 0px rgba(30, 32, 35, 0.1);
+}
+#filterWrap .close:before {
+  content: '';
+  position: absolute;
+  top: 21px;
+  left: 0;
+  width: 14px;
+  height: 14px;
+  background: url( /img_up/shop_pds/banobagi/design/images/main/view/ico_close.png) no-repeat;
+}
+@media screen and (max-width: 1440px) {
+  #wrapper.chatWrapper .container {
+    width: 100%;
+    padding: 0;
+  }
+  #wrapper.chatWrapper .contents {
+    width: 100%;
+    padding: 0 24px;
+  }
+}
+@media screen and (max-width: 359px) {
+  #wrapper.chatWrapper .contents {
+    padding: 0 14px;
+  }
+  #wrapper.chatWrapper .tabType03.fullType > li a {
+    padding: 0 5px;
+    font-size: 1.4rem;
+  }
+  #wrapper.chatWrapper .frmSel.frmChkS label {
+    padding-left: 28px;
+  }
+  #wrapper.chatWrapper .frmList li + li {
+    margin-left: 12px;
+  }
+  #wrapper.chatWrapper .loginBtns a {
+    font-size: 1.3rem;
+  }
+}
+@media screen and (min-width: 1903px) {
+  .searchReview > li {
+    padding-right: 34.3%;
+  }
+  .searchReview > li .reviewProdS {
+    width: 34.3%;
+  }
+  .searchReview.rankingList > li {
+    padding-right: 0;
+  }
+}

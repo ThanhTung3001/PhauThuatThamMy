@@ -1,0 +1,3310 @@
+.boardList > li .ctrl .noticeTbWrap .title .tit .new,
+.tblNotice .noticeInfo a .tit .new {
+  overflow: hidden;
+  text-indent: -9999px;
+}
+.orderListS .del:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.inquireFAQ .boxWhite .inner::-webkit-scrollbar,
+.layCont .inquireOrderList::-webkit-scrollbar {
+  overflow: hidden;
+  width: 3px;
+  margin-right: 6px;
+}
+.inquireFAQ .boxWhite .inner::-webkit-scrollbar-thumb,
+.layCont .inquireOrderList::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #aaa;
+}
+.inquireFAQ .boxWhite .inner::-webkit-scrollbar-track,
+.layCont .inquireOrderList::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+.boardList > li .ctrl .noticeTbWrap .title .tit .new,
+.tblNotice .noticeInfo a .tit .new {
+  overflow: hidden;
+  text-indent: -9999px;
+}
+.orderListS .del:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.inquireFAQ .boxWhite .inner::-webkit-scrollbar,
+.layCont .inquireOrderList::-webkit-scrollbar {
+  overflow: hidden;
+  width: 3px;
+  margin-right: 6px;
+}
+.inquireFAQ .boxWhite .inner::-webkit-scrollbar-thumb,
+.layCont .inquireOrderList::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #aaa;
+}
+.inquireFAQ .boxWhite .inner::-webkit-scrollbar-track,
+.layCont .inquireOrderList::-webkit-scrollbar-track {
+  border-radius: 10px;
+} 
+@font-face {
+  font-family: 'notokr';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Noto Sans Regular'), local('NotoSans-Regular'),
+    url('/img_up/shop_pds/banobagi/design/fonts//NotoSansKR-Regular.eot'),
+    url('/img_up/shop_pds/banobagi/design/fonts//NotoSansKR-Regular.eot?#iefix') format('embedded-opentype'),
+    url('/img_up/shop_pds/banobagi/design/fonts//NotoSansKR-Regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'notokr';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Noto Sans Medium'), local('NotoSans-Medium'),
+    url('/img_up/shop_pds/banobagi/design/fonts//NotoSansKR-Medium.eot'),
+    url('/img_up/shop_pds/banobagi/design/fonts//NotoSansKR-Medium.eot?#iefix') format('embedded-opentype'),
+    url('/img_up/shop_pds/banobagi/design/fonts//NotoSansKR-Medium.woff') format('woff');
+}
+@font-face {
+  font-family: 'notokr';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Noto Sans Bold'), local('NotoSans-Bold'),
+    url('/img_up/shop_pds/banobagi/design/fonts//NotoSansKR-Bold.eot'),
+    url('/img_up/shop_pds/banobagi/design/fonts//NotoSansKR-Bold.eot?#iefix') format('embedded-opentype'),
+    url('/img_up/shop_pds/banobagi/design/fonts//NotoSansKR-Bold.woff') format('woff');
+}
+@font-face {
+  font-family: 'Metro';
+  font-weight: 400;
+  src: local('Metropolis Regular'), local('Metropolis-Regular'),
+    url('/img_up/shop_pds/banobagi/design/fonts//Metropolis-Regular.eot'),
+    url('/img_up/shop_pds/banobagi/design/fonts//Metropolis-Regular.eot?#iefix') format('embedded-opentype'),
+    url('/img_up/shop_pds/banobagi/design/fonts//Metropolis-Regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'Metro';
+  font-weight: 500;
+  src: local('Metropolis Medium'), local('Metropolis-Medium'),
+    url('/img_up/shop_pds/banobagi/design/fonts//Metropolis-Medium.eot'),
+    url('/img_up/shop_pds/banobagi/design/fonts//Metropolis-Medium.eot?#iefix') format('embedded-opentype'),
+    url('/img_up/shop_pds/banobagi/design/fonts//Metropolis-Medium.woff') format('woff');
+}
+@font-face {
+  font-family: 'Metro';
+  font-weight: 700;
+  src: local('Metropolis Bold'), local('Metropolis-Bold'),
+    url('/img_up/shop_pds/banobagi/design/fonts//Metropolis-Bold.eot'),
+    url('/img_up/shop_pds/banobagi/design/fonts//Metropolis-Bold.eot?#iefix') format('embedded-opentype'),
+    url('/img_up/shop_pds/banobagi/design/fonts//Metropolis-Bold.woff') format('woff');
+}
+@font-face {
+  font-family: 'Nanum Gothic';
+  font-weight: 500;
+  src: local('Nanum Gothic'), local('ë‚˜ëˆ”ê³ ë”•'),
+    local('NanumGothic Regular'), url('/img_up/shop_pds/banobagi/design/fonts//NanumGothic-Regular.eot'),
+    url('/img_up/shop_pds/banobagi/design/fonts//NanumGothic-Regular.eot?#iefix') format('embedded-opentype'),
+    url('/img_up/shop_pds/banobagi/design/fonts//NanumGothic-Regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'Nanum Gothic';
+  font-weight: 700;
+  src: local('NanumGothic Bold'), url('/img_up/shop_pds/banobagi/design/fonts//NanumGothic-Bold.eot'),
+    url('/img_up/shop_pds/banobagi/design/fonts//NanumGothic-Bold.eot?#iefix') format('embedded-opentype'),
+    url('/img_up/shop_pds/banobagi/design/fonts//NanumGothic-Bold.woff') format('woff');
+}
+.faqBtn .btnXXS {
+  width: 120px;
+}
+.faqBtn .btnXXS + .btnXXS {
+  margin-left: 8px;
+}
+.questionTop10 .titArea {
+  z-index: 1;
+}
+.questionTop10 .titArea .side .txtLink {
+  font-size: 1.5rem;
+  line-height: 1.53333;
+  color: #5a5f64;
+}
+.customNotice .titArea .side .txtLink {
+  font-size: 1.5rem;
+  line-height: 1.53333;
+  color: #5a5f64;
+}
+.customNotice .noticeList {
+  margin: 0 -24px;
+}
+.customNotice .noticeList li {
+  padding: 0 24px;
+}
+.customNotice .noticeList li a strong {
+  color: #1e2023;
+}
+.hashTag {
+  font-size: 0;
+  margin-top: -8px;
+}
+.hashTag li {
+  color: #1e2023;
+  display: inline-block;
+  margin-top: 8px;
+}
+.hashTag li a {
+  display: inline-block;
+  font-size: 1.5rem;
+  line-height: 1.53333;
+  border: 1px solid #dcdfe3;
+  background: #fff;
+  border-radius: 21px;
+  padding: 10px 16px;
+}
+.hashTag li.active a {
+  background-color: #4d6ee4;
+  color: #fff;
+}
+[lang='zh'] .hashTag li.active a {
+  background-color: #fe324b;
+}
+.hashTag li + li {
+  margin-left: 8px;
+}
+.searchType fieldset ~ .hashTag {
+  padding-top: 16px;
+}
+.tabType01 + .faqTotal {
+  margin-top: 32px;
+}
+.faqTotal .side .searchWrap:before {
+  display: none;
+}
+.accordianList.faq .faqFlag {
+  font-size: 1.3rem;
+  line-height: 1.38462;
+  font-weight: 500;
+}
+.accordianList.faq .faqFlag.type01 {
+  color: #8f6f41;
+}
+.accordianList.faq .faqFlag.type02 {
+  color: #d20055;
+}
+.accordianList.faq .faqFlag.type03 {
+  color: #009195;
+}
+.accordianList.faq .faqFlag.type04 {
+  color: #ad00c4;
+}
+.accordianList.faq .faqFlag.type05 {
+  color: #005fc2;
+}
+.accordianList.faq .faqFlag.type06 {
+  color: #006d69;
+}
+.accordianList.faq .faqFlag.type07 {
+  color: #0082e6;
+}
+.accordianList.faq .faqFlag.type08 {
+  color: #f42d10;
+}
+.accordianList.faq .ctrl strong {
+  display: block;
+  color: #373a3c;
+  font-weight: 500;
+  position: relative;
+  padding-left: 23px;
+  margin-top: 4px;
+}
+.accordianList.faq .ctrl strong:before {
+  content: 'Q';
+  color: #4d6ee4;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  position: absolute;
+  left: 0;
+  top: 3px;
+}
+[lang='zh'] .accordianList.faq .ctrl strong:before {
+  color: #fe324b;
+}
+[lang='zh'] .accordianList.faq .ctrl strong:before {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.accordianList.faq .ctrl strong .new {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 100%;
+  background-color: #4d6ee4;
+  vertical-align: top;
+  text-indent: -9999px;
+  overflow: hidden;
+  position: relative;
+  top: 2px;
+}
+[lang='zh'] .accordianList.faq .ctrl strong .new {
+  background-color: #fe324b;
+}
+.accordianList.faq .ctrl strong .keyword {
+  color: #4d6ee4;
+}
+[lang='zh'] .accordianList.faq .ctrl strong .keyword {
+  color: #fe324b;
+}
+.accordianList.faq .ctrl:hover {
+  background: #f7f7fd;
+}
+.accordianList.faq .ctrl:hover strong {
+  text-decoration: underline;
+}
+.accordianList.faq .accordCont .keyword {
+  color: #4d6ee4;
+}
+[lang='zh'] .accordianList.faq .accordCont .keyword {
+  color: #fe324b;
+}
+.keywordList {
+  margin-top: -8px;
+  font-size: 0;
+}
+.keywordList li {
+  display: inline-block;
+  margin-top: 8px;
+  margin-right: 8px;
+}
+.keywordList a {
+  display: inline-block;
+  padding: 10px 16px;
+  font-size: 1.5rem;
+  color: #1e2023;
+  line-height: 22px;
+  white-space: nowrap;
+  border-radius: 20px;
+  background-color: #f8fafc;
+}
+.keywordList ~ .tabBasic.tabResponsive {
+  margin-top: 18px;
+}
+.keywordList li.on a {
+  background-color: #e9ebfb;
+  color: #4d6ee4;
+}
+[lang='zh'] .keywordList li.on a {
+  background-color: #ffeef1;
+}
+[lang='zh'] .keywordList li.on a {
+  color: #fe324b;
+}
+.tabBasic.tabResponsive {
+  display: block;
+  position: relative;
+}
+.tabBasic.tabResponsive:before {
+  content: '';
+  display: block;
+  width: 1px;
+  height: 100%;
+  background: #dcdfe3;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.tabBasic.tabResponsive li {
+  width: 136.5px;
+  display: block;
+  float: left;
+  margin-top: -1px;
+}
+.tabBasic.tabResponsive li:first-child a,
+.tabBasic.tabResponsive li:last-child a {
+  border-radius: 0;
+}
+.listNum.notice {
+  margin-top: 24px;
+  border-bottom: none;
+}
+.listNum + .boardList > li:first-child {
+  border-top: none;
+}
+.storeFlag {
+  display: inline-block;
+  font-size: 1.3rem;
+  line-height: 1.38462;
+  color: #6b6e73;
+  border: 1px solid #eaeaea;
+  border-radius: 4px;
+  padding: 4px 8px;
+  background: #fff;
+}
+.storeFlag.online {
+  color: #006d69;
+  background: #e1f9f9;
+  border: none;
+}
+.storeFlag.offline {
+  color: #ad00c4;
+  background: #f8eefa;
+  border: none;
+}
+.boardList > li .ctrl .date {
+  color: #8b8f94 !important;
+  right: 24px;
+}
+.boardList > li .ctrl .noticeTbWrap {
+  display: block;
+}
+.boardList > li .ctrl .noticeTbWrap .category {
+  display: inline-block;
+}
+.boardList > li .ctrl .noticeTbWrap .category + .store {
+  margin-left: 8px;
+}
+.boardList > li .ctrl .noticeTbWrap .store {
+  display: inline-block;
+}
+.boardList > li .ctrl .noticeTbWrap .title {
+  margin-top: 4px;
+}
+.boardList > li .ctrl .noticeTbWrap .title .tit {
+  padding-right: 0;
+}
+.boardList > li .ctrl .noticeTbWrap .title .tit .subject {
+  float: none;
+  padding-right: 4px;
+  font-weight: 500;
+}
+.boardList > li .ctrl .noticeTbWrap .title .tit .subject .keyword {
+  color: #4d6ee4;
+}
+[lang='zh'] .boardList > li .ctrl .noticeTbWrap .title .tit .subject .keyword {
+  color: #fe324b;
+}
+.boardList > li .ctrl .noticeTbWrap .title .tit .new {
+  float: none;
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  margin: 0;
+  position: relative;
+  top: 2px;
+}
+.boardList > li.notiFixed .subject {
+  font-weight: 700 !important;
+}
+.boardList.detail.resultType > li .ctrl .date {
+  position: inherit;
+}
+.boardList.resultType > li .ctrl .noticeTbWrap {
+  display: block;
+}
+.boardList.resultType > li .ctrl .noticeTbWrap .store {
+  margin-right: 10px;
+}
+.boardList.resultType .dateCont {
+  position: absolute;
+  right: 24px;
+  top: 50%;
+  margin-top: -23px;
+}
+.boardList.resultType .dateCont > div {
+  display: block;
+}
+.boardList.resultType .dateCont .tit,
+.boardList.resultType .dateCont .date {
+  font-size: 1.3rem;
+  line-height: 1.38462;
+  color: #373a3c;
+}
+.boardList.resultType .dateCont .date {
+  padding-left: 12px;
+  color: #6b6e73 !important;
+}
+.tblData.boardType .flagCont {
+  margin: 2px 16px 2px 0;
+}
+.tblData.boardType .txt {
+  width: auto;
+}
+.tblData.boardType .date {
+  width: 150px;
+}
+.tblData.boardType .dday {
+  width: 90px;
+}
+.tblData.boardType th {
+  font-size: 1.3rem;
+  line-height: 1.38462;
+  color: #373a3c;
+  font-weight: 400;
+}
+.tblData.boardType td {
+  padding: 24px 20px;
+}
+.tblData.boardType td.date > span {
+  display: block;
+}
+.tblData.boardType td.date,
+.tblData.boardType td.dday {
+  font-size: 1.3rem;
+  line-height: 1.38462;
+  color: #6b6e73;
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.tblData.boardType td.date > span,
+.tblData.boardType td.dday > span {
+  line-height: 1;
+  padding-top: 2px;
+}
+.boardList.detail {
+  border-top: 1px solid #373a3c;
+}
+.boardList.detail > li:hover {
+  background: none;
+}
+.boardList.detail > li:hover .subject {
+  text-decoration: none;
+}
+.boardList.detail > li {
+  border-top: none;
+}
+.boardList.detail > li .ctrl {
+  position: relative;
+  display: block;
+  padding: 23px 250px 24px 24px;
+  line-height: inherit;
+}
+.boardList.detail > li .ctrl .date {
+  font-size: 1.3rem;
+  line-height: 1.38462;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  position: absolute;
+  top: 50%;
+  right: 24px;
+  margin-top: -8px;
+  color: #b9bcc0;
+}
+[lang='zh'] .boardList.detail > li .ctrl .date {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.boardList.detail > li .ctrl .cate {
+  position: relative;
+  display: inline-block;
+  color: #6b6e73;
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 1;
+}
+.boardList.detail > li .ctrl .cate.shopping {
+  color: #005fc2;
+}
+.boardList.detail > li .ctrl .cate.store {
+  color: #009195;
+}
+.boardList.detail > li .ctrl .cate.brand {
+  color: #7500b1;
+}
+.boardList.detail > li .ctrl .cate.system {
+  color: #bc0053;
+}
+.boardList.detail > li .ctrl .store {
+  display: inline-block;
+}
+.boardList.detail > li .ctrl .subject {
+  font-size: 1.8rem;
+  line-height: 1.44444;
+  color: #373a3c;
+  font-weight: 700;
+}
+.boardList.detail > li.notiFixed .cate {
+  padding-left: 19px;
+}
+.boardList.detail > li.notiFixed .cate:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 12px;
+  height: 12px;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/common/ico_boardList.png) no-repeat;
+}
+.boardList.detail > li.notiFixed .cate.shopping:before {
+  background-position: -13px 0;
+}
+.boardList.detail > li.notiFixed .cate.store:before {
+  background-position: -26px 0;
+}
+.boardList.detail > li.notiFixed .cate.brand:before {
+  background-position: -39px 0;
+}
+.boardList.detail > li.notiFixed .cate.system:before {
+  background-position: 0 0;
+}
+.boardList.detail > li .detailView {
+  background: #f8fafc;
+  padding: 40px;
+}
+.boardList.detail > li .detailView .detailViewCont {
+  min-height: 260px;
+}
+.boardList.detail > li .detailView .detailViewCont .winnerTb {
+  margin-top: 32px;
+}
+.boardList.detail > li .detailView .detailViewCont .winnerTb .tit {
+  font-size: 0;
+  padding-bottom: 12px;
+}
+.boardList.detail > li .detailView .detailViewCont .winnerTb .tit strong {
+  font-size: 1.5rem;
+  line-height: 1.53333;
+  color: #373a3c;
+  padding-right: 12px;
+}
+.boardList.detail > li .detailView .detailViewCont .winnerTb .tit span {
+  font-size: 1.3rem;
+  line-height: 1.38462;
+}
+.boardList.detail
+  > li
+  .detailView
+  .detailViewCont
+  .winnerTb
+  .tit
+  span.txt:after {
+  content: '';
+  display: inline-block;
+  width: 1px;
+  height: 12px;
+  background: #6b6e73;
+  margin: 0 8px;
+  position: relative;
+  vertical-align: middle;
+}
+.boardList.detail > li .detailView .detailViewCont .winnerTb .tit span.date {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.boardList.detail > li .detailView .detailViewCont .winnerTb .tblH {
+  width: 768px;
+}
+.boardList.detail > li .detailView .detailViewCont .winnerTb .tblH td {
+  background: #fff;
+}
+.boardList.detail > li .detailView .detailViewCont .winnerTb .tblH td .identify,
+.boardList.detail > li .detailView .detailViewCont .winnerTb .tblH td .phone,
+.boardList.detail > li .detailView .detailViewCont .winnerTb .tblH td .date {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.boardList.detail > li .detailView .detailViewFile {
+  padding-top: 32px;
+}
+.addedFile {
+  font-size: 0;
+  margin-top: -8px;
+  margin-left: -8px;
+}
+.addedFile li {
+  display: inline-block;
+  background: #fff;
+  border-radius: 8px;
+  width: 380px;
+  margin-top: 8px;
+  margin-left: 8px;
+  padding: 16px;
+}
+.addedFile li a {
+  font-size: 1.5rem;
+  line-height: 1.53333;
+  display: inline;
+  padding: 0;
+  color: #373a3c;
+}
+.addedFile li a:before {
+  content: '';
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/customer/ico_file.png) no-repeat 0 0;
+  margin-right: 4px;
+}
+.prevNext dl {
+  padding: 24px;
+  border-bottom: 1px solid #eaeaea;
+  position: relative;
+}
+.prevNext dl dt {
+  color: #6b6e73;
+  position: absolute;
+  left: 24px;
+  top: 50%;
+  margin-top: -11px;
+}
+.prevNext dl dd {
+  vertical-align: middle;
+  color: #373a3c;
+  font-size: 1.8rem;
+  line-height: 1.44444;
+  font-weight: 500;
+  padding-left: 80px;
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.prevNext dl dd:hover {
+  text-decoration: underline;
+}
+.inquireFormList .frmInp label:before {
+  top: 4px;
+}
+.inquireFormList .frmInp .inpA {
+  width: calc(100% - 192px);
+}
+.inquireFormList .frmInp .inpA.inpTitle {
+  width: calc(100% - 384px);
+}
+.inquireFormList .frmInp.frmCont {
+  padding-top: 0;
+  margin-top: -4px;
+}
+.inquireFormList .frmInp .selectList {
+  display: block;
+  width: auto;
+}
+.inquireFormList .frmInp .ansCheck {
+  display: inline-block;
+  width: calc(100% - 192px);
+}
+.inquireFormList .orderProdSrch {
+  margin: 12px 0 4px -192px;
+  border-top: 1px solid #eaeaea;
+}
+.inquireFormList .orderProdSrch .frmInp {
+  padding: 16px 0 0;
+}
+.inquireFormList .orderProdSrch .frmInp > span {
+  display: inline-block;
+  width: 192px;
+  height: 48px;
+  padding-left: 15px;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 48px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.inquireFormList .orderProdSrch .frmInp button {
+  width: 160px;
+}
+.inquireFormList .orderProdSrch .orderListS {
+  margin: 12px 0 0 -16px;
+}
+.inquireFormList .orderProdSrch .orderListS li {
+  margin: 8px 0 0 16px;
+  width: 416px;
+}
+.inquireFormList + .frmInp {
+  padding-top: 0;
+  margin-top: -4px;
+}
+.maxText {
+  margin-top: 8px;
+  text-align: right;
+  font-size: 13px;
+  line-height: 1em;
+  color: #6b6e73;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+[lang='zh'] .maxText {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.maxText span {
+  color: #373a3c;
+  font-weight: 500;
+}
+.inquireFAQ {
+  margin: 24px 0 0 -192px;
+}
+.inquireFAQ .tit {
+  display: inline-block;
+  width: 190px;
+  padding-left: 15px;
+  font-weight: 500;
+}
+.inquireFAQ .boxWhite {
+  display: inline-block;
+  width: calc(100% - 194px);
+  padding: 16px 6px 16px 24px;
+}
+.inquireFAQ .boxWhite .inner {
+  overflow: auto;
+  max-height: 126px;
+}
+.questList {
+  margin-top: -7px;
+}
+.questList > li a {
+  display: block;
+  position: relative;
+  padding-left: 21px;
+  line-height: 37px;
+  font-size: 1.3rem;
+}
+.questList > li a:before {
+  content: 'Q';
+  display: block;
+  position: absolute;
+  top: 2px;
+  left: 0;
+  font-size: 1.8rem;
+  font-weight: 500;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #4d6ee4;
+}
+[lang='zh'] .questList > li a:before {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+[lang='zh'] .questList > li a:before {
+  color: #fe324b;
+}
+.questList > li a:hover {
+  text-decoration: underline;
+  color: #373a3c;
+  font-weight: 700;
+}
+.inquireOrderList {
+  margin-left: 192px;
+}
+.orderListS {
+  margin: -8px 0 0 -27px;
+}
+.orderListS:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.orderListS > li {
+  position: relative;
+  float: left;
+  width: 416px;
+  margin: 8px 0 0 27px;
+}
+.orderListS .orderCont {
+  position: relative;
+  width: auto;
+  float: none;
+  min-height: 114px;
+  padding: 16px 16px 16px 104px;
+  border: 1px solid #ebedf2;
+  border-radius: 8px;
+}
+.orderListS .orderCont figure {
+  position: absolute;
+  left: 16px;
+  top: 16px;
+  width: 76px;
+  height: 76px;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/view/bg_prodLogo.png) no-repeat 50% 50%/100% auto;
+}
+.orderListS .orderCont figure img {
+  width: 100%;
+}
+.orderListS .orderCont .prodInfo {
+  display: block;
+  height: 92px;
+  position: relative;
+}
+.orderListS .orderCont .orderNum {
+  position: relative;
+  display: block;
+  color: #6b6e73;
+  font-size: 1.3rem;
+  line-height: 1.38462;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  z-index: 1000;
+}
+[lang='zh'] .orderListS .orderCont .orderNum {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.orderListS .orderCont .orderTit {
+  display: block;
+  margin-top: 8px;
+  color: #373a3c;
+  font-size: 1.3rem;
+  line-height: 1.38462;
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.orderListS .orderCont .priceArea {
+  display: block;
+  margin-top: 8px;
+}
+.orderListS .orderCont .priceArea .dollar {
+  color: #4d6ee4;
+  font-size: 1.5rem;
+  line-height: 1.53333;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+[lang='zh'] .orderListS .orderCont .priceArea .dollar {
+  color: #fe324b;
+}
+[lang='zh'] .orderListS .orderCont .priceArea .dollar {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.orderListS .orderCont .priceArea .won {
+  margin-left: 5px;
+  color: #6b6e73;
+  font-size: 1.3rem;
+  line-height: 1.38462;
+  font-weight: 400;
+}
+.orderListS .orderCont .priceArea .won b {
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: inherit;
+  display: inline-block;
+  line-height: 22px;
+}
+[lang='zh'] .orderListS .orderCont .priceArea .won b {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.orderListS .orderCont .date {
+  display: block;
+  margin-top: 4px;
+  color: #9fa2a8;
+  font-size: 1.3rem;
+  line-height: 1.38462;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+[lang='zh'] .orderListS .orderCont .date {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.orderListS .del {
+  position: absolute;
+  right: 8px;
+  top: 0;
+  width: 36px;
+  height: 36px;
+}
+.orderListS .del:before {
+  width: 12px;
+  height: 12px;
+  margin: -6px 0 0 -6px;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/customer/ico_close_12.png) no-repeat 0 0;
+}
+.layCont .inquireListNum {
+  border-bottom: 0;
+}
+.layCont .inquireOrderList {
+  overflow: hidden;
+  overflow-y: auto;
+  max-height: 362px;
+  margin: 0;
+  padding-right: 3px;
+}
+.layCont .orderListS {
+  margin: 0 0 0 -12px;
+}
+.layCont .orderListS > li {
+  margin-left: 12px;
+  width: calc(50% - 12px);
+}
+.layCont .orderListS > li:nth-child(n + 3) {
+  margin-top: 12px;
+}
+.layCont .orderListS > li.noDataList {
+  width: 100%;
+}
+.layCont .orderListS .orderCont {
+  padding-bottom: 14px;
+}
+.layCont .orderListS .orderCont .frmSel {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.layCont .orderListS .orderCont .frmSel input {
+  left: 21px;
+  top: 21px;
+}
+.layCont .orderListS .orderCont .frmSel label {
+  z-index: 5;
+  height: 100%;
+  background: rgba(255, 255, 255, 0);
+}
+.layCont .orderListS .orderCont .frmSel label:before {
+  left: 16px;
+  top: 16px;
+}
+.layCont .orderListS .orderCont .frmSel.cb_checked {
+  background-color: #e9ebfb;
+}
+[lang='zh'] .layCont .orderListS .orderCont .frmSel.cb_checked {
+  background-color: #ffeef1;
+}
+.layCont .orderListS .orderCont figure {
+  overflow: hidden;
+  border-radius: 8px;
+}
+.layCont .orderListS .orderCont figure:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(12, 38, 159, 0.03);
+}
+.layCont .orderListS .orderCont .priceArea {
+  margin-top: 0;
+}
+.layCont .orderListS .orderCont .date {
+  margin-top: 0;
+}
+.ansCheck {
+  padding-top: 12px;
+  margin: -24px 0 0 -24px;
+}
+.ansCheck:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.ansCheck .frmSel {
+  float: left;
+  width: calc(50% - 24px);
+  min-height: 48px;
+  margin: 24px 0 0 24px;
+}
+.ansCheck .frmSel .tipArea {
+  position: absolute;
+  left: 110px;
+  top: 2px;
+}
+.ansCheck .frmSel .inpA {
+  width: 100%;
+  height: 48px;
+  margin-top: 10px;
+  padding-right: 60px;
+}
+.ansCheck .frmSel .inpA input {
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  position: static;
+  color: #8b8f94;
+  border: none;
+  vertical-align: top;
+}
+[lang='zh'] .ansCheck .frmSel .inpA input {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.ansCheck .frmSel .inpA button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 56px;
+  height: 48px;
+  color: #373a3c;
+  font-size: 1.3rem;
+  line-height: 46px;
+  text-align: center;
+  border: 1px solid #dcdfe3;
+  border-radius: 4px;
+  background: #fff;
+}
+.layCont .ansCheck .frmSel {
+  min-height: auto;
+}
+.tblNotice .noticeInfo {
+  padding: 0;
+  text-align: left;
+}
+.tblNotice .noticeInfo a {
+  position: relative;
+  display: block;
+  padding: 23px 24px 24px 24px;
+  line-height: inherit;
+}
+.tblNotice .noticeInfo a .category {
+  display: inline-block;
+}
+.tblNotice .noticeInfo a .category .cate {
+  position: relative;
+  display: inline-block;
+  color: #6b6e73;
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 1;
+}
+.tblNotice .noticeInfo a .category .cate.shopping {
+  color: #005fc2;
+}
+.tblNotice .noticeInfo a .category .cate.store {
+  color: #009195;
+}
+.tblNotice .noticeInfo a .category .cate.brand {
+  color: #ad00c4;
+}
+.tblNotice .noticeInfo a .category .cate.system {
+  color: #bc0053;
+}
+.tblNotice .noticeInfo a .category + .store {
+  display: inline-block;
+  margin-left: 8px;
+}
+.tblNotice .noticeInfo a .tit {
+  display: block;
+  padding-right: 9px;
+}
+.tblNotice .noticeInfo a .tit:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.tblNotice .noticeInfo a .tit .subject {
+  font-size: 1.8rem;
+  line-height: 1.44444;
+  float: left;
+  position: relative;
+  max-width: calc(100% - 9px);
+  padding-right: 9px;
+  color: #373a3c;
+  font-weight: 500;
+}
+.tblNotice .noticeInfo a .tit .new {
+  background-color: #4d6ee4;
+  float: left;
+  width: 6px;
+  height: 6px;
+  margin: 4px 0 0 -7px;
+  border-radius: 50%;
+  vertical-align: top;
+}
+[lang='zh'] .tblNotice .noticeInfo a .tit .new {
+  background-color: #fe324b;
+}
+.tblNotice .date {
+  width: 115px;
+}
+.tblNotice tr.notiFixed a .cate {
+  padding-left: 19px;
+}
+.tblNotice tr.notiFixed a .cate:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 12px;
+  height: 12px;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/common/ico_boardList.png) no-repeat;
+}
+.tblNotice tr.notiFixed a .cate.shopping:before {
+  background-position: -13px 0;
+}
+.tblNotice tr.notiFixed a .cate.store:before {
+  background-position: -26px 0;
+}
+.tblNotice tr.notiFixed a .cate.brand:before {
+  background-position: -39px 0;
+}
+.tblNotice tr.notiFixed a .cate.system:before {
+  background-position: 0 0;
+}
+.tblNotice tr.notiFixed .tit .subject {
+  font-weight: 700;
+}
+.dutyFreeGuide .titDep2 {
+  margin: 32px 0 24px;
+  font-size: 2.4rem;
+}
+.dutyFreeGuide .titDep2 + .titDep3 {
+  margin-top: 32px;
+}
+.dutyFreeGuide .titDep3 {
+  margin: 48px 0 12px;
+  font-size: 1.8rem;
+}
+.dutyFreeGuide .titDep3 + .guideBult01,
+.dutyFreeGuide .titDep3 + .bultType02 {
+  margin-top: 0;
+}
+.dutyFreeGuide .titDep4 {
+  font-weight: 700;
+  margin: 24px 0 12px;
+  font-size: 1.5rem;
+  color: #373a3c;
+}
+.dutyFreeGuide .titDep4 + .bultType02 {
+  margin-top: 0;
+}
+.dutyFreeGuide .bultType01.typeL {
+  margin-top: 8px;
+}
+.dutyFreeGuide .bultType01.typeL > li {
+  margin: 0;
+  padding-left: 10px;
+  font-size: 1.5rem;
+  color: #5a5f64;
+}
+.dutyFreeGuide .bultType01.typeL > li ~ li {
+  margin-top: 4px;
+}
+.dutyFreeGuide .bultType02 {
+  margin-top: 24px;
+}
+.dutyFreeGuide .bultType02.typeL > li {
+  margin-top: 0;
+  font-size: 1.5rem;
+  color: #5a5f64;
+}
+.dutyFreeGuide .bultType02.typeL > li ~ li {
+  margin-top: 4px;
+}
+.dutyFreeGuide .etcType li {
+  margin-top: 8px;
+  padding-left: 10px;
+}
+.dutyFreeGuide .numType {
+  counter-reset: section;
+}
+.dutyFreeGuide .numType > li:before {
+  content: counter(section) ')';
+  display: inline-block;
+  margin-right: 4px;
+  counter-increment: section;
+}
+.dutyFreeGuide .numType > li ul {
+  margin: 8px 0 0 16px;
+}
+.dutyFreeGuide .numType > li ~ li {
+  margin-top: 12px;
+}
+.dutyFreeGuide .boxWrap {
+  display: table;
+  margin: -16px;
+  border-spacing: 16px;
+}
+.dutyFreeGuide .boxWrap .boxGray {
+  display: table-cell;
+  width: 50%;
+  padding: 24px;
+}
+.dutyFreeGuide .boxGray {
+  margin-top: 0;
+  border-radius: 8px;
+  background: #f8fafc;
+}
+.dutyFreeGuide .boxGray .titDep3 {
+  margin: 0 0 12px;
+  font-weight: 700;
+  color: #373a3c;
+  font-size: 2rem;
+}
+.dutyFreeGuide .boxGray > *:not(h3) {
+  color: #6b6e73;
+}
+.dutyFreeGuide .boxGray .bultType01 > li {
+  padding-left: 10px;
+  font-size: 1.5rem;
+}
+.dutyFreeGuide .boxGray + p {
+  margin-top: 24px;
+}
+.dutyFreeGuide .titDep3 + .boxWrap,
+.dutyFreeGuide .titDep3 + .boxGray {
+  margin-top: -8px;
+}
+.dutyFreeGuide .btnArea + .boxGray {
+  margin-top: 64px;
+}
+.dutyFreeGuide .btnArea + .boxGray .bultType01 li {
+  font-size: 1.3rem;
+}
+.dutyFreeGuide p + p {
+  margin-top: 12px;
+}
+.dutyFreeGuide .tabType01 > li .subTab .swipeMenu {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin-bottom: 0;
+}
+.dutyFreeGuide .carryIn {
+  margin-bottom: 16px;
+  border-bottom: 1px solid #ebedf2;
+  font-size: 0;
+}
+.dutyFreeGuide .carryIn li {
+  display: inline-block;
+  width: 50%;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #373a3c;
+  text-align: center;
+}
+.dutyFreeGuide .carryIn li .tit {
+  height: 48px;
+  border-top: 1px solid #ebedf2;
+  border-bottom: 1px solid #ebedf2;
+  background: #f5f7fa;
+  font-weight: 700;
+  line-height: 48px;
+  color: var(--col_gray02);
+}
+.dutyFreeGuide .carryIn li figure {
+  padding: 16px 0;
+}
+.dutyFreeGuide .carryIn li figure img {
+  display: inline-block;
+}
+.dutyFreeGuide .carryIn li figure img ~ img {
+  margin-left: 16px;
+}
+.dutyFreeGuide .carryIn li ~ li {
+  border-left: 1px solid #ebedf2;
+}
+.dutyFreeGuide .store {
+  margin-left: -32px;
+  font-size: 0;
+}
+.dutyFreeGuide .store > li {
+  display: inline-block;
+  padding-left: 48px;
+  width: 50%;
+  font-size: 1.5rem;
+  vertical-align: top;
+}
+.dutyFreeGuide .store > li figure {
+  overflow: hidden;
+  border-radius: 8px;
+  height: 355px;
+}
+.dutyFreeGuide .store > li .tit {
+  position: relative;
+  margin-top: 24px;
+  font-size: 2.4rem;
+  color: #373a3c;
+}
+.dutyFreeGuide .store > li .tit .eng {
+  margin-bottom: -3px;
+  display: inline-block;
+}
+.dutyFreeGuide .store > li .tit strong {
+  display: block;
+}
+.dutyFreeGuide .store > li .tit .txtLink {
+  position: absolute;
+  top: 5px;
+  right: 0;
+  font-size: 1.5rem;
+  color: #5a5f64;
+}
+.dutyFreeGuide .store > li .txt {
+  margin-top: 16px;
+}
+.dutyFreeGuide .store > li .info {
+  margin-top: 24px;
+}
+.dutyFreeGuide .store > li .info > li {
+  position: relative;
+  margin-top: 12px;
+  padding-left: 104px;
+  color: #373a3c;
+}
+.dutyFreeGuide .store > li .info > li .item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-left: 24px;
+  width: 90px;
+  color: #6b6e73;
+}
+.dutyFreeGuide .store > li .info > li .item:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  margin-top: -10px;
+  width: 20px;
+  height: 20px;
+}
+.dutyFreeGuide .store > li .info > li .item:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 0;
+  margin-top: -7px;
+  width: 1px;
+  height: 13px;
+  background: #eaeaea;
+}
+.dutyFreeGuide .store > li .info > li:first-child .item:before {
+  background: url(/img_up/shop_pds/banobagi/design/images/main/common/ico_place_20x20.png) 50% 50% no-repeat;
+}
+.dutyFreeGuide .store > li .info > li:nth-child(2) .item:before {
+  margin-top: -9px;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/common/ico_time_20x20.png) 50% 50% no-repeat;
+}
+.dutyFreeGuide .store > li .info > li:nth-child(3) .item:before {
+  margin-top: -9px;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/common/ico_info_20x20.png) 50% 50% no-repeat;
+}
+.dutyFreeGuide .store > li:nth-child(n + 3) {
+  margin-top: 64px;
+}
+.dutyFreeGuide .shoppingStep {
+  position: relative;
+  counter-reset: section;
+}
+.dutyFreeGuide .shoppingStep > li {
+  position: relative;
+  padding: 0 0 24px 56px;
+}
+.dutyFreeGuide .shoppingStep > li:before {
+  content: counter(section);
+  counter-increment: section;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 50;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #f7f7fd;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 38px;
+  color: #4d6ee4;
+  text-align: center;
+}
+[lang='zh'] .dutyFreeGuide .shoppingStep > li:before {
+  color: #fe324b;
+}
+.dutyFreeGuide .shoppingStep > li:after {
+  content: '';
+  position: absolute;
+  top: 52px;
+  left: 20px;
+  width: 1px;
+  height: calc(100% - 52px);
+  background: #9fa2a8;
+}
+.dutyFreeGuide .shoppingStep > li ~ li {
+  margin-top: 12px;
+}
+.dutyFreeGuide .shoppingStep > li:last-child:after {
+  display: none;
+  padding: 0;
+}
+.dutyFreeGuide .shoppingStep > li > a {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 40px;
+  color: #373a3c;
+}
+.dutyFreeGuide .shoppingStep > li .stepInfo {
+  position: relative;
+  overflow: hidden;
+  display: none;
+  margin: 8px 0 0;
+  border: 1px solid #ebedf2;
+  border-radius: 4px;
+  background: #fff;
+}
+.dutyFreeGuide .shoppingStep > li .stepInfo figure {
+  float: right;
+  padding-top: 30px;
+  width: 50%;
+  background: #f7f7fd;
+  text-align: center;
+}
+.dutyFreeGuide .shoppingStep > li .stepInfo .bultType01 {
+  display: inline-block;
+  width: 50%;
+  padding: 20px 24px 16px;
+}
+.dutyFreeGuide .shoppingStep > li .stepInfo .bultType01 > li {
+  padding-left: 10px;
+  font-size: 1.5rem;
+}
+.dutyFreeGuide .shoppingStep > li .stepInfo .btnArea {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  margin: 0;
+  padding: 0 24px 24px;
+  width: 50%;
+}
+.dutyFreeGuide .shoppingStep > li .stepInfo .btnArea .btnSSG {
+  display: block;
+  margin: 0;
+  width: 100%;
+}
+.dutyFreeGuide .shoppingStep > li .stepInfo .btnArea .btnSSG ~ button {
+  margin-top: 8px;
+}
+.dutyFreeGuide .shoppingStep > li.tabON {
+  padding-bottom: 0;
+}
+.dutyFreeGuide .shoppingStep > li.tabON:before {
+  background-color: #4d6ee4;
+  color: #fff;
+}
+[lang='zh'] .dutyFreeGuide .shoppingStep > li.tabON:before {
+  background-color: #fe324b;
+}
+.dutyFreeGuide .shoppingStep > li.tabON .stepInfo {
+  display: block;
+}
+.dutyFreeGuide .txtPage.specialOrderTxtPage {
+  padding: 37px 0 37px 224px;
+  border-radius: 8px;
+  background: #f8fafc url(/img_up/shop_pds/banobagi/design/images/main/customer/img_sp_order.png) 16px 50%
+    no-repeat;
+  font-weight: 700;
+  font-size: 1.8rem;
+  height: 154px;
+}
+.dutyFreeGuide .txtPage.specialOrderTxtPage br {
+  display: none;
+}
+.dutyFreeGuide .txtPage.specialOrderTxtPage .txtSub {
+  display: block !important;
+  margin: 8px 0 0 !important;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.53;
+  color: #6b6e73;
+}
+.dutyFreeGuide .txtPage.specialOrderTxtPage + .titDep3 {
+  font-size: 2rem;
+}
+.dutyFreeGuide .stepProcess > li {
+  color: #6b6e73;
+}
+.dutyFreeGuide .stepProcess > li ~ li {
+  margin-top: 24px;
+}
+.dutyFreeGuide .stepProcess > li:first-child:after {
+  background-position-x: -126px;
+}
+.dutyFreeGuide .stepProcess > li:nth-child(2):after {
+  background-position-x: -144px;
+}
+.dutyFreeGuide .stepProcess > li:nth-child(3):after {
+  background-position-x: -162px;
+}
+.dutyFreeGuide .stepProcess > li:nth-child(4):after {
+  background-position-x: -36px;
+}
+.dutyFreeGuide .stepProcess > li:nth-child(5):after {
+  background-position-x: -180px;
+}
+.dutyFreeGuide .stepProcess > li:nth-child(6):after {
+  background-position-x: -198px;
+}
+.dutyFreeGuide .stepProcess.as > li {
+  padding-left: 143px;
+}
+.dutyFreeGuide .stepProcess.as > li strong {
+  position: absolute;
+  top: 12px;
+  left: 64px;
+  width: auto;
+}
+.dutyFreeGuide .stepProcess.as > li .txt {
+  font-weight: 500;
+  color: #373a3c;
+}
+.dutyFreeGuide .stepProcess.as > li .bultType01 > li {
+  font-size: 1.5rem;
+}
+.dutyFreeGuide .stepProcess.as > li:first-child:after {
+  background-position-x: 0;
+}
+.dutyFreeGuide .stepProcess.as > li:nth-child(2):after {
+  background-position-x: -18px;
+}
+.dutyFreeGuide .stepProcess.as > li:nth-child(3):after {
+  background-position-x: -36px;
+}
+.dutyFreeGuide .stepProcess.as > li:nth-child(4):after {
+  background-position-x: -234px;
+}
+.dutyFreeGuide .stepProcess.as > li:nth-child(5):after {
+  background-position-x: -252px;
+}
+.dutyFreeGuide .stepProcess.as > li:nth-child(6):after {
+  background-position-x: -54px;
+}
+.dutyFreeGuide .stepProcess.receiptProcess > li:first-child:after {
+  background-position-x: -72px;
+}
+.dutyFreeGuide .stepProcess.receiptProcess > li:nth-child(2):after {
+  background-position-x: -90px;
+}
+.dutyFreeGuide .stepProcess.receiptProcess > li:nth-child(3):after {
+  background-position-x: -108px;
+}
+.dutyFreeGuide .stepProcess.receiptProcess > li:nth-child(4):after {
+  background-position-x: -36px;
+}
+.dutyFreeGuide .stepProcess.receiptProcess > li:nth-child(5):after {
+  background-position-x: -54px;
+}
+.dutyFreeGuide .frmInp + .btnArea {
+  margin-top: 32px;
+}
+.dutyFreeGuide .tabBox.type2 {
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.dutyFreeGuide .tabBox.type2 > li {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 33.33%;
+  flex: 0 33.33%;
+}
+.dutyFreeGuide .tabBox.type2 > li a {
+  margin: 2px 2px;
+}
+.dutyFreeGuide .tblH ~ .tblH {
+  margin-top: 48px;
+}
+.dutyFreeGuide .tblH tbody th {
+  color: #5a5f64;
+  vertical-align: middle;
+}
+.dutyFreeGuide .tblH tbody td {
+  color: #5a5f64;
+}
+.dutyFreeGuide .tblH tbody td:first-child {
+  border-left: 1px solid #eaeaea;
+}
+.dutyFreeGuide .tabContentWrap + p.bultType01 {
+  margin-top: 12px;
+  color: #6b6e73;
+}
+.dutyFreeGuide .descOrderTime {
+  margin-top: 64px;
+}
+.dutyFreeGuide .descOrderTime .titDep3 {
+  font-weight: 700;
+}
+.dutyFreeGuide .descOrderTime figure {
+  display: block;
+  margin-top: 24px;
+}
+.dutyFreeGuide .tabType05 {
+  display: block;
+  margin: -4px 0 0 -4px;
+  width: auto;
+  font-size: 0;
+}
+.dutyFreeGuide .tabType05 > li {
+  display: inline-block;
+  padding: 0 0 4px 4px;
+  width: 25%;
+  font-size: 1.4rem;
+}
+.dutyFreeGuide .tabType05 > li a {
+  border-color: #b9bcc0;
+}
+.dutyFreeGuide .deliveryPlatform {
+  margin: 32px auto 0;
+  width: 650px;
+}
+.dutyFreeGuide .deliveryPlatform figure img {
+  width: 650px;
+  border: 1px solid #eaeaea;
+}
+.dutyFreeGuide .deliveryPlatform .titDep3 {
+  margin: 24px auto 12px;
+  width: 848px;
+}
+.dutyFreeGuide .deliveryPlatform .tblH td {
+  text-align: center;
+}
+.dutyFreeGuide .deliveryPlatform .tblH td:first-child {
+  border-left: none;
+}
+.swipeMenu .tabBasic {
+  margin: 0 auto;
+}
+.swipeMenu .tabBasic > li.tabON {
+  font-weight: 700;
+  color: #373a3c;
+}
+.swipeMenu .tabBasic > li.tabON:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 10;
+  width: 100%;
+  height: 2px;
+  background: #373a3c;
+}
+.stepProcess {
+  position: relative;
+  overflow: hidden;
+}
+.stepProcess.special {
+  margin-top: 24px;
+}
+.stepProcess:before {
+  content: '';
+  position: absolute;
+  z-index: 1;
+  left: 25px;
+  top: 38px;
+  width: 1px;
+  bottom: 38px;
+  background-color: #e9ebfb;
+}
+[lang='zh'] .stepProcess:before {
+  background-color: #ffeef1;
+}
+.stepProcess > li {
+  position: relative;
+  padding: 10px 0 0 64px;
+  min-height: 50px;
+  font-size: 1.8rem;
+  color: #373a3c;
+}
+.stepProcess > li ~ li {
+  margin-top: 14px;
+}
+.stepProcess > li:before,
+.stepProcess > li:after {
+  content: '';
+  position: absolute;
+  z-index: 2;
+}
+.stepProcess > li:before {
+  left: 0;
+  top: 0;
+  width: 48px;
+  height: 48px;
+  border: 1px solid;
+  border-color: #e9ebfb;
+  border-radius: 100%;
+  background: #f7f7fd;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+[lang='zh'] .stepProcess > li:before {
+  border-color: #ffeef1;
+}
+.stepProcess > li:after {
+  left: 17px;
+  top: 15px;
+  width: 17px;
+  height: 17px;
+  background-image: url(/img_up/shop_pds/banobagi/design/images/main/customer/spr_guide.png);
+  background-repeat: no-repeat;
+  background-position: 0;
+}
+.stepProcess strong {
+  display: inline-block;
+  width: 130px;
+  font-weight: 500;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #373a3c;
+  font-size: 1.8rem;
+}
+[lang='zh'] .stepProcess strong {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.stepProcess + .boxGray {
+  margin-top: 40px;
+}
+.stepProcess + .boxGray .bultType01 > li {
+  font-size: 1.3rem;
+}
+.flightTag {
+  display: inline-block;
+  min-width: 40px;
+  padding: 4px 8px;
+  font-size: 1.3rem;
+  border-radius: 8px;
+}
+.flightTag.chkOpen {
+  color: #007a34;
+  background: #f2fcf6;
+}
+.flightTag.chkDue {
+  color: #ff8c00;
+  background: #fefff3;
+}
+.flightTag.chkOff {
+  color: #f42d10;
+  background: #fff8f7;
+}
+.flightTag.ready {
+  color: #b69149;
+  background: #fffcf4;
+}
+.flightTag.due {
+  color: #009195;
+  background: #f0fcfc;
+}
+.flightTag.off {
+  color: #d20055;
+  background: #fff5f9;
+}
+.flightTag.start {
+  color: #005fc2;
+  background: #f5faff;
+}
+.flightTag.delay {
+  color: #ce0700;
+  background: #fff8f7;
+}
+.flightTag.cancellation {
+  color: #fff;
+  background: #b7b8bb;
+}
+.flightTag.etc {
+  color: #8b8f94;
+  background: #f5f7fa;
+}
+.airportOfferInfo {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.airportOfferInfo .tit {
+  margin-right: 5px;
+  color: #6b6e73;
+  font-size: 1.3rem;
+}
+.airportOfferInfo .txtLink.lineU {
+  color: #5a5f64;
+  font-weight: 500;
+}
+.airportInfoSearch {
+  margin: -24px 0 24px;
+  padding: 48px 24px;
+  background: #f8fafc;
+}
+.airportInfoSearch > * {
+  text-align: center;
+}
+.airportInfoSearch .tit {
+  display: block;
+  color: #373a3c;
+  font-weight: 700;
+  font-size: 2.4rem;
+}
+.airportInfoSearch .updateInfoWrap {
+  position: relative;
+  width: 600px;
+  margin: 0 auto;
+}
+.airportInfoSearch .updateInfoWrap .reload {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.airportInfoSearch .updateInfoWrap .reload:before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/common/ico_refresh_12x.png) no-repeat 50% 50%;
+  vertical-align: -2px;
+}
+.airportInfoSearch .updateInfo {
+  margin: 0 0 12px;
+  padding: 3px 0 10px;
+}
+.airportInfoSearch .updateInfo > * {
+  display: inline-block;
+}
+.airportInfoSearch .updateInfo dd {
+  margin-left: 5px;
+  font-weight: 500;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+[lang='zh'] .airportInfoSearch .updateInfo dd {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.airportInfoSearch .searchArea.wType .selectWrap {
+  width: 228px;
+  margin-right: 5px;
+}
+.airportInfoSearch .searchArea.wType .btnM {
+  width: 200px;
+}
+.airportInfoSearch.parking .searchArea .selectWrap {
+  width: 464px;
+}
+.flightResult {
+  position: relative;
+  margin-bottom: 16px;
+}
+.flightResult .resultDate {
+  display: inline-block;
+  padding-top: 24px;
+  color: #373a3c;
+  font-weight: 500;
+  font-size: 2.4rem;
+}
+.flightResult .airportOfferInfo {
+  bottom: 6px;
+}
+.flightResultArea:after {
+  content: '';
+  clear: both;
+  display: block;
+  visibility: hidden;
+}
+.flightResultArea .flightResultList {
+  margin: -8px 0 0 -12px;
+  overflow: visible;
+}
+.flightResultArea .flightResultList > li {
+  display: inline-block;
+  width: calc(50% - 14px);
+  margin: 8px 0 0 12px;
+  padding: 8px 0;
+  border: 0;
+  vertical-align: top;
+}
+.flightResultArea .flightResultList > li .flightBox {
+  position: relative;
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  height: 145px;
+  border: solid 1px #eaeaea;
+  border-radius: 8px;
+  background: #fff;
+}
+.flightResultArea .flightResultList > li .flightBox .infoGroup {
+  display: table-cell;
+  width: 100%;
+  height: 145px;
+  padding: 32px 0 0;
+  vertical-align: top;
+  border-radius: 8px 0 0 8px;
+}
+.flightResultArea .flightResultList > li .flightBox .infoGroup > * {
+  padding: 0 0 0 32px;
+}
+.flightResultArea .flightResultList > li .flightBox .infoGroup .destination {
+  display: block;
+  color: #1e2023;
+  font-weight: 500;
+  font-size: 2.4rem;
+  line-height: 1.33333;
+  line-height: 1.41667;
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.flightResultArea .flightResultList > li .flightBox .infoGroup .destination i {
+  margin-left: 4px;
+  color: #6b6e73;
+  font-weight: 400;
+  font-size: 1.3rem;
+  line-height: 1.38462;
+  font-style: normal;
+}
+.flightResultArea .flightResultList > li .flightBox .infoGroup .airlineInfo {
+  display: block;
+  color: #373a3c;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.53333;
+}
+.flightResultArea
+  .flightResultList
+  > li
+  .flightBox
+  .infoGroup
+  .airlineInfo
+  .flightNum {
+  margin-left: 4px;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+}
+[lang='zh']
+  .flightResultArea
+  .flightResultList
+  > li
+  .flightBox
+  .infoGroup
+  .airlineInfo
+  .flightNum {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.flightResultArea .flightResultList > li .flightBox .infoGroup .chkcounter {
+  display: inline-block;
+  color: #373a3c;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1.53333;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+[lang='zh']
+  .flightResultArea
+  .flightResultList
+  > li
+  .flightBox
+  .infoGroup
+  .chkcounter {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.flightResultArea .flightResultList > li .flightBox .infoGroup .gate {
+  display: inline-block;
+  padding: 0;
+  color: #373a3c;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1.53333;
+}
+.flightResultArea .flightResultList > li .flightBox .infoGroup .gate:before {
+  content: '/';
+  margin: 0 4px;
+  color: #9fa2a8;
+}
+.flightResultArea .flightResultList > li .flightBox .status {
+  position: relative;
+  display: table-cell;
+  width: 152px;
+  height: 100%;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 0 8px 8px 0;
+  border-left: 2px dotted #eaeaea;
+}
+.flightResultArea .flightResultList > li .flightBox .status .timeChanged {
+  display: block;
+  margin-bottom: 5px;
+  color: #1e2023;
+  font-weight: 500;
+  font-size: 2.4rem;
+  line-height: 1.33333;
+  line-height: 1.41667;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+[lang='zh']
+  .flightResultArea
+  .flightResultList
+  > li
+  .flightBox
+  .status
+  .timeChanged {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.flightResultArea .flightResultList > li .flightBox .status .timeDue {
+  color: #6b6e73;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1.53333;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-decoration: line-through;
+}
+[lang='zh']
+  .flightResultArea
+  .flightResultList
+  > li
+  .flightBox
+  .status
+  .timeDue {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.flightResultArea .flightResultList > li .flightBox .status:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: -1px;
+  left: -8px;
+  width: 12px;
+  height: 6px;
+  border: 1px solid #eaeaea;
+  background: #fff;
+  border-radius: 0 0 6px 6px;
+  border-top: 0;
+}
+.flightResultArea .flightResultList > li .flightBox .status:after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: -1px;
+  left: -8px;
+  width: 12px;
+  height: 6px;
+  border: 1px solid #eaeaea;
+  background: #fff;
+  border-radius: 6px 6px 0 0;
+  border-bottom: 0;
+}
+.parkingMapArea {
+  position: relative;
+}
+.parkingMapArea .airport {
+  position: relative;
+  width: 750px;
+  height: 640px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 0 0;
+}
+.parkingMapArea .airport .start {
+  position: absolute;
+  display: inline-block;
+}
+.parkingMapArea .airport dt {
+  position: absolute;
+  color: #6b6e73;
+  font-size: 1.5rem;
+}
+.parkingMapArea .airport .location {
+  display: block;
+  margin: 0 0 4px;
+  padding: 4px 8px;
+  color: #6b6e73;
+  font-size: 1.3rem;
+  text-align: center;
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+  background: #fff;
+}
+.parkingMapArea .airport .location.floor {
+  display: inline-block;
+  min-width: 33px;
+  margin: 0 12px 0 0;
+  color: #4d6ee4;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  border: 0;
+}
+[lang='zh'] .parkingMapArea .airport .location.floor {
+  color: #fe324b;
+}
+[lang='zh'] .parkingMapArea .airport .location.floor {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.parkingMapArea .airport .location.floor + .status {
+  text-align: center;
+}
+.parkingMapArea .airport .status {
+  color: #373a3c;
+  font-weight: 400;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.parkingMapArea .airport .status > b {
+  font-weight: 700;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+[lang='zh'] .parkingMapArea .airport .status > b {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.parkingMapArea .airport .status.full {
+  color: #ce0700;
+}
+.parkingMapArea .airport.inchen1 {
+  background-image: url(/img_up/shop_pds/banobagi/design/images/main/customer/img_parking_incheon1.png);
+}
+.parkingMapArea .airport.inchen1 .start {
+  top: 43px;
+  left: 331px;
+}
+.parkingMapArea .airport.inchen1 dt {
+  left: 341px;
+}
+.parkingMapArea .airport.inchen1 dt:nth-of-type(1) {
+  top: 291px;
+}
+.parkingMapArea .airport.inchen1 dt:nth-of-type(2) {
+  top: 571px;
+}
+.parkingMapArea .airport.inchen1 dd:nth-of-type(1) {
+  position: absolute;
+  top: 147px;
+  left: 311px;
+}
+.parkingMapArea .airport.inchen1 dd:nth-of-type(1) > ul li {
+  margin-bottom: 12px;
+}
+.parkingMapArea .airport.inchen1 dd:nth-of-type(2) > ul li {
+  position: absolute;
+}
+.parkingMapArea .airport.inchen1 dd:nth-of-type(2) > ul li > .status {
+  display: block;
+  line-height: 1.4;
+}
+.parkingMapArea .airport.inchen1 dd:nth-of-type(2) > ul li:first-child {
+  top: 352px;
+  left: 404px;
+}
+.parkingMapArea .airport.inchen1 dd:nth-of-type(2) > ul li:nth-child(2) {
+  top: 413px;
+  left: 419px;
+}
+.parkingMapArea .airport.inchen1 dd:nth-of-type(2) > ul li:nth-child(3) {
+  top: 352px;
+  left: 269px;
+}
+.parkingMapArea .airport.inchen1 dd:nth-of-type(2) > ul li:nth-child(4) {
+  top: 413px;
+  left: 254px;
+}
+.parkingMapArea .airport.inchen1 dd:nth-of-type(2) > ul li:nth-child(5) {
+  top: 492px;
+  left: 419px;
+}
+.parkingMapArea .airport.inchen1 dd:nth-of-type(2) > ul li:nth-child(6) {
+  top: 492px;
+  left: 254px;
+}
+.parkingMapArea .airport.inchen2 {
+  background-image: url(/img_up/shop_pds/banobagi/design/images/main/customer/img_parking_incheon2.png);
+}
+.parkingMapArea .airport.inchen2 .start {
+  top: 66px;
+  left: 331px;
+}
+.parkingMapArea .airport.inchen2 dt {
+  left: 340px;
+}
+.parkingMapArea .airport.inchen2 dt:nth-of-type(1) {
+  top: 389px;
+}
+.parkingMapArea .airport.inchen2 dt:nth-of-type(2) {
+  top: 582px;
+}
+.parkingMapArea .airport.inchen2 dd:nth-of-type(1) {
+  position: absolute;
+  top: 236px;
+  left: 311px;
+}
+.parkingMapArea .airport.inchen2 dd:nth-of-type(1) > ul li {
+  margin-bottom: 12px;
+}
+.parkingMapArea .airport.inchen2 dd:nth-of-type(2) {
+  position: absolute;
+  top: 518px;
+  left: 340px;
+}
+.parkingMapArea .airport.gimhae {
+  background-image: url(/img_up/shop_pds/banobagi/design/images/main/customer/img_parking_gimhae.png);
+}
+.parkingMapArea .airport.gimhae .locationGroup .start,
+.parkingMapArea .airport.gimhae .locationGroup .location,
+.parkingMapArea .airport.gimhae .locationGroup .status {
+  position: absolute;
+}
+.parkingMapArea .airport.gimhae .locationGroup:nth-of-type(1) .start {
+  top: 424px;
+  left: 574px;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+}
+.parkingMapArea .airport.gimhae .locationGroup:nth-of-type(1) .location {
+  top: 208px;
+  left: 475px;
+}
+.parkingMapArea .airport.gimhae .locationGroup:nth-of-type(1) .status {
+  top: 239px;
+  left: 485px;
+}
+.parkingMapArea .airport.gimhae .locationGroup:nth-of-type(2) .start {
+  top: 512px;
+  left: 245px;
+}
+.parkingMapArea .airport.gimhae .locationGroup:nth-of-type(2) .location {
+  top: 327px;
+  left: 219px;
+}
+.parkingMapArea .airport.gimhae .locationGroup:nth-of-type(2) .status {
+  top: 358px;
+  left: 229px;
+}
+.parkingMapArea .airport.gimpo {
+  background-image: url(/img_up/shop_pds/banobagi/design/images/main/customer/img_parking_gimpo.png);
+}
+.parkingMapArea .airport.gimpo .locationGroup .location,
+.parkingMapArea .airport.gimpo .locationGroup .status {
+  position: absolute;
+}
+.parkingMapArea .airport.gimpo .locationGroup:nth-of-type(1) .start {
+  top: 579px;
+  left: 356px;
+}
+.parkingMapArea .airport.gimpo .locationGroup:nth-of-type(1) .location {
+  top: 389px;
+  left: 341px;
+}
+.parkingMapArea .airport.gimpo .locationGroup:nth-of-type(1) .status {
+  top: 420px;
+  left: 340px;
+}
+.parkingMapArea .airport.gimpo .locationGroup:nth-of-type(2) .location {
+  top: 174px;
+  left: 551px;
+}
+.parkingMapArea .airport.gimpo .locationGroup:nth-of-type(2) .status {
+  top: 205px;
+  left: 550px;
+}
+.parkingMapArea .airport.gimpo .locationGroup:nth-of-type(3) .start {
+  top: 130px;
+  left: 36px;
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+}
+.parkingMapArea .airport.gimpo .locationGroup:nth-of-type(3) .location {
+  top: 120px;
+  left: 214px;
+}
+.parkingMapArea .airport.gimpo .locationGroup:nth-of-type(3) .status {
+  top: 151px;
+  left: 222px;
+}
+.parkingMapArea .airport.daegu {
+  background-image: url(/img_up/shop_pds/banobagi/design/images/main/customer/img_parking_daegu.png);
+}
+.parkingMapArea .airport.daegu .status {
+  position: absolute;
+}
+.parkingMapArea .airport.daegu .start {
+  top: 119px;
+  left: 317px;
+}
+.parkingMapArea .airport.daegu .status {
+  top: 382px;
+  left: 341px;
+}
+.parkingMapArea .airport.jeju {
+  background-image: url(/img_up/shop_pds/banobagi/design/images/main/customer/img_parking_jeju.png);
+}
+.parkingMapArea .airport.jeju .status {
+  position: absolute;
+}
+.parkingMapArea .airport.jeju .start {
+  top: 83px;
+  left: 493px;
+}
+.parkingMapArea .airport.jeju .status {
+  top: 439px;
+  left: 337px;
+}
+.orderTimeList.formList .selectList > li {
+  width: 280px;
+  padding: 0 4px;
+}
+.orderTimeList.formList .selectList > li .calenInp {
+  width: 100%;
+  min-width: auto;
+}
+.orderTimeList.formList .selectList {
+  width: auto;
+}
+.orderTimeList.formList .selectList > li + li {
+  width: 200px;
+}
+.orderTimeList.formList .selectList li .calenInp input {
+  border: 0;
+}
+.orderTimeList.formList .frmInp {
+  padding: 24px 0;
+}
+.orderTimeList.formList .frmInp + .frmInp {
+  padding-top: 0;
+}
+.orderTimeCont .title {
+  margin-top: 64px;
+}
+.orderTimeCont .imgCont {
+  margin-top: 24px;
+}
+.orderTimeCont .subTab .tabType03 li {
+  width: 145px;
+}
+.orderTimeCont .subTab .tabType03 li > a {
+  min-width: 145px;
+  padding: 0 13px;
+}
+.orderTimeCont table th {
+  vertical-align: middle;
+}
+.orderTimeCont table th,
+.orderTimeCont table td {
+  text-align: center;
+}
+.orderTimeCont table tbody td {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.orderTimeCont table + table {
+  margin-top: 49px;
+}
+.orderTimeCont table + .bultType01 {
+  margin-top: 12px;
+}
+.orderTimePop {
+  text-align: center;
+}
+.orderTimePop .infoTxt {
+  padding: 116px 0 24px;
+  text-align: center;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/customer/ico_airplane.png) no-repeat 50% 0;
+}
+.orderTimePop .infoTxt b {
+  display: block;
+  font-size: 1.8rem;
+  line-height: 1.44444;
+  font-weight: 500;
+  color: #373a3c;
+}
+.orderTimePop .infoTxt b .num {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.orderTimePop .infoTxt p {
+  margin-top: 8px;
+  color: #6b6e73;
+  font-size: 1.8rem;
+  line-height: 1.44444;
+}
+.orderTimePop .boxTxt {
+  margin-top: 24px;
+  padding: 24px 24px;
+  background: #f8fafc;
+}
+.orderTimePop .boxTxt.type01 {
+  font-size: 1.8rem;
+  line-height: 1.44444;
+  font-weight: 500;
+  color: #e6230a;
+}
+.orderTimePop .boxTxt .notiTxt {
+  color: #6b6e73;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.orderTimePop .boxTxt .notiTxt b {
+  color: #4d6ee4;
+}
+[lang='zh'] .orderTimePop .boxTxt .notiTxt b {
+  color: #fe324b;
+}
+.orderTimePop .boxTxt .txtLink {
+  margin-top: 12px;
+  font-size: 1.5rem;
+  line-height: 1.53333;
+}
+.orderTimePop .notiTxt {
+  margin-top: 12px;
+  color: #8b8f94;
+}
+.orderTimePop .remainTime {
+  color: #4d6ee4;
+}
+[lang='zh'] .orderTimePop .remainTime {
+  color: #fe324b;
+}
+.orderTimePop .remainTime .txt {
+  color: #6b6e73;
+}
+.orderTimePop .remainTime .num {
+  margin: 0 0 0 12px;
+  font-size: 2.4rem;
+  line-height: 1.33333;
+  line-height: 1.41667;
+  font-weight: 500;
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+  vertical-align: -2px;
+}
+.orderTimePop .remainTime .num + .txt {
+  font-size: 2.4rem;
+  line-height: 1.33333;
+  line-height: 1.41667;
+  color: #4d6ee4;
+  vertical-align: -2px;
+  font-weight: 500;
+  vertical-align: -2px;
+}
+[lang='zh'] .orderTimePop .remainTime .num + .txt {
+  color: #fe324b;
+}
+.voucherInfoBox {
+  margin: 32px 0 24px;
+  padding: 32px 0;
+  border: none;
+  text-align: center;
+}
+.voucherInfoBox > li {
+  height: 32px;
+  text-align: right;
+}
+.voucherInfoBox .moneyInfo {
+  text-align: center;
+}
+.voucherInfoBox .moneyInfo li {
+  display: inline-block;
+  width: 60%;
+  padding: 0;
+  text-align: center;
+}
+.voucherInfoBox .moneyInfo li > div {
+  display: inline-block;
+}
+.voucherInfoBox .moneyInfo li > div + div {
+  margin-left: 56px;
+}
+.voucherInfoBox .moneyInfo li + li {
+  width: 39%;
+}
+.voucherInfoBox .moneyInfo:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.voucherInfoBox .moneyInfo .tit {
+  color: #6b6e73;
+  line-height: 32px;
+  vertical-align: top;
+}
+.voucherInfoBox .moneyInfo .num {
+  font-size: 1.4rem;
+  margin-left: 16px;
+  line-height: 32px;
+}
+.voucherInfoBox .moneyInfo .num em {
+  margin-right: 2px;
+  font-size: 1.8rem;
+  line-height: 1.44444;
+  font-weight: 500;
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #373a3c;
+  vertical-align: -1px;
+}
+.voucherInfoBox .moneyInfo .use {
+  border-left: 1px solid #eaeaea;
+}
+.voucherInfoBox .moneyInfo .use .num {
+  display: inline-block;
+  margin: -4px 0 0 32px;
+  font-size: 2rem;
+  line-height: 1.4;
+  color: #4d6ee4;
+}
+[lang='zh'] .voucherInfoBox .moneyInfo .use .num {
+  color: #fe324b;
+}
+.voucherInfoBox .moneyInfo .use .num em {
+  font-size: 3.2rem;
+  line-height: 1.25;
+  color: #4d6ee4;
+}
+[lang='zh'] .voucherInfoBox .moneyInfo .use .num em {
+  color: #fe324b;
+}
+.voucherType th,
+.voucherType td {
+  background: none;
+  border-left: none;
+  color: #5a5f64;
+}
+.voucherType th {
+  font-weight: 500;
+}
+.voucherType td {
+  vertical-align: middle;
+  padding: 24px 0;
+}
+.voucherType td:first-child {
+  padding-left: 24px;
+}
+.voucherType td:last-child {
+  padding-right: 24px;
+}
+.voucherType td.txt {
+  font-size: 1.8rem;
+  line-height: 1.44444;
+  color: #373a3c;
+  text-align: left;
+  font-weight: 500;
+}
+.voucherType td.txt span {
+  margin-left: 16px;
+  font-size: 1.3rem;
+  line-height: 1.38462;
+  color: #6b6e73;
+  vertical-align: 2px;
+}
+.voucherType td.txt span em {
+  margin-left: 6px;
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.voucherType td .sTxtCont {
+  display: block;
+  font-weight: 400;
+}
+.voucherType td .sTxtCont span {
+  margin-left: 8px;
+  font-size: 1.3rem;
+  line-height: 1.38462;
+  font-family: Noto Sans KR, 'notokr', 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #6b6e73;
+  vertical-align: 0;
+}
+[lang='zh'] .voucherType td .sTxtCont span {
+  font-family: Microsoft Yahei, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.voucherType td .sTxtCont span:first-child {
+  margin-left: 0;
+}
+.voucherType td .sTxtCont span.dday {
+  color: #ce0700;
+}
+.voucherType td .sTxtCont .txtLink {
+  margin-left: 8px;
+  font-weight: 500;
+}
+.voucherType td.date {
+  font-size: 1.3rem;
+  line-height: 1.38462;
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.voucherType td.state {
+  font-weight: 500;
+}
+.voucherType td.state.color01 {
+  color: #005fc2;
+}
+.voucherType td.state.color02 {
+  color: #d20055;
+}
+.voucherType td.state.color03 {
+  color: #ad00c4;
+}
+.voucherType td.state.color04 {
+  color: #006d69;
+}
+.voucherType td.money {
+  font-size: 2rem;
+  line-height: 1.4;
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  text-align: right;
+}
+.voucherType td.money > span {
+  margin-left: 2px;
+  font-size: 1.4rem;
+  font-family: Noto Sans KR, 'notokr', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+[lang='zh'] .voucherType td.money > span {
+  font-family: Microsoft Yahei, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.voucherType td.money.color01 {
+  color: #4d6ee4;
+}
+[lang='zh'] .voucherType td.money.color01 {
+  color: #fe324b;
+}
+.voucherType td.money.color02 {
+  color: #e6230a;
+}
+.voucherType td.noData {
+  height: 400px;
+}
+.voucherType td.noData:hover {
+  background: none;
+}
+.voucherType td + td {
+  text-align: center;
+}
+.signupBox {
+  margin: 32px 0 24px;
+}
+.signupBox:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.signupBox li {
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+.signupBox li .txt {
+  margin: 0 auto;
+  padding: 0 32px;
+  font-size: 1.8rem;
+}
+.signupBox li .txt .inlineTxt {
+  display: inline;
+}
+.signupBox li .txt .blockTxt {
+  display: block;
+}
+.signupBox button {
+  margin-top: 16px;
+}
+.signupBox li + li {
+  border-left: 1px solid #dcdfe3;
+}
+.tblData.signupType td {
+  height: 106px;
+}
+.tblData.signupType .state .flag {
+  padding: 4px 8px;
+  width: auto;
+  font-size: 1.3rem;
+  line-height: 1.38462;
+  font-weight: 400;
+}
+.tblData.signupType .amount {
+  color: #4d6ee4;
+  font-size: 2.4rem;
+  line-height: 1.33333;
+  line-height: 1.41667;
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+}
+[lang='zh'] .tblData.signupType .amount {
+  color: #fe324b;
+}
+.tblData.signupType .amount > span {
+  font-size: 1.5rem;
+  line-height: 1.53333;
+  font-family: Noto Sans KR, 'notokr', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+[lang='zh'] .tblData.signupType .amount > span {
+  font-family: Microsoft Yahei, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.tblData.signupType .number,
+.tblData.signupType .date {
+  font-size: 1.3rem;
+  line-height: 1.38462;
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #6b6e73;
+}
+.tblData.signupType .btn .btnXS {
+  width: 120px;
+}
+.tblData.signupType .btn .btnXS + .btnXS {
+  margin-top: 0;
+}
+.tblData.signupType .type02 {
+  background: #f5f7fa;
+  color: #9fa2a8;
+}
+.tblData.signupType .type02 .amount {
+  color: #9fa2a8;
+}
+.tblData.signupType .type02 .number,
+.tblData.signupType .type02 .date {
+  color: #9fa2a8;
+}
+.tblData.signupType .type03 .amount {
+  color: #373a3c;
+}
+.applyMethod {
+  margin-top: 52px;
+  padding: 24px 32px;
+  background: #f7f7fd;
+}
+.applyMethod.type02 ul li:nth-child(2) {
+  line-height: 1.44;
+}
+.applyMethod.type02 ul li:nth-child(2) .sTxt {
+  display: block;
+  margin-left: 0;
+  margin-top: 4px;
+}
+.applyMethod .titGuide {
+  margin-bottom: 24px;
+  font-size: 2rem;
+  line-height: 1.4;
+  color: #212b36;
+  font-weight: 500;
+}
+.applyMethod ul {
+  position: relative;
+}
+.applyMethod ul:after {
+  width: 1px;
+  height: calc(100% - 48px);
+  content: '';
+  background-color: #e9ebfb;
+  position: absolute;
+  top: 24px;
+  left: 24px;
+}
+[lang='zh'] .applyMethod ul:after {
+  background-color: #ffeef1;
+}
+.applyMethod ul li {
+  padding-left: 60px;
+  height: 48px;
+  font-size: 1.8rem;
+  line-height: 1.44444;
+  line-height: 48px;
+  color: #373a3c;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/mypage/bg_applymethod.png) no-repeat 0 0;
+  letter-spacing: -0.5px;
+  position: relative;
+  z-index: 99;
+}
+[lang='zh'] .applyMethod ul li {
+  background-image: url(/img_up/shop_pds/banobagi/design/images/main/cmall/bg_applymethod.png);
+}
+.applyMethod ul li .point {
+  color: #4d6ee4;
+}
+[lang='zh'] .applyMethod ul li .point {
+  color: #fe324b;
+}
+.applyMethod ul li .sTxt {
+  margin-left: 10px;
+  font-size: 1.5rem;
+  line-height: 1.53333;
+  color: #6b6e73;
+  letter-spacing: -0.45px;
+  vertical-align: 1px;
+}
+.applyMethod ul li + li {
+  margin-top: 16px;
+}
+.applyMethod ul li:nth-child(2) {
+  background-position: 0 -48px;
+}
+.applyMethod ul li:nth-child(3) {
+  background-position: 0 -96px;
+}
+.bolderT {
+  margin-top: 24px;
+  padding-top: 24px;
+  border-top: 1px solid #eaeaea;
+}
+.inquiryCont {
+  position: relative;
+}
+.inquiryCont button {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  margin-top: -24px;
+}
+.applicateChange.miniCont {
+  min-height: 300px;
+}
+.applicateChange .frmInp:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.applicateChange .frmInp label {
+  float: left;
+  width: 120px;
+}
+.applicateChange .frmInp .inpA {
+  float: right;
+  width: 415px;
+}
+.applicateChange .frmInp .inputBox {
+  float: right;
+}
+.applicateChange .frmInp .inputBox input {
+  width: 272px;
+}
+.applicateChange .frmInp .inputBox input.full {
+  width: 413px;
+}
+.applicateChange .frmInp .inputBox input + button {
+  margin-left: 8px;
+}
+.applicateChange .frmInp + .frmInp {
+  margin-top: 12px;
+}
+.voucherCont {
+  margin-bottom: 49px;
+}
+.voucherCont .addressCont {
+  padding: 12px 24px;
+  border-radius: 8px;
+  border: solid 1px #eaeaea;
+}
+.voucherCont .voucherProcess {
+  margin-top: 32px;
+}
+.voucherCont .voucherProcess .point {
+  color: #4d6ee4;
+}
+[lang='zh'] .voucherCont .voucherProcess .point {
+  color: #fe324b;
+}
+.voucherCont .voucherProcess strong {
+  height: 27px;
+  line-height: 27px;
+  font-weight: 500;
+}
+.voucherCont .voucherProcess .txt {
+  color: #6b6e73;
+}
+.voucherCont .voucherProcess .guide08:before {
+  background-position: -336px 0;
+}
+.voucherCont .voucherProcess .guide09:before {
+  background-position: -576px 0;
+}
+.usedInfoList .point {
+  color: #ce0700;
+}
+.pointInfoBox {
+  padding: 24px 24px;
+  margin-bottom: 24px;
+  font-weight: 500;
+  text-align: center;
+}
+.pointInfoBox > div {
+  display: inline-block;
+}
+.pointInfoBox .txt {
+  padding-left: 28px;
+  font-size: 1.8rem;
+  line-height: 1.44444;
+  line-height: 24px;
+  color: #373a3c;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/mypage/ico_benefit_point24.png) no-repeat 0 50%;
+}
+.pointInfoBox .point {
+  margin-left: 16px;
+  font-size: 2.4rem;
+  line-height: 1.33333;
+  line-height: 1.41667;
+  line-height: 24px;
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #4d6ee4;
+  vertical-align: -1px;
+}
+[lang='zh'] .pointInfoBox .point {
+  color: #fe324b;
+}
+.tabContentWrap + .usedInfoList {
+  margin-top: 48px;
+}
+.stepGuide.joinProcessGuide > li > strong {
+  display: inline-block;
+  font-size: 2rem;
+}
+.stepGuide.joinProcessGuide > li .txt {
+  display: inline-block;
+  padding-left: 15px;
+  color: #6b6e73;
+}
+.stepGuide.joinProcessGuide > li .joinCont01 {
+  padding: 32px 32px 30px 32px;
+}
+.stepGuide.joinProcessGuide > li .joinCont01 * {
+  vertical-align: top;
+}
+.stepGuide.joinProcessGuide > li .joinCont01 .left {
+  display: inline-block;
+  width: 260px;
+}
+.stepGuide.joinProcessGuide > li .joinCont01 .right {
+  display: inline-block;
+  width: 445px;
+}
+.stepGuide.joinProcessGuide > li .joinCont01 .right .txtBranch strong {
+  width: 170px;
+}
+.stepGuide.joinProcessGuide > li .joinCont01 .right .txtBranch .infoList {
+  display: inline-block;
+  width: 263px;
+}
+.stepGuide.joinProcessGuide
+  > li
+  .joinCont01
+  .right
+  .txtBranch
+  .infoList
+  .txtInfo {
+  margin-top: 3px;
+}
+.stepGuide.joinProcessGuide
+  > li
+  .joinCont01
+  .right
+  .txtBranch
+  .infoList
+  .txtInfo:first-child {
+  margin-top: 0;
+}
+.stepGuide.joinProcessGuide
+  > li
+  .joinCont01
+  .right
+  .txtBranch
+  .infoList
+  li.etc
+  span {
+  display: inline-block;
+  padding-left: 53px;
+}
+.stepGuide.joinProcessGuide > li .joinCont01 .txtBranch {
+  margin-top: 13px;
+}
+.stepGuide.joinProcessGuide > li .joinCont01 .txtBranch:first-child {
+  margin-top: 0;
+}
+.stepGuide.joinProcessGuide > li .joinCont01 .txtBranch strong {
+  position: relative;
+  padding-left: 22px;
+  display: inline-block;
+  width: 85px;
+  color: #373a3c;
+  font-size: 1.5rem;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.stepGuide.joinProcessGuide > li .joinCont01 .txtBranch strong:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  margin-top: -8px;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/customer/ico_location.png) no-repeat;
+}
+.stepGuide.joinProcessGuide > li .joinCont01 .txtBranch .txtInfo {
+  display: inline-block;
+}
+.stepGuide.joinProcessGuide > li.guide02 .icKakao {
+  width: 300px;
+  margin-top: 10px;
+  font-size: 1.5rem;
+}
+.stepGuide.joinProcessGuide > li.guide02 .icKakao:before {
+  content: '';
+  display: inline-block;
+  width: 18px;
+  height: 17px;
+  margin: 1px 8px -3px 0;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/customer/ic_kakao.png) no-repeat;
+}
+.stepGuide.joinProcessGuide > li.guide01:before {
+  background-position: -624px 0;
+}
+.stepGuide.joinProcessGuide > li.guide02:before {
+  background-position: -336px 0;
+}
+.stepGuide.joinProcessGuide > li.guide03:before {
+  background-position: -144px 0;
+}
+.allienceBenefit .benefitImage {
+  position: relative;
+  margin-bottom: 48px;
+  height: 400px;
+  overflow: hidden;
+}
+.allienceBenefit .benefitImage img {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -616px;
+}
+.allienceBenefit .allienceCont {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+.allienceBenefit .allienceCont:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.allienceBenefit .allienceCont .benefitGrade {
+  display: table-cell;
+  width: 50%;
+  height: 256px;
+  vertical-align: middle;
+  text-align: center;
+}
+.allienceBenefit .allienceCont .benefitGrade .txtSmall {
+  margin-top: 15px;
+}
+.allienceBenefit .allienceCont .benefitGrade .txtBig {
+  color: #1e2023;
+  font-size: 2.4rem;
+  font-weight: 700;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+[lang='zh'] .allienceBenefit .allienceCont .benefitGrade .txtBig {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.allienceBenefit .allienceCont .benefitInfo {
+  display: table-cell;
+  width: 50%;
+  padding-left: 40px;
+  vertical-align: middle;
+  border-left: 1px solid #eaeaea;
+}
+.allienceBenefit .allienceCont .benefitInfo dl:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.allienceBenefit .allienceCont .benefitInfo dl dt {
+  float: left;
+  width: 125px;
+  color: #1e2023;
+  font-size: 1.8rem;
+  font-weight: 700;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+[lang='zh'] .allienceBenefit .allienceCont .benefitInfo dl dt {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.allienceBenefit .allienceCont .benefitInfo dl dd {
+  float: left;
+  width: 250px;
+}
+.allienceBenefit .allienceCont .benefitInfo dl + dl {
+  margin-top: 25px;
+}
+.allienceBenefit .allienceCont .benefitInfo .guideTxt {
+  margin-top: 38px;
+  color: #6b6e73;
+}
+.allienceBenefit .allienceCont .benefitInfo .bultType01 > li {
+  font-size: 1.5rem;
+}
+@media screen and (min-width: 1663px) {
+  .applyMethod.type02 ul li:nth-child(2) {
+    line-height: 48px;
+  }
+  .applyMethod.type02 ul li:nth-child(2) .sTxt {
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 0;
+  }
+  .dutyFreeGuide .tabType05 > li {
+    width: 20%;
+  }
+  .frmList.ansCheck .frmSel:nth-child(1),
+  .frmList.ansCheck .frmSel:nth-child(2) {
+    width: auto;
+  }
+  .frmList.ansCheck .frmSel:nth-child(n + 3) {
+    margin-top: 0;
+  }
+  .layCont .enquiry .frmList.ansCheck .frmSel:nth-child(1),
+  .layCont .enquiry .frmList.ansCheck .frmSel:nth-child(2) {
+    width: calc(50% - 24px);
+  }
+  .layCont .enquiry .frmList.ansCheck .frmSel:nth-child(n + 3) {
+    margin-top: 30px;
+  }
+  .inquireFormList .orderListS > li {
+    width: 33.3333%;
+  }
+  .inquireFormList .orderListS > li:nth-child(n) {
+    margin-top: 0;
+  }
+  .inquireFormList .orderListS > li:nth-child(n + 3) {
+    margin-top: 8px;
+  }
+  .attachGuide {
+    width: calc(100% - 360px) !important;
+  }
+  .boardList.resultType > li .ctrl {
+    padding-right: 390px;
+  }
+  .boardList.resultType > li .ctrl .noticeTbWrap {
+    display: block;
+  }
+  .boardList.resultType > li .ctrl .noticeTbWrap .store {
+    float: initial;
+    margin-right: 0;
+  }
+  .boardList.resultType > li .ctrl .noticeTbWrap .title {
+    display: inline-block;
+    margin-left: 13px;
+  }
+  .boardList.resultType .noticeTbWrap > .title {
+    width: auto;
+  }
+  .boardList.resultType .dateCont {
+    margin-top: -11px;
+  }
+  .boardList.resultType .dateCont > div {
+    display: inline-block;
+  }
+  .boardList.resultType .dateCont .tit,
+  .boardList.resultType .dateCont .date {
+    position: initial !important;
+    font-size: 1.3rem;
+    line-height: 1.38462;
+    color: #373a3c;
+  }
+  .boardList.resultType .dateCont .date {
+    padding-left: 12px;
+    color: #6b6e73;
+  }
+  .boardList.resultType .dateCont > div + div:before {
+    content: '';
+    display: inline-block;
+    width: 1px;
+    height: 12px;
+    background: #dcdfe3;
+    margin: 0 8px;
+    position: relative;
+    vertical-align: middle;
+  }
+  .tblData.boardType td {
+    padding: 22px 20px;
+  }
+  .tblData.boardType td.txt {
+    width: 70%;
+  }
+  .tblData.boardType td.txt a:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+  .tblData.boardType td.txt .flagCont {
+    float: left;
+    display: inline-block;
+  }
+  .tblData.boardType td.txt .tit {
+    float: left;
+    display: inline-block;
+    width: 80%;
+  }
+  .tblData.boardType .date {
+    width: 200px;
+  }
+  .faqResponsive {
+    display: table;
+    width: 100%;
+  }
+  .faqResponsive .faqResponsiveCell {
+    display: table-cell;
+  }
+  .faqResponsive .faqResponsiveCell.hasFlag {
+    width: 150px;
+  }
+  .accordianListfaq .toggleAction .ctrl {
+    padding-left: 115px;
+  }
+  .accordianList.faq .toggleAction .ctrl {
+    padding: 23px 64px 26px 120px;
+  }
+  .accordianList.faq .toggleAction .ctrl .faqFlag {
+    position: absolute;
+    top: 27px;
+    left: 0;
+    display: inline-block;
+    width: 115px;
+  }
+  .accordianList.faq .toggleAction .ctrl strong {
+    margin: 0;
+  }
+}
+.custGradeInfo .gradeinfo {
+  margin-top: 16px;
+}
+.custGradeInfo .gradeinfo:first-child {
+  margin-top: 0;
+}
+@media screen and (min-width: 1903px) {
+  .orderTimeList.formList .selectList > li {
+    width: 190px;
+  }
+  .orderTimeList.formList .selectList > li .calenInp {
+    width: 100%;
+    min-width: auto;
+  }
+  .orderTimeList.formList .selectList {
+    width: auto;
+  }
+  .orderTimeList.formList .selectList > li + li {
+    width: 140px;
+  }
+  .orderTimeList.formList .selectList li .calenInp input {
+    border: 0;
+  }
+  .orderTimeCont .subTab .tabType03 li {
+    width: 118px;
+  }
+  .orderTimeCont .subTab .tabType03 li > a {
+    min-width: 118px;
+    padding: 0 13px;
+  }
+  .voucherInfoBox .moneyInfo li {
+    padding: 0 54px 0 0;
+  }
+  .voucherInfoBox .moneyInfo .use {
+    padding: 0 0 0 54px;
+  }
+  .signupBox li .txt .inlineTxt {
+    display: block;
+  }
+  .signupBox li .txt .blockTxt {
+    display: inline;
+  }
+  .signupBox li + li .blockTxt {
+    display: inline-block;
+  }
+  .tblData.signupType td {
+    padding: 20px 20px;
+  }
+  .tblData.signupType .btn .btnXS + .btnXS {
+    margin-top: 4px;
+  }
+  .tblData.signupType .type02 {
+    background: #f5f7fa;
+    color: #9fa2a8;
+  }
+  .tblData.signupType .type02 .amount {
+    color: #9fa2a8;
+  }
+  .tblData.signupType .type02 .number,
+  .tblData.signupType .type02 .date {
+    color: #9fa2a8;
+  }
+  .tblData.signupType .type03 .amount {
+    color: #373a3c;
+  }
+  .tabType01.tabMulti {
+    display: table;
+  }
+  .tabType01.tabMulti > li {
+    display: table-cell;
+    width: 100%;
+    float: none;
+  }
+  .tabType01.tabMulti > li:nth-child(5n-4) a,
+  .tabType01.tabMulti > li:nth-child(n + 6) a {
+    border: 1px solid #dcdfe3;
+    border-left: none;
+  }
+  .tabType01.tabMulti > li:nth-child(1) a {
+    border-left: 1px solid #dcdfe3;
+  }
+  .flightResultArea .flightResultList > li {
+    width: calc(33.3% - 14px);
+  }
+}

@@ -1,0 +1,5 @@
+		<script>
+		// 404.htm ok 2
+		top.location.replace("https://www.banobagi.com/page/error");
+		</script>
+		

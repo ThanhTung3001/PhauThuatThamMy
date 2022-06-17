@@ -1,0 +1,5374 @@
+.orderCont .benefitCustomizing .detailList li .amtContext .btnRefresh,
+.orderCont
+  .payMethodWrap
+  .myPay
+  .swiperWrap
+  .swiper-container
+  .swiper-slide
+  .btnClose,
+.orderCont .normalPay .methodItem .btnChage,
+.deliverySearch button,
+.eventCardCont .btnClose,
+.cartCont .prodList.prodListStyle > .prodCont .topBtn .prodDel button,
+.cartCont .prodList.prodListStyle > .prodCont .prodName > a[target='_blank'],
+.btnPay .calculator,
+.optionsReflection .del {
+  overflow: hidden;
+  text-indent: -9999px;
+}
+.orderCont .benefitCustomizing .detailList li .amtContext .btnRefresh,
+.orderCont
+  .payMethodWrap
+  .myPay
+  .swiperWrap
+  .swiper-container
+  .swiper-slide
+  .btnClose,
+.orderCont .normalPay .methodItem .btnChage,
+.deliverySearch button,
+.eventCardCont .btnClose,
+.cartCont .prodList.prodListStyle > .prodCont .topBtn .prodDel button,
+.cartCont .prodList.prodListStyle > .prodCont .prodName > a[target='_blank'],
+.btnPay .calculator,
+.optionsReflection .del {
+  overflow: hidden;
+  text-indent: -9999px;
+} 
+@font-face {
+  font-family: 'notokr';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Noto Sans Regular'), local('NotoSans-Regular'),
+    url('/img_up/shop_pds/banobagi/design/fonts//NotoSansKR-Regular.eot'),
+    url('/img_up/shop_pds/banobagi/design/fonts//NotoSansKR-Regular.eot?#iefix') format('embedded-opentype'),
+    url('/img_up/shop_pds/banobagi/design/fonts//NotoSansKR-Regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'notokr';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Noto Sans Medium'), local('NotoSans-Medium'),
+    url('/img_up/shop_pds/banobagi/design/fonts//NotoSansKR-Medium.eot'),
+    url('/img_up/shop_pds/banobagi/design/fonts//NotoSansKR-Medium.eot?#iefix') format('embedded-opentype'),
+    url('/img_up/shop_pds/banobagi/design/fonts//NotoSansKR-Medium.woff') format('woff');
+}
+@font-face {
+  font-family: 'notokr';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Noto Sans Bold'), local('NotoSans-Bold'),
+    url('/img_up/shop_pds/banobagi/design/fonts//NotoSansKR-Bold.eot'),
+    url('/img_up/shop_pds/banobagi/design/fonts//NotoSansKR-Bold.eot?#iefix') format('embedded-opentype'),
+    url('/img_up/shop_pds/banobagi/design/fonts//NotoSansKR-Bold.woff') format('woff');
+}
+@font-face {
+  font-family: 'Metro';
+  font-weight: 400;
+  src: local('Metropolis Regular'), local('Metropolis-Regular'),
+    url('/img_up/shop_pds/banobagi/design/fonts//Metropolis-Regular.eot'),
+    url('/img_up/shop_pds/banobagi/design/fonts//Metropolis-Regular.eot?#iefix') format('embedded-opentype'),
+    url('/img_up/shop_pds/banobagi/design/fonts//Metropolis-Regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'Metro';
+  font-weight: 500;
+  src: local('Metropolis Medium'), local('Metropolis-Medium'),
+    url('/img_up/shop_pds/banobagi/design/fonts//Metropolis-Medium.eot'),
+    url('/img_up/shop_pds/banobagi/design/fonts//Metropolis-Medium.eot?#iefix') format('embedded-opentype'),
+    url('/img_up/shop_pds/banobagi/design/fonts//Metropolis-Medium.woff') format('woff');
+}
+@font-face {
+  font-family: 'Metro';
+  font-weight: 700;
+  src: local('Metropolis Bold'), local('Metropolis-Bold'),
+    url('/img_up/shop_pds/banobagi/design/fonts//Metropolis-Bold.eot'),
+    url('/img_up/shop_pds/banobagi/design/fonts//Metropolis-Bold.eot?#iefix') format('embedded-opentype'),
+    url('/img_up/shop_pds/banobagi/design/fonts//Metropolis-Bold.woff') format('woff');
+}
+@font-face {
+  font-family: 'Nanum Gothic';
+  font-weight: 500;
+  src: local('Nanum Gothic'), local('ë‚˜ëˆ”ê³ ë”•'),
+    local('NanumGothic Regular'), url('/img_up/shop_pds/banobagi/design/fonts//NanumGothic-Regular.eot'),
+    url('/img_up/shop_pds/banobagi/design/fonts//NanumGothic-Regular.eot?#iefix') format('embedded-opentype'),
+    url('/img_up/shop_pds/banobagi/design/fonts//NanumGothic-Regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'Nanum Gothic';
+  font-weight: 700;
+  src: local('NanumGothic Bold'), url('/img_up/shop_pds/banobagi/design/fonts//NanumGothic-Bold.eot'),
+    url('/img_up/shop_pds/banobagi/design/fonts//NanumGothic-Bold.eot?#iefix') format('embedded-opentype'),
+    url('/img_up/shop_pds/banobagi/design/fonts//NanumGothic-Bold.woff') format('woff');
+}
+.orderWrap .contents .fixedWrap.fixed .payment {
+  position: fixed;
+  top: 48px;
+  left: 50%;
+  margin-left: 296px;
+}
+.orderProdList .prodCont {
+  position: relative;
+  min-height: auto;
+  padding: 24px 0 25px 112px;
+}
+.orderProdList .prodCont ~ .prodCont {
+  border-top: 1px dashed #eaeaea;
+}
+.orderProdList .prodCont figure {
+  position: absolute;
+  top: 24px;
+  left: 0;
+  width: 96px;
+  height: 96px;
+  min-height: 96px;
+  background-size: 50% auto;
+}
+.orderProdList .prodCont .prodInfo {
+  width: 65%;
+  margin-top: 0;
+}
+.orderProdList .prodCont .prodInfo .brandName,
+.orderProdList .prodCont .prodInfo .prodName {
+  font-size: 1.5rem;
+  line-height: 1.53333;
+}
+.orderProdList .prodCont .prodInfo .prodName {
+  color: #373a3c;
+}
+.orderProdList .prodCont .prodInfo .prodFlag {
+  display: inline-block;
+  margin: 0 0 0 6px;
+}
+.orderProdList .prodCont .optionInfo {
+  margin: 5px 0 0;
+}
+.orderProdList .prodCont .optionInfo:before {
+  content: '';
+  position: relative;
+  display: inline-block;
+  top: -5px;
+  margin-right: 4px;
+  width: 5px;
+  height: 6px;
+  border: solid #b9bcc0;
+  border-width: 0 0 1px 1px;
+}
+.orderProdList .prodCont .optionInfo li {
+  display: inline-block;
+  font-size: 1.3rem;
+  color: #6b6e73;
+}
+.orderProdList .prodCont .optionInfo li ~ li {
+  margin-left: 5px;
+}
+.orderProdList .prodCont .optionInfo li ~ li:before {
+  content: '';
+  display: inline-block;
+  margin: -2px 8px 0 0;
+  width: 1px;
+  height: 16px;
+  background: #dcdfe3;
+  vertical-align: middle;
+}
+.orderProdList .prodCont .priceArea {
+  margin-top: 20px;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+[lang='zh'] .orderProdList .prodCont .priceArea {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.orderProdList .prodCont .priceArea .dollar {
+  font-size: 2rem;
+  line-height: 1.4;
+  color: #373a3c;
+  font-weight: 700;
+}
+.orderProdList .prodCont .priceArea .won {
+  display: inline-block;
+  margin-left: 4px;
+  font-size: 1.5rem;
+  line-height: 1.53333;
+  color: #6b6e73;
+}
+.orderProdList .prodCont .priceArea .won span {
+  font-family: Noto Sans KR, 'notokr', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+[lang='zh'] .orderProdList .prodCont .priceArea .won span {
+  font-family: Microsoft Yahei, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.orderProdList .prodCont .priceArea .originDollar {
+  margin-right: 10px;
+  color: #6b6e73;
+}
+.orderProdList .prodCont .priceArea .saleNum {
+  font-size: 2rem;
+  line-height: 1.4;
+  font-weight: 700;
+  color: #f42d10;
+  margin-right: 4px;
+}
+.orderProdList .prodCont .packageOtp {
+  position: absolute;
+  top: 25px;
+  right: 0;
+}
+.orderProdList .prodCont .packageOtp .frmSel.frmSmall label:before {
+  top: 2px;
+}
+.orderProdList .prodCont .setProd {
+  margin: 10px 0 -17px;
+}
+.orderProdList .prodCont .setProd .prodCont {
+  min-height: 130px;
+  padding: 25px 0 17px 112px;
+  border-bottom: none;
+  border-top: 1px dashed #eaeaea;
+}
+.orderProdList .prodCont .setProd .prodCont figure {
+  top: 17px;
+}
+.orderProdList .prodCont .setProd .prodCont .prodInfo {
+  width: 60%;
+  padding-left: 0;
+}
+.orderProdList .prodCont .setProd .prodCont .brandName,
+.orderProdList .prodCont .setProd .prodCont .prodName {
+  font-size: 1.3rem;
+  line-height: 1.38462;
+}
+.orderWrap .orderCont ~ .orderFixedLayer {
+  top: 40px;
+}
+.orderCont {
+  float: left;
+  width: 848px;
+  padding-top: 40px;
+}
+.orderCont .accordianList .toggleAction .ctrl:after {
+  right: 40px;
+}
+.contents.fixedWrap.fixed .orderCont {
+  padding-top: 0;
+}
+.orderCont .secGroup {
+  background: #fff;
+  border: 1px solid #eef0f6;
+  border-radius: 8px;
+}
+.orderCont .secGroup .frontArea {
+  overflow: hidden;
+  height: 64px;
+  padding: 0 32px;
+  line-height: 64px;
+  border-bottom: 1px solid #eef0f6;
+}
+.orderCont .secGroup .frontArea .title {
+  display: inline-block;
+  font-size: 2rem;
+  color: #1e2023;
+  line-height: 64px;
+  font-weight: 500;
+}
+.orderCont .secGroup .frontArea .title em {
+  padding-left: 5px;
+  font-size: 1.3rem;
+  color: #666;
+  font-weight: 400;
+}
+.orderCont .secGroup .frontArea .infoText {
+  display: inline-block;
+  margin-left: 40px;
+  color: #6b6e73;
+}
+.orderCont .secGroup .frontArea .side {
+  float: right;
+}
+.orderCont .secGroup .frontArea .side .frmSel.frmSmall label:before {
+  top: 2px;
+}
+.orderCont .secGroup .frontArea .arrLink {
+  display: inline-block;
+  padding-right: 12px;
+  color: #373a3c;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/common/ico_arr_right.png) no-repeat 100% 50%;
+}
+.orderCont .secGroup .frontArea .dollar {
+  font-size: 2rem;
+  color: #373a3c;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 700;
+}
+[lang='zh'] .orderCont .secGroup .frontArea .dollar {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.orderCont .secGroup .frontArea .won {
+  color: #6b6e73;
+}
+.orderCont .secGroup .frontArea.ctrl {
+  display: block;
+}
+.orderCont .secGroup ~ .secGroup {
+  margin-top: 8px;
+}
+.orderCont .secGroup.accordianList .accordCont {
+  background: #fff;
+}
+.orderCont .secGroup.accordianList p.bultType01 {
+  color: #6b6e73;
+}
+.orderCont .secGroup .infoText ~ .tipArea {
+  top: 2px;
+}
+.orderCont .infoList {
+  padding: 24px 0 32px;
+  font-size: 0;
+}
+.orderCont .infoList li {
+  display: inline-block;
+  width: 50%;
+  font-weight: 500;
+  vertical-align: middle;
+}
+[lang='zh'] .orderCont .infoList li {
+  width: calc(50% - 1px);
+}
+.orderCont .infoList li .title {
+  display: table-cell;
+  width: 104px;
+  padding-left: 32px;
+  font-size: 1.5rem;
+  line-height: 1.53333;
+  vertical-align: middle;
+}
+.orderCont .infoList li .text {
+  display: table-cell;
+  width: calc(100% - 136px);
+  padding-left: 8px;
+  color: #373a3c;
+  font-size: 1.5rem;
+  line-height: 1.53333;
+  vertical-align: middle;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.orderCont .infoList li .text .formList {
+  margin-top: 0;
+}
+.orderCont .infoList li .text.inputError input {
+  border-color: #ce0700;
+  background: #fff;
+}
+.orderCont .infoList li .text.inputError .errorTxt {
+  display: block;
+  padding-top: 6px;
+  font-size: 1.3rem;
+  line-height: 1.38462;
+  color: #ce0700;
+  font-weight: 400;
+}
+.orderCont .infoList li .dueDate {
+  display: inline-block;
+  padding: 0 8px 1px;
+  margin-left: 4px;
+  font-size: 1.2rem;
+  color: #4d6ee4;
+  font-weight: 400;
+  border: 1px solid #c7cdf6;
+  border-radius: 20px;
+}
+[lang='zh'] .orderCont .infoList li .dueDate {
+  color: #fe324b;
+}
+.orderCont .infoList li .dueDateEnd {
+  display: inline-block;
+  padding: 0 8px 1px;
+  margin-left: 4px;
+  font-size: 1.2rem;
+  color: #ce0700;
+  font-weight: 400;
+  border: 1px solid #ffcabb;
+  border-radius: 20px;
+}
+.orderCont .infoList li .btnTbl {
+  display: inline-block;
+  height: 24px;
+  padding: 0 10px;
+  margin-left: 8px;
+  font-size: 1.3rem;
+  color: #6b6e73;
+  font-weight: 500;
+  line-height: 24px;
+  background: #f2f5f9;
+  border-radius: 4px;
+}
+.orderCont .infoList li:nth-child(2) ~ li {
+  margin-top: 12px;
+}
+.orderCont .infoList.typeFrom li .text input[type='text'] {
+  width: 100%;
+}
+.orderCont .infoList.typeFrom li .text .formList {
+  border: none;
+}
+.orderCont .infoList.typeFrom li .text .formList .frmSel {
+  display: inline-block;
+  width: auto;
+}
+.orderCont .infoList.typeFrom li .text .formList .frmSel ~ .frmSel {
+  margin-left: 20px;
+}
+.orderCont .infoList.typeFrom li .text .none {
+  color: #8b8f94;
+  font-weight: 400;
+}
+.orderCont .departureInfoForm .formList,
+.orderCont .deliveryInfo .formList {
+  border: none;
+}
+.orderCont .departureInfoForm .formList .frmSel label:before,
+.orderCont .deliveryInfo .formList .frmSel label:before {
+  top: 2px;
+}
+.orderCont .departureInfoForm .formList .frmInp > label,
+.orderCont .departureInfoForm .formList .frmInp .label,
+.orderCont .deliveryInfo .formList .frmInp > label,
+.orderCont .deliveryInfo .formList .frmInp .label {
+  width: 136px;
+  padding: 0 0 0 32px;
+}
+.orderCont .departureInfoForm .formList .frmInp .inpA,
+.orderCont .deliveryInfo .formList .frmInp .inpA {
+  width: calc(100% - 140px);
+}
+.orderCont .deliveryInfo .frmInp {
+  padding: 0;
+}
+.orderCont .deliveryInfo .frmInp > label {
+  line-height: 48px;
+}
+.orderCont .deliveryInfo .frmList {
+  padding: 12px 0;
+}
+.orderCont .deliveryInfo .frmList input {
+  opacity: 0;
+}
+.orderCont .deliveryInfo .frmList label {
+  color: #373a3c;
+  font-weight: 500;
+}
+.orderCont .deliveryInfo .section {
+  padding-bottom: 20px;
+}
+.orderCont .section.toggleLayer .orderProdList {
+  overflow: hidden;
+  max-height: 209px;
+}
+.orderCont .section.toggleLayer .toggleBtn {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 55px;
+  color: #373a3c;
+  line-height: 55px;
+  text-align: center;
+  font-weight: 700;
+}
+.orderCont .section.toggleLayer .toggleBtn:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 32px;
+  width: 782px;
+  height: 1px;
+  border-top: 1px dashed #eaeaea;
+}
+.orderCont .section.toggleLayer .toggleBtn > span {
+  display: inline-block;
+  position: relative;
+  padding-right: 20px;
+}
+.orderCont .section.toggleLayer .toggleBtn > span:after {
+  content: '';
+  position: absolute;
+  top: 22px;
+  right: 0;
+  width: 12px;
+  height: 12px;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/order/ico_s_expand.png) no-repeat 0 0;
+}
+.orderCont .section.toggleLayer.all .orderProdList {
+  height: auto;
+  max-height: 100%;
+}
+.orderCont .section.toggleLayer.all .toggleBtn > span:after {
+  background-position: -12px 0;
+}
+.orderCont .orderProdList {
+  margin: 0 32px;
+}
+.orderCont .accordianList {
+  border-bottom: 0;
+  border-radius: 0 0 8px 8px;
+}
+.orderCont .benefitCustomizing .accordianList {
+  margin: 20px 0 8px;
+}
+.orderCont .benefitCustomizing .accordianList .toggleAction .ctrl {
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 32px;
+  border: 0;
+}
+.orderCont .benefitCustomizing .accordianList .toggleAction .ctrl .groupTitle {
+  display: inline-block;
+  width: 160px;
+}
+[lang='zh']
+  .orderCont
+  .benefitCustomizing
+  .accordianList
+  .toggleAction
+  .ctrl
+  .groupTitle {
+  width: 190px;
+}
+.orderCont .benefitCustomizing .accordianList .toggleAction .ctrl .amtDollar,
+.orderCont .benefitCustomizing .accordianList .toggleAction .ctrl .amtWon {
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 2rem;
+  line-height: 1.4;
+  color: #f42d10;
+  font-weight: 700;
+}
+[lang='zh']
+  .orderCont
+  .benefitCustomizing
+  .accordianList
+  .toggleAction
+  .ctrl
+  .amtDollar,
+[lang='zh']
+  .orderCont
+  .benefitCustomizing
+  .accordianList
+  .toggleAction
+  .ctrl
+  .amtWon {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.orderCont .benefitCustomizing .accordianList .toggleAction .ctrl .amtWon span {
+  font-family: Noto Sans KR, 'notokr', 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 700;
+}
+[lang='zh']
+  .orderCont
+  .benefitCustomizing
+  .accordianList
+  .toggleAction
+  .ctrl
+  .amtWon
+  span {
+  font-family: Microsoft Yahei, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.orderCont .benefitCustomizing .accordianList .toggleAction .accordCont {
+  padding: 0 32px;
+  background: #fff;
+}
+.orderCont
+  .benefitCustomizing
+  .accordianList
+  .toggleAction:last-child
+  .detailList {
+  margin-bottom: 0;
+  border-bottom: 0;
+}
+.orderCont .benefitCustomizing .detailList {
+  padding: 10px 0 18px;
+  margin-bottom: 25px;
+  border-bottom: 1px dashed #eaeaea;
+}
+.orderCont .benefitCustomizing .detailList li {
+  display: table;
+}
+.orderCont .benefitCustomizing .detailList li .amtTitle {
+  display: table-cell;
+  width: 170px;
+  vertical-align: top;
+  line-height: 55px;
+}
+[lang='zh'] .orderCont .benefitCustomizing .detailList li .amtTitle {
+  width: 190px;
+}
+.orderCont .benefitCustomizing .detailList li .amtTitle .tipArea {
+  vertical-align: middle;
+  top: -1px;
+  line-height: 21px;
+}
+.orderCont .benefitCustomizing .detailList li .amtTitle .tipCont {
+  z-index: 100;
+}
+.orderCont .benefitCustomizing .detailList li .amtContext {
+  display: table-cell;
+  padding: 6px 0;
+}
+.orderCont .benefitCustomizing .detailList li .amtContext .styleInp {
+  display: inline-block;
+  width: 280px;
+  padding-right: 16px;
+  color: #8b8f94;
+  text-align: right;
+  line-height: 46px;
+  background: #f8fafc;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.orderCont .benefitCustomizing .detailList li .amtContext .styleInp .tEng {
+  font-weight: 500;
+}
+.orderCont .benefitCustomizing .detailList li .amtContext .styleInp .wonText {
+  font-size: 1.3rem;
+}
+.orderCont .benefitCustomizing .detailList li .amtContext .btnGroup {
+  display: inline-block;
+  width: 104px;
+  margin-left: 5px;
+}
+.orderCont .benefitCustomizing .detailList li .amtContext .btnGroup button {
+  width: 104px;
+  padding: 0;
+  min-width: 104px;
+  font-size: 1.5rem;
+}
+.orderCont .benefitCustomizing .detailList li .amtContext .inputPoint {
+  display: inline-block;
+  position: relative;
+  width: 280px;
+  color: #1e2023;
+  text-align: right;
+  font-weight: 500;
+  text-align: right;
+  background: #f8fafc;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+[lang='zh']
+  .orderCont
+  .benefitCustomizing
+  .detailList
+  li
+  .amtContext
+  .inputPoint {
+  width: 260px;
+}
+.orderCont .benefitCustomizing .detailList li .amtContext .inputPoint input {
+  width: 100%;
+  padding-right: 32px;
+  text-align: right;
+}
+.orderCont
+  .benefitCustomizing
+  .detailList
+  li
+  .amtContext
+  .inputPoint
+  input:disabled {
+  color: #8b8f94;
+  border: none;
+}
+.orderCont
+  .benefitCustomizing
+  .detailList
+  li
+  .amtContext
+  .inputPoint
+  input:disabled
+  + .wonText {
+  color: #8b8f94;
+}
+.orderCont .benefitCustomizing .detailList li .amtContext .inputPoint .wonText {
+  position: absolute;
+  top: 0;
+  right: 16px;
+  line-height: 48px;
+}
+.orderCont .benefitCustomizing .detailList li .amtContext .radBox {
+  display: inline-block;
+  min-width: 104px;
+  height: 48px;
+  margin-left: 5px;
+  vertical-align: middle;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.orderCont .benefitCustomizing .detailList li .amtContext .radBox .frmSel {
+  overflow: hidden;
+  width: 50%;
+  padding: 0;
+  border: 1px solid #dcdfe3;
+  border-radius: 4px 0 0 4px;
+}
+.orderCont
+  .benefitCustomizing
+  .detailList
+  li
+  .amtContext
+  .radBox
+  .frmSel
+  input
+  + label {
+  display: block;
+  width: 100%;
+  height: 46px;
+  font-size: 1.5rem;
+  color: #6b6e73;
+  line-height: 46px;
+  text-align: center;
+  font-weight: 500;
+  border: none;
+  border-radius: 0;
+}
+.orderCont
+  .benefitCustomizing
+  .detailList
+  li
+  .amtContext
+  .radBox
+  .frmSel
+  input:checked
+  + label {
+  color: #4d6ee4;
+  background-color: #e9ebfb;
+  font-weight: 700;
+}
+[lang='zh']
+  .orderCont
+  .benefitCustomizing
+  .detailList
+  li
+  .amtContext
+  .radBox
+  .frmSel
+  input:checked
+  + label {
+  color: #fe324b;
+}
+[lang='zh']
+  .orderCont
+  .benefitCustomizing
+  .detailList
+  li
+  .amtContext
+  .radBox
+  .frmSel
+  input:checked
+  + label {
+  background-color: #ffeef1;
+}
+.orderCont
+  .benefitCustomizing
+  .detailList
+  li
+  .amtContext
+  .radBox
+  .frmSel
+  ~ .frmSel {
+  margin-left: -1px;
+  border-radius: 0 4px 4px 0;
+}
+.orderCont
+  .benefitCustomizing
+  .detailList
+  li
+  .amtContext
+  .radBox
+  .frmSel.rd_checked,
+.orderCont
+  .benefitCustomizing
+  .detailList
+  li
+  .amtContext
+  .radBox
+  .frmSel.cd_checked {
+  border-color: #c7cdf6;
+  z-index: 10;
+}
+.orderCont
+  .benefitCustomizing
+  .detailList
+  li
+  .amtContext
+  .radBox
+  .frmSel:only-child {
+  width: 100%;
+  border-radius: 4px;
+}
+.orderCont .benefitCustomizing .detailList li .amtContext .radBox.col2 {
+  margin: 0 0 0 4px;
+}
+.orderCont .benefitCustomizing .detailList li .amtContext .radBox.col2 .frmSel {
+  border-color: #c7cdf6;
+}
+.orderCont
+  .benefitCustomizing
+  .detailList
+  li
+  .amtContext
+  .radBox.col2
+  .frmSel
+  input
+  + label {
+  color: #778cea;
+  background: #f7f7fd;
+}
+.orderCont
+  .benefitCustomizing
+  .detailList
+  li
+  .amtContext
+  .radBox.col2
+  .frmSel
+  input:checked
+  + label {
+  color: #4d6ee4;
+  background-color: #e9ebfb;
+}
+[lang='zh']
+  .orderCont
+  .benefitCustomizing
+  .detailList
+  li
+  .amtContext
+  .radBox.col2
+  .frmSel
+  input:checked
+  + label {
+  color: #fe324b;
+}
+[lang='zh']
+  .orderCont
+  .benefitCustomizing
+  .detailList
+  li
+  .amtContext
+  .radBox.col2
+  .frmSel
+  input:checked
+  + label {
+  background-color: #ffeef1;
+}
+.orderCont .benefitCustomizing .detailList li .amtContext .btnRefresh {
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  margin-left: 5px;
+  border: 1px solid #dcdfe3;
+  border-radius: 4px;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/common/ico_refresh.png) no-repeat 50% 50%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  vertical-align: middle;
+}
+.orderCont .benefitCustomizing .detailList li .amtContext .myPoint {
+  display: inline-block;
+  margin-left: 8px;
+  color: #6b6e73;
+  font-size: 1.3rem;
+  line-height: 48px;
+}
+.orderCont .benefitCustomizing .detailList li .amtContext .myPoint.type02 {
+  padding-top: 11px;
+}
+.orderCont .benefitCustomizing .detailList li .amtContext .myPoint.type02 span {
+  display: block;
+  line-height: 1.6;
+}
+.orderCont .benefitCustomizing .detailList li .amtContext .infoText {
+  margin-top: 6px;
+  color: #6b6e73;
+  font-size: 1.3rem;
+  line-height: 1.38462;
+}
+.orderCont .benefitCustomizing .detailList li .amtContext .infoText.type2 {
+  margin-left: 5px;
+  color: #8b8f94;
+}
+.orderCont
+  .benefitCustomizing
+  .detailList
+  li
+  .amtContext
+  .ezwellPoint
+  .amtTitle {
+  width: 102px;
+}
+[lang='zh']
+  .orderCont
+  .benefitCustomizing
+  .detailList
+  li
+  .amtContext
+  .ezwellPoint
+  .amtTitle {
+  width: 80px;
+}
+.orderCont
+  .benefitCustomizing
+  .detailList
+  li
+  .amtContext
+  .ezwellPoint
+  .inputPoint {
+  width: 176px;
+}
+.orderCont .benefitCustomizing .detailList li .amtContext .amtDivide {
+  display: inline-block;
+  padding-bottom: 16px;
+  margin-bottom: 16px;
+  border-bottom: 1px dashed #eaeaea;
+}
+.orderCont
+  .benefitCustomizing
+  .detailList
+  li
+  .amtContext
+  .amtDivide
+  .item
+  .hasPoint {
+  display: inline-block;
+  width: 253px;
+  color: #6b6e73;
+  line-height: 48px;
+}
+.orderCont
+  .benefitCustomizing
+  .detailList
+  li
+  .amtContext
+  .amtDivide
+  .item
+  .inputPoint {
+  width: 138px;
+}
+.orderCont
+  .benefitCustomizing
+  .detailList
+  li
+  .amtContext
+  .amtDivide
+  .item
+  ~ .item {
+  margin-top: 8px;
+}
+.orderCont .benefitCustomizing .detailList li .amtContext.inputError .errorTxt,
+.orderCont
+  .benefitCustomizing
+  .detailList
+  li
+  .amtContext.inputError
+  ~ .errorTxt {
+  display: block;
+}
+.orderCont
+  .benefitCustomizing
+  .detailList
+  li
+  .amtContext.inputError
+  ~ .errorTxt {
+  margin-left: 70px;
+}
+.orderCont .benefitCustomizing .detailList li > div:only-child {
+  padding-left: 160px;
+}
+[lang='zh'] .orderCont .benefitCustomizing .detailList li > div:only-child {
+  padding-left: 180px;
+}
+.orderCont .benefitCustomizing .ezwellPoint li {
+  display: block;
+}
+.orderCont .benefitCustomizing .ezwellPoint li .amtContext,
+.orderCont .benefitCustomizing .ezwellPoint li .amtTitle {
+  display: inline-block;
+}
+.orderCont .orderGift {
+  margin-top: 8px;
+  padding-top: 17px;
+  height: 56px;
+  border-radius: 8px;
+  background-color: #e9ebfb;
+  text-align: center;
+}
+[lang='zh'] .orderCont .orderGift {
+  background-color: #ffeef1;
+}
+.orderCont .orderGift button {
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 20px;
+  color: #373a3c;
+}
+.orderCont .orderGift button:before,
+.orderCont .orderGift button:after {
+  content: '';
+  display: inline-block;
+  vertical-align: top;
+}
+.orderCont .orderGift button:before {
+  margin-right: 4px;
+  width: 20px;
+  height: 20px;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/order/ico_gift.png) no-repeat;
+}
+.orderCont .orderGift button:after {
+  width: 20px;
+  height: 20px;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/order/ico_link_arr.png) center no-repeat;
+}
+.orderCont .payMethodWrap {
+  padding: 32px;
+}
+.orderCont .payMethodWrap > .frmList {
+  text-align: center;
+}
+.orderCont .payMethodWrap > .frmList label {
+  color: #373a3c;
+  font-weight: 500;
+}
+.orderCont .payMethodWrap .myPay {
+  padding-top: 11px;
+  text-align: center;
+}
+.orderCont .payMethodWrap .myPay .swiperWrap {
+  padding-top: 24px;
+}
+.orderCont .payMethodWrap .myPay .swiperWrap ~ .btnSSG {
+  margin-top: 24px;
+}
+.orderCont .payMethodWrap .myPay .swiperWrap .ts-controls {
+  position: relative;
+  padding-top: 30px;
+}
+.orderCont .payMethodWrap .myPay .swiperWrap .ts-prev,
+.orderCont .payMethodWrap .myPay .swiperWrap .ts-next {
+  margin-top: 0;
+  z-index: 105;
+  background: none;
+  overflow: inherit;
+  top: 3px;
+  height: 184px;
+  width: 40px;
+}
+.orderCont .payMethodWrap .myPay .swiperWrap .ts-prev:before,
+.orderCont .payMethodWrap .myPay .swiperWrap .ts-next:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 184px;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/order/card_grd_l.png) no-repeat;
+}
+.orderCont .payMethodWrap .myPay .swiperWrap .ts-prev:after,
+.orderCont .payMethodWrap .myPay .swiperWrap .ts-next:after {
+  width: 40px;
+  height: 40px;
+  left: 0;
+  margin: -10px 0 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-image: url(/img_up/shop_pds/banobagi/design/images/main/order/pay_swiper.png);
+  border-radius: 8px;
+}
+.orderCont .payMethodWrap .myPay .swiperWrap .ts-prev.ts-button-disabled:before,
+.orderCont
+  .payMethodWrap
+  .myPay
+  .swiperWrap
+  .ts-next.ts-button-disabled:before {
+  display: none;
+}
+.orderCont .payMethodWrap .myPay .swiperWrap .ts-next:before {
+  background: url(/img_up/shop_pds/banobagi/design/images/main/order/card_grd_r.png) no-repeat;
+}
+.orderCont .payMethodWrap .myPay .swiperWrap .ts-next:after {
+  background-position: -40px 0;
+}
+.orderCont .payMethodWrap .myPay .swiperWrap .swiper-container {
+  overflow: visible;
+  position: static;
+  height: 148px;
+  width: 280px;
+  margin-left: 275px;
+}
+.orderCont .payMethodWrap .myPay .swiperWrap .swiper-container .swiper-slide {
+  height: 148px;
+}
+.orderCont
+  .payMethodWrap
+  .myPay
+  .swiperWrap
+  .swiper-container
+  .swiper-slide.swiper-slide-active
+  img {
+  border-radius: 12px;
+  -webkit-box-shadow: 0 10px 20px 0 rgba(142, 158, 217, 0.3);
+  box-shadow: 0 10px 20px 0 rgba(142, 158, 217, 0.3);
+}
+.orderCont
+  .payMethodWrap
+  .myPay
+  .swiperWrap
+  .swiper-container
+  .swiper-slide
+  figure {
+  width: 240px;
+  height: 148px;
+}
+.orderCont
+  .payMethodWrap
+  .myPay
+  .swiperWrap
+  .swiper-container
+  .swiper-slide
+  figure
+  img {
+  display: block;
+  width: 100%;
+}
+.orderCont
+  .payMethodWrap
+  .myPay
+  .swiperWrap
+  .swiper-container
+  .swiper-slide
+  .btnClose {
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  width: 24px;
+  height: 24px;
+  background: #000 url(/img_up/shop_pds/banobagi/design/images/main/common/ico_close_white_xs.png) no-repeat 50%
+    50%;
+  border-radius: 12px;
+}
+.orderCont .payMethodWrap .myPay .selInstallment ~ .txtLinkList {
+  margin-top: 24px;
+}
+.orderCont .payMethodWrap .selInstallment {
+  width: 326px;
+  margin-top: 16px;
+}
+.orderCont .payMethodWrap .selInstallment select {
+  color: #1e2023;
+}
+.orderCont .payMethodWrap .selInstallment .ui-selectmenu-button:after {
+  background: url(/img_up/shop_pds/banobagi/design/images/main/order/ico_s_expand.png) no-repeat;
+}
+.orderCont .payMethodWrap .selInstallment .ui-selectmenu-button-open:after {
+  background-position: -12px 0;
+}
+.orderCont .payMethodWrap .bannerType {
+  margin-top: 32px;
+  height: 130px;
+}
+.orderCont .payMethodWrap .bannerType.typeBand figure img {
+  left: 0;
+  margin-left: 0;
+}
+.orderCont .payMethodWrap + .cashReceipt {
+  margin: -32px 32px 32px;
+}
+.orderCont .payMethodWrap + .cashReceipt > .frmSel {
+  margin-top: 24px;
+  border-top: 1px dashed #eaeaea;
+}
+.orderCont .methodItem {
+  display: table;
+  position: relative;
+}
+.orderCont .methodItem .methodRegister {
+  display: table-cell;
+  position: relative;
+  width: 240px;
+  height: 142px;
+  margin: 0 auto;
+  background: #f8fafc;
+  border-radius: 12px;
+  vertical-align: middle;
+  text-align: center;
+}
+.orderCont .methodItem .methodRegister span {
+  display: inline-block;
+  position: relative;
+  padding-top: 18px;
+  color: #6b6e73;
+  font-weight: 500;
+}
+.orderCont .methodItem .methodRegister span:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -6px;
+  width: 12px;
+  height: 12px;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/common/spr_ico.png) no-repeat -53px -43px;
+}
+.orderCont .methodItem .cardInfo {
+  position: absolute;
+  left: 16px;
+  bottom: 16px;
+  color: #fff;
+  text-align: left;
+}
+.orderCont .methodItem .cardInfo strong {
+  display: block;
+}
+.orderCont .methodItem .cardInfo span {
+  display: block;
+  font-size: 1.3rem;
+  line-height: 1.38462;
+  opacity: 0.8;
+}
+.orderCont .methodItem .cardInfo.colType strong,
+.orderCont .methodItem .cardInfo.colType span {
+  color: #373a3c;
+}
+.orderCont .usedInfoList {
+  margin-top: 8px;
+  padding: 24px 32px 32px;
+  background: #fff;
+  border-radius: 8px;
+  border: 1px solid;
+  border-color: #e9ebfb;
+}
+[lang='zh'] .orderCont .usedInfoList {
+  border-color: #ffeef1;
+}
+.orderCont .usedInfoList .txtLink.lineU {
+  color: #373a3c;
+  font-weight: 500;
+}
+.orderCont .payList.radBox {
+  margin: 20px -4px -4px;
+}
+.orderCont .payList.radBox > .frmSel {
+  padding: 4px;
+}
+.orderCont .payList.radBox > .frmSel label {
+  height: 72px;
+  padding-left: 24px;
+  font-size: 1.5rem;
+  line-height: 72px;
+  text-align: left;
+}
+.orderCont .payList.radBox > .frmSel label figure {
+  display: inline-block;
+  width: 63px;
+  margin-right: 24px;
+}
+.orderCont .payList.radBox > .frmSel label figure img {
+  position: relative;
+  top: -3px;
+  width: 100%;
+  vertical-align: middle;
+}
+.orderCont .payList.radBox > .frmSel input:checked + label {
+  color: #1e2023;
+  background-color: #e9ebfb;
+  border-color: #e9ebfb;
+}
+[lang='zh'] .orderCont .payList.radBox > .frmSel input:checked + label {
+  background-color: #ffeef1;
+}
+[lang='zh'] .orderCont .payList.radBox > .frmSel input:checked + label {
+  border-color: #ffeef1;
+}
+.orderCont .payInfoBox {
+  margin-top: 32px;
+  text-align: left;
+}
+.orderCont .payInfoBox .title {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: #373a3c;
+  font-weight: 700;
+}
+.orderCont .cashReceipt {
+  margin: 0 32px 32px;
+}
+.orderCont .cashReceipt > .frmSel {
+  display: block;
+  padding-top: 25px;
+  margin-top: 5px;
+  color: #373a3c;
+  font-weight: 500;
+}
+.orderCont .cashReceipt > .frmSel label:before {
+  top: 2px;
+}
+.orderCont .cashReceipt > .frmSel input {
+  top: 28px;
+}
+.orderCont .cashReceipt > .frmSel.cb_checked + .frmInp {
+  display: block;
+}
+.orderCont .cashReceipt .frmInp {
+  display: none;
+  padding-top: 25px;
+  margin-top: 25px;
+  border-top: 1px dashed #eaeaea;
+}
+.orderCont .cashReceipt .frmInp .inpA {
+  width: calc(100% - 195px);
+}
+.orderCont .cashReceipt .frmInp .frmSel {
+  margin-top: 16px;
+  font-size: 1.3rem;
+  line-height: 1.38462;
+}
+.orderCont .cashReceipt .frmInp .frmSel input {
+  width: auto;
+}
+.orderCont .cashReceipt .txtLink.lineU {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.orderCont .normalPayMethod {
+  margin: 24px auto 0;
+  min-width: auto;
+}
+.orderCont .normalPayMethod .frmSel {
+  float: inherit;
+  width: 164px;
+  padding: 0;
+}
+.orderCont .normalPayMethod .frmSel input + label {
+  height: 48px;
+  line-height: 48px;
+  font-size: 1.5rem;
+  border-color: #dcdfe3;
+  border-radius: 8px 0 0 8px;
+}
+.orderCont .normalPayMethod .frmSel input:checked + label {
+  background-color: #e9ebfb;
+  border-color: #c7cdf6;
+  z-index: 10;
+}
+[lang='zh'] .orderCont .normalPayMethod .frmSel input:checked + label {
+  background-color: #ffeef1;
+}
+.orderCont .normalPayMethod .frmSel ~ .frmSel {
+  margin-left: -4px;
+}
+.orderCont .normalPayMethod .frmSel ~ .frmSel input + label {
+  border-radius: 0 8px 8px 0;
+}
+.orderCont .normalPay {
+  text-align: center;
+}
+.orderCont .normalPay .methodItem {
+  margin: 16px auto 0;
+}
+.orderCont .normalPay .methodItem figure img {
+  display: block;
+  -webkit-box-shadow: 0 10px 20px 0 rgba(142, 158, 217, 0.3);
+  box-shadow: 0 10px 20px 0 rgba(142, 158, 217, 0.3);
+  border-radius: 20px;
+}
+.orderCont .normalPay .methodItem .btnChage {
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  width: 24px;
+  height: 24px;
+  font-size: 1.3rem;
+  line-height: 1.38462;
+  background: #000 url(/img_up/shop_pds/banobagi/design/images/main/order/ico_refresh_white.png) no-repeat 55% 50%;
+  border-radius: 12px;
+}
+.orderCont .normalPay .selInstallment ~ .frmSel {
+  display: block;
+  width: 326px;
+  margin: 17px auto 0;
+  text-align: left;
+}
+.orderCont .normalPay .selInstallment ~ .frmSel ~ .txtLinkList {
+  margin-top: 24px;
+}
+.orderCont .normalPay .txtLinkList {
+  margin-top: 16px;
+}
+.orderCont .normalPay .txtLinkList button {
+  margin: 0 11px;
+  font-size: 1.5rem;
+  line-height: 1.53333;
+}
+.orderCont .normalPay .payInfoBox {
+  margin-bottom: 16px;
+  text-align: left;
+  border-radius: 8px;
+}
+.orderCont .normalPay .payInfoBox .bultType01 {
+  margin-top: 8px;
+}
+.deliveryArea {
+  width: 400px;
+  padding: 24px 16px;
+  margin: 6px 0 12px;
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+}
+.deliveryArea em {
+  display: block;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #373a3c;
+  font-weight: 700;
+}
+[lang='zh'] .deliveryArea em {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.deliveryArea .address {
+  margin: 8px 0 4px;
+  font-size: 1.3rem;
+  line-height: 1.38462;
+  display: block;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  max-height: 40px;
+}
+.deliveryArea .state {
+  font-size: 1.3rem;
+  line-height: 1.38462;
+  font-weight: 500;
+}
+.deliveryArea .tel {
+  display: inline-block;
+  position: relative;
+  margin-left: 8px;
+  padding-left: 8px;
+  font-size: 1.3rem;
+  line-height: 1.38462;
+  color: #6b6e73;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+[lang='zh'] .deliveryArea .tel {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.deliveryArea .tel:after {
+  content: '';
+  position: absolute;
+  top: 3px;
+  left: 0;
+  width: 1px;
+  height: 12px;
+  background: #dcdfe3;
+}
+.icoTip {
+  display: inline-block;
+  margin-left: 3px;
+  color: #4d6ee4;
+  font-weight: 400;
+}
+[lang='zh'] .icoTip {
+  color: #fe324b;
+}
+.payment .preCalc .sGroup {
+  overflow: hidden;
+  clear: both;
+  margin-top: 12px;
+  padding-top: 12px;
+  text-align: left;
+  border-top: 1px dashed #eaeaea;
+}
+.payment .preCalc .sGroup.case {
+  overflow: visible;
+}
+.payment .preCalc .sGroup.case .amtCont {
+  margin-top: 0;
+}
+.payment .preCalc .sGroup:last-child .amtCont b {
+  font-weight: 400;
+}
+.payment .preCalc .sGroup .amtTit {
+  font-size: 1.3rem;
+  line-height: 1.38462;
+}
+.payment .preCalc .sGroup .amtTit.onlyTit {
+  float: inherit;
+}
+.payment .preCalc .sGroup .amtCont .dollar {
+  display: inline-block;
+  font-size: 1.3rem;
+  line-height: 1.38462;
+  color: #6b6e73;
+}
+.payment .preCalc .sGroup .detailList {
+  margin-top: 0;
+  border: none;
+}
+.payment .preCalc .sGroup .detailList:only-child {
+  margin-top: -12px;
+}
+.payment .preCalc .sGroup .detailList:only-child .amtCont p {
+  color: #f42d10;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.53333;
+}
+.payment .preCalc .sGroup .detailList:only-child .amtCont p ~ p {
+  color: #6b6e73;
+  font-weight: 400;
+  font-size: 1.3rem;
+  line-height: 1.38462;
+}
+.payment .preCalc .sGroup .detailList:only-child .amtCont p span {
+  font-family: Noto Sans KR, 'notokr', 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1.3rem;
+  line-height: 1.38462;
+}
+[lang='zh'] .payment .preCalc .sGroup .detailList:only-child .amtCont p span {
+  font-family: Microsoft Yahei, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.payment .orderChk {
+  font-size: 1.3rem;
+  line-height: 1.38462;
+}
+.payment .orderChk label:before {
+  top: 0;
+}
+.payment .orderBtn {
+  margin-top: 13px;
+}
+.payment .orderBtn button {
+  width: 100%;
+}
+.deliveryList .noData {
+  margin-top: 16px;
+  border-top: 1px solid #373a3c;
+}
+.deliveryList .deliveryArea {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.deliveryList .deliveryArea em {
+  height: 26px;
+}
+.deliveryList .deliveryArea em .deliveryFlag {
+  display: inline-block;
+  height: 26px;
+  padding: 0 8px;
+  margin-right: 8px;
+  font-size: 1.3rem;
+  color: #005fc2;
+  line-height: 30px;
+  background: #ebf6ff;
+  border-radius: 8px;
+}
+.deliveryList .deliveryArea em .recipient {
+  font-size: 1.3rem;
+  line-height: 1.38462;
+  font-weight: 400;
+}
+.deliveryList .deliveryArea .address {
+  margin-top: 4px;
+}
+.deliveryList .deliveryArea input {
+  opacity: 0;
+}
+.deliveryList .deliveryArea input:checked + label {
+  background-color: #e9ebfb;
+}
+[lang='zh'] .deliveryList .deliveryArea input:checked + label {
+  background-color: #ffeef1;
+}
+.deliveryList .deliveryArea label {
+  padding: 24px 52px 24px 16px;
+}
+.deliveryList .deliveryArea label:after {
+  left: inherit;
+  right: 16px;
+  top: calc(50% - 10px);
+}
+.deliveryList .deliveryArea label:before {
+  left: inherit;
+  right: 16px;
+  top: calc(50% - 4px);
+}
+.deliveryList .deliveryArea ~ .deliveryArea {
+  margin-top: 8px;
+}
+.deliverySearch {
+  position: relative;
+  background: #f8fafc;
+  border-radius: 4px;
+  padding: 0 64px 0 16px;
+}
+.deliverySearch input {
+  background: none;
+  width: 100%;
+  border-radius: 0;
+  padding: 0;
+}
+.deliverySearch input[type='text']:focus {
+  background: none;
+  border: 0;
+}
+.deliverySearch button {
+  display: block;
+  position: absolute;
+  top: 10px;
+  right: 0;
+  width: 64px;
+  height: 32px;
+}
+.deliverySearch button:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 16px;
+  height: 16px;
+  margin: -8px 0 0 -8px;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/mypage/ico_search.png) no-repeat 50%;
+}
+.deliverySearch ~ .list {
+  margin-top: 24px;
+}
+.orderComplete .title {
+  padding: 48px 0;
+  font-size: 3.2rem;
+  line-height: 1.25;
+  color: #1e2023;
+  font-weight: 700;
+  text-align: center;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/order/bg_order_complete.png) no-repeat 50% 100%;
+}
+.orderComplete .section {
+  padding-top: 24px;
+  background: #fff;
+  border-radius: 8px;
+  text-align: center;
+}
+.orderComplete .section .btnArea {
+  position: relative;
+  padding: 25px 0;
+  margin-top: 24px;
+  border-top: 1px dashed #eaeaea;
+}
+.orderComplete .section .btnArea:before {
+  content: '';
+  position: absolute;
+  top: -12px;
+  left: 0;
+  width: 12px;
+  height: 24px;
+  background: #f5f7fa;
+  border-radius: 0 12px 12px 0;
+}
+.orderComplete .section .btnArea:after {
+  content: '';
+  position: absolute;
+  top: -12px;
+  right: 0;
+  width: 12px;
+  height: 24px;
+  background: #f5f7fa;
+  border-radius: 12px 0 0 12px;
+}
+.orderComplete .section .btnArea .btnSSG {
+  min-width: 160px;
+}
+.orderComplete .section .orderInfo {
+  display: inline-block;
+  width: 50%;
+  padding-top: 24px;
+  vertical-align: top;
+}
+.orderComplete .section .orderInfo em {
+  display: block;
+  color: #6b6e73;
+}
+.orderComplete .section .orderInfo .orderNum {
+  display: block;
+  margin-top: 4px;
+  color: #373a3c;
+  font-size: 2.4rem;
+  line-height: 1.33333;
+  line-height: 1.41667;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+[lang='zh'] .orderComplete .section .orderInfo .orderNum {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.orderComplete .section .orderInfo .text {
+  display: block;
+  margin-top: 8px;
+}
+.orderComplete .section .orderInfo .btnShare {
+  width: 360px;
+  height: 56px;
+  margin-top: 26px;
+  padding-left: 87px;
+  line-height: 56px;
+  background: #f8fafc url(/img_up/shop_pds/banobagi/design/images/main/common/ico_share.png) no-repeat 63px 20px;
+  border-radius: 8px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.orderComplete .section .userLimit {
+  display: inline-block;
+  width: 50%;
+  padding-top: 24px;
+  margin-left: -3px;
+  border-left: 1px solid #eaeaea;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.orderComplete .section .userLimit em {
+  display: block;
+}
+.orderComplete .section .userLimit em b {
+  display: block;
+  margin-top: 4px;
+  font-size: 1.8rem;
+  line-height: 1.44444;
+  color: #373a3c;
+  font-weight: 500;
+}
+.orderComplete .section .userLimit .limitProgress {
+  position: relative;
+  margin-top: 32px;
+  padding-top: 44px;
+}
+.orderComplete .section .userLimit .limitProgress .bar {
+  display: inline-block;
+  position: relative;
+  width: 360px;
+  height: 12px;
+  border-radius: 6px;
+  border: 1px solid;
+  border-color: #e9ebfb;
+}
+[lang='zh'] .orderComplete .section .userLimit .limitProgress .bar {
+  border-color: #ffeef1;
+}
+.orderComplete .section .userLimit .limitProgress .bar .draw {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 12px;
+  border-radius: 6px;
+  background: #a0adf0;
+}
+.orderComplete .section .userLimit .limitProgress .bar .draw:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 12px;
+  height: 12px;
+  border-radius: 6px;
+  background-color: #4d6ee4;
+}
+[lang='zh'] .orderComplete .section .userLimit .limitProgress .bar .draw:after {
+  background-color: #fe324b;
+}
+.orderComplete .section .userLimit .limitProgress .bar .usedLimit {
+  position: absolute;
+  top: -44px;
+  height: 32px;
+  padding: 0 10px;
+  font-size: 1.8rem;
+  color: #4d6ee4;
+  line-height: 34px;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  border: 1px solid;
+  border-color: #4d6ee4;
+  border-radius: 4px;
+  -webkit-transform: translateX(-63%);
+  transform: translateX(-63%);
+}
+[lang='zh'] .orderComplete .section .userLimit .limitProgress .bar .usedLimit {
+  color: #fe324b;
+}
+[lang='zh'] .orderComplete .section .userLimit .limitProgress .bar .usedLimit {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+[lang='zh'] .orderComplete .section .userLimit .limitProgress .bar .usedLimit {
+  border-color: #fe324b;
+}
+.orderComplete .section .userLimit .limitProgress .bar .usedLimit:after {
+  content: '';
+  position: absolute;
+  left: 28px;
+  bottom: -6px;
+  width: 8px;
+  height: 6px;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/order/bg_balloon.png) no-repeat;
+}
+.orderComplete .section .userLimit .limitProgress .limitText {
+  display: inline-block;
+  width: 360px;
+  padding-right: 3px;
+  margin-top: 4px;
+  text-align: right;
+  line-height: 1;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+[lang='zh'] .orderComplete .section .userLimit .limitProgress .limitText {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.orderComplete ~ .titDep2,
+.orderComplete .titDep4 {
+  margin: 48px 0 16px;
+  font-size: 2rem;
+  line-height: 1.4;
+  text-align: center;
+}
+.orderComplete ~ .controlBtn {
+  padding-bottom: 0 !important;
+}
+.orderWrap .header .titDep4 {
+  padding-top: 30px;
+}
+.orderWrap.wrapper.headFixed .header {
+  display: none;
+}
+.orderWrap.wrapper.headFixed:before {
+  content: '';
+  height: 88px;
+  display: block;
+}
+.orderWrap .contents {
+  background: #f5f7fa;
+}
+.friendOrderdProd {
+  padding-top: 48px;
+}
+.friendOrderdProd .title {
+  font-size: 3.2rem;
+  line-height: 1.25;
+  color: #1e2023;
+  font-weight: 700;
+  text-align: center;
+}
+.friendOrderdProd .listNum {
+  border: 0;
+}
+.friendOrderdProd .prodCont > a {
+  position: static;
+}
+.friendOrderdProd .section {
+  padding: 8px 32px 32px;
+  background: #fff;
+  border: 1px solid #eef0f6;
+  border-radius: 8px;
+}
+.friendOrderdProd .section .orderPrice {
+  height: 56px;
+  line-height: 56px;
+  background: #f5f7fa;
+  border-radius: 8px;
+  text-align: center;
+}
+.friendOrderdProd .section .orderPrice > * {
+  display: inline-block;
+}
+.friendOrderdProd .section .orderPrice .tit {
+  font-size: 1.8rem;
+  line-height: 1.44444;
+  color: #373a3c;
+  font-weight: 700;
+}
+.friendOrderdProd .section .orderPrice .dollar {
+  margin-left: 5px;
+  font-size: 2rem;
+  line-height: 1.4;
+  color: #373a3c;
+}
+.friendOrderdProd .section .orderPrice .won {
+  color: #6b6e73;
+}
+.friendOrderdProd .section .btnArea {
+  margin-top: 32px;
+}
+.friendOrderdProd .section .btnArea .btnSSG {
+  min-width: 160px;
+}
+.friendOrderdProd .section ~ .titDep2,
+.friendOrderdProd .section .titDep4 {
+  margin: 48px 0 16px;
+  font-size: 2rem;
+  line-height: 1.4;
+  text-align: center;
+}
+.friendOrderdProd .orderProdList .frmSel {
+  position: absolute;
+  top: 24px;
+  left: 0;
+}
+.friendOrderdProd .orderProdList figure {
+  left: 34px;
+  width: 120px;
+  height: 120px;
+}
+.friendOrderdProd .orderProdList figure a {
+  display: block;
+}
+.friendOrderdProd .orderProdList .prodCont {
+  padding-left: 178px;
+  min-height: 168px;
+}
+.friendOrderdProd .orderProdList .prodCont .prodState.adult {
+  margin-top: -40px;
+}
+.friendOrderdProd .orderProdList .prodCont ~ .prodCont {
+  border-top-style: solid;
+}
+.friendOrderdProd .controlBtn {
+  padding-bottom: 0 !important;
+}
+.layPop .layCont.layChanel {
+  margin-top: 0;
+}
+.orderedChanel .visualImg {
+  margin: 0 -32px 0 -40px;
+}
+.orderedChanel .infoContext {
+  margin-top: 24px;
+}
+.orderedChanel .infoContext p ~ p {
+  margin-top: 8px;
+}
+.orderedChanel .infoContext > .frmSel {
+  margin-top: 24px;
+}
+.orderedChanel .boxInfo {
+  padding: 16px 24px;
+  margin-top: 12px;
+  background: #f5f7fa;
+  border-radius: 8px;
+}
+.orderedChanel .boxInfo p ~ p {
+  margin-top: 12px;
+}
+.orderedChanel .boxInfo .tblH {
+  margin-top: 25px;
+}
+.orderedChanel .boxInfo .tblH th,
+.orderedChanel .boxInfo .tblH td {
+  background: #fff;
+}
+.orderedChanel .boxInfo .tblH td {
+  padding: 16px 24px;
+  vertical-align: middle;
+  text-align: center;
+}
+.orderedChanel .boxInfo .tblH th {
+  color: #5a5f64;
+  border-top-color: #5a5f64;
+}
+.orderedChanel .boxInfo .tblH tbody tr:first-child td {
+  border-top-color: #b9bcc0;
+}
+.orderedChanel .boxInfo .tblH + p {
+  margin-top: 25px;
+}
+.orderedChanel .scrollWrap::-webkit-scrollbar-track {
+  background: #f5f7fa;
+}
+.btnBtm.orderedChanel {
+  padding: 0 32px 24px;
+}
+.btnBtm.orderedChanel .close {
+  float: right;
+}
+.snsProdWrap fieldset:first-child {
+  margin-top: 0;
+}
+.cardbenefits_info {
+  margin: -16px 0 16px;
+}
+.cardbenefits_info > li {
+  padding: 16px 0;
+  border-bottom: 1px solid #eaeaea;
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+}
+.cardbenefits_info > li > * {
+  display: table-cell;
+  vertical-align: top;
+}
+.cardbenefits_info > li figure {
+  width: 56px;
+  height: 32px;
+}
+.cardbenefits_info > li figure img {
+  display: block;
+  width: 100%;
+}
+.cardbenefits_info > li .context {
+  padding: 5px 0 0 8px;
+}
+.cardbenefits_info > li .context .cardName {
+  display: block;
+  color: #373a3c;
+  font-size: 1.8rem;
+  line-height: 1.44444;
+  font-weight: 700;
+}
+.cardbenefits_info > li .bultType01 {
+  margin-top: 10px;
+}
+.cardbenefits_info > li .bultType01 > li {
+  color: #6b6e73;
+  font-size: 1.5rem;
+  line-height: 1.53333;
+}
+.cardbenefits_info > li .bultType01 > li .tit {
+  color: #6b6e73;
+  font-weight: 400;
+}
+.cardbenefits_info > li .bultType01 + .bultType01 {
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px solid #eaeaea;
+}
+.infoCaution {
+  padding: 16px 24px;
+  border-radius: 8px;
+  background: #f8fafc;
+}
+.infoCaution .bultType01 {
+  margin-top: 0;
+}
+.freeGift {
+  margin: 0 -24px 0 -32px;
+}
+.freeGift .giftCon {
+  margin: 0;
+  padding: 0 40px;
+}
+.freeGift .giftCon .date {
+  font-size: 1.3rem;
+  line-height: 1.38462;
+}
+.freeGift .giftCon .tit {
+  font-weight: 700;
+}
+.freeGift .giftCon .tit .frmSel label:before {
+  top: 3px;
+}
+.freeGift .giftCon .giftChk {
+  margin-top: 8px;
+  padding: 14px 16px;
+  font-size: 1.3rem;
+  line-height: 1.38462;
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+}
+.freeGift .giftCon .giftChk + .list {
+  margin-top: 16px;
+}
+.freeGift .giftCon ~ .giftCon {
+  display: block;
+  margin-top: 24px;
+  padding-top: 20px;
+  border-bottom: 0;
+}
+.freeGift .giftCon .list li .listCon.soldOut {
+  position: relative;
+}
+.freeGift .giftCon .list li .listCon.soldOut:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.6);
+  z-index: 10;
+}
+.freeGift .giftCon .list li .listCon.soldOut .soldOut {
+  position: absolute;
+  width: 38px;
+  height: 24px;
+  top: 50%;
+  left: 50%;
+  margin: -12px 0 0 -19px;
+  border-radius: 8px;
+  background: rgba(55, 58, 60, 0.6);
+  font-size: 1.2rem;
+  color: #fff;
+  line-height: 24px;
+  text-align: center;
+  z-index: 10;
+}
+.freeGift .giftCon .list li .listCon.frmSel input {
+  opacity: 0;
+}
+.freeGift .giftCon .list li .listCon.frmSel input + label {
+  padding: 0 50px 0 0;
+}
+.freeGift .giftCon .list li .listCon.frmSel input + label:before {
+  left: inherit;
+  right: 16px;
+  top: 50%;
+  margin-top: -10px;
+}
+.freeGift .giftCon .list li .listCon.frmSel input + label:after {
+  left: inherit;
+  right: 20px;
+  top: 50%;
+  margin-top: -4px;
+}
+.freeGift .giftCon .list li .listCon.disable:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.6);
+  z-index: 10;
+}
+.freeGift .giftCon .list li .txtInfo span {
+  color: #373a3c;
+  font-weight: 700;
+}
+.freeGift .giftCon .list li .txtInfo em {
+  margin-top: 4px;
+  color: #6b6e73;
+}
+.radBox.accordSaleList {
+  border-bottom: none;
+  margin: 10px 0 0 0;
+}
+.radBox.accordSaleList > .frmSel {
+  display: block;
+  float: none;
+  margin-top: 8px;
+  padding: 0;
+}
+.radBox.accordSaleList > .frmSel input {
+  opacity: 0;
+}
+.radBox.accordSaleList > .frmSel :disabled + label {
+  opacity: 0.5;
+}
+.radBox.accordSaleList > .frmSel :disabled + label ~ .subList {
+  opacity: 0.5;
+}
+.radBox.accordSaleList > .frmSel:first-child {
+  margin-top: 0;
+}
+.radBox.accordSaleList > .frmSel > input + label {
+  min-height: 56px;
+  height: auto;
+  padding: 16px 40px 16px 23px;
+  font-size: 1.5rem;
+  line-height: 1.53333;
+  font-weight: 700;
+  border-radius: 8px;
+  border: 1px solid #eaeaea;
+  text-align: left;
+  background: #fff;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.radBox.accordSaleList > .frmSel > input + label .smText {
+  font-size: 1.3rem;
+  color: #6b6e73;
+  font-weight: 400;
+}
+.radBox.accordSaleList > .frmSel > input + label .text {
+  display: block;
+  display: block;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  max-height: auto;
+  max-height: 48px;
+}
+.radBox.accordSaleList > .frmSel > input + label:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: auto;
+  right: 19px;
+  width: 12px;
+  height: 12px;
+  margin-top: -6px;
+  background-position: -318px -26px;
+}
+.radBox.accordSaleList > .frmSel > input:checked + label {
+  color: #373a3c;
+  border-color: #c7cdf6;
+  background: #f8fafc;
+}
+.radBox.accordSaleList > .frmSel > input:checked + label:before {
+  background-position: -342px -26px;
+}
+.radBox.accordSaleList > .frmSel.rd_checked,
+.radBox.accordSaleList > .frmSel.cb_checked {
+  border-color: #c7cdf6;
+}
+.radBox.accordSaleList > .frmSel.rd_checked input[type='radio'] + label,
+.radBox.accordSaleList > .frmSel.cb_checked input[type='radio'] + label {
+  border-radius: 8px 8px 0 0;
+  border-bottom: none;
+}
+.radBox.accordSaleList > .frmSel.rd_checked .payCont,
+.radBox.accordSaleList > .frmSel.cb_checked .payCont {
+  display: block;
+}
+.radBox.accordSaleList
+  > .frmSel.payFrm.rd_checked
+  input[type='radio']:checked
+  + label {
+  border-radius: 8px;
+  border: 1px solid #c7cdf6;
+}
+.radBox.accordSaleList .payCont {
+  display: none;
+  overflow: hidden;
+  padding: 0;
+  border-top: 1px dashed #eaeaea;
+  border-radius: 0 0 8px 8px;
+  background: none;
+}
+.radBox.accordSaleList .payCont .txtPay {
+  padding: 13px 24px;
+  color: #6b6e73;
+}
+.radBox.accordSaleList .payCont .depthList > li {
+  padding: 16px 24px;
+  color: #6b6e73;
+}
+.radBox.accordSaleList .payCont .depthList > li ~ li {
+  border-top: 1px dashed #eaeaea;
+}
+.radBox.accordSaleList .payCont .depthList > li.subFrm em {
+  color: #5a5f64;
+  font-weight: 700;
+}
+.radBox.accordSaleList .payCont .depthList > li.subFrm .subList {
+  padding: 0;
+  border-top: 0;
+  background: none;
+}
+.radBox.accordSaleList .payCont .depthList > li.subFrm .subList li {
+  position: relative;
+  padding-left: 10px;
+  margin-top: 8px;
+}
+.radBox.accordSaleList .payCont .depthList > li.subFrm .subList li:after {
+  content: '';
+  position: absolute;
+  top: 8px;
+  left: 0;
+  width: 5px;
+  height: 5px;
+  border: solid #b9bcc0;
+  border-width: 0 0 1px 1px;
+}
+.radBox.accordSaleList .noData {
+  display: block;
+  padding: 120px 0 50px;
+}
+.radBox.accordSaleList .noData:before {
+  top: 40px;
+  width: 72px;
+  height: 72px;
+  margin-left: -36px;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/common/img_none_coupon.png) no-repeat 50% 0;
+}
+.radBox.accordSaleList .noData strong {
+  font-size: 1.5rem;
+  line-height: 1.53333;
+  color: #6b6e73;
+  font-weight: 400;
+}
+.radBox.accordSaleList .noData .txt {
+  color: #6b6e73;
+}
+.radBox.accordSaleList .noData.saveMoney:before {
+  background: url(/img_up/shop_pds/banobagi/design/images/main/common/img_none_saveMoney.png) no-repeat 50% 0;
+}
+.radBox.accordSaleList .noData.partnerCash:before {
+  background: url(/img_up/shop_pds/banobagi/design/images/main/common/img_none_ptncash.png) no-repeat 50% 0;
+}
+.radBox.accordSaleList .noData.partnerPoint:before {
+  background: url(/img_up/shop_pds/banobagi/design/images/main/common/img_none_point.png) no-repeat 50% 0;
+}
+.frmSelList .frmSel {
+  display: block;
+  border-top: 1px dashed #dcdfe3;
+}
+.frmSelList .frmSel > input[type='checkbox'] + label {
+  height: auto;
+  line-height: inherit;
+  padding: 15px 36px 15px 24px;
+  color: #6b6e73;
+  font-size: 1.5rem;
+  text-align: left;
+  background: #fff;
+  border: none;
+}
+.frmSelList .frmSel > input[type='checkbox'] + label:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: auto;
+  right: 19px;
+  width: 12px;
+  height: 12px;
+  margin-top: -6px;
+  background-position: -318px -26px;
+}
+.frmSelList .frmSel input[type='checkbox']:checked + label,
+.frmSelList .frmSel input[type='radio']:checked + label {
+  color: #373a3c;
+  background: #f8fafc;
+}
+.frmSelList .frmSel input[type='checkbox']:checked + label:before,
+.frmSelList .frmSel input[type='radio']:checked + label:before {
+  background-position: -342px -26px;
+}
+.frmSelList li:first-child .frmSel {
+  border-top: none;
+}
+.frmSelList .subFrm {
+  background: #fff;
+}
+.frmSelList .subFrm > .frmSel input[type='checkbox'] + label {
+  border: none;
+  font-weight: 700;
+}
+.frmSelList .subFrm .subList {
+  padding-top: 8px;
+}
+.frmSelList .subFrm .subList label {
+  text-align: left;
+}
+.radBox .subList {
+  padding: 16px 17px 16px 24px;
+  background: #f8fafc;
+}
+.radBox .subList .frmSel {
+  display: block;
+  border: none;
+}
+.radBox .subList .frmSel input[type='radio'] + label {
+  padding: 4px 36px 4px 8px;
+  color: #6b6e73;
+  background: #f8fafc;
+  border-radius: 0;
+  border: none;
+  height: auto;
+  line-height: inherit;
+  font-weight: 400;
+}
+.radBox .subList .frmSel input[type='radio'] + label:before {
+  display: block;
+  top: 50%;
+  left: auto;
+  right: 0;
+  width: 16px;
+  height: 17px;
+  margin-top: -8px;
+  background-position: -194px -24px;
+}
+.radBox .subList .frmSel input[type='radio'] + label:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 5px;
+  height: 6px;
+  margin-top: -3px;
+  border: solid #b9bcc0;
+  border-width: 0 0 1px 1px;
+}
+.radBox .subList .frmSel input[type='radio']:checked + label:before {
+  background-position: -212px -24px;
+}
+.radBox .subList .frmSel input[type='checkbox'] + label {
+  height: auto;
+  padding: 4px 36px 4px 0;
+  font-size: 1.3rem;
+  line-height: 1.38462;
+  border: 0;
+  text-align: left;
+}
+.radBox .subList .frmSel input[type='checkbox'] + label:before {
+  display: block;
+  left: inherit;
+  right: 0;
+  top: calc(50% - 6px);
+  width: 12px;
+  height: 12px;
+  background-position: -318px -26px;
+}
+.radBox .subList .frmSel input[type='checkbox']:checked + label {
+  color: #6b6e73;
+  font-weight: 400;
+  background: none;
+}
+.radBox .subList .frmSel input[type='checkbox']:checked + label:before {
+  background-position: -342px -26px;
+}
+.saleTotalArea {
+  position: relative;
+  margin-top: 24px;
+  padding: 20px 32px 0 32px;
+  border-top: 1px solid #ebedf2;
+  text-align: right;
+}
+.saleTotalArea:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 8px;
+  background: #f5f7fa;
+}
+.saleTotalArea .tit {
+  float: left;
+  font-size: 1.8rem;
+  line-height: 1.44444;
+  color: #373a3c;
+  font-weight: 500;
+}
+.saleTotalArea .salePrice {
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  display: inline-block;
+  margin-right: 3px;
+  color: #f42d10;
+  font-size: 2rem;
+  font-weight: 700;
+}
+[lang='zh'] .saleTotalArea .salePrice {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.saleTotalArea .salePrice span {
+  font-family: Noto Sans KR, 'notokr', 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.53333;
+}
+[lang='zh'] .saleTotalArea .salePrice span {
+  font-family: Microsoft Yahei, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.payRegister .title {
+  display: block;
+  font-size: 1.8rem;
+  line-height: 1.44444;
+  color: #373a3c;
+  text-align: center;
+}
+.payRegister .btnIcoGroup {
+  margin: 32px 0;
+  text-align: center;
+}
+.payRegister .btnIcoGroup .btnIco {
+  display: inline-block;
+  width: 160px;
+  height: 144px;
+  margin: 0 8px;
+  padding-top: 62px;
+  font-size: 1.8rem;
+  line-height: 1.44444;
+  color: #373a3c;
+  text-align: center;
+  font-weight: 500;
+  border: 1px solid #ced9ff;
+  border-radius: 8px;
+  -webkit-box-shadow: 0 10px 20px 0 rgba(142, 158, 217, 0.15);
+  box-shadow: 0 10px 20px 0 rgba(142, 158, 217, 0.15);
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.payRegister .btnIcoGroup .btnIco.icoCard {
+  background: url(/img_up/shop_pds/banobagi/design/images/main/common/ico_card.png) no-repeat 50% 36px;
+}
+.payRegister .btnIcoGroup .btnIco.icoAccount {
+  background: url(/img_up/shop_pds/banobagi/design/images/main/common/ico_account.png) no-repeat 50% 36px;
+}
+.payMethod {
+  margin: -4px;
+}
+.payMethod .frmSel {
+  padding: 4px;
+}
+.payMethod .frmSel input + label {
+  height: 96px;
+  padding-top: 22px;
+  line-height: 1;
+  border-color: #eaeaea;
+  border-radius: 8px;
+}
+.payMethod .frmSel input + label figure {
+  display: inline-block;
+  width: 56px;
+}
+.payMethod .frmSel input + label figure img {
+  display: block;
+  width: 100%;
+}
+.payMethod .frmSel input + label .text {
+  display: block;
+  margin-top: 4px;
+  color: #6b6e73;
+}
+.payMethod .frmSel input:checked + label {
+  border-color: #e9ebfb;
+  background-color: #e9ebfb;
+}
+[lang='zh'] .payMethod .frmSel input:checked + label {
+  border-color: #ffeef1;
+}
+[lang='zh'] .payMethod .frmSel input:checked + label {
+  background-color: #ffeef1;
+}
+.payMethod .frmSel input:checked + label .text {
+  color: #1e2023;
+  font-weight: 700;
+}
+.payMethod .etcCard {
+  float: left;
+  width: 33.3%;
+  padding: 4px;
+}
+.payMethod .etcCard > a {
+  display: block;
+  width: 100%;
+  height: 96px;
+  padding-top: 22px;
+  font-size: 1.3rem;
+  line-height: 1.38462;
+  text-align: center;
+  line-height: 1;
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+}
+.payMethod .etcCard > a figure {
+  display: inline-block;
+  width: 56px;
+}
+.payMethod .etcCard > a .text {
+  display: block;
+  color: #6b6e73;
+}
+.payMethod.on ~ .etcCardList {
+  display: table;
+}
+.payMethod.on .etcCard {
+  display: none;
+}
+.etcCardList {
+  display: none;
+  margin: 10px -4px 0;
+}
+.etcCardList .frmSel {
+  padding: 4px;
+}
+.etcCardList .frmSel label {
+  height: 48px;
+  line-height: 48px;
+}
+.etcCardList .frmSel input:checked + label {
+  color: #1e2023;
+  font-weight: 700;
+  background-color: #e9ebfb;
+  border-color: #e9ebfb;
+}
+[lang='zh'] .etcCardList .frmSel input:checked + label {
+  background-color: #ffeef1;
+}
+[lang='zh'] .etcCardList .frmSel input:checked + label {
+  border-color: #ffeef1;
+}
+.eventCardList.eventCardOption ~ .payMethod {
+  padding-top: 17px;
+  border-top: 1px dashed #eaeaea;
+}
+.eventCardList .frmSel {
+  padding: 4px 3.5px;
+}
+.eventCardList .frmSel label {
+  height: 48px;
+  line-height: 48px;
+}
+.eventCardList .frmSel input:checked + label {
+  color: #1e2023;
+  font-weight: 700;
+  background-color: #e9ebfb;
+  border-color: #e9ebfb;
+}
+[lang='zh'] .eventCardList .frmSel input:checked + label {
+  background-color: #ffeef1;
+}
+[lang='zh'] .eventCardList .frmSel input:checked + label {
+  border-color: #ffeef1;
+}
+.tabContentCont {
+  overflow: hidden;
+  height: 0;
+  margin: 16px -24px 0 -32px;
+  background: #f8fafc;
+  -webkit-transition: height 0.3s;
+  transition: height 0.3s;
+}
+.tabContentCont.on ~ .payMethod,
+.tabContentCont.on ~ .etcCardList {
+  display: none;
+}
+.eventCardCont {
+  position: relative;
+  padding: 30px 24px 20px;
+  min-height: calc(100vh - 410px);
+}
+.eventCardCont .btnClose {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin: -7px 0 0 -15px;
+  padding: 0 10px;
+}
+.eventCardCont .btnClose:after {
+  content: '';
+  display: block;
+  width: 10px;
+  height: 10px;
+  border: solid #5a5f64;
+  border-width: 2px 2px 0 0;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+.layPop.layerS.couponPop {
+  height: 80vh;
+}
+.layPop.layerS.couponPop .layCont {
+  min-height: calc(80vh - 257px) !important;
+  max-height: calc(80vh - 257px) !important;
+  width: calc(100% - 16px);
+  margin-left: 8px;
+}
+.layPop.layerS.couponPop .frontTab {
+  padding: 24px 24px 0 32px;
+}
+.layPop.layerS.couponPop .frontTab .tabType01 {
+  margin: 0;
+}
+.layPop.layerS.couponPop .frontTab .tabType01 > li.tabON {
+  padding-bottom: 0;
+}
+.layPop.layerS.couponPop.hasFoot .layCont {
+  min-height: calc(80vh - 332px) !important;
+  max-height: calc(80vh - 332px) !important;
+}
+.layPop.layerS.couponPop .superCoupArea {
+  margin-right: -32px;
+}
+.couponCont p.bultType01 {
+  margin-top: 16px;
+}
+.couponCont .superCoupArea {
+  margin: 0 -24px 0 -32px;
+  padding: 24px 24px 24px 32px;
+  background-color: #f5f7fa;
+}
+.couponCont .superCoupArea ~ .accordSaleList {
+  margin-top: 24px;
+}
+.couponCont .flag.super {
+  position: absolute;
+  top: 50%;
+  right: 16px;
+  width: auto;
+  height: 24px;
+  margin-top: -12px;
+  padding: 0 7px;
+  color: #3557da;
+  font-size: 1.2rem;
+  line-height: 24px;
+  background-color: #e9ebfb;
+  border-radius: 2px;
+}
+[lang='zh'] .couponCont .flag.super {
+  background-color: #ffeef1;
+}
+.couponCont .flag.super:before,
+.couponCont .flag.super:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  width: 6px;
+  height: 6px;
+  margin-top: -3px;
+  border-radius: 100%;
+  background-color: #fff;
+}
+.couponCont .flag.super:before {
+  left: -3px;
+}
+.couponCont .flag.super:after {
+  right: -3px;
+}
+.couponCont .accordSaleList .flag.super {
+  display: inline-block;
+  position: relative;
+  top: 0;
+  left: 0;
+  margin-left: 3px;
+}
+.couponCont .coupList {
+  margin-top: 8px;
+}
+.couponCont .coupList > li {
+  position: relative;
+  min-height: 56px;
+  padding: 17px 75px 17px 24px;
+  color: #373a3c;
+  font-weight: 700;
+  background: #fff;
+  -webkit-box-shadow: 0 5px 10px 0 rgba(142, 158, 217, 0.15);
+  box-shadow: 0 5px 10px 0 rgba(142, 158, 217, 0.15);
+  border-radius: 8px;
+}
+.couponCont .coupList > li:nth-child(n + 2) {
+  margin-top: 8px;
+}
+.couponCont .coupList > li strong {
+  margin-left: 3px;
+  color: #4d6ee4;
+}
+[lang='zh'] .couponCont .coupList > li strong {
+  color: #fe324b;
+}
+.couponCont .accordSaleList > .frmSel {
+  overflow: hidden;
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+}
+.couponCont .accordSaleList > .frmSel > input + label {
+  border: 0;
+}
+.couponCont .accordSaleList > .frmSel.cb_checked {
+  border-color: #c7cdf6;
+}
+.couponCont .accordSaleList > .frmSel.cb_checked .subList {
+  background: #f8fafc;
+}
+.couponCont
+  .accordSaleList
+  > .frmSel.cb_checked
+  .subList
+  .frmSel
+  input
+  + label {
+  background: #f8fafc;
+}
+.couponCont .accordSaleList .subList {
+  padding-bottom: 12px;
+  background: #fff;
+  border-top: 1px dashed #eaeaea;
+}
+.couponCont .accordSaleList .subList .frmSel input[type='radio'] + label {
+  padding-left: 0;
+  text-align: left;
+  background: #fff;
+}
+.couponCont
+  .accordSaleList
+  .subList
+  .frmSel
+  input[type='radio']
+  + label:before {
+  display: block;
+}
+.couponCont .accordSaleList .subList .frmSel input[type='radio'] + label:after {
+  display: none;
+}
+.couponCont .accordSaleList .subList .txtPay {
+  color: #6b6e73;
+}
+.couponCont .accordSaleList .subList .txtPay ~ .txtPay {
+  margin-top: 8px;
+}
+.orderWrap {
+  padding-bottom: 100px;
+  background: #f5f7fa;
+}
+.orderWrap .container {
+  width: 1136px !important;
+  padding: 0 !important;
+}
+.orderWrap ~ footer {
+  margin-top: 0;
+}
+.orderWrap .fixedWrap {
+  position: relative;
+  z-index: 2000;
+}
+.orderWrap .fixedWrap.fixed {
+  padding-top: 48px;
+}
+.orderWrap .orderFixedLayer {
+  padding-top: 0 !important;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.orderWrap .orderFixedLayer.offsetTop {
+  top: 48px;
+}
+.orderWrap .cartCont .orderFixedLayer.offsetTop > section {
+  padding-top: 24px;
+}
+.orderWrap .orderFixedLayer > section {
+  width: 272px;
+}
+.orderWrap .orderFixedLayer.fixed > section {
+  position: fixed;
+}
+.orderWrap .header {
+  min-width: 1280px;
+  height: 88px;
+  background: #fff;
+  border-bottom: 1px solid #eaeaea;
+  text-align: center;
+}
+.orderWrap .header h1 {
+  position: absolute;
+  top: 28px;
+  left: 48px;
+}
+.orderWrap .header .orderStep {
+  padding-top: 27px;
+}
+.orderWrap .header .orderStep li {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 2rem;
+  color: #8b8f94;
+}
+.orderWrap .header .orderStep li.now {
+  font-weight: 700;
+  color: #1e2023;
+}
+.orderWrap .header .orderStep li:before {
+  content: '';
+  display: inline-block;
+  margin: 5px 12px 0 12px;
+  width: 20px;
+  height: 20px;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/order/ico_step.png) no-repeat;
+  vertical-align: top;
+}
+.orderWrap .header .orderStep li:first-child:before {
+  display: none;
+}
+.orderWrap .contents {
+  position: relative;
+  margin-top: 48px;
+}
+.orderWrap .contents:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.orderWrap .contents .prodListWrap {
+  float: left;
+  width: 848px;
+}
+.orderWrap
+  .contents
+  .prodListWrap
+  .prodList.prodListStyle
+  .prodCont
+  .prodState.adult {
+  left: 15px;
+  z-index: 99;
+}
+.orderWrap .contents .payment {
+  float: right;
+  margin-left: 16px;
+  width: 272px;
+}
+.payment .preCalc {
+  margin-bottom: 8px;
+}
+.payment .preCalc > li {
+  margin: 0 0 8px;
+  padding: 16px 16px 13px;
+  background: #fff;
+  border-radius: 8px;
+  border: 1px solid #eef0f6;
+}
+.payment .preCalc > li:first-child {
+  border: 1px solid #eef0f6;
+}
+.payment .preCalc .amtTit {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.payment .preCalc .amtTit em {
+  display: block;
+  font-weight: 400;
+  font-size: 1.3rem;
+  color: #6b6e73;
+}
+.payment .preCalc .amtCont {
+  margin-top: -3px;
+}
+.payment .preCalc .amtCont .won:only-child {
+  margin-top: 5px;
+}
+.payment .preCalc .amtCont .dollar {
+  display: block;
+  margin: 0 0 -8px;
+  font-size: 2rem;
+}
+.payment .preCalc.accordianList {
+  border: none;
+}
+.payment .preCalc.accordianList .ctrl[aria-expanded='true'] ~ .accordCont {
+  background: none;
+  margin: 0;
+  padding: 0;
+  border-radius: 0;
+}
+.payment .preCalc .detailList {
+  margin: 10px -16px 0;
+  padding: 4px 16px;
+  border-top: 1px solid #eef0f6;
+}
+.payment .preCalc .detailList > li {
+  margin-top: 8px;
+  width: 100%;
+}
+.payment .preCalc .detailList > li:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.payment .preCalc .detailList > li.total .amtTit,
+.payment .preCalc .detailList > li.total .dollar {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #373a3c;
+}
+.payment .preCalc .detailList > li.total .amtCont {
+  margin: 0;
+}
+.payment .preCalc .detailList > li .amtCont {
+  float: right;
+  width: 50%;
+}
+.payment .preCalc .detailList > li .subTxt {
+  display: block;
+  clear: both;
+}
+.payment .preCalc .detailList > li .tipCont {
+  left: auto !important;
+}
+.payment .preCalc .detailList > li .tipCont:before {
+  display: block;
+}
+.payment .preCalc .detailList .amtTit {
+  display: table-cell;
+  font-size: 1.3rem;
+  vertical-align: middle;
+}
+.payment .preCalc .detailList .dollar {
+  display: inline-block;
+  font-size: 1.3rem;
+}
+.payment .preCalc .detailList .won strong {
+  font-size: 1.3rem;
+}
+.payment .btnGrayL {
+  width: 100%;
+  border-radius: 8px;
+}
+.payment .btnGrayL + .btnPay {
+  margin-top: 16px;
+}
+.payment .btnPay {
+  overflow: hidden;
+  border-radius: 8px;
+  -webkit-box-shadow: 0 10px 20px 0 rgba(77, 110, 228, 0.4);
+  box-shadow: 0 10px 20px 0 rgba(77, 110, 228, 0.4);
+}
+.payment .btnPay.disabled {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.cartCont.fixedWrap.fixed {
+  padding-top: 72px;
+}
+.cartCont.fixedWrap.fixed .listDel {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  padding-top: 24px;
+  z-index: 2000;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  width: 848px;
+  margin-left: -144px;
+  background-color: #f5f7fa;
+}
+.cartCont .listNum {
+  overflow: hidden;
+  position: relative;
+  padding-top: 24px;
+  height: 72px;
+  border: none;
+}
+.cartCont .listNum .frmSel {
+  margin-left: 0;
+}
+.cartCont .listNum .selNum {
+  margin-left: 5px;
+}
+.cartCont .listNum .btnWrap {
+  float: right;
+}
+.cartCont .listNum .btnWrap button {
+  padding: 0;
+  font-weight: 500;
+  text-decoration: underline;
+  color: #5a5f64;
+}
+.cartCont .listNum .btnWrap button ~ button {
+  margin-left: 12px;
+  padding-left: 12px;
+}
+.cartCont .listNum .btnWrap button:before {
+  display: none;
+}
+.cartCont .listNum .btnWrap button.btnDel {
+  color: #e6230a;
+}
+.cartCont .listNum .btnWrap button.btnSoldOutDel:before {
+  content: '';
+  display: inline-block;
+  width: 1px;
+  height: 20px;
+  margin-top: -10px;
+  background: #dcdfe3;
+}
+.cartCont .prodList.prodListStyle {
+  display: block;
+  border: none;
+}
+.cartCont .prodList.prodListStyle > .prodCont {
+  margin-top: 8px;
+  padding: 24px 16px 24px 192px;
+  min-height: 208px;
+  background: #fff;
+  border: 1px solid #eef0f6;
+  border-radius: 8px;
+}
+.cartCont .prodList.prodListStyle > .prodCont:first-child {
+  margin-top: 0;
+}
+.cartCont .prodList.prodListStyle > .prodCont:hover {
+  background: #fff;
+}
+.cartCont .prodList.prodListStyle > .prodCont .prodFlag {
+  margin: 0 0 17px;
+}
+.cartCont .prodList.prodListStyle > .prodCont .topBtn {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  white-space: nowrap;
+}
+.cartCont .prodList.prodListStyle > .prodCont .topBtn > span {
+  position: relative;
+  z-index: 10;
+  margin: 0;
+  vertical-align: top;
+}
+.cartCont .prodList.prodListStyle > .prodCont .topBtn .chkFavo {
+  float: none;
+}
+.cartCont .prodList.prodListStyle > .prodCont .topBtn .prodDel {
+  width: 32px;
+  height: 32px;
+}
+.cartCont .prodList.prodListStyle > .prodCont .topBtn .prodDel button {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/view/ico_close02.png) center no-repeat;
+}
+.cartCont .prodList.prodListStyle > .prodCont .frmSel {
+  position: absolute;
+  top: 24px;
+  left: 16px;
+  z-index: 100;
+}
+.cartCont .prodList.prodListStyle > .prodCont figure {
+  position: absolute;
+  top: 24px;
+  left: 16px;
+  width: 160px;
+  height: 160px;
+  background-size: 80% auto;
+}
+.cartCont .prodList.prodListStyle > .prodCont figure > a {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 5;
+}
+.cartCont .prodList.prodListStyle > .prodCont figure:after {
+  display: none;
+}
+.cartCont .prodList.prodListStyle > .prodCont .brandName {
+  display: block;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #373a3c;
+}
+.cartCont .prodList.prodListStyle > .prodCont .brandName .eng {
+  display: inline-block;
+  position: relative;
+  margin-left: 5px;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+[lang='zh'] .cartCont .prodList.prodListStyle > .prodCont .brandName .eng {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.cartCont .prodList.prodListStyle > .prodCont .brandName .eng:before {
+  content: 'Â·';
+  display: inline-block;
+  padding-right: 4px;
+  font-family: Noto Sans KR, 'notokr', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+[lang='zh']
+  .cartCont
+  .prodList.prodListStyle
+  > .prodCont
+  .brandName
+  .eng:before {
+  font-family: Microsoft Yahei, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.cartCont .prodList.prodListStyle > .prodCont .prodName {
+  display: inline-block;
+  color: #373a3c;
+}
+.cartCont .prodList.prodListStyle > .prodCont .prodName > a[target='_blank'] {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/common/ico_blank.png) center no-repeat;
+  vertical-align: top;
+}
+.cartCont .prodList.prodListStyle > .prodCont .prodNum {
+  display: block;
+  margin-top: 3px;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #6b6e73;
+}
+[lang='zh'] .cartCont .prodList.prodListStyle > .prodCont .prodNum {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.cartCont .prodList.prodListStyle > .prodCont .specialDate {
+  margin-top: 15px;
+  font-size: 1.3rem;
+  color: #009195;
+}
+.cartCont .prodList.prodListStyle > .prodCont .prodBtm {
+  position: relative;
+  margin-top: 24px;
+  padding-top: 17px;
+  min-height: 48px;
+  border-top: 1px dashed #eaeaea;
+}
+.cartCont .prodList.prodListStyle > .prodCont .prodBtm:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.cartCont .prodList.prodListStyle > .prodCont .prodBtm .priceArea {
+  position: static;
+  float: left;
+  margin-top: 0;
+  padding: 9px 0;
+  width: auto;
+}
+.cartCont .prodList.prodListStyle > .prodCont .prodBtm .priceArea > * {
+  display: inline-block;
+  vertical-align: middle;
+}
+.cartCont .prodList.prodListStyle > .prodCont .prodBtm .priceArea .priceWrap {
+  margin-right: 5px;
+}
+.cartCont
+  .prodList.prodListStyle
+  > .prodCont
+  .prodBtm
+  .priceArea
+  .priceWrap
+  .saleNum {
+  font-size: 2rem;
+}
+.cartCont
+  .prodList.prodListStyle
+  > .prodCont
+  .prodBtm
+  .priceArea
+  .priceWrap
+  .saleDollar {
+  display: inline-block;
+  margin-left: 5px;
+  font-size: 2rem;
+}
+.cartCont .prodList.prodListStyle > .prodCont .prodBtm .priceArea .originWon {
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #6b6e73;
+}
+[lang='zh']
+  .cartCont
+  .prodList.prodListStyle
+  > .prodCont
+  .prodBtm
+  .priceArea
+  .originWon {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.cartCont
+  .prodList.prodListStyle
+  > .prodCont
+  .prodBtm
+  .priceArea
+  .originWon
+  span {
+  font-family: Noto Sans KR, 'notokr', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+[lang='zh']
+  .cartCont
+  .prodList.prodListStyle
+  > .prodCont
+  .prodBtm
+  .priceArea
+  .originWon
+  span {
+  font-family: Microsoft Yahei, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.cartCont
+  .prodList.prodListStyle
+  > .prodCont
+  .prodBtm
+  .priceArea
+  .originDollar {
+  margin-left: 10px;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #6b6e73;
+}
+[lang='zh']
+  .cartCont
+  .prodList.prodListStyle
+  > .prodCont
+  .prodBtm
+  .priceArea
+  .originDollar {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.cartCont .prodList.prodListStyle > .prodCont .prodBtm .priceArea .tipArea {
+  top: -1px;
+  z-index: 100;
+}
+.cartCont
+  .prodList.prodListStyle
+  > .prodCont
+  .prodBtm
+  .priceArea
+  .tipArea
+  .tipCont {
+  width: 324px;
+}
+.cartCont
+  .prodList.prodListStyle
+  > .prodCont
+  .prodBtm
+  .priceArea
+  .tipArea
+  .amtTit {
+  margin-right: 12px;
+}
+.cartCont
+  .prodList.prodListStyle
+  > .prodCont
+  .prodBtm
+  .priceArea
+  .tipArea
+  .amtCont {
+  text-align: right;
+}
+.cartCont .prodList.prodListStyle > .prodCont .prodBtm .btn {
+  float: right;
+  text-align: right;
+}
+.cartCont .prodList.prodListStyle > .prodCont .prodBtm .btn > span {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+.cartCont .prodList.prodListStyle > .prodCont .prodBtm .btn > span .btnSSG {
+  min-width: 120px;
+}
+.cartCont .prodList.prodListStyle > .prodCont .prodBtm .btn .frmNum {
+  height: 48px;
+}
+.cartCont .prodList.prodListStyle > .prodCont .prodBtm .btn .btnSSG {
+  margin-left: 4px;
+  min-width: 246px;
+  border-radius: 8px;
+  font-size: 1.5rem;
+}
+.cartCont .prodList.prodListStyle > .prodCont .prodBtm .btn .discountInfo {
+  position: absolute;
+  top: -31px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  padding: 1px 20px 2px 8px;
+  background: #fff;
+  border: 1px solid #f42d10;
+  border-radius: 5px;
+  font-size: 1.2rem !important;
+  color: #f42d10;
+}
+.cartCont
+  .prodList.prodListStyle
+  > .prodCont
+  .prodBtm
+  .btn
+  .discountInfo:before,
+.cartCont
+  .prodList.prodListStyle
+  > .prodCont
+  .prodBtm
+  .btn
+  .discountInfo:after {
+  content: '';
+  position: absolute;
+}
+.cartCont
+  .prodList.prodListStyle
+  > .prodCont
+  .prodBtm
+  .btn
+  .discountInfo:before {
+  right: 9px;
+  top: 8px;
+  width: 6px;
+  height: 6px;
+  border: 1px solid #e6240a;
+  border-width: 0 1px 1px 0;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+.cartCont
+  .prodList.prodListStyle
+  > .prodCont
+  .prodBtm
+  .btn
+  .discountInfo:after {
+  left: 50%;
+  bottom: -4px;
+  width: 4px;
+  height: 4px;
+  margin-left: -2px;
+  border: solid 1px #f42d10;
+  border-width: 0 1px 1px 0;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  background-color: #fff;
+}
+.cartCont .prodList.prodListStyle > .prodCont .setList {
+  display: block;
+  margin: 25px 0 0;
+  padding-bottom: 16px;
+  border-top: 1px dashed #eaeaea;
+  font-size: 1.3rem;
+  color: #6b6e73;
+}
+.cartCont .prodList.prodListStyle > .prodCont .setList li {
+  position: relative;
+  float: left;
+  margin: 16px 0 0;
+  padding: 0 8px 0 112px;
+  width: 50%;
+  min-height: 96px;
+  border: none;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  vertical-align: top;
+}
+.cartCont .prodList.prodListStyle > .prodCont .setList li figure {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 8px;
+  width: 96px;
+  min-height: 96px;
+  height: 96px;
+  opacity: 1;
+}
+.cartCont .prodList.prodListStyle > .prodCont .setList li figure > a {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 8px;
+  z-index: 5;
+}
+.cartCont .prodList.prodListStyle > .prodCont .setList li figure > a:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(12, 38, 159, 0.03);
+  z-index: 1;
+}
+.cartCont .prodList.prodListStyle > .prodCont .setList li figure .prodState {
+  left: 50%;
+  margin: -12px 0 0 -30px;
+  height: 23px;
+}
+.cartCont
+  .prodList.prodListStyle
+  > .prodCont
+  .setList
+  li
+  figure
+  .prodState.soldOut {
+  width: 59px;
+  font-size: 1.2rem;
+  line-height: 20px;
+}
+.cartCont
+  .prodList.prodListStyle
+  > .prodCont
+  .setList
+  li
+  figure
+  .prodState.adult {
+  width: 96px;
+  height: 96px;
+  top: 0;
+  left: 0 !important;
+  margin: 0;
+  font-size: 1.5rem;
+  line-height: 97px;
+}
+.cartCont
+  .prodList.prodListStyle
+  > .prodCont
+  .setList
+  li
+  figure
+  .prodState.adult:before {
+  width: 40px;
+  height: 40px;
+  margin: -20px 0 0 -20px;
+}
+.cartCont .prodList.prodListStyle > .prodCont .setList li figure.adultCase {
+  background: none;
+}
+.cartCont .prodList.prodListStyle > .prodCont .setList li > span {
+  display: block;
+}
+.cartCont .prodList.prodListStyle > .prodCont .setList li .brandName {
+  font-weight: 700;
+  font-size: 1.3rem;
+  color: #373a3c;
+}
+.cartCont .prodList.prodListStyle > .prodCont .setList li .brandName .eng {
+  margin-left: 5px;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+[lang='zh']
+  .cartCont
+  .prodList.prodListStyle
+  > .prodCont
+  .setList
+  li
+  .brandName
+  .eng {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.cartCont
+  .prodList.prodListStyle
+  > .prodCont
+  .setList
+  li
+  .brandName
+  .eng:before {
+  content: 'Â·';
+  display: inline-block;
+  padding-right: 4px;
+}
+.cartCont
+  .prodList.prodListStyle
+  > .prodCont
+  .setList
+  li.prodSoldOut
+  figure
+  > a:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(12, 38, 159, 0.03);
+  z-index: 1;
+}
+.cartCont
+  .prodList.prodListStyle
+  > .prodCont
+  .setList
+  li.prodSoldOut
+  figure:before,
+.cartCont
+  .prodList.prodListStyle
+  > .prodCont
+  .setList
+  li.prodSoldOut
+  figure:after {
+  display: none;
+}
+.cartCont .prodList.prodListStyle > .prodCont .setList + .prodBtm {
+  margin-top: 0;
+}
+.cartCont .prodList.prodListStyle > .prodCont.prodSoldout > figure {
+  opacity: 1;
+}
+.cartCont .prodList.prodListStyle > .prodCont.prodSoldout > figure > a:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.5);
+}
+.cartCont .prodList.prodListStyle > .prodCont.prodSoldout > figure .prodState {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -16px 0 0 -35px;
+  z-index: 1000;
+}
+.cartCont
+  .prodList.prodListStyle
+  > .prodCont.prodSoldout
+  > figure
+  .prodState.soldOut {
+  width: 70px;
+  height: 32px;
+  color: #fff;
+  font-size: 1.3rem;
+  line-height: 32px;
+  border-radius: 8px;
+  background: rgba(55, 58, 60, 0.6);
+}
+.cartCont
+  .prodList.prodListStyle
+  > .prodCont.prodSoldout
+  > figure
+  .prodState.adult {
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  left: 5px;
+  right: 5px;
+  height: 80px;
+  margin: -102px 0 0 0;
+  color: #1e2023;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 80px;
+  background: #f7f8fc;
+  letter-spacing: -0.09em;
+}
+[lang='zh']
+  .cartCont
+  .prodList.prodListStyle
+  > .prodCont.prodSoldout
+  > figure
+  .prodState.adult {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.cartCont
+  .prodList.prodListStyle
+  > .prodCont.prodSoldout
+  > figure
+  .prodState.adult:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  z-index: 5;
+  width: 80px;
+  height: 80px;
+  margin-left: -40px;
+  line-height: 80px;
+  border: 2px solid #e6230a;
+  border-radius: 50%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.cartCont .prodList.prodListStyle > .prodCont.prodSoldout .prodFlag,
+.cartCont .prodList.prodListStyle > .prodCont.prodSoldout .priceArea,
+.cartCont .prodList.prodListStyle > .prodCont.prodSoldout .prodInfo {
+  opacity: 1 !important;
+}
+.cartCont .prodList.prodListStyle > .prodCont.prodSoldout .setList figure {
+  opacity: 1;
+}
+.cartCont .prodList.prodListStyle > .prodCont.noData {
+  padding: 143px 0 72px;
+  text-align: center;
+}
+.cartCont .prodList.prodListStyle > .prodCont.noData:before {
+  top: 64px;
+  margin-left: -36px;
+  width: 72px;
+  height: 72px;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/order/ico_cart_nodata.png) no-repeat;
+}
+.cartCont .prodList.prodListStyle > .prodCont.noData strong {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 2rem;
+  color: #373a3c;
+}
+.cartCont .rndBox {
+  margin-top: 8px;
+  padding: 32px;
+  background: #fff;
+  border: 1px solid #eef0f6;
+  border-radius: 8px;
+}
+.cartCont .rndBox .titDep4 {
+  font-weight: 700;
+}
+.cartCont .cartBenefit {
+  text-align: center;
+}
+.cartCont .cartBenefit .bnfDisplay {
+  position: relative;
+  margin: 17px auto 30px;
+  height: 8px;
+  padding: 1px;
+  width: 460px;
+}
+.cartCont .cartBenefit .bnfDisplay:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #e9ebfb;
+  border-radius: 4px;
+}
+.cartCont .cartBenefit .bnfDisplay .bnfBar {
+  position: relative;
+  display: block;
+  height: 8px;
+  border-radius: 4px;
+  background-color: #a0adf0;
+}
+.cartCont .cartBenefit .bnfDisplay .bnfTxt {
+  position: absolute;
+  top: -17px;
+  right: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 40px;
+  padding: 10px 16px 0;
+  font-size: 1.3rem;
+  line-height: 1.38462;
+  color: #4d6ee4;
+  text-align: center;
+  white-space: nowrap;
+  border: 1px solid #a0adf0;
+  border-radius: 20px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 10px 20px 0 rgba(77, 110, 228, 0.12);
+  box-shadow: 0 10px 20px 0 rgba(77, 110, 228, 0.12);
+}
+[lang='zh'] .cartCont .cartBenefit .bnfDisplay .bnfTxt {
+  color: #fe324b;
+}
+.cartCont .cartBenefit .bnfDisplay .bnfTxt strong {
+  margin-left: 1px;
+  font-weight: 600;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1.5rem;
+}
+[lang='zh'] .cartCont .cartBenefit .bnfDisplay .bnfTxt strong {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.cartCont .cartBenefit .bnfDisplay .bnfBar[style^='width:0'] .bnfTxt,
+.cartCont .cartBenefit .bnfDisplay .bnfBar[style^='width:1'] .bnfTxt,
+.cartCont .cartBenefit .bnfDisplay .bnfBar[style^='width:20 ~ 26'] .bnfTxt {
+  right: auto;
+  left: 0;
+}
+.cartCont .cartBenefit .bnfDisplay .bnfBar[style^='width:100'] .bnfTxt {
+  right: 0;
+  left: auto;
+}
+.cartCont .cartBenefit .bnfTit {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 2rem;
+  color: #373a3c;
+}
+.cartCont .cartBenefit .bnfTit .point {
+  color: #4d6ee4;
+}
+[lang='zh'] .cartCont .cartBenefit .bnfTit .point {
+  color: #fe324b;
+}
+.cartCont .cartBenefit .bnfTit .lineU {
+  position: relative;
+}
+.cartCont .cartBenefit .bnfTit .lineU em {
+  position: relative;
+  z-index: 10;
+}
+.cartCont .cartBenefit .bnfTit .lineU:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 6px;
+  background-color: #e9ebfb;
+}
+[lang='zh'] .cartCont .cartBenefit .bnfTit .lineU:after {
+  background-color: #ffeef1;
+}
+.cartCont .cartBenefit .bnfDesc {
+  display: block;
+  margin-bottom: 15px;
+  font-size: 1.3rem;
+}
+.cartCont .cartProd {
+  margin-top: -45px;
+  padding: 45px 0 0;
+}
+.cartCont .cartProd .prodThumb {
+  margin: 0;
+}
+.cartCont .cartProd .prodCont {
+  overflow: hidden;
+  width: 100%;
+  min-height: 240px;
+}
+.cartCont .cartProd .prodCont .optionBtns {
+  margin-top: -40px;
+  height: 40px;
+}
+.cartCont .cartProd .prodCont .optionBtns button {
+  width: 40px;
+  height: 40px;
+}
+.cartCont .cartProd .prodCont .optionBtns .icCart .cartAni {
+  width: 40px;
+  height: 40px;
+}
+.cartCont .cartProd .prodCont .prodInfo {
+  margin-top: 10px;
+}
+.cartCont .cartProd figure {
+  min-height: 144px;
+  background-size: contain;
+  background-size: 80% auto;
+}
+.cartCont .cartProd .brandName,
+.cartCont .cartProd .prodName {
+  display: block;
+  font-size: 1.3rem;
+}
+.cartCont .cartProd .brandName {
+  font-weight: 700;
+  color: #373a3c;
+}
+.cartCont .cartProd .prodName {
+  overflow: hidden;
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.cartCont .cartProd .priceArea {
+  margin-top: 10px;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+[lang='zh'] .cartCont .cartProd .priceArea {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.cartCont .cartProd .priceArea .priceWrap {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+.cartCont .cartProd .priceArea .priceWrap .saleNum {
+  color: #f42d10;
+}
+.cartCont .cartProd .priceArea .priceWrap .saleDollar {
+  color: #373a3c;
+}
+.cartCont .cartProd .priceArea .originWon {
+  display: block;
+  margin-top: -3px;
+  font-size: 1.3rem;
+  line-height: 1.38462;
+}
+.cartCont .cartProd .priceArea .originWon span {
+  font-family: Noto Sans KR, 'notokr', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+[lang='zh'] .cartCont .cartProd .priceArea .originWon span {
+  font-family: Microsoft Yahei, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.cartCont .cartProd .ts-prev,
+.cartCont .cartProd .ts-next {
+  margin: 0;
+  top: 10px;
+  left: auto;
+  right: 28px;
+  width: 20px;
+  height: 20px;
+  opacity: 1 !important;
+  -webkit-transition: initial;
+  transition: initial;
+  -webkit-transform: initial;
+  transform: initial;
+  background: none;
+}
+.cartCont .cartProd .ts-prev:after,
+.cartCont .cartProd .ts-next:after {
+  margin-top: -6px;
+  width: 12px;
+  height: 12px;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/order/spr_s_swiper.png) no-repeat;
+}
+.cartCont .cartProd .ts-next {
+  right: 0;
+}
+.cartCont .cartProd .ts-next:after {
+  background-position: right 0;
+}
+.cartCont .usedInfoList {
+  margin: 0;
+  padding: 0;
+  background: none;
+}
+.cartCont .payment {
+  padding-top: 48px;
+}
+.cartCont .payment .btnPay button:only-child {
+  width: 100%;
+}
+.eng {
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+[lang='zh'] .eng {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.tipCont.preCalc {
+  padding-bottom: 8px;
+}
+.tipCont.preCalc .detailList {
+  margin-top: 0;
+}
+.tipCont.preCalc .detailList > li {
+  margin: 0 0 3px;
+}
+.tipCont.preCalc .detailList .amtTit {
+  width: 92px;
+  font-size: 1.3rem;
+}
+.tipCont.preCalc .detailList .amtCont {
+  text-align: left;
+}
+.tipCont.preCalc .detailList .amtCont .dollar,
+.tipCont.preCalc .detailList .amtCont .won {
+  font-size: 1.3rem;
+  color: #373a3c;
+}
+.orderGift {
+  margin-top: 8px;
+  padding-top: 17px;
+  height: 56px;
+  border-radius: 8px;
+  background-color: #e9ebfb;
+  text-align: center;
+}
+[lang='zh'] .orderGift {
+  background-color: #ffeef1;
+}
+.orderGift button {
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 20px;
+  color: #373a3c;
+}
+.orderGift button:before,
+.orderGift button:after {
+  content: '';
+  display: inline-block;
+  vertical-align: top;
+}
+.orderGift button:before {
+  margin-right: 4px;
+  width: 20px;
+  height: 20px;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/order/ico_gift.png) no-repeat;
+}
+.orderGift button:after {
+  width: 20px;
+  height: 20px;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/order/ico_link_arr.png) center no-repeat;
+}
+.btnPay {
+  margin-top: 8px;
+  font: 0/0 Arial;
+}
+.btnPay .calculator {
+  display: inline-block;
+  min-width: 56px;
+  padding: 0 18px;
+  border-radius: 8px 0 0 8px;
+  background: #3557da url(/img_up/shop_pds/banobagi/design/images/main/order/ico_calculator.png) center no-repeat;
+  vertical-align: top;
+}
+.btnPay .calculator:disabled {
+  background: #9fa2a8 url(/img_up/shop_pds/banobagi/design/images/main/order/ico_calculator.png) center no-repeat !important;
+}
+.btnPay .calculator + button {
+  min-width: calc(100% - 56px);
+  border-radius: 0 8px 8px 0;
+  float: right;
+}
+.btnPay:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.discountCoupon {
+  color: #6b6e73;
+}
+.discountCoupon .coupTerm {
+  display: block;
+  font-size: 1.5rem;
+  line-height: 1.53333;
+}
+.discountCoupon .coupTerm .date {
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+[lang='zh'] .discountCoupon .coupTerm .date {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.discountCoupon .coupList {
+  margin: 16px 0;
+}
+.discountCoupon .coupList > li {
+  position: relative;
+  height: 64px;
+  padding: 0 25px;
+  color: #373a3c;
+  font-size: 1.5rem;
+  line-height: 1.53333;
+  font-weight: 700;
+}
+.discountCoupon .coupList > li:before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  left: 11px;
+  right: 11px;
+  top: 0;
+  bottom: 1px;
+  -webkit-box-shadow: 0 10px 20px 0 rgba(142, 158, 217, 0.15);
+  box-shadow: 0 10px 20px 0 rgba(142, 158, 217, 0.15);
+}
+.discountCoupon .coupList > li:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 25px;
+  height: 100%;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/order/bg_coupon.png) no-repeat 0 0;
+}
+.discountCoupon .coupList > li:nth-child(n + 2) {
+  margin-top: 8px;
+}
+.discountCoupon .coupList > li > div {
+  height: 100%;
+  border: 1px solid #ebedf2;
+  border-width: 1px 0;
+  line-height: 62px;
+  text-align: center;
+}
+.discountCoupon .coupList > li > div:after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 25px;
+  height: 100%;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/order/bg_coupon.png) no-repeat 100% 0;
+}
+.discountCoupon .coupList > li strong {
+  margin-left: 3px;
+  color: #4d6ee4;
+}
+[lang='zh'] .discountCoupon .coupList > li strong {
+  color: #fe324b;
+}
+.specialBnfList {
+  padding-bottom: 15px;
+}
+.specialBnfList > li {
+  display: table;
+  table-layout: fixed;
+  position: relative;
+  width: 100%;
+  height: 80px;
+  padding-right: 9px;
+  border: 1px solid #ebedf2;
+  background-color: #fff;
+  border-radius: 8px;
+}
+.specialBnfList > li:before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  left: 11px;
+  right: 11px;
+  top: 0;
+  bottom: 1px;
+  -webkit-box-shadow: 0 10px 20px 0 rgba(142, 158, 217, 0.15);
+  box-shadow: 0 10px 20px 0 rgba(142, 158, 217, 0.15);
+}
+.specialBnfList > li:nth-child(n + 2) {
+  margin-top: 8px;
+}
+.specialBnfList > li > div {
+  display: table-cell;
+  height: 100%;
+  vertical-align: middle;
+}
+.specialBnfList > li .benefitInfo {
+  width: 100px;
+  background: #f8fafc;
+  border-radius: 8px 0 0 8px;
+  text-align: center;
+}
+.specialBnfList > li .benefitDesc {
+  overflow: hidden;
+  padding: 0 24px;
+  width: 100%;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/order/bg_coupon_line.png) repeat-y;
+}
+.specialBnfList > li .bnfOffer {
+  display: inline-block;
+  padding: 0 8px;
+  color: #4d6ee4;
+  font-size: 1.3rem;
+  line-height: 20px;
+  border-radius: 50px;
+  background-color: #fff;
+}
+[lang='zh'] .specialBnfList > li .bnfOffer {
+  color: #fe324b;
+}
+.specialBnfList > li .bnfPrice {
+  display: block;
+  color: #373a3c;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  font-weight: 700;
+}
+.specialBnfList > li .bnfPrice > em {
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+[lang='zh'] .specialBnfList > li .bnfPrice > em {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.specialBnfList > li .bnfInfo,
+.specialBnfList > li .bnfTerm {
+  color: #6b6e73;
+  font-size: 1.5rem;
+  line-height: 1.53333;
+}
+.specialBnfList > li .bnfInfo strong {
+  color: #373a3c;
+}
+.specialBnfList > li .bnfTerm {
+  display: block;
+  margin-top: 5px;
+  font-size: 1.3rem;
+  line-height: 1.38462;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+[lang='zh'] .specialBnfList > li .bnfTerm {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.layPop .titCart {
+  border: none;
+  line-height: 1.42;
+}
+.layPop .titCart:before {
+  content: '';
+  display: block;
+  margin: 32px 0 10px;
+  height: 48px;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/order/bg_pop_tit.png) center no-repeat;
+}
+.layPop .titCart .point {
+  color: #4d6ee4;
+}
+[lang='zh'] .layPop .titCart .point {
+  color: #fe324b;
+}
+.layPop.recPop {
+  width: 816px;
+  margin-left: -408px;
+}
+.layPop.recPop .layCont {
+  max-height: 50vh;
+}
+.layPop.recPop .swiperWrap .prodCont .badge {
+  left: 0;
+}
+.layPop.recPop .swiperWrap .prodCont .prodInfo {
+  margin-top: 16px;
+}
+.layPop.recPop .swiperWrap .prodCont .prodInfo .brandName {
+  font-size: 1.3rem;
+}
+.layPop.recPop .swiperWrap .prodCont .prodInfo .saleCont .saleWon {
+  display: block;
+  font-size: 1.3rem;
+}
+.layPop.recPop .swiperWrap .ts-controls {
+  text-align: center;
+  padding-top: 24px;
+}
+.layPop.recPop .swiperWrap .ts-paging {
+  position: static;
+  display: inline-block;
+  width: auto;
+  vertical-align: middle;
+}
+.layPop.recPop .swiperWrap .ts-prev,
+.layPop.recPop .swiperWrap .ts-next {
+  display: inline-block;
+  position: relative;
+  vertical-align: -2px;
+  margin: 0;
+  opacity: 1 !important;
+  -webkit-transition: initial;
+  transition: initial;
+  -webkit-transform: initial;
+  transform: initial;
+  background: none;
+}
+.layPop.recPop .swiperWrap .ts-prev:after,
+.layPop.recPop .swiperWrap .ts-next:after {
+  margin: -12px 0 0 -12px;
+  width: 24px;
+  height: 24px;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/order/spr_b_swiper.png) no-repeat;
+}
+.layPop.recPop .swiperWrap .ts-prev {
+  margin-right: 50px;
+}
+.layPop.recPop .swiperWrap .ts-next {
+  margin-left: 50px;
+}
+.layPop.recPop .swiperWrap .ts-next:after {
+  background-position: right 0;
+}
+.layPop.recPop .swiperWrap .ts-prev,
+.layPop.recPop .swiperWrap .ts-next {
+  opacity: 1;
+}
+.layPop.recPop figure {
+  padding: 0;
+  min-height: 176px;
+}
+.layCont .alertMsg {
+  padding: 23px 0 10px;
+  text-align: center;
+}
+.layCont .alertMsg .tit {
+  margin: -23px 0 12px;
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: #373a3c;
+}
+.layCont .alertMsg .desc {
+  font-size: 1.3rem;
+}
+.layCont .alertMsg .btn {
+  display: block;
+  margin-top: 16px;
+}
+.layCont .alertMsg .btn a {
+  font-size: 1.5rem;
+  color: #373a3c;
+}
+.layCont .alertBenefit {
+  font-weight: 700;
+  font-size: 2.4rem;
+  color: #373a3c;
+  text-align: center;
+}
+.layCont .alertBenefit:before {
+  content: '';
+  display: block;
+  margin: 8px 0 10px;
+  height: 48px;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/order/bg_pop_tit.png) center no-repeat;
+}
+.layCont .alertBenefit .point {
+  color: #4d6ee4;
+}
+[lang='zh'] .layCont .alertBenefit .point {
+  color: #fe324b;
+}
+.layCont .optionProd {
+  position: relative;
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+}
+.layCont .optionProd figure,
+.layCont .optionProd .info {
+  display: table-cell;
+  vertical-align: middle;
+}
+.layCont .optionProd figure {
+  overflow: hidden;
+  width: 136px;
+  height: 136px;
+  border-radius: 8px;
+  background-color: rgba(12, 38, 159, 0.03);
+  background-image: url(/img_up/shop_pds/banobagi/design/images/main/view/bg_prodLogo.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.layCont .optionProd figure img {
+  width: 100%;
+}
+.layCont .optionProd .info {
+  padding-left: 16px;
+  font-size: 1.3rem;
+  color: #6b6e73;
+}
+.layCont .optionProd .info .brandName {
+  color: #373a3c;
+}
+.layCont .optionProd .info .brandName em:before {
+  content: 'Â·';
+  display: inline-block;
+  margin: 0 3px;
+}
+.layCont .optionProd .info .prodName {
+  display: block;
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.layCont .optionProd .info .price {
+  display: block;
+  margin-top: 10px;
+}
+.layCont .optionProd .info .price > * {
+  display: inline-block;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+[lang='zh'] .layCont .optionProd .info .price > * {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.layCont .optionProd .info .price .dollar {
+  display: block;
+}
+.layCont .optionProd .info .price .saleNum,
+.layCont .optionProd .info .price .saleDollar {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #373a3c;
+}
+.layCont .optionProd .info .price .saleNum {
+  color: #f42d10;
+}
+.layCont .optionProd .info .price .saleDollar {
+  margin: 0 5px;
+}
+.layCont .optionProd .info .price .saleWon em {
+  font-family: Noto Sans KR, 'notokr', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+[lang='zh'] .layCont .optionProd .info .price .saleWon em {
+  font-family: Microsoft Yahei, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.layCont .optionProd ~ .frmSwitch {
+  float: right;
+  margin-bottom: 20px;
+}
+.layCont .optionProd ~ .frmSwitch:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.layPop .optionPop {
+  overflow-x: hidden;
+  margin: 24px 0 0;
+  padding: 0 32px 160px !important;
+}
+.optionPop .optionPrTxt {
+  margin-top: 24px;
+}
+.optionPop .optionPrTxt > li {
+  margin-top: 16px;
+  padding: 0;
+  border: none;
+}
+.optionPop .optionPrTxt > li:before {
+  top: 0;
+}
+.optionPop .optionPrTxt > li .tit {
+  padding-right: 0;
+}
+.optionPop .optionCon {
+  margin-top: 24px;
+}
+.optionPop .frmSwitch > label {
+  padding-right: 32px;
+  font-size: 1.3rem;
+}
+.optionPop .frmSwitch > label:before {
+  top: auto;
+  bottom: 1px;
+  width: 28px;
+  height: 16px;
+}
+.optionPop .frmSwitch > label:after {
+  top: auto;
+  bottom: 3px;
+  right: 14px;
+  width: 12px;
+  height: 12px;
+}
+.optionPop .frmSwitch input:checked + label:after {
+  right: 2px;
+}
+.optionPop .optionBox .ui-selectmenu-menu .ui-menu button.ui-action-button {
+  top: 8px;
+  height: 32px;
+  font-size: 1.3rem;
+  line-height: 30px;
+}
+.optionPop .optionsReflection {
+  position: relative;
+  margin-top: 34px;
+}
+.optionPop .optionsReflection:before {
+  content: '';
+  position: absolute;
+  top: -17px;
+  left: 0;
+  width: 100%;
+  height: 17px;
+  border-top: 1px dashed #eaeaea;
+}
+.optionPop .optionsReflection ~ .optionsReflection:before {
+  display: none;
+}
+.saleImpossible .btnArea {
+  text-align: center;
+}
+.proption_noData {
+  margin-top: 16px;
+  border-radius: 8px;
+  background: #f5f7fa;
+  padding: 112px 0 40px;
+}
+.proption_noData:before {
+  top: 40px;
+  width: 56px;
+  height: 56px;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/order/ico_addcart_nodata.png) no-repeat 50% 0;
+}
+[lang='zh'] .proption_noData:before {
+  background-image: url(/img_up/shop_pds/banobagi/design/images/main/cmall/ico_addcart_nodata.png);
+}
+.proption_noData .txt {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+.optionFrm {
+  margin-top: 16px;
+}
+.optionFrm > .frmNum {
+  width: 100%;
+}
+.optionFrm .frmInp ~ .frmInp {
+  margin-top: 16px;
+}
+.optionFrm .frmInp .inpA {
+  width: 100%;
+}
+.optionFrm .frmInp .selectWrap.optionSel .ui-selectment-button-default {
+  padding-left: 0;
+}
+.optionFrm .frmInp label {
+  display: table-cell;
+  vertical-align: middle;
+  margin: 0 0 4px;
+  width: 50px;
+  height: auto;
+  line-height: 22px;
+}
+.optionFrm .selectWrap {
+  width: 100%;
+}
+.optionFrm.myPickOption .frmInp {
+  display: block;
+}
+.optionFrm.myPickOption .frmInp label {
+  display: block;
+  margin-bottom: 2px;
+}
+.optionFrm.myPickOption .frmInp .frmSwitch {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.optionsReflection {
+  position: relative;
+  margin-top: 24px;
+  padding: 12px 12px 16px;
+  border-radius: 8px;
+  background-color: #f5f7fa;
+}
+.optionsReflection .optProp {
+  margin-bottom: 8px;
+  padding-right: 30px;
+  font-size: 1.3rem;
+  color: #6b6e73;
+}
+.optionsReflection .optProp strong ~ strong {
+  margin-left: 5px;
+}
+.optionsReflection .optProp span {
+  color: #b9bcc0;
+}
+.optionsReflection .frmNum {
+  float: left;
+  width: 180px;
+}
+.optionsReflection .priceInfo {
+  display: block;
+  height: 46px;
+  text-align: right;
+}
+.optionsReflection .priceInfo .priceDollar {
+  display: block;
+  margin-bottom: -5px;
+  color: #373a3c;
+  font-size: 2rem;
+  line-height: 1.4;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+[lang='zh'] .optionsReflection .priceInfo .priceDollar {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.optionsReflection .priceInfo .priceWon {
+  color: #6b6e73;
+  font-size: 1.3rem;
+  line-height: 1.38462;
+}
+.optionsReflection .priceInfo .priceWon em {
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+[lang='zh'] .optionsReflection .priceInfo .priceWon em {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.optionsReflection + .optionsReflection {
+  margin-top: 8px;
+}
+.optionsReflection .del {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 20px;
+  height: 20px;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/view/ico_del.png) 50% 50% no-repeat;
+  opacity: 0.8;
+}
+.optionBottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  padding: 0 43px 24px 32px;
+  border-radius: 0 0 16px 16px;
+  background: #fff;
+}
+.optionBottom .inner {
+  padding-top: 16px;
+  border-top: 1px dashed #eaeaea;
+}
+.optionBottom .totalPrice {
+  display: table;
+  width: 100%;
+  font-size: 1.3rem;
+  color: #6b6e73;
+}
+.optionBottom .totalPrice > span {
+  display: table-cell;
+  vertical-align: middle;
+}
+.optionBottom .totalPrice .price {
+  text-align: right;
+}
+.optionBottom .totalPrice .price .dollar {
+  margin-right: 4px;
+  font-size: 2rem;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #4d6ee4;
+}
+[lang='zh'] .optionBottom .totalPrice .price .dollar {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+[lang='zh'] .optionBottom .totalPrice .price .dollar {
+  color: #fe324b;
+}
+.optionBottom .totalPrice .price .won {
+  vertical-align: 2px;
+}
+.optionBottom .totalPrice .price .won em {
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+[lang='zh'] .optionBottom .totalPrice .price .won em {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.optionBottom .btnArea {
+  margin: 23px 0 0;
+}
+.optionBottom .btnArea * {
+  vertical-align: top;
+}
+.optionBottom .btnArea .chkFavo {
+  width: 48px;
+  height: 48px;
+  border: 1px solid #dcdfe3;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.optionBottom .btnArea .chkFavo.disabled {
+  border-color: #b9bcc0;
+  background: #b9bcc0;
+}
+.optionBottom .btnArea .chkFavo label {
+  width: 100%;
+  height: 100%;
+}
+.optionBottom .btnArea .chkFavo input[type='checkbox']:disabled + label {
+  background: #b9bcc0;
+  cursor: default;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+.optionBottom .btnArea .chkFavo input[type='checkbox']:disabled + label:after {
+  background: url(/img_up/shop_pds/banobagi/design/images/main/common/ico_wh_heart.png) no-repeat;
+}
+.optionBottom .btnArea .btnM {
+  margin: 0 0 0 4px;
+  width: 171px;
+}
+.optionBottom.myPickBottom .btnArea .btnM {
+  width: 100%;
+}
+.freeGift .bultType01 .point {
+  color: #4d6ee4;
+}
+[lang='zh'] .freeGift .bultType01 .point {
+  color: #fe324b;
+}
+.freeGift .giftPlus {
+  margin: 24px 0 0;
+  border: none;
+  background-color: #f7f7fd;
+}
+.freeGift .giftPlus:only-child {
+  background: #fff;
+  margin-top: 0;
+}
+.freeGift .giftPlus:only-child .ctrl {
+  border-top: 0;
+}
+.freeGift .giftPlus:only-child .ctrl:after {
+  display: none;
+}
+.freeGift .giftPlus:only-child .accordCont {
+  display: block;
+}
+.freeGift .giftPlus > .toggleAction {
+  border-top: 0;
+}
+.freeGift .giftPlus > .toggleAction .ctrl {
+  padding: 12px 65px 13px 32px;
+  color: #1e2023;
+  font-size: 1.5rem !important;
+  font-weight: 700 !important;
+}
+.freeGift .giftPlus > .toggleAction .ctrl:before {
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+  vertical-align: -3px;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/order/ico_gift.png) no-repeat;
+}
+.freeGift .giftPlus > .toggleAction .ctrl:after {
+  margin: 0;
+  top: 14px;
+  right: 32px;
+  width: 12px;
+  height: 12px;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/order/ico_s_expand.png) 0 0 no-repeat;
+}
+.freeGift .giftPlus > .toggleAction .ctrl[aria-expanded='true']:after {
+  background-position: right 0;
+}
+.freeGift .giftPlus > .toggleAction .ctrl .subTxt {
+  display: block;
+  margin-top: 4px;
+  padding-left: 28px;
+  font-weight: 400;
+  color: #5a5f64;
+}
+.freeGift .giftPlus > .toggleAction .accordCont {
+  padding: 0 32px 24px;
+  background: none;
+}
+.freeGift .giftPlus > .toggleAction .giftCon {
+  padding: 0;
+}
+.freeGift .giftPlus > .toggleAction .giftCon .con {
+  margin: 0;
+  border: none;
+}
+.freeGift .giftPlus > .toggleAction .giftCon .con .btnArea {
+  margin: 16px 0 0;
+}
+.freeGift .giftPlus > .toggleAction .giftCon .con .txtLink {
+  position: static;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #373a3c;
+}
+.freeGift .giftPlus > .toggleAction .giftCon .con .txtLink:after {
+  position: static;
+}
+.freeGift .giftPlus > .toggleAction .giftCon .list li .listCon {
+  width: 100%;
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+  background: #fff;
+}
+.layPop .benefitCustomizing {
+  overflow-x: hidden;
+  margin: 24px 0 0;
+  padding: 0 32px 155px !important;
+  height: 60vh;
+  max-height: 60vh !important;
+}
+.layPop .benefitCustomizing .toggleAction > .amtCont .yuan {
+  font-size: 1.3rem;
+  line-height: 1.38462;
+  color: #6b6e73;
+  font-weight: 400;
+}
+.layPop .benefitCustomizing .toggleAction > .amtCont .won {
+  font-size: 1.8rem;
+  line-height: 1.44444;
+  color: #f42d10;
+  font-weight: 700;
+}
+.layPop .benefitCustomizing .toggleAction > .amtCont .won span {
+  font-family: Noto Sans KR, 'notokr', 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1.3rem;
+  line-height: 1.38462;
+}
+[lang='zh'] .layPop .benefitCustomizing .toggleAction > .amtCont .won span {
+  font-family: Microsoft Yahei, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.layPop .benefitCustomizing .amtTit .tipArea {
+  display: block;
+}
+.layPop .benefitCustomizing .frmCalc .inp p {
+  height: 48px;
+  padding: 0 15px;
+  color: #1e2023;
+  font-weight: 500;
+  line-height: 47px;
+  border: 1px solid #f8fafc;
+  border-radius: 4px;
+  background: #f8fafc;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: right;
+}
+[lang='zh'] .layPop .benefitCustomizing .frmCalc .inp p {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.layPop .benefitCustomizing .preCalc .detailList .dollar,
+.layPop .benefitCustomizing .preCalc .detailList .won {
+  font-size: 1.5rem;
+  line-height: 1.53333;
+}
+.benefitCustomizing .benefitToggle {
+  margin-bottom: 15px;
+  padding: 13px 16px;
+  border-radius: 8px;
+  border: 1px solid #eaeaea;
+  background: #f5f7fa;
+}
+.benefitCustomizing .benefitToggle .frmSwitch {
+  display: block;
+}
+.benefitCustomizing .benefitToggle .frmSwitch label {
+  font-size: 1.5rem;
+  line-height: 1.53333;
+  font-weight: 500;
+}
+.benefitCustomizing .preCalc .toggleAction.on {
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px dashed #b9bcc0;
+  border-bottom: 1px dashed #b9bcc0;
+}
+.benefitCustomizing .preCalc .toggleAction.on .accordCont {
+  margin-bottom: 0;
+}
+.benefitCustomizing .preCalc .toggleAction.on + .toggleAction.on {
+  border-top: none;
+}
+.benefitCustomizing .preCalc .toggleAction.on:last-child {
+  border-bottom: none;
+}
+.benefitCustomizing .grayLine {
+  padding-top: 24px;
+}
+.benefitCustomizing .grayLine:before {
+  content: '';
+  display: block;
+  margin: 0 -32px 32px;
+  height: 8px;
+  background: #f5f7fa;
+  border-top: 1px solid #ebedf2;
+}
+.benefitCustomizing .inputError input {
+  border-color: #ce0700;
+  background: #fff;
+}
+.preCalc > li {
+  margin-top: 8px;
+  text-align: right;
+}
+.preCalc > li:first-child {
+  border: none;
+}
+.preCalc .amtTit {
+  float: left;
+  font-weight: 500;
+  font-size: 1.8rem;
+  color: #373a3c;
+  text-align: left;
+}
+.preCalc .amtCont {
+  text-align: right;
+  letter-spacing: 0;
+}
+.preCalc .amtCont > * {
+  display: inline-block;
+}
+.preCalc .amtCont .dollar {
+  font-weight: 700;
+  font-size: 1.8rem;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #373a3c;
+}
+[lang='zh'] .preCalc .amtCont .dollar {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.preCalc .amtCont .dollar.discount {
+  color: #f42d10;
+}
+.preCalc .amtCont .dollar.prePay {
+  color: #4d6ee4;
+}
+[lang='zh'] .preCalc .amtCont .dollar.prePay {
+  color: #fe324b;
+}
+.preCalc .amtCont .dollar ~ .won,
+.preCalc .amtCont .yuan ~ .won {
+  font-size: 1.3rem;
+  color: #6b6e73;
+  font-weight: 400;
+}
+.preCalc .amtCont .yuan {
+  font-size: 1.3rem;
+  line-height: 1.38462;
+}
+.preCalc .amtCont .yuan.discount {
+  font-size: 1.3rem;
+  line-height: 1.38462;
+  color: #f42d10;
+  font-weight: 700;
+}
+.preCalc .amtCont .yuan.discount span {
+  font-size: 1.8rem;
+  line-height: 1.44444;
+}
+.preCalc .amtCont .won {
+  font-size: 1.3rem;
+  line-height: 1.38462;
+}
+.preCalc .amtCont .won span {
+  font-family: Noto Sans KR, 'notokr', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+[lang='zh'] .preCalc .amtCont .won span {
+  font-family: Microsoft Yahei, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.preCalc.accordianList {
+  border: none;
+}
+.preCalc.accordianList .ctrl {
+  float: left;
+  padding: 0 20px 0 0;
+  border: none;
+}
+.preCalc.accordianList .ctrl:after {
+  right: 0;
+  margin-top: -5px;
+  width: 12px;
+  height: 12px;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/order/ico_s_expand02.png) no-repeat;
+}
+.preCalc.accordianList .ctrl[aria-expanded='true'] ~ .accordCont {
+  display: block;
+  padding: 0 0 16px;
+  background: none;
+  text-align: left;
+}
+.preCalc.accordianList .ctrl[aria-expanded='true'] ~ .accordCont .frmCalc {
+  clear: both;
+  margin: 8px 0;
+}
+.preCalc.accordianList .ctrl[aria-expanded='true']:after {
+  margin-top: -7px;
+  background-position: right 0;
+}
+.preCalc.accordianList .sTitle {
+  margin: 8px -16px 0;
+  padding: 13px 16px 0;
+  border-top: 1px solid #ebedf2;
+}
+.preCalc.accordianList .sTitle ~ .sTitle {
+  border-top: 0;
+  padding-top: 8px;
+}
+.preCalc.accordianList .sTitle .amtTit {
+  font-size: 1.3rem;
+  line-height: 1.38462;
+}
+.preCalc.accordianList .sTitle .amtCont * {
+  color: #f42d10;
+  font-weight: 700;
+}
+.preCalc.accordianList .sTitle .amtCont .dollar,
+.preCalc.accordianList .sTitle .amtCont .won span {
+  font-size: 1.5rem;
+  line-height: 1.53333;
+}
+.preCalc.accordianList .sTitle ~ .accordCont .detailList {
+  border-top: 0;
+  margin-top: 0;
+}
+.preCalc .detailList {
+  margin-top: 14px;
+}
+.preCalc .detailList > li {
+  margin-top: 8px;
+}
+.preCalc .detailList > li:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.preCalc .detailList > li .frmCalc .inp.error input[type='text'] {
+  border: 1px solid #ce0700;
+  background: #fff;
+}
+.preCalc .detailList > li .frmCalc .inp.error .errorMsg {
+  position: absolute;
+  top: -22px;
+  right: 0;
+  z-index: 5;
+  padding: 1px 8px 2px;
+  line-height: 1.5;
+  background: #fff1f0;
+  border: 1px solid #ffcabb;
+  border-radius: 5px;
+  font-size: 1.2rem !important;
+  color: #ce0700;
+}
+.preCalc .detailList > li .frmCalc .inp.error .errorMsg:after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -4px;
+  width: 4px;
+  height: 4px;
+  margin-left: -2px;
+  border: solid 1px #ffcabb;
+  border-width: 0 1px 1px 0;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  background-color: #fff1f0;
+}
+.preCalc .detailList .amtTit {
+  display: inline-block;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #6b6e73;
+}
+.preCalc .detailList .dollar,
+.preCalc .detailList .won {
+  font-size: 1.3rem;
+  color: #6b6e73;
+}
+.preCalc .detailList .subTxt {
+  display: block;
+  margin-top: 4px;
+  font-size: 1.2rem;
+  color: #8b8f94;
+  letter-spacing: 0;
+}
+.preCalc .detailList .infoText {
+  margin-top: 6px;
+  color: #6b6e73;
+  font-size: 1.3rem;
+  line-height: 1.38462;
+}
+.preCalc .detailList .infoText.type2 {
+  margin-left: 5px;
+  color: #8b8f94;
+}
+.preCalc .detailList.inpList > li ~ li {
+  margin-top: 16px;
+}
+.preCalc .detailList.inpList .amtTit {
+  float: none;
+  font-weight: 500;
+}
+.preCalc .detailList.inpList .subItem {
+  overflow: hidden;
+  margin-top: 8px;
+}
+.preCalc .detailList.inpList .subItem li {
+  margin-bottom: 8px;
+  line-height: 48px;
+}
+.preCalc .detailList.inpList .subItem li .item {
+  display: inline-block;
+  color: #6b6e73;
+}
+.preCalc .detailList.inpList .subItem li .item > span:not(.myPoint) {
+  display: inline-block;
+  width: 66px;
+  vertical-align: top;
+  line-height: 32px;
+}
+.preCalc .detailList.inpList .subItem li .item .myPoint {
+  display: inline-block;
+  vertical-align: -9px;
+}
+.preCalc .detailList.inpList .subItem li .item .myPoint span {
+  display: block;
+  font-size: 1.3rem;
+  line-height: 1.38462;
+  color: #6b6e73;
+}
+.preCalc .detailList.inpList .subItem li .frmCalc {
+  float: right;
+  margin: 0 !important;
+  width: 140px;
+}
+.preCalc .detailList.inpList .subItem li .frmCalc .inp.error .errorMsg {
+  top: -20px;
+}
+.preCalc .detailList.inpList .subItem li .frmCalc .inp {
+  width: 100%;
+}
+.preCalc .detailList.inpList .subItem li .frmCalc .inp input[type='text'] {
+  width: 100%;
+  text-align: right;
+}
+.preCalc .toggleAction.on .sTitle ~ .sTitle {
+  border-top: 1px solid #dcdfe3;
+  padding-top: 13px;
+}
+.preCalc .toggleAction.on .sTitle ~ .sTitle ~ .accordCont .detailList {
+  margin-top: -8px;
+}
+.preCalc .tipArea {
+  width: auto;
+  height: auto;
+}
+.preCalc .tipArea .btTip {
+  display: inline-block;
+  top: 2px;
+}
+.preCalc .tipArea .tipCont {
+  left: 0;
+  z-index: 10;
+  width: 405px;
+  font-weight: 400;
+  line-height: 1.62;
+}
+.preCalc .tipArea .tipCont:before {
+  display: none;
+}
+.preCalc .tipArea.case .tipCont {
+  width: 350px;
+  left: -303px;
+}
+.preCalc .tipArea.case .tipCont:before {
+  display: block;
+  left: auto;
+  right: 27px;
+}
+.frmCalc {
+  position: relative;
+}
+.frmCalc * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.frmCalc .inp {
+  display: inline-block;
+  position: relative;
+  width: calc(100% - 112px);
+}
+.frmCalc .inp input[type='text'] {
+  padding-right: 22px;
+  width: 100%;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: right;
+}
+[lang='zh'] .frmCalc .inp input[type='text'] {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.frmCalc .inp input[type='text']:disabled {
+  border: none;
+  color: #8b8f94;
+}
+.frmCalc .inp input[type='text']:disabled + em {
+  color: #8b8f94;
+}
+.frmCalc .inp em {
+  position: absolute;
+  top: 0;
+  right: 8px;
+  line-height: 46px;
+}
+.frmCalc .btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 104px;
+}
+.frmCalc .btn button,
+.frmCalc .btn label {
+  position: relative;
+  border: 1px solid #dcdfe3;
+  border-radius: 4px;
+  font-size: 1.5rem;
+}
+.frmCalc .btn button {
+  padding: 0;
+  min-width: 100%;
+  font-weight: 700;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.frmCalc .btn button:only-of-type {
+  width: 100%;
+}
+.frmCalc .btn .frmSel {
+  float: left;
+  width: 50%;
+  height: 100%;
+}
+.frmCalc .btn .frmSel input[type='radio'],
+.frmCalc .btn .frmSel input[type='checkbox'] {
+  opacity: 0;
+}
+.frmCalc .btn .frmSel input[type='radio']:checked + label,
+.frmCalc .btn .frmSel input[type='checkbox']:checked + label {
+  z-index: 5;
+  border: 1px solid #c7cdf6;
+  background-color: #e9ebfb;
+  color: #4d6ee4;
+}
+[lang='zh'] .frmCalc .btn .frmSel input[type='radio']:checked + label,
+[lang='zh'] .frmCalc .btn .frmSel input[type='checkbox']:checked + label {
+  background-color: #ffeef1;
+}
+[lang='zh'] .frmCalc .btn .frmSel input[type='radio']:checked + label,
+[lang='zh'] .frmCalc .btn .frmSel input[type='checkbox']:checked + label {
+  color: #fe324b;
+}
+.frmCalc .btn .frmSel input[type='radio']:disabled + label,
+.frmCalc .btn .frmSel input[type='checkbox']:disabled + label {
+  background: #f8fafc;
+  color: #b9bcc0;
+}
+.frmCalc .btn .frmSel input[type='radio'] + label {
+  background: #f7f7fd;
+  color: #778cea;
+  border-color: #c7cdf6;
+}
+.frmCalc .btn .frmSel label {
+  padding: 0;
+  height: 48px;
+  font-weight: 500;
+  font-family: Noto Sans KR, 'notokr', 'Open Sans', 'Helvetica Neue', sans-serif;
+  line-height: 48px;
+  color: #6b6e73;
+  text-align: center;
+}
+[lang='zh'] .frmCalc .btn .frmSel label {
+  font-family: Microsoft Yahei, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.frmCalc .btn .frmSel label:before,
+.frmCalc .btn .frmSel label:after {
+  display: none;
+}
+.frmCalc .btn .frmSel:first-child label {
+  border-radius: 4px 0 0 4px;
+}
+.frmCalc .btn .frmSel:last-child label {
+  left: -1px;
+  border-radius: 0 4px 4px 0;
+}
+.frmCalc .btn .frmSel:only-child {
+  width: 100%;
+}
+.frmCalc .btn .frmSel:only-child label {
+  left: 0;
+  border-radius: 4px;
+}
+.frmCalc.error {
+  border-color: #ce0700;
+}
+.frmCalc.error .inp {
+  color: #ce0700;
+}
+.frmCalc.error .inp input[type='text'] {
+  border-color: #ce0700;
+  color: #ce0700;
+}
+.frmCalc.error .errorMsg {
+  clear: both;
+  display: block;
+  margin-top: 3px;
+  font-size: 1.2rem;
+  color: #ce0700;
+}
+.optionArea {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  padding: 16px 32px 24px;
+  background-color: #fff;
+  border-radius: 0 0 16px 16px;
+}
+.optionArea:before {
+  content: '';
+  position: absolute;
+  top: -24px;
+  left: 0;
+  right: 0;
+  height: 24px;
+  background: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    from(rgba(0, 0, 0, 0.1)),
+    to(rgba(255, 255, 255, 0))
+  );
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.1) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+.optionArea .amountPrice {
+  text-align: right;
+}
+.optionArea .amountPrice .amtTit {
+  float: left;
+  color: #373a3c;
+  font-size: 1.8rem;
+}
+.optionArea .amountPrice .amtTit .amtNum {
+  margin-left: 3px;
+  color: #b9bcc0;
+  font-weight: 400;
+  font-size: 1.3rem;
+}
+.optionArea .amountPrice .amtCont {
+  display: inline-block;
+}
+.optionArea .amountPrice .amtDollar {
+  color: #4d6ee4;
+  font-size: 1.8rem;
+  line-height: 1.44444;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 600;
+  vertical-align: middle;
+}
+[lang='zh'] .optionArea .amountPrice .amtDollar {
+  color: #fe324b;
+}
+[lang='zh'] .optionArea .amountPrice .amtDollar {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.optionArea .amountPrice .amtWon {
+  margin-left: 2px;
+  color: #6b6e73;
+  font-size: 1.3rem;
+  line-height: 1.38462;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+.optionArea .amountSave {
+  margin-top: 9px;
+  padding: 10px 16px 10px 8px;
+  font-size: 1.3rem;
+  line-height: 1.38462;
+  text-align: right;
+  border-radius: 8px;
+  background-color: #f8fafc;
+}
+.optionArea .amountSave .amtTit {
+  float: left;
+  color: #6b6e73;
+  font-weight: 400;
+}
+.optionArea .amountSave .amtWon {
+  color: #4d6ee4;
+  font-weight: 700;
+}
+[lang='zh'] .optionArea .amountSave .amtWon {
+  color: #fe324b;
+}
+.optionArea .amountSave.detailList {
+  padding: 12px 0;
+  color: #6b6e73;
+}
+.optionArea .amountSave.detailList > li {
+  padding: 0 16px;
+}
+.optionArea .amountSave.detailList .amtTit {
+  color: inherit;
+}
+.optionArea .amountSave.detailList .amtWon {
+  color: inherit;
+  font-weight: 400;
+}
+.optionArea .amountSave.detailList .emphasis {
+  margin-bottom: 13px;
+  padding-bottom: 12px;
+  color: #373a3c;
+  font-size: 1.5rem;
+  font-weight: 700;
+  border-bottom: 1px dashed #eaeaea;
+}
+.optionArea .amountSave.detailList .emphasis .amtTit,
+.optionArea .amountSave.detailList .emphasis .amtWon {
+  font-size: 1.5rem;
+  color: inherit;
+  font-weight: inherit;
+}
+.optionArea .btnGroup {
+  margin-top: 16px;
+  text-align: center;
+}
+body.hidePopupDimm .optionArea {
+  z-index: auto;
+}
+@media screen and (min-width: 1663px) {
+  .cartCont .prodList.prodListStyle .prodCont {
+    margin-left: 0;
+    width: 100%;
+  }
+}

@@ -1,0 +1,6563 @@
+.prInfo_top .prImg .functionBtn .btIco,
+.prSelect .prList .optionSelect .soldOut .soldOut_tipArea .tipCon .closeT,
+.prSelect .prList .optionSelect .btn,
+.optionsResult .optionsReflection .btnDel,
+.basketTop .btnCart .calculator,
+.storeInfo .con > li .btnLink a,
+.imageScalable .mapBtn .btnCtrl,
+.visualBanner .paging .btnAll,
+.mixPr .conList .frmSel input[type='checkbox'] + label,
+.prodReview .allReview .mySetting .setting,
+.reviewDetail > button,
+.ratingArea .rating > button,
+.reviewOption .reviewAttachList > li .cont .del,
+.shoppingBasket .chkOptList .detailOptItem .del,
+.shoppingBasket .basketBottom .btnCart .calculator {
+  overflow: hidden;
+  text-indent: -9999px;
+}
+.reviewOption .reviewAttachList > li .cont:after,
+.reviewOption .reviewAttachList > li .cont .del:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.scrollWrap.scrollH::-webkit-scrollbar,
+.reviewDetail .reviewContext::-webkit-scrollbar,
+.snsconWrap::-webkit-scrollbar,
+.shoppingBasket .scrollArea::-webkit-scrollbar,
+.prodScroll::-webkit-scrollbar {
+  overflow: hidden;
+  width: 3px;
+  margin-right: 6px;
+}
+.scrollWrap.scrollH::-webkit-scrollbar-thumb,
+.reviewDetail .reviewContext::-webkit-scrollbar-thumb,
+.snsconWrap::-webkit-scrollbar-thumb,
+.shoppingBasket .scrollArea::-webkit-scrollbar-thumb,
+.prodScroll::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #aaa;
+}
+.scrollWrap.scrollH::-webkit-scrollbar-track,
+.reviewDetail .reviewContext::-webkit-scrollbar-track,
+.snsconWrap::-webkit-scrollbar-track,
+.shoppingBasket .scrollArea::-webkit-scrollbar-track,
+.prodScroll::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+.prInfo_top .prImg .functionBtn .btIco,
+.prSelect .prList .optionSelect .soldOut .soldOut_tipArea .tipCon .closeT,
+.prSelect .prList .optionSelect .btn,
+.optionsResult .optionsReflection .btnDel,
+.basketTop .btnCart .calculator,
+.storeInfo .con > li .btnLink a,
+.imageScalable .mapBtn .btnCtrl,
+.visualBanner .paging .btnAll,
+.mixPr .conList .frmSel input[type='checkbox'] + label,
+.prodReview .allReview .mySetting .setting,
+.reviewDetail > button,
+.ratingArea .rating > button,
+.reviewOption .reviewAttachList > li .cont .del,
+.shoppingBasket .chkOptList .detailOptItem .del,
+.shoppingBasket .basketBottom .btnCart .calculator {
+  overflow: hidden;
+  text-indent: -9999px;
+}
+.reviewOption .reviewAttachList > li .cont:after,
+.reviewOption .reviewAttachList > li .cont .del:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.scrollWrap.scrollH::-webkit-scrollbar,
+.reviewDetail .reviewContext::-webkit-scrollbar,
+.snsconWrap::-webkit-scrollbar,
+.shoppingBasket .scrollArea::-webkit-scrollbar,
+.prodScroll::-webkit-scrollbar {
+  overflow: hidden;
+  width: 3px;
+  margin-right: 6px;
+}
+.scrollWrap.scrollH::-webkit-scrollbar-thumb,
+.reviewDetail .reviewContext::-webkit-scrollbar-thumb,
+.snsconWrap::-webkit-scrollbar-thumb,
+.shoppingBasket .scrollArea::-webkit-scrollbar-thumb,
+.prodScroll::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #aaa;
+}
+.scrollWrap.scrollH::-webkit-scrollbar-track,
+.reviewDetail .reviewContext::-webkit-scrollbar-track,
+.snsconWrap::-webkit-scrollbar-track,
+.shoppingBasket .scrollArea::-webkit-scrollbar-track,
+.prodScroll::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+@font-face { 
+  font-family: 'notokr';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Noto Sans Regular'), local('NotoSans-Regular'),
+    url('/img_up/shop_pds/banobagi/design/fonts//NotoSansKR-Regular.eot'),
+    url('/img_up/shop_pds/banobagi/design/fonts//NotoSansKR-Regular.eot?#iefix') format('embedded-opentype'),
+    url('/img_up/shop_pds/banobagi/design/fonts//NotoSansKR-Regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'notokr';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Noto Sans Medium'), local('NotoSans-Medium'),
+    url('/img_up/shop_pds/banobagi/design/fonts//NotoSansKR-Medium.eot'),
+    url('/img_up/shop_pds/banobagi/design/fonts//NotoSansKR-Medium.eot?#iefix') format('embedded-opentype'),
+    url('/img_up/shop_pds/banobagi/design/fonts//NotoSansKR-Medium.woff') format('woff');
+}
+@font-face {
+  font-family: 'notokr';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Noto Sans Bold'), local('NotoSans-Bold'),
+    url('/img_up/shop_pds/banobagi/design/fonts//NotoSansKR-Bold.eot'),
+    url('/img_up/shop_pds/banobagi/design/fonts//NotoSansKR-Bold.eot?#iefix') format('embedded-opentype'),
+    url('/img_up/shop_pds/banobagi/design/fonts//NotoSansKR-Bold.woff') format('woff');
+}
+@font-face {
+  font-family: 'Metro';
+  font-weight: 400;
+  src: local('Metropolis Regular'), local('Metropolis-Regular'),
+    url('/img_up/shop_pds/banobagi/design/fonts//Metropolis-Regular.eot'),
+    url('/img_up/shop_pds/banobagi/design/fonts//Metropolis-Regular.eot?#iefix') format('embedded-opentype'),
+    url('/img_up/shop_pds/banobagi/design/fonts//Metropolis-Regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'Metro';
+  font-weight: 500;
+  src: local('Metropolis Medium'), local('Metropolis-Medium'),
+    url('/img_up/shop_pds/banobagi/design/fonts//Metropolis-Medium.eot'),
+    url('/img_up/shop_pds/banobagi/design/fonts//Metropolis-Medium.eot?#iefix') format('embedded-opentype'),
+    url('/img_up/shop_pds/banobagi/design/fonts//Metropolis-Medium.woff') format('woff');
+}
+@font-face {
+  font-family: 'Metro';
+  font-weight: 700;
+  src: local('Metropolis Bold'), local('Metropolis-Bold'),
+    url('/img_up/shop_pds/banobagi/design/fonts//Metropolis-Bold.eot'),
+    url('/img_up/shop_pds/banobagi/design/fonts//Metropolis-Bold.eot?#iefix') format('embedded-opentype'),
+    url('/img_up/shop_pds/banobagi/design/fonts//Metropolis-Bold.woff') format('woff');
+}
+@font-face {
+  font-family: 'Nanum Gothic';
+  font-weight: 500;
+  src: local('Nanum Gothic'), local('ë‚˜ëˆ”ê³ ë”•'),
+    local('NanumGothic Regular'), url('/img_up/shop_pds/banobagi/design/fonts//NanumGothic-Regular.eot'),
+    url('/img_up/shop_pds/banobagi/design/fonts//NanumGothic-Regular.eot?#iefix') format('embedded-opentype'),
+    url('/img_up/shop_pds/banobagi/design/fonts//NanumGothic-Regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'Nanum Gothic';
+  font-weight: 700;
+  src: local('NanumGothic Bold'), url('/img_up/shop_pds/banobagi/design/fonts//NanumGothic-Bold.eot'),
+    url('/img_up/shop_pds/banobagi/design/fonts//NanumGothic-Bold.eot?#iefix') format('embedded-opentype'),
+    url('/img_up/shop_pds/banobagi/design/fonts//NanumGothic-Bold.woff') format('woff');
+}
+.prInfo_intro {
+  position: relative;
+}
+.prInfo_intro .name {
+  font-size: 2.8rem;
+  line-height: 1.28571;
+  line-height: 1.42857;
+  color: #373a3c;
+  font-weight: 500;
+  width: 70%;
+}
+.prInfo_intro .name em {
+  display: block;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  font-weight: 400;
+}
+.prInfo_intro .name em b {
+  position: relative;
+  font-weight: 400;
+  padding-left: 5px;
+}
+.prInfo_intro .name em b:before {
+  content: '';
+  display: inline-block;
+  width: 2px;
+  height: 2px;
+  margin-right: 5px;
+  background: #373a3c;
+  border-radius: 100%;
+  vertical-align: middle;
+}
+.prInfo_intro .brandLink {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border: 1px solid #eaeaea;
+  border-radius: 4px;
+  text-align: center;
+}
+.prInfo_intro .brandLink a {
+  display: table;
+  table-layout: fixed;
+  padding: 10px 16px;
+}
+.prInfo_intro .brandLink a > * {
+  display: table-cell;
+  vertical-align: middle;
+}
+.prInfo_intro .brandLink .logo {
+  width: 96px;
+  height: 36px;
+}
+.prInfo_intro .brandLink .logo img {
+  width: 100%;
+}
+.prInfo_intro .brandLink .txt {
+  padding: 0 15px 0 8px;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/view/ico_chevron_s.png) no-repeat right 50%;
+  font-size: 1.3rem;
+  line-height: 1.38462;
+  color: #373a3c;
+}
+.prInfo_top {
+  position: relative;
+  clear: both;
+  margin-top: 16px;
+  border-top: 1px solid #dcdfe3;
+}
+.prInfo_top.zoom .prSide {
+  z-index: 10;
+}
+.prInfo_top.zoom .zoomGuide {
+  display: block;
+}
+.prInfo_top.zoom.hover .imgZoomLens,
+.prInfo_top.zoom.hover .zoomResult {
+  opacity: 1;
+  z-index: 104;
+}
+.prInfo_top:after {
+  content: '';
+  display: block;
+  height: 0;
+  clear: both;
+}
+.prInfo_top .prSide {
+  overflow: visible;
+  width: 50.7%;
+  display: inline-block;
+  vertical-align: top;
+  padding: 32px 40px 0 0;
+}
+.prInfo_top .prSide .reviewPreview {
+  margin-top: 32px;
+  border-radius: 8px;
+  border: 1px solid #dcdfe3;
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  padding: 24px 0;
+}
+.prInfo_top .prSide .reviewPreview > * {
+  display: table-cell;
+  vertical-align: middle;
+}
+.prInfo_top .prSide .reviewPreview .gradeArea {
+  width: 150px;
+  text-align: center;
+}
+.prInfo_top .prSide .reviewPreview .gradeArea a,
+.prInfo_top .prSide .reviewPreview .gradeArea em {
+  display: block;
+  font-size: 1.3rem;
+  line-height: 1.38462;
+  color: #6b6e73;
+  text-decoration: underline;
+}
+.prInfo_top .prSide .reviewPreview .reviewTxt_area {
+  padding: 0 24px;
+  text-align: center;
+  border-left: 1px solid #dcdfe3;
+}
+.prInfo_top .prSide .reviewPreview .reviewTxt_area em {
+  padding-right: 8px;
+  color: #4d6ee4;
+}
+.prInfo_top .prSide .reviewPreview .reviewTxt_area p {
+  color: #373a3c;
+}
+.prInfo_top .prSide .reviewPreview .reviewTxt_area .keywords li {
+  display: inline-block;
+  padding: 0 2px;
+}
+.prInfo_top .prSide .reviewPreview .reviewTxt_area .keywords li a {
+  display: inline-block;
+  font-size: 1.3rem;
+  line-height: 1.38462;
+  color: #9fa2a8;
+}
+.prInfo_top .prSide .prBanner {
+  margin-top: 8px;
+}
+.prInfo_top .prSide .prBanner a {
+  display: block;
+}
+.prInfo_top .prSide .prBanner a img {
+  width: 100%;
+  border-radius: 8px;
+}
+.prInfo_top .prSide .goddealBanner {
+  position: relative;
+}
+.prInfo_top .prSide .goddealBanner .time {
+  position: absolute;
+  top: 50%;
+  right: 48px;
+  margin-top: -18px;
+}
+.prInfo_top .prSide .goddealBanner .time .con {
+  display: table;
+  table-layout: fixed;
+}
+.prInfo_top .prSide .goddealBanner .time .con > * {
+  display: table-cell;
+  vertical-align: middle;
+}
+.prInfo_top .prSide .goddealBanner .time .tit {
+  width: 110px;
+  padding-left: 25px;
+  font-weight: 500;
+  color: #fff;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/view/ico_clock_s02.png) no-repeat 0 50%;
+}
+.prInfo_top .prSide .timesaleBanner {
+  display: table;
+  position: relative;
+  table-layout: fixed;
+  width: 100%;
+  width: 100%;
+  height: 85px;
+  line-height: 85px;
+  padding: 0 160px 0 24px;
+  background: #ffcd84;
+  border-radius: 8px;
+}
+.prInfo_top .prSide .timesaleBanner .tit {
+  display: inline-block;
+  font-size: 1.8rem;
+  line-height: 1.44444;
+  color: #373a3c;
+  font-weight: 400;
+}
+.prInfo_top .prSide .timesaleBanner .tit em {
+  padding-left: 4px;
+  font-weight: 700;
+}
+.prInfo_top .prSide .timesaleBanner .time {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 170px;
+  height: 85px;
+  padding-left: 40px;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/view/bg_timebanner.png) no-repeat 0 0;
+}
+.prInfo_top .prSide .timesCon span {
+  position: relative;
+  margin-right: 10px;
+  display: inline-block;
+  border-radius: 4px;
+  background: #fff;
+  color: #ff4372;
+  font-size: 2rem;
+  line-height: 1.4;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 700;
+  padding: 4px 8px;
+}
+[lang='zh'] .prInfo_top .prSide .timesCon span {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.prInfo_top .prSide .timesCon span:before,
+.prInfo_top .prSide .timesCon span:after {
+  content: '';
+  display: block;
+  position: absolute;
+  right: -8px;
+  width: 3px;
+  height: 3px;
+  background: #fff;
+  border-radius: 100%;
+}
+.prInfo_top .prSide .timesCon span:before {
+  top: 12px;
+}
+.prInfo_top .prSide .timesCon span:after {
+  bottom: 12px;
+}
+.prInfo_top .prSide .timesCon span:last-child {
+  margin-right: 0;
+}
+.prInfo_top .prSide .timesCon span:last-child:before,
+.prInfo_top .prSide .timesCon span:last-child:after {
+  display: none;
+}
+.prInfo_top .prImg {
+  overflow: visible;
+  position: relative;
+  padding: 3% 17% 0;
+}
+.prInfo_top .prImg + .prBanner {
+  margin-top: 32px;
+}
+.prInfo_top .prImg .badge {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 48px;
+  padding: 7px 9px;
+  color: #fff;
+  font-size: 1.3rem;
+  line-height: 1.38462;
+  font-weight: 500;
+  text-align: center;
+  border-radius: 8px 8px 8px 0px;
+  z-index: 99;
+  background: rgba(230, 36, 10, 0.8);
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.prInfo_top .prImg .badge.offLine {
+  width: 66px;
+  top: 0;
+  left: 54px;
+  background: rgba(143, 111, 65, 0.8);
+  border-radius: 8px 8px 8px 0;
+}
+.prInfo_top .prImg .functionBtn {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+}
+.prInfo_top .prImg .functionBtn .btIco {
+  display: block;
+  width: 48px;
+  height: 48px;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/view/ico_pr_img.png) no-repeat;
+}
+.prInfo_top .prImg .functionBtn .btIco.icoRotate {
+  background-position: 0 0;
+}
+.prInfo_top .prImg .functionBtn .btIco.icoPic {
+  background-position: 0 -96px;
+}
+.prInfo_top .prImg .functionBtn .btIco.reviewLook {
+  background-position: 0 -48px;
+}
+.prInfo_top .prImg .functionBtn .btIco ~ .btIco {
+  margin-top: 8px;
+}
+.prInfo_top .prImg .chImgWrap .detailImg {
+  margin-bottom: 43px;
+}
+.prInfo_top .prImg .chImgWrap .swiperWrap {
+  margin: 0 auto;
+}
+.prInfo_top .imgZoomLens {
+  position: absolute;
+  width: 210px;
+  height: 210px;
+  border: 1px solid #dcdfe3;
+  cursor: crosshair;
+  opacity: 0;
+}
+.prInfo_top .imgZoomLens div {
+  position: absolute;
+  background: #fff;
+  opacity: 0.7;
+}
+.prInfo_top .imgZoomLens div.t {
+  left: -500px;
+  right: -500px;
+  top: -500px;
+  height: 500px;
+}
+.prInfo_top .imgZoomLens div.b {
+  left: -500px;
+  right: -500px;
+  bottom: -500px;
+  height: 500px;
+}
+.prInfo_top .imgZoomLens div.l {
+  top: 0;
+  bottom: 0;
+  left: -500px;
+  width: 500px;
+}
+.prInfo_top .imgZoomLens div.r {
+  top: 0;
+  bottom: 0;
+  right: -500px;
+  width: 500px;
+}
+.prInfo_top .zoomResult {
+  position: absolute;
+  top: 45px;
+  right: -432px;
+  width: 392px;
+  height: 392px;
+  z-index: -1;
+  border: 1px solid #8b8f94;
+  background-color: #fff;
+  opacity: 0;
+  pointer-events: none;
+}
+.prInfo_top .zoomGuide {
+  display: none;
+  text-align: center;
+  position: absolute;
+  bottom: 70px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: #6b6e73;
+  font-size: 1.3rem;
+}
+.prInfo_top .prCon {
+  position: relative;
+  display: inline-block;
+  float: right;
+  width: 49.3%;
+  padding-top: 32px;
+}
+.prInfo_top .icoArea {
+  position: absolute;
+  top: 40px;
+  right: -7px;
+  z-index: 1;
+}
+.prInfo_top .icoArea .popWrap {
+  margin-left: 8px;
+}
+.prInfo_top .icoArea .popWrap .icoShare:after {
+  background-position: -24px -75px;
+}
+.prInfo_top .icoArea .popWrap .icoShare[aria-expanded='true']:after {
+  background-position: -321px -24px;
+}
+.prInfo_top .icoArea .popWrap .icoShare:hover:after {
+  background-position: -321px -24px;
+}
+.prInfo_top .priceInfo {
+  position: relative;
+  padding-top: 13px;
+}
+.prInfo_top .priceInfo .txt {
+  font-family: Noto Sans KR, 'notokr', 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #6b6e73;
+}
+[lang='zh'] .prInfo_top .priceInfo .txt {
+  font-family: Microsoft Yahei, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.prInfo_top .priceInfo .costNum {
+  font-size: 1.8rem;
+  line-height: 1.44444;
+  color: #6b6e73;
+  text-decoration: line-through;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+[lang='zh'] .prInfo_top .priceInfo .costNum {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.prInfo_top .priceInfo .salePrice {
+  display: block;
+  color: #373a3c;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+[lang='zh'] .prInfo_top .priceInfo .salePrice {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.prInfo_top .priceInfo .salePrice .discountNum {
+  font-size: 3.6rem;
+  line-height: 1.22222;
+  font-weight: 700;
+  color: #f42d10;
+}
+.prInfo_top .priceInfo .salePrice .dollarNum {
+  padding: 0 4px;
+  font-size: 3.6rem;
+  line-height: 1.22222;
+  font-weight: 700;
+}
+.prInfo_top .priceInfo .salePrice .saleNum {
+  font-size: 1.8rem;
+  line-height: 1.44444;
+}
+.prInfo_top .priceInfo .salePrice .saleNum b {
+  font-family: Noto Sans KR, 'notokr', 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  font-weight: 400;
+}
+[lang='zh'] .prInfo_top .priceInfo .salePrice .saleNum b {
+  font-family: Microsoft Yahei, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.prInfo_top .reservesInfo.loginInfo a {
+  display: block;
+  margin-top: 32px;
+  color: #4d6ee4;
+  height: 56px;
+  line-height: 56px;
+  padding: 0 24px;
+  font-weight: 500;
+  border: 1px solid #dcdfe3;
+  border-radius: 4px;
+  background: none;
+}
+[lang='zh'] .prInfo_top .reservesInfo.loginInfo a {
+  color: #fe324b;
+}
+.prInfo_top .reservesInfo.loginInfo a span {
+  display: inline-block;
+  padding-right: 18px;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/view/ico_chevron_blue.png) no-repeat right 50%;
+}
+.prInfo_top .reservesInfo a {
+  display: inline-block;
+  margin-top: 10px;
+  padding-right: 18px;
+  color: #6b6e73;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/view/ico_chevron_s.png) no-repeat right 50%;
+}
+.prInfo_top .reservesInfo a .eng {
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+[lang='zh'] .prInfo_top .reservesInfo a .eng {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.prInfo_top .reservesInfo a .eng em {
+  padding: 0 4px 0 5px;
+  font-size: 1.8rem;
+  line-height: 1.44444;
+  color: #373a3c;
+  font-weight: 700;
+}
+.prInfo_top .reservesInfo a .eng b {
+  font-family: Noto Sans KR, 'notokr', 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+[lang='zh'] .prInfo_top .reservesInfo a .eng b {
+  font-family: Microsoft Yahei, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.prInfo_top .reservesInfo .tipArea .tipCont .bultType01 {
+  margin-top: 0;
+}
+.prInfo_top .reservesInfo .tip {
+  display: inline-block;
+  margin-top: 4px;
+  color: #6b6e73;
+  font-weight: 500;
+}
+.prInfo_top .reservesInfo .tip em {
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #4d6ee4;
+}
+[lang='zh'] .prInfo_top .reservesInfo .tip em {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+[lang='zh'] .prInfo_top .reservesInfo .tip em {
+  color: #fe324b;
+}
+.prInfo_top .reservesInfo .txt_soldOut {
+  padding-top: 30px;
+  font-size: 2.4rem;
+  line-height: 1.33333;
+  line-height: 1.41667;
+  color: #6b6e73;
+  font-weight: 500;
+}
+.prInfo_top .reservesInfo .txt_soldOut em {
+  color: #4d6ee4;
+}
+[lang='zh'] .prInfo_top .reservesInfo .txt_soldOut em {
+  color: #fe324b;
+}
+.prInfo_top .tipArea {
+  vertical-align: -2px;
+}
+.prInfo_top .tipArea .tipCont {
+  z-index: 99;
+}
+.prInfo_top .benefitsTop {
+  margin-top: 10px;
+}
+.prInfo_top .benefitsTop .toggleBtn {
+  padding: 0 23px;
+  height: 56px;
+  line-height: 56px;
+  border-radius: 4px;
+  width: 100%;
+  border: 1px solid #dcdfe3;
+}
+.prInfo_top .benefitsTop .toggleBtn em {
+  position: relative;
+  display: inline-block;
+  padding-right: 18px;
+  color: #373a3c;
+  font-weight: 500;
+}
+.prInfo_top .benefitsTop .toggleBtn em:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  width: 12px;
+  height: 12px;
+  margin-top: -5px;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/view/ico_expand_more02.png) no-repeat 0 0;
+}
+.prInfo_top .benefitsTop .toggleBtn[aria-expanded='true'] {
+  border-bottom: 0;
+  border-radius: 4px 4px 0 0;
+}
+.prInfo_top .benefitsTop .toggleBtn[aria-expanded='true'] em:after {
+  background-position: 0 -12px;
+}
+.prInfo_top .benefitsTop .toggleBtn[aria-expanded='true'] + .detail {
+  display: block;
+}
+.prInfo_top .benefitsTop .detail {
+  display: none;
+  border: 1px solid #dcdfe3;
+  border-radius: 0 0 4px 4px;
+  padding: 0 23px 24px;
+  border-top: 0;
+}
+.prInfo_top .benefitsTop .detail .con li {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  padding-top: 8px;
+}
+.prInfo_top .benefitsTop .detail .con li > * {
+  display: table-cell;
+  font-size: 1.4rem;
+  color: #8b8f94;
+}
+.prInfo_top .benefitsTop .detail .con li span {
+  width: 20%;
+}
+.prInfo_top .benefitsTop .detail .con li em {
+  width: 80%;
+}
+.prInfo_top .benefitsTop .detail .con li em a {
+  display: inline-block;
+  margin-left: 8px;
+  vertical-align: middle;
+}
+.prSelect {
+  margin-top: 16px;
+}
+.prSelect .prList {
+  position: relative;
+  display: inline-block;
+  padding-left: 63px;
+}
+.prSelect .prList .tit {
+  position: absolute;
+  top: 8px;
+  left: 0;
+  width: 63px;
+  color: #373a3c;
+  font-weight: 400;
+}
+.prSelect .prList .optionSelect {
+  position: relative;
+}
+.prSelect .prList .optionSelect .soldOut {
+  position: relative;
+}
+.prSelect .prList .optionSelect .soldOut:hover .soldOut_tipArea {
+  display: block;
+  cursor: pointer;
+}
+.prSelect .prList .optionSelect .soldOut em {
+  display: none !important;
+}
+.prSelect .prList .optionSelect .soldOut .soldOut_tipArea {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: -8px;
+  z-index: 99;
+  padding-top: 32px;
+}
+.prSelect .prList .optionSelect .soldOut .soldOut_tipArea .tipCon {
+  position: relative;
+  min-width: 177px;
+  padding: 15px 36px 15px 18px;
+  color: #6b6e73;
+  font-size: 1.3rem;
+  line-height: 1.38462;
+  line-height: 1.8;
+  border: 1px solid #8b8f94;
+  border-radius: 4px;
+  background: #fff;
+}
+.prSelect .prList .optionSelect .soldOut .soldOut_tipArea .tipCon:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: -7px;
+  left: 15px;
+  width: 15px;
+  height: 7px;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/common/bg_tipCont.png) no-repeat;
+}
+.prSelect .prList .optionSelect .soldOut .soldOut_tipArea .tipCon .btnSSG {
+  margin-top: 8px;
+  height: 32px;
+  line-height: 30px;
+  font-weight: 400;
+}
+.prSelect .prList .optionSelect .soldOut .soldOut_tipArea .tipCon .closeT {
+  position: absolute;
+  top: 7px;
+  right: 7px;
+  width: 22px;
+  height: 22px;
+}
+.prSelect
+  .prList
+  .optionSelect
+  .soldOut
+  .soldOut_tipArea
+  .tipCon
+  .closeT:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 12px;
+  height: 12px;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/common/spr_ico.png) no-repeat -150px -24px;
+}
+.prSelect .prList .optionSelect .btn {
+  display: none;
+  width: 24px;
+  height: 24px;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/view/btn_option_more.png) no-repeat;
+}
+.prSelect .prList .optionSelect .btn.btn_more {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  margin-top: -12px;
+  background-position: 0 0;
+}
+.prSelect .prList .optionSelect .btn.btn_close {
+  margin-left: 5px;
+  background-position: 0 -24px;
+}
+.prSelect .prList .optionSelect.moreList .btn.btn_more {
+  display: inline-block;
+}
+.prSelect .prList .optionSelect.moreListSelect .con li:nth-child(n + 9) {
+  display: inline-block;
+}
+.prSelect .prList .optionSelect.moreListSelect .btn.btn_more {
+  display: none;
+}
+.prSelect .prList .optionSelect.moreListSelect .btn.btn_close {
+  display: block;
+}
+.prSelect .prList.selectOption {
+  display: block;
+  padding: 0;
+}
+.prSelect .prList.selectOption .frmSwitch {
+  top: 0;
+}
+.prSelect .prList.selectOption .tit {
+  display: block;
+  position: static;
+  width: auto;
+  padding-bottom: 8px;
+  color: #373a3c;
+  font-weight: 400;
+}
+.prSelect .prList.selectOption .selectWrap {
+  display: block;
+  width: 100%;
+}
+.prSelect
+  .prList.selectOption
+  .selectWrap
+  .ui-selectmenu-menu.ui-selectmenu-open {
+  z-index: 103;
+}
+.prSelect .prList.selectOption.sizeSelect {
+  padding-right: 140px;
+}
+.prSelect .prList.selectOption.sizeSelect .btnSSG {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.prSelect .prList.colorOption .optionSelect.moreList {
+  padding-right: 30px;
+}
+@media screen and (max-width: 1570px) {
+  .prSelect .prList.colorOption .optionSelect.moreList em {
+    width: 30%;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .prSelect .prList.colorOption .optionSelect.moreList em {
+    width: 25%;
+  }
+}
+.prSelect .prList.colorOption .optionSelect.moreListSelect {
+  padding-right: 0;
+}
+.prSelect .prList.colorOption .optionSelect.showAll {
+  padding-right: 0;
+}
+.prSelect .prList.colorOption .optionSelect.showAll .con {
+  max-width: 100%;
+}
+.prSelect .prList.colorOption .optionSelect.showAll .con li:nth-child(n + 9) {
+  display: inline-block;
+}
+.prSelect .prList.colorOption .optionSelect.showAll .btn_more,
+.prSelect .prList.colorOption .optionSelect.showAll .btn_close {
+  display: none !important;
+}
+.prSelect .prList.colorOption .con {
+  max-width: 312px;
+}
+.prSelect .prList.colorOption .con li:nth-child(n + 9) {
+  display: none;
+}
+.prSelect .prList.sizeOption .optionSelect {
+  padding-right: 85px;
+}
+.prSelect .prList.sizeOption .optionSelect.moreList {
+  padding-right: 135px;
+}
+.prSelect .prList.sizeOption .optionSelect.moreListSelect {
+  padding-right: 85px;
+}
+.prSelect
+  .prList.sizeOption
+  .optionSelect.moreListSelect
+  .con
+  li:nth-child(n + 8) {
+  display: inline-block;
+}
+.prSelect .prList.sizeOption .optionSelect.showAll {
+  padding-right: 85px;
+  max-width: 80%;
+}
+.prSelect .prList.sizeOption .optionSelect.showAll .con {
+  max-width: 100%;
+}
+.prSelect .prList.sizeOption .optionSelect.showAll .con li:nth-child(n + 8) {
+  display: inline-block;
+}
+.prSelect .prList.sizeOption .optionSelect.showAll .btn_more,
+.prSelect .prList.sizeOption .optionSelect.showAll .btn_close {
+  display: none !important;
+}
+.prSelect .prList.sizeOption .optionSelect .soldOut_tipArea {
+  padding-top: 45px;
+}
+.prSelect .prList.sizeOption .con {
+  max-width: 320px;
+}
+.prSelect .prList.sizeOption .con li:nth-child(n + 8) {
+  display: none;
+}
+.prSelect .prList.sizeOption .btnCon {
+  position: absolute;
+  top: 4px;
+  right: 0;
+}
+.prSelect .prList.sizeOption .btnCon .btn {
+  position: static;
+}
+.prSelect .prList.sizeOption .btnCon .btn + .btn_sizeInfo {
+  margin-left: 26px;
+}
+.prSelect .prList.sizeOption .btn_sizeInfo {
+  display: inline-block;
+  width: 74px;
+  height: 32px;
+  background: #f5f7fa;
+  border-radius: 4px;
+  font-size: 1.3rem;
+  line-height: 1.38462;
+  color: #373a3c;
+  line-height: 32px;
+  text-align: center;
+}
+.prSelect .con li {
+  display: inline-block;
+  vertical-align: middle;
+}
+.prSelect .con li > div input {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+.prSelect .con li > div span {
+  display: block;
+}
+.prSelect .con li > div.colorSl {
+  padding: 4px;
+}
+.prSelect .con li > div.colorSl input {
+  top: 50%;
+  left: 50%;
+}
+.prSelect .con li > div.colorSl input + label strong {
+  position: relative;
+  display: block;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
+.prSelect .con li > div.colorSl input + label strong img {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
+.prSelect .con li > div.colorSl input + label span {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.prSelect .con li > div.colorSl input:checked + label span {
+  -webkit-box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.1);
+}
+.prSelect .con li > div.colorSl input:checked + label span:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 8px;
+  height: 4px;
+  margin: -4px 0 0 -5px;
+  -webkit-transform: rotate(-46deg);
+  transform: rotate(-46deg);
+  border: solid #fff;
+  border-width: 0 0 2px 2px;
+}
+.prSelect .con li > div.colorSl input:checked + label em {
+  display: block;
+}
+.prSelect .con li > div.colorSl.soldOut input + label strong:before {
+  content: '';
+  display: block;
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: #fff;
+  -webkit-transform: rotate(-46deg);
+  transform: rotate(-46deg);
+}
+.prSelect .con li > div.colorSl.soldOut input + label strong:after {
+  content: '';
+  display: block;
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 50%;
+}
+.prSelect .con li > div.colorSl.soldOut input + label span {
+  -webkit-box-shadow: inset 0 0 0 2px #fff;
+  box-shadow: inset 0 0 0 2px #fff;
+}
+.prSelect .con li > div.colorSl.soldOut input:checked + label span:before {
+  display: none;
+}
+.prSelect .con li > div.colorSl em {
+  display: none;
+  position: absolute;
+  top: 7px;
+  left: 108%;
+  width: 80%;
+  padding-left: 10px;
+  font-size: 1.3rem;
+  line-height: 1.38462;
+  word-break: break-all;
+  color: #6b6e73;
+}
+.prSelect .con li > div.colorSl em b {
+  display: inline-block;
+  position: absolute;
+  top: 10px;
+  left: 0;
+  width: 6px;
+  height: 6px;
+  margin: -3px 4px 0 0;
+  border-radius: 50%;
+}
+.prSelect .con li > div.colorSl em b img {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+}
+.prSelect .con li > div.sizeSl {
+  position: relative;
+  padding: 4px 1px;
+}
+.prSelect .con li > div.sizeSl input {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.prSelect .con li > div.sizeSl input + label span {
+  width: auto;
+  height: 32px;
+  padding: 0 10px;
+  border-radius: 4px;
+  background: #fff;
+  border: 1px solid #dcdfe3;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #6b6e73;
+  line-height: 32px;
+  text-align: center;
+}
+[lang='zh'] .prSelect .con li > div.sizeSl input + label span {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.prSelect .con li > div.sizeSl input:checked + label span {
+  background: #f5f7fa;
+  border-color: #4d6ee4;
+  border: 1px solid;
+  color: #4d6ee4;
+}
+[lang='zh'] .prSelect .con li > div.sizeSl input:checked + label span {
+  border-color: #fe324b;
+}
+[lang='zh'] .prSelect .con li > div.sizeSl input:checked + label span {
+  color: #fe324b;
+}
+.prSelect .con li > div.sizeSl input:disabled + label span {
+  color: #dcdfe3;
+}
+.prSelect .con li > div.sizeSl input:disabled + label span:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 1px;
+  height: 46px;
+  margin-top: -23px;
+  background: #dcdfe3;
+  -webkit-transform: rotate(54deg);
+  transform: rotate(54deg);
+}
+.optionCon .frmSwitch {
+  position: absolute;
+  top: 20px;
+  right: 0;
+}
+.optionPr {
+  position: relative;
+}
+.optionPr .tit {
+  padding-bottom: 12px;
+  color: #373a3c;
+  font-weight: 500;
+}
+.optionPr .frmSwitch {
+  top: 0;
+}
+.optionPr .toggleBtn {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 64px;
+  border: 1px solid #f8fafc;
+  border-radius: 4px;
+  text-align: left;
+  background: #f8fafc;
+}
+.optionPr .toggleBtn:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 12px;
+  width: 12px;
+  height: 12px;
+  margin-top: -6px;
+  background-image: url(/img_up/shop_pds/banobagi/design/images/main/common/spr_form.png);
+  background-repeat: no-repeat;
+}
+[lang='zh'] .optionPr .toggleBtn:after {
+  background-image: url(/img_up/shop_pds/banobagi/design/images/main/cmall/spr_formC.png);
+  background-repeat: no-repeat;
+}
+.optionPr .toggleBtn[aria-expanded='true'] {
+  border-color: #4d6ee4;
+  border-radius: 4px 4px 0 0;
+  background: #fff;
+}
+[lang='zh'] .optionPr .toggleBtn[aria-expanded='true'] {
+  border-color: #fe324b;
+}
+.optionPr .toggleBtn[aria-expanded='true'] .selectTit {
+  color: #4d6ee4;
+}
+[lang='zh'] .optionPr .toggleBtn[aria-expanded='true'] .selectTit {
+  color: #fe324b;
+}
+.optionPr .toggleBtn[aria-expanded='true']:after {
+  background-position: -18px 0;
+}
+.optionPr .toggleBtn .selectTit {
+  padding-left: 14px;
+  color: #b9bcc0;
+}
+.optionPr .setPr_list {
+  border-color: #4d6ee4;
+}
+[lang='zh'] .optionPr .setPr_list {
+  border-color: #fe324b;
+}
+.optionPr.all .setPr_list {
+  display: block;
+}
+.setoptionBox {
+  padding-top: 8px;
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+}
+.setoptionBox .selectWrap {
+  display: table-cell;
+  width: 100%;
+}
+.setoptionBox .selectWrap ~ .selectWrap {
+  padding-left: 16px;
+}
+.setoptionBox .selectWrap .ui-selectmenu-menu {
+  width: auto;
+  right: 0;
+}
+.setoptionBox .selectGroup {
+  display: table-row;
+  width: 100%;
+  margin-top: 5px;
+}
+.setoptionBox .selectGroup .selectWrap {
+  padding-top: 5px;
+  width: 100%;
+}
+.setprCon {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  padding: 4px 12px;
+}
+.setprCon > * {
+  display: table-cell;
+  vertical-align: middle;
+}
+.setprCon .thumb {
+  position: relative;
+  overflow: hidden;
+  width: 56px;
+  height: 56px;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/view/bg_prodLogo.png) no-repeat 50% 50%;
+  background-size: 60%;
+}
+.setprCon .thumb:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(12, 38, 159, 0.03);
+  z-index: 1;
+}
+.setprCon .thumb img {
+  display: block;
+  width: 56px;
+  height: 56px;
+}
+.setprCon .info {
+  overflow: hidden;
+  padding-left: 16px;
+}
+.setprCon .info > * {
+  display: block;
+}
+.setprCon .brandTit {
+  color: #6b6e73;
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.setprCon .prodName {
+  padding-right: 20px;
+  color: #373a3c;
+  font-weight: 500;
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.setPr_list {
+  display: none;
+  border: 1px solid #a0adf0;
+  border-top: 0;
+  border-radius: 0 0 4px 4px;
+}
+.setPr_list li {
+  position: relative;
+  border-top: 1px solid #eaeaea;
+}
+.setPr_list li:first-child {
+  border-top: 0;
+}
+.setPr_list li a {
+  position: relative;
+  display: block;
+}
+.setPr_list li a:hover {
+  background: #f5f7fa;
+}
+.setPr_list li a:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  display: block;
+  width: 16px;
+  height: 16px;
+  margin-top: -8px;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/view/ico_check_set.png) no-repeat 0 0;
+}
+.setPr_list li a.select:before {
+  background-position: 0 -16px;
+}
+.optionBox {
+  position: relative;
+}
+.optionBox:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.optionBox .tit {
+  padding-bottom: 8px;
+  color: #6b6e73;
+}
+.optionBox .tit em {
+  padding-left: 8px;
+  color: #373a3c;
+  font-weight: 500;
+}
+.optionPrTxt {
+  counter-reset: section;
+}
+.optionPrTxt > li {
+  position: relative;
+  padding: 16px 0;
+  color: #373a3c;
+  border-bottom: 1px dashed #eaeaea;
+}
+.optionPrTxt > li:before {
+  content: counter(section) '.';
+  display: block;
+  position: absolute;
+  top: 16px;
+  left: 0;
+  width: 15px;
+  counter-increment: section;
+  vertical-align: middle;
+}
+.optionPrTxt .tit {
+  display: block;
+  padding: 0 150px 0 17px;
+}
+.optionPrTxt .selectWrap {
+  display: block;
+  width: 100%;
+  margin-top: 8px;
+}
+.selectWrap .ui-menu-item.ui-state-disabled button {
+  color: #6b6e73;
+  opacity: 0.4;
+}
+.ui-selectmenu-menu .ui-menu .ui-menu-item {
+  position: relative;
+}
+.ui-selectmenu-menu .ui-menu button.ui-action-button {
+  position: absolute;
+  top: 6px;
+  right: 5px;
+  height: 34px;
+  width: auto;
+  line-height: 34px;
+  z-index: 1;
+  color: #373a3c;
+  opacity: 1;
+  border: 1px solid #dcdfe3;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.optionsResult .optionsReflection {
+  position: relative;
+  padding: 24px;
+  margin-top: 8px;
+  border: 1px solid #dcdfe3;
+  border-radius: 4px;
+}
+.optionsResult .optionsReflection .optProp {
+  padding-right: 30px;
+  font-size: 1.5rem;
+  line-height: 1.53333;
+  color: #6b6e73;
+}
+.optionsResult .optionsReflection .optProp .noOption {
+  color: #b9bcc0;
+}
+.optionsResult .optionsReflection .quantity {
+  overflow: hidden;
+}
+.optionsResult .optionsReflection .quantity:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.optionsResult .optionsReflection .frmNum {
+  width: 160px;
+  height: 40px;
+  border-radius: 4px;
+}
+.optionsResult .optionsReflection .frmNum input[type='text'] {
+  padding-top: 3px;
+  font-size: 1.8rem;
+  line-height: 1.44444;
+  font-weight: 700;
+}
+.optionsResult .optionsReflection .price {
+  float: right;
+  padding-top: 5px;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+[lang='zh'] .optionsResult .optionsReflection .price {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.optionsResult .optionsReflection .price .dollar {
+  font-size: 2rem;
+  line-height: 1.4;
+  color: #373a3c;
+  font-weight: 700;
+}
+.optionsResult .optionsReflection .price .won {
+  color: #6b6e73;
+  padding-left: 4px;
+}
+.optionsResult .optionsReflection .price .won b {
+  font-family: Noto Sans KR, 'notokr', 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 400;
+}
+[lang='zh'] .optionsResult .optionsReflection .price .won b {
+  font-family: Microsoft Yahei, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.optionsResult .optionsReflection .btnDel {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  width: 30px;
+  height: 30px;
+}
+.optionsResult .optionsReflection .btnDel:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 12px;
+  height: 12px;
+  margin: -6px 0 0 -6px;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/view/ico_del.png) no-repeat 0 0;
+}
+.optionsResult .optionsReflection .btnSize {
+  margin-bottom: 15px;
+}
+.optionWrap {
+  margin-top: 8px;
+  padding: 15px 23px;
+  border: 1px solid #dcdfe3;
+  border-radius: 4px;
+}
+.optionWrap .optionsResult {
+  margin: 24px -23px -15px;
+}
+.optionWrap .optionsResult .optionsReflection {
+  position: relative;
+  margin-top: 0;
+  border: 0;
+  border-top: 1px solid #eaeaea;
+  border-radius: 0;
+}
+.optionWrap .optionsResult .optionsReflection + .optionsReflection {
+  padding-top: 0;
+  border-top: 0;
+}
+.optionWrap .optionsResult .optionsReflection + .optionsReflection:before {
+  content: '';
+  display: block;
+  border-top: 1px dashed #eaeaea;
+  padding-bottom: 16px;
+}
+.optionWrap .code {
+  padding-top: 10px;
+  margin-bottom: 4px;
+}
+.optionWrap .code span {
+  display: block;
+  color: #6b6e73;
+}
+.optionWrap .code span em {
+  margin-left: 6px;
+  font-weight: bold;
+  color: #373a3c;
+}
+.prCon .optionCon .prSelect .frmSwitch label {
+  font-size: 1.3rem;
+}
+.basketTop {
+  margin-top: 40px;
+}
+.basketTop .priceArea {
+  float: right;
+  padding-bottom: 20px;
+}
+.basketTop .priceArea em {
+  font-size: 1.3rem;
+  line-height: 1.38462;
+  color: #6b6e73;
+}
+.basketTop .priceArea em b {
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 400;
+}
+[lang='zh'] .basketTop .priceArea em b {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.basketTop .priceArea .dollar {
+  padding: 0 4px 0 10px;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 3rem;
+  line-height: 1.26667;
+  color: #4d6ee4;
+  font-weight: 700;
+}
+[lang='zh'] .basketTop .priceArea .dollar {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+[lang='zh'] .basketTop .priceArea .dollar {
+  color: #fe324b;
+}
+.basketTop .priceArea .won {
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #4d6ee4;
+  font-size: 1.8rem;
+  line-height: 1.44444;
+}
+[lang='zh'] .basketTop .priceArea .won {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+[lang='zh'] .basketTop .priceArea .won {
+  color: #fe324b;
+}
+.basketTop .priceArea .won b {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  font-family: Noto Sans KR, 'notokr', 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 400;
+}
+[lang='zh'] .basketTop .priceArea .won b {
+  font-family: Microsoft Yahei, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.basketTop .btnCart {
+  clear: both;
+  position: relative;
+  padding-left: 64px;
+}
+.basketTop .btnCart.case {
+  padding-left: 0;
+}
+.basketTop .btnCart.case .btn span {
+  width: 49.3%;
+}
+.basketTop .btnCart.case .btn span + span {
+  padding-left: 6px;
+}
+.basketTop .btnCart.case02 {
+  padding-left: 0;
+}
+.basketTop .btnCart.case02 .btn span {
+  width: 100%;
+}
+.basketTop .btnCart .calculator {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 56px;
+  height: 56px;
+  border: 1px solid #373a3c;
+  border-radius: 4px;
+}
+.basketTop .btnCart .calculator:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 24px;
+  height: 24px;
+  margin: -12px 0 0 -12px;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/view/ico_calcu.png) no-repeat 0 0;
+}
+.basketTop .btnCart .btn {
+  width: 100%;
+}
+.basketTop .btnCart .btn span {
+  display: inline-block;
+  width: 49.2%;
+}
+.basketTop .btnCart .btn span + span {
+  padding-left: 6px;
+  width: 50%;
+}
+.basketTop .btnCart .btn button {
+  width: 100%;
+}
+.basketTop .btnCart .btn button.btnLineG {
+  border: 1px solid #373a3c !important;
+}
+.basketTop .btnCart .btn button.action {
+  -webkit-box-shadow: 0 10px 20px 0 rgba(77, 110, 228, 0.4);
+  box-shadow: 0 10px 20px 0 rgba(77, 110, 228, 0.4);
+}
+.transformTab_area {
+  position: relative;
+  height: 68px;
+  background: #fff;
+}
+.transformTab_area .tabWrap {
+  background: #fff;
+}
+.transformTab_area.fixed .tabWrap {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.prInfo_conWrap {
+  position: relative;
+  margin-top: 80px;
+}
+.prInfo_con {
+  padding: 0 3% 0 0;
+  width: 70%;
+}
+.prInfo_con.offLine_con {
+  width: 100%;
+  padding: 0;
+}
+.offLine_info {
+  position: relative;
+  padding-top: 48px;
+}
+.offLine_info .titDep2 {
+  font-weight: 700;
+}
+.offLine_info:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: calc(-50vw + 50%);
+  width: calc(100vw - 17px);
+  height: 1px;
+  background: #b9bcc0;
+}
+.offLine_storeInfo {
+  border-top: 1px solid #b9bcc0;
+  border-bottom: 1px solid #b9bcc0;
+}
+.offLine_storeInfo li {
+  padding: 24px 16px;
+}
+.offLine_storeInfo li + li {
+  border-top: 1px solid #eaeaea;
+}
+.offLine_storeInfo .storeName a {
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  padding: 0 8px 0 24px;
+  font-size: 2.4rem;
+  line-height: 1.33333;
+  line-height: 1.41667;
+  font-weight: 500;
+  color: #373a3c;
+}
+.offLine_storeInfo .storeName a:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 8px;
+  left: 0;
+  width: 16px;
+  height: 20px;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/view/ico_location.png) no-repeat 0 50%;
+}
+.offLine_storeInfo .storeName .flag {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 8px;
+  background: rgba(185, 188, 192, 0.2);
+  border-radius: 8px;
+  width: auto;
+  height: 26px;
+  padding: 0 8px;
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: #8b8f94;
+  line-height: 26px;
+  text-align: center;
+}
+.offLine_storeInfo .storeName .flag.flagBl {
+  color: #4d6ee4;
+  background: rgba(149, 172, 255, 0.2);
+}
+[lang='zh'] .offLine_storeInfo .storeName .flag.flagBl {
+  color: #fe324b;
+}
+.offLine_storeInfo .con {
+  padding-top: 18px;
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+}
+.offLine_storeInfo .con > * {
+  display: table-cell;
+  width: 50%;
+}
+.offLine_storeInfo .info span {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+}
+.offLine_storeInfo .info span + span {
+  padding-top: 8px;
+}
+.offLine_storeInfo .info span > * {
+  display: table-cell;
+}
+.offLine_storeInfo .info .tit {
+  width: 70px;
+  color: #373a3c;
+  font-weight: 500;
+}
+.offLine_storeInfo .info .data {
+  padding-right: 20px;
+  color: #6b6e73;
+}
+.offLine_storeInfo .info .num {
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 400;
+}
+[lang='zh'] .offLine_storeInfo .info .num {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.prInfo_tabCon {
+  position: relative;
+}
+.prInfo_tabCon #infoCon01 {
+  top: -150px;
+}
+.prInfo_tabCon #infoCon02,
+.prInfo_tabCon #infoCon03,
+.prInfo_tabCon #infoCon04 {
+  top: -100px;
+}
+.prInfo_tabCon ~ .prInfo_tabCon {
+  margin-top: 80px;
+}
+.prInfo_tabCon #infoCon01 + .titDep2 {
+  padding-top: 48px;
+}
+.prInfo_tabCon .titDep2 {
+  margin-bottom: 24px;
+  font-weight: 700;
+}
+.prInfo_tabCon .titDep3 {
+  margin-bottom: 17px;
+  color: #373a3c;
+  font-weight: 700;
+}
+.prInfo_tabCon .titArea .titDep3 {
+  margin-bottom: 0;
+}
+.prInfo_tabCon .side a {
+  font-size: 1.5rem;
+  line-height: 1.53333;
+  color: #6b6e73;
+}
+.prInfo_tabCon .optionSel {
+  width: 100%;
+}
+.prInfo_tabCon .optionSel .prName {
+  color: #6b6e73;
+}
+.prInfo_tabCon .optionSel .prName em {
+  color: #373a3c;
+  font-weight: 500;
+}
+.conBox {
+  padding: 32px 48px;
+  border-radius: 8px;
+  background: #f8fafc;
+}
+.conBox .notice {
+  position: relative;
+  padding-top: 20px;
+}
+.conBox .notice:before {
+  content: '';
+  display: block;
+  clear: both;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 1px;
+  background: #eaeaea;
+}
+.conBox .notice li {
+  position: relative;
+  padding-left: 4px;
+  color: #6b6e73;
+}
+.conBox .notice li:after {
+  content: '';
+  display: block;
+  clear: both;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 2px;
+  height: 2px;
+  background: #6b6e73;
+}
+.conBox .notice li:first-child {
+  margin-bottom: 8px;
+}
+.setPr {
+  margin-top: 30px;
+}
+.setPr + .prdeatilImg {
+  margin-top: 24px;
+}
+.setPr .titDep3 b {
+  padding-left: 4px;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #4d6ee4;
+}
+[lang='zh'] .setPr .titDep3 b {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+[lang='zh'] .setPr .titDep3 b {
+  color: #fe324b;
+}
+.setPr .selectWrap.optionSel .ui-selectmenu-button {
+  height: 80px;
+  border: 1px solid #9fa2a8;
+}
+.setPr .selectWrap.optionSel .ui-selectmenu-button:after {
+  right: 32px;
+}
+.setPr .selectWrap.optionSel .ui-selectmenu-button.ui-selectmenu-button-open {
+  border-color: #4d6ee4;
+  background: #fff;
+}
+[lang='zh']
+  .setPr
+  .selectWrap.optionSel
+  .ui-selectmenu-button.ui-selectmenu-button-open {
+  border-color: #fe324b;
+}
+.setPr .selectWrap.optionSel .ui-selectmenu-button .prefix {
+  display: inline-block;
+  padding: 0 0 0 50px;
+  font-weight: 400;
+  color: #6b6e73;
+}
+.setPr .selectWrap.optionSel .ui-selectmenu-button .ui-selectmenu-text {
+  display: inline-block;
+  padding-left: 8px;
+  font-weight: 500;
+}
+.setPr .selectWrap.optionSel .ui-selectmenu-button .option {
+  width: 64px;
+  height: 64px;
+  margin-top: -32px;
+  background-size: 64px;
+}
+.setPr .selectWrap.optionSel .ui-selectmenu-menu {
+  border-color: #4d6ee4;
+}
+[lang='zh'] .setPr .selectWrap.optionSel .ui-selectmenu-menu {
+  border-color: #fe324b;
+}
+.setPr .selectWrap.optionSel .ui-selectmenu-menu .ui-menu button {
+  padding-left: 80px;
+  height: 80px;
+  color: #373a3c;
+  font-weight: 500;
+}
+.setPr .selectWrap.optionSel .ui-selectmenu-menu .ui-menu button span {
+  padding: 0 8px 0 16px;
+  color: #6b6e73;
+}
+.setPr .selectWrap.optionSel .ui-selectmenu-menu .ui-menu button .option {
+  width: 64px;
+  height: 64px;
+  background-size: 64px;
+  margin-top: -32px;
+}
+.mdNotice {
+  text-align: center;
+  padding: 0 8.3%;
+}
+.mdNotice h3 {
+  display: inline-block;
+  position: relative;
+  padding-left: 23px;
+  font-size: 1.8rem;
+  line-height: 1.44444;
+  color: #373a3c;
+  font-weight: 700;
+}
+.mdNotice h3:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  margin-top: -8px;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/view/ico_md.png) no-repeat 0 50%;
+}
+.mdNotice p {
+  padding-top: 8px;
+}
+.mdNotice.case {
+  padding: 24px 48px;
+  width: 100%;
+  border: 1px solid #eaeaea;
+  border-radius: 4px;
+  text-align: left;
+}
+.mdNotice.case h3 {
+  padding-right: 24px;
+  vertical-align: top;
+}
+.mdNotice.case p {
+  display: inline-block;
+  width: 80%;
+  padding-top: 0;
+}
+.offLineCode {
+  margin-top: 16px;
+  padding: 16px 24px;
+}
+.offLineCode em {
+  padding-left: 4px;
+}
+.infoCode,
+.offLineCode {
+  position: relative;
+  margin-top: 24px;
+}
+.infoCode p,
+.offLineCode p {
+  font-size: 1.8rem;
+  line-height: 1.44444;
+  color: #373a3c;
+}
+.infoCode p em,
+.offLineCode p em {
+  font-weight: 700;
+}
+.infoCode .code,
+.offLineCode .code {
+  margin-top: 8px;
+  margin-bottom: 20px;
+}
+.infoCode .code span,
+.offLineCode .code span {
+  display: block;
+  color: #6b6e73;
+}
+.infoCode .code span em,
+.offLineCode .code span em {
+  padding-left: 4px;
+  color: #373a3c;
+  font-weight: 700;
+}
+.infoCode .btnSSG,
+.offLineCode .btnSSG {
+  position: absolute;
+  top: 34px;
+  right: 48px;
+}
+.infoCode .btnSSG:hover,
+.offLineCode .btnSSG:hover {
+  background: #fff;
+}
+.storeInfo .titDep3 {
+  margin: 0 0 16px;
+}
+.storeInfo .con > li {
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 8px;
+  padding: 23px 16px;
+  border-radius: 8px;
+  background: #f8fafc;
+}
+.storeInfo .con > li:last-child {
+  margin-bottom: 0;
+}
+.storeInfo .con > li .storeName {
+  float: left;
+  width: 129px;
+  padding-right: 10px;
+  font-weight: 700;
+  color: #373a3c;
+}
+.storeInfo .con > li .flag {
+  display: block;
+  width: 60px;
+  margin: 10px 0 12px;
+  padding: 0 8px;
+  border-radius: 8px;
+  background: rgba(185, 188, 192, 0.2);
+  font-weight: 400;
+}
+.storeInfo .con > li .flag.flagBl {
+  background: rgba(149, 172, 255, 0.2);
+}
+.storeInfo .con > li .btnLink {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+}
+.storeInfo .con > li .btnLink a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+}
+.storeInfo .con > li .btnLink a.tel {
+  background: url(/img_up/shop_pds/banobagi/design/images/main/view/ico_phone.png) no-repeat 50%;
+}
+.storeInfo .con > li .btnLink a.tel em {
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+[lang='zh'] .storeInfo .con > li .btnLink a.tel em {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.storeInfo .con > li .btnLink a.location {
+  background: url(/img_up/shop_pds/banobagi/design/images/main/view/ico_location.png) no-repeat 50%;
+}
+.storeInfo .adTime {
+  float: left;
+  width: 400px;
+}
+.storeInfo .adTime li {
+  display: table;
+  table-layout: fixed;
+  padding-bottom: 8px;
+}
+.storeInfo .adTime li > * {
+  display: table-cell;
+  color: #6b6e73;
+}
+.storeInfo .adTime li em {
+  padding-right: 16px;
+  font-weight: 500;
+}
+.storeInfo .adTime li p {
+  font-weight: 400;
+}
+.storeInfo .bultType01 {
+  margin-top: 40px;
+}
+.storeInfo .bultType01 li {
+  color: #6b6e73;
+}
+.storeInfo .bultType01 li strong {
+  font-weight: 500;
+  color: #373a3c;
+}
+.storeInfo .bultType01 li .linkTxt {
+  display: block;
+}
+.storeInfo .bultType01 li .linkTxt .tel {
+  display: inline-block;
+  padding: 5px;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/view/ico_phone_type02.png) no-repeat 0 50%;
+}
+.storeInfo .bultType01 li .linkTxt .tel em {
+  margin: 0 4px 0 10px;
+  text-decoration: underline;
+  font-family: var(--eng_font);
+  color: #373a3c;
+}
+.fb {
+  font-weight: 700;
+}
+.imageScalable {
+  overflow: hidden;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.imageScalable .zoomTarget {
+  min-height: 550px;
+  -webkit-transform-origin: 0 0;
+  transform-origin: 0 0;
+}
+.imageScalable img {
+  width: 100%;
+  height: auto;
+}
+.imageScalable .mapBtn {
+  position: absolute;
+  z-index: 1;
+  right: 24px;
+  bottom: 26px;
+  border-radius: 8px;
+  width: 48px;
+  height: 88px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 4px 10px 0 rgba(142, 158, 217, 0.2);
+  box-shadow: 0 4px 10px 0 rgba(142, 158, 217, 0.2);
+}
+.imageScalable .mapBtn .btnCtrl {
+  display: block;
+  position: relative;
+  width: 48px;
+  height: 44px;
+}
+.imageScalable .mapBtn .btnCtrl:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 16px;
+  height: 16px;
+  margin: -8px 0 0 -8px;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/view/ico_btn_map.png) no-repeat;
+}
+.imageScalable .mapBtn .btnCtrl.btnIncr:before {
+  background-position: 0 0;
+}
+.imageScalable .mapBtn .btnCtrl.btnDecr:before {
+  background-position: 0 -16px;
+}
+.ingdInfo {
+  position: relative;
+  margin-top: 80px;
+}
+.ingdKind_frList {
+  margin-top: 16px;
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  padding: 40px 0;
+  border-top: 1px solid #b9bcc0;
+  border-bottom: 1px solid #eaeaea;
+}
+.ingdKind_frList > li {
+  width: 33.3%;
+  height: 94px;
+  text-align: center;
+  display: table-cell;
+}
+.ingdKind_frList > li ~ li {
+  border-left: 1px solid #eaeaea;
+}
+.ingdKind_frList .skinType {
+  font-size: 1.8rem;
+  line-height: 1.44444;
+  color: #373a3c;
+  font-weight: 700;
+  vertical-align: top;
+}
+.ingdKind_frList .ingdKind {
+  display: inline-block;
+  overflow: hidden;
+  padding-left: 16px;
+}
+.ingdKind_frList .ingdKind:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.ingdKind_frList .ingdKind span {
+  float: left;
+  width: 64px;
+}
+.ingdKind_frList .ingdKind span em {
+  display: block;
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+.ingdKind_frList .ingdKind span.good em {
+  color: #0090f4;
+}
+.ingdKind_frList .ingdKind span.bad em {
+  color: #ff448f;
+}
+.ingdKind_frList .ingdKind span b {
+  display: block;
+  padding-top: 8px;
+  width: 64px;
+  height: 64px;
+  font-size: 2.4rem;
+  line-height: 1.33333;
+  line-height: 1.41667;
+  color: #fff;
+  font-weight: 700;
+  line-height: 64px;
+}
+.ingdKind_frList .ingdKind span.good b {
+  background: url(/img_up/shop_pds/banobagi/design/images/main/view/ico_good_ingredients01.png) no-repeat 50%;
+}
+.ingdKind_frList .ingdKind span.bad b {
+  background: url(/img_up/shop_pds/banobagi/design/images/main/view/ico_bad_ingredients01.png) no-repeat 50%;
+}
+.ingdKind_txt {
+  margin-top: 16px;
+  display: block;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  max-height: 44px;
+}
+.ingdInfoPop .tabType01 {
+  margin-top: 16px;
+}
+.ingdInfoPop .tabType01 > li.tabON {
+  padding-bottom: 0;
+}
+.ingdKindTop {
+  background: #f8fafc;
+  width: 100%;
+  margin-top: 24px;
+}
+.ingdKind_list {
+  display: table;
+  table-layout: fixed;
+  background: #f8fafc;
+  width: 456px;
+  margin: 0 auto;
+  text-align: center;
+}
+.ingdKind_list li {
+  position: relative;
+  display: table-cell;
+  vertical-align: middle;
+  width: 136px;
+  height: 140px;
+  background: #f8fafc;
+}
+.ingdKind_list li:nth-child(even) {
+  width: 184px;
+}
+.ingdKind_list li .skinType {
+  font-weight: 500;
+  color: #373a3c;
+}
+.ingdKind_list li .ingdKind {
+  display: table;
+  table-layout: fixed;
+  width: 88px;
+  margin: 0 auto;
+}
+.ingdKind_list li .ingdKind span {
+  display: table-cell;
+  position: relative;
+  width: 44px;
+  height: 44px;
+}
+.ingdKind_list li .ingdKind span em {
+  display: block;
+  padding-top: 50px;
+  font-size: 1.3rem;
+  line-height: 1.38462;
+}
+.ingdKind_list li .ingdKind span.good em {
+  color: #0090f4;
+}
+.ingdKind_list li .ingdKind span.bad em {
+  color: #ff448f;
+}
+.ingdKind_list li .ingdKind span b {
+  display: block;
+  position: absolute;
+  top: 5px;
+  left: 50%;
+  width: 44px;
+  height: 44px;
+  margin-left: -22px;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 700;
+  font-size: 1.6rem;
+  font-weight: 600;
+  text-align: center;
+  color: #fff;
+  line-height: 2.8;
+}
+[lang='zh'] .ingdKind_list li .ingdKind span b {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.ingdKind_list li .ingdKind span.good b {
+  background: url(/img_up/shop_pds/banobagi/design/images/main/view/ico_good_ingredients02.png) no-repeat 50%;
+}
+.ingdKind_list li .ingdKind span.bad b {
+  background: url(/img_up/shop_pds/banobagi/design/images/main/view/ico_bad_ingredients02.png) no-repeat 50%;
+}
+.ingdKind_list li .ingdKind span.ultraviolet b {
+  background: url(/img_up/shop_pds/banobagi/design/images/main/view/ico_sun.png) no-repeat 50%;
+}
+.ingdKind_list li .ingdKind span.whitening b {
+  background: url(/img_up/shop_pds/banobagi/design/images/main/view/ico_light.png) no-repeat 50%;
+}
+.ingdKind_list li .ingdKind span.wrinkle b {
+  background: url(/img_up/shop_pds/banobagi/design/images/main/view/ico_iron.png) no-repeat 50%;
+}
+.ingdKind_list.type02 {
+  width: 408px;
+}
+.ingdKind_list.type02 li {
+  width: 120px;
+  height: 122px;
+}
+.ingdKind_list.type02 li:nth-child(even) {
+  width: 168px;
+}
+.ingdKind_con .skinType {
+  padding-top: 24px;
+  font-size: 1.8rem;
+  line-height: 1.44444;
+  font-weight: 700;
+  color: #373a3c;
+}
+.ingdKind_con .ingdKind {
+  overflow: hidden;
+  margin-top: 5px;
+}
+.ingdKind_con .ingdKind .list {
+  display: table;
+}
+.ingdKind_con .ingdKind .list li {
+  display: table-row;
+}
+.ingdKind_con .ingdKind p {
+  float: left;
+  display: table;
+  table-layout: fixed;
+  width: 50%;
+  min-height: 40px;
+  margin-top: 10px;
+  padding: 0 10px 0 48px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 1.3rem;
+  color: #6b6e73;
+}
+.ingdKind_con .ingdKind p span {
+  display: table-cell;
+  vertical-align: middle;
+}
+.ingdKind_con .ingdKind p span em {
+  display: block;
+  font-size: 1.5rem;
+  line-height: 1.53333;
+  color: #373a3c;
+  font-weight: 500;
+}
+.ingdKind_con .ingdKind p span b {
+  font-size: 1.3rem;
+  line-height: 1.38462;
+  font-weight: 400;
+  color: #6b6e73;
+}
+.ingdKind_con .ingdKind p.good {
+  background: url(/img_up/shop_pds/banobagi/design/images/main/view/ico_good_ingredients03.png) no-repeat 0 0;
+}
+.ingdKind_con .ingdKind p.bad {
+  background: url(/img_up/shop_pds/banobagi/design/images/main/view/ico_bad_ingredients03.png) no-repeat 0 0;
+}
+.ingdKind_con .ingdKind p.drop {
+  background: url(/img_up/shop_pds/banobagi/design/images/main/view/ico_drop.png) no-repeat 0 0;
+}
+.ingdKind_con .ingdKind p.ultraviolet {
+  background: url(/img_up/shop_pds/banobagi/design/images/main/view/ico_sun02.png) no-repeat 0 0;
+}
+.ingdKind_con .ingdKind p.whitening {
+  background: url(/img_up/shop_pds/banobagi/design/images/main/view/ico_light02.png) no-repeat 0 0;
+}
+.ingdKind_con .ingdKind p.wrinkle {
+  background: url(/img_up/shop_pds/banobagi/design/images/main/view/ico_iron02.png) no-repeat 0 0;
+}
+.ingdKind_con .ingdKind p.ultravioletdrop {
+  background: url(/img_up/shop_pds/banobagi/design/images/main/view/ico_drop_sun.png) no-repeat 0 0;
+}
+.ingdKind_con .ingdKind p.whiteningdrop {
+  background: url(/img_up/shop_pds/banobagi/design/images/main/view/ico_drop_light.png) no-repeat 0 0;
+}
+.ingdKind_con .ingdKind p.wrinkledrop {
+  background: url(/img_up/shop_pds/banobagi/design/images/main/view/ico_drop_iron.png) no-repeat 0 0;
+}
+.ingdKind_con .ingdKind:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.ingdInfo_total {
+  margin-top: 24px;
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+}
+.ingdInfo_total li {
+  display: table-row;
+  position: relative;
+}
+.ingdInfo_total li p {
+  display: table-cell;
+  padding: 8px 0;
+  font-size: 1.3rem;
+  line-height: 1.38462;
+  color: #6b6e73;
+  border-bottom: 1px solid #eaeaea;
+}
+.ingdInfo_total li em {
+  display: block;
+  padding-bottom: 3px;
+  font-size: 1.5rem;
+  line-height: 1.53333;
+  color: #373a3c;
+  font-weight: 500;
+}
+.ingdInfo_total li .empty {
+  display: table-cell;
+  width: 48px;
+}
+.prdeatilImg {
+  margin-top: 80px;
+}
+.prdeatilImg .con {
+  position: relative;
+  margin-top: 16px;
+  overflow: hidden;
+  height: 762px;
+}
+.prdeatilImg .con.all {
+  height: auto;
+}
+.prdeatilImg .con.all .detaliCon {
+  padding-bottom: 140px;
+}
+.prdeatilImg .con.all .more em:after {
+  background-position: 0 -12px;
+}
+.prdeatilImg .con.all .more em.look {
+  display: none;
+}
+.prdeatilImg .con.all .more em.fold {
+  display: inline-block;
+}
+.prdeatilImg .con:after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 96px;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgba(255, 255, 255, 0)),
+    to(#fff)
+  );
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0), #fff);
+}
+.prdeatilImg .con.short {
+  height: auto;
+}
+.prdeatilImg .con.short:after,
+.prdeatilImg .con.short .more {
+  display: none;
+}
+.prdeatilImg .detaliCon {
+  position: relative;
+}
+.prdeatilImg img {
+  width: 100%;
+}
+.prdeatilImg .more {
+  display: block;
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  width: 160px;
+  height: 48px;
+  margin-left: -80px;
+  z-index: 1;
+  border-radius: 120px;
+  background: #fff;
+  text-align: center;
+  -webkit-box-shadow: 2px 6px 10px 0 rgba(30, 32, 35, 0.08);
+  box-shadow: 2px 6px 10px 0 rgba(30, 32, 35, 0.08);
+}
+.prdeatilImg .more em {
+  display: inline-block;
+  color: #4d6ee4;
+  font-weight: 500;
+}
+[lang='zh'] .prdeatilImg .more em {
+  color: #fe324b;
+}
+.prdeatilImg .more em:after {
+  content: '';
+  display: inline-block;
+  margin-left: 8px;
+  width: 12px;
+  height: 12px;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/view/ico_expand_more_s.png) no-repeat 0 0;
+}
+.prdeatilImg .more em.fold {
+  display: none;
+}
+.giftInfo {
+  margin-top: 32px;
+  border-radius: 8px;
+  padding: 30px 0;
+  background: #f8fafc;
+  text-align: center;
+}
+.giftInfo strong {
+  display: inline-block;
+  position: relative;
+  padding: 0 16px 0 84px;
+  font-size: 1.8rem;
+  line-height: 1.44444;
+  color: #373a3c;
+  font-weight: 700;
+}
+.giftInfo strong:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 60px;
+  height: 54px;
+  margin-top: -27px;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/view/ico_gift.png) no-repeat 0 0;
+}
+.noticeInfo_Tab {
+  margin-top: 80px;
+}
+.noticeInfo_Tab .tabContentWrap {
+  padding-top: 30px;
+}
+.noticeInfo_Tab .tabContentWrap .tabContentWrap {
+  padding-top: 0px;
+}
+.noticeInfo_Tab .tabType06 > li a {
+  font-size: 1.3rem;
+}
+.noticeInfo_Tab .num {
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+[lang='zh'] .noticeInfo_Tab .num {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.noticeInfo_Tab .tabType03 > li a {
+  min-width: auto;
+  padding: 0 25px;
+}
+.noticeInfo_Tab .tblV tbody th {
+  padding: 16px 24px;
+  font-weight: 500;
+}
+.noticeInfo_Tab .tblV tbody td {
+  padding: 16px 24px;
+  color: #6b6e73;
+}
+.noticeInfo_Tab .tblH + .tblH {
+  margin-top: 48px;
+}
+.noticeInfo_Tab .tblH tbody th {
+  text-align: center;
+  vertical-align: middle;
+  color: #5a5f64;
+}
+.noticeInfo_Tab .tblH tbody td {
+  text-align: center;
+  color: #5a5f64;
+}
+.noticeInfo_Tab .tblH tbody td:first-child {
+  border-left: 1px solid #eaeaea;
+}
+.textInfo .con + [class^='titDep'] {
+  padding-top: 20px;
+}
+.textInfo .subTxt {
+  margin-top: 6px;
+}
+.textInfo .bultType01 {
+  margin-top: 16px;
+}
+.textInfo .bultType02 > li {
+  margin: 0;
+  padding-bottom: 16px;
+  font-size: 1.5rem;
+  line-height: 1.53333;
+}
+.textInfo .bultType02 > li:last-child {
+  padding-bottom: 0;
+}
+.textInfo .point {
+  color: #4d6ee4;
+}
+[lang='zh'] .textInfo .point {
+  color: #fe324b;
+}
+.benefitsDetail {
+  position: relative;
+  padding: 32px 40px 32px 366px;
+}
+.benefitsDetail .couponArea {
+  display: table;
+  position: absolute;
+  top: 50%;
+  left: 40px;
+  width: 326px;
+  height: 56px;
+  margin-top: -28px;
+}
+.benefitsDetail .couponArea .couponWrap {
+  display: table-cell;
+  vertical-align: middle;
+}
+.benefitsDetail .tit {
+  display: inline-block;
+  color: #6b6e73;
+  vertical-align: middle;
+  padding-right: 16px;
+}
+.benefitsDetail .info {
+  display: inline-block;
+  position: relative;
+  font-weight: 500;
+  color: #373a3c;
+  vertical-align: middle;
+}
+.benefitsDetail .info strong {
+  font-weight: 500;
+  vertical-align: middle;
+}
+.benefitsDetail .info a {
+  display: inline-block;
+  margin-left: 8px;
+  vertical-align: middle;
+}
+.benefitsDetail .con li .info {
+  width: 75%;
+}
+.benefitsDetail .con li + li {
+  padding-top: 12px;
+}
+.benefitInfo .tabType01 {
+  margin-top: 8px;
+}
+.benefitInfo .tabType01 > li.tabON {
+  padding-bottom: 0;
+}
+.priceinfoPop {
+  margin-top: 24px;
+}
+.priceinfoPop .priceList {
+  padding-bottom: 28px;
+}
+.priceinfoPop .priceList > li {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  padding: 16px;
+  color: #373a3c;
+  background: #f8fafc;
+  border-radius: 8px;
+  margin: 8px 0;
+}
+.priceinfoPop .priceList > li > * {
+  display: table-cell;
+  width: 50%;
+  vertical-align: top;
+}
+.priceinfoPop .priceList > li .info {
+  width: 100%;
+}
+.priceinfoPop strong {
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 1.44444;
+}
+.priceinfoPop em {
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.53333;
+  font-weight: 400;
+  color: #373a3c;
+  text-align: right;
+}
+[lang='zh'] .priceinfoPop em {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.priceinfoPop em .dollar {
+  padding-right: 8px;
+  font-size: 2rem;
+  line-height: 1.4;
+  font-weight: 700;
+}
+.priceinfoPop em .won {
+  font-family: Noto Sans KR, 'notokr', 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+[lang='zh'] .priceinfoPop em .won {
+  font-family: Microsoft Yahei, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.priceinfoPop .totalInfo {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+}
+.priceinfoPop .totalInfo > * {
+  display: table-cell;
+  width: 50%;
+  vertical-align: top;
+}
+.priceinfoPop .subPricelist {
+  border-top: 1px dashed #eaeaea;
+  margin: 16px -16px 0;
+  padding: 13px 16px 0;
+}
+.priceinfoPop .subPricelist li {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  padding: 4px 0;
+}
+.priceinfoPop .subPricelist li > * {
+  display: table-cell;
+  width: 50%;
+  vertical-align: top;
+}
+.priceinfoPop .subPricelist li strong {
+  font-weight: 400;
+}
+.priceinfoPop .subPricelist li strong em {
+  display: block;
+  padding-top: 5px;
+  text-align: left;
+  font-size: 1.3rem;
+  line-height: 1.38462;
+  font-family: Noto Sans KR, 'notokr', 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #5a5f64;
+}
+[lang='zh'] .priceinfoPop .subPricelist li strong em {
+  font-family: Microsoft Yahei, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.priceinfoPop .subPricelist li em .dollar {
+  font-size: 1.5rem;
+  line-height: 1.53333;
+}
+.benefitUse .con li {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  padding: 8px 0 8px 6px;
+}
+.benefitUse .con li > * {
+  display: table-cell;
+}
+.benefitUse .con li .tit {
+  position: relative;
+  width: 150px;
+  padding-left: 6px;
+  color: #373a3c;
+  font-weight: 500;
+}
+.benefitUse .con li .tit:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 2px;
+  height: 2px;
+  margin-top: -1px;
+  background: #6b6e73;
+  border-radius: 50%;
+}
+.benefitUse .con li .info {
+  color: #6b6e73;
+}
+.benefitUse .con li .info b {
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 400;
+}
+[lang='zh'] .benefitUse .con li .info b {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.saleCoupon {
+  display: inline-block;
+  width: 202px;
+  height: 40px;
+  margin-left: 16px;
+  padding: 8px 0 8px 12px;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/view/bg_coupon.png) no-repeat 0 0;
+}
+.saleCoupon span {
+  color: #373a3c;
+  font-weight: 500;
+}
+.saleCoupon em {
+  color: #4d6ee4;
+}
+[lang='zh'] .saleCoupon em {
+  color: #fe324b;
+}
+.saleCoupon b {
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 400;
+}
+[lang='zh'] .saleCoupon b {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.layerS .btnSSG {
+  font-size: 1.5rem;
+  line-height: 1.53333;
+}
+.saleCouponList > li {
+  padding: 24px 0;
+}
+.saleCouponList > li:first-child {
+  padding-top: 0;
+}
+.saleCouponList > li + li {
+  border-top: 1px solid #eaeaea;
+}
+.saleCouponList .info {
+  overflow: hidden;
+  position: relative;
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  margin-top: 8px;
+  border: 1px solid #c7cdf6;
+  border-radius: 8px;
+}
+.saleCouponList .info span {
+  display: table-cell;
+  vertical-align: middle;
+}
+.saleCouponList .info .con {
+  padding: 24px 87px 24px 24px;
+}
+.saleCouponList .info .con .tit {
+  font-size: 1.8rem;
+  line-height: 1.44444;
+  color: #373a3c;
+  font-weight: 700;
+}
+.saleCouponList .info .con .date {
+  display: block;
+  padding-top: 8px;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1.3rem;
+  line-height: 1.38462;
+  color: #6b6e73;
+}
+[lang='zh'] .saleCouponList .info .con .date {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.saleCouponList .info .ico {
+  position: relative;
+  width: 87px;
+  background: #778cea;
+}
+.saleCouponList .info .ico:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: -2px;
+  width: 2px;
+  height: 100%;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/view/bg_coupon_ico01.png) repeat-y 0 0;
+}
+.saleCouponList .info .ico:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 20px;
+  height: 20px;
+  margin: -10px 0 0 -10px;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/view/bg_coupon_ico02.png) no-repeat 0 0;
+}
+.saleCouponList .info.disabled {
+  border-color: #dcdfe3;
+  background: #f2f5f9;
+}
+.saleCouponList .info.disabled .con .tit {
+  opacity: 0.6;
+}
+.saleCouponList .info.disabled .con .date {
+  opacity: 0.3;
+}
+.saleCouponList .info.disabled .ico {
+  background: #ebedf2;
+}
+.saleCouponList .info.disabled .ico:before {
+  background: url(/img_up/shop_pds/banobagi/design/images/main/view/bg_coupon_ico01_disabled.png) repeat-y 0 0;
+}
+.saleCouponList .info.disabled .ico:after {
+  background: url(/img_up/shop_pds/banobagi/design/images/main/view/bg_coupon_ico02_disabled.png) repeat-y 0 0;
+}
+.saleCouponList .bultType01 {
+  margin-top: 8px;
+}
+.saleCouponList .bultType01 li {
+  margin-top: 2px;
+  font-size: 1.5rem;
+  line-height: 1.53333;
+  color: #6b6e73;
+}
+.paymentBenefit .tabType05 {
+  margin-top: 40px;
+}
+.paymentBenefit .tabType05 > li a {
+  color: #6b6e73;
+}
+.visualBanner {
+  margin-top: 24px;
+  height: 120px;
+}
+.visualBanner .ts-prev,
+.visualBanner .ts-next {
+  background: none;
+}
+.visualBanner .swiper-container {
+  padding-bottom: 0;
+}
+.visualBanner .paging {
+  position: absolute;
+  top: 77px;
+  right: 8px;
+  width: 70px;
+  height: 32px;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1.3rem;
+  line-height: 1.38462;
+  color: #fff;
+  border-radius: 40px;
+  z-index: 10;
+  font-weight: 500;
+}
+[lang='zh'] .visualBanner .paging {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.visualBanner .paging .swiper-pagination {
+  display: inline-block;
+  position: static;
+  width: 60px;
+  text-align: left;
+  padding: 2px 0 0 12px;
+}
+.visualBanner .paging .btnAll {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 32px;
+}
+.visualBanner .paging .btnAll:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 12px;
+  width: 12px;
+  height: 12px;
+  margin-top: -6px;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/view/ico_expand_more.png) no-repeat 0 0;
+}
+.visualBanner.expand {
+  height: auto;
+}
+.visualBanner.expand .swiper-container .swiper-wrapper {
+  position: static;
+  display: block;
+}
+.visualBanner.expand .swiper-container .swiper-wrapper li {
+  display: block;
+  left: auto !important;
+}
+.visualBanner.expand .swiper-container .swiper-wrapper li + li {
+  margin-top: 8px;
+}
+.visualBanner.expand .ts-controls,
+.visualBanner.expand .ts-prev,
+.visualBanner.expand .ts-next {
+  display: none;
+}
+.visualBanner.expand .paging .btnAll:before {
+  background-position: 0 -12px;
+}
+.visualBanner .ts-controls > button {
+  width: 28px;
+  height: 28px;
+  margin-top: -18px !important;
+  background: none !important;
+}
+.visualBanner .ts-controls > button:after {
+  width: 16px;
+  height: 17px;
+  margin: -8px 0 0 -8px;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/view/spr_swiper.png) no-repeat 0 0;
+}
+.visualBanner .ts-controls > button.ts-button-disabled:after {
+  opacity: 0.5;
+}
+.visualBanner .ts-controls > button.ts-next:after {
+  background-position: -16px 0;
+}
+.visualBanner.ie9 .swiper-container .swiper-wrapper {
+  height: 120px !important;
+}
+.visualBanner.ie9 .swiper-container .swiper-wrapper .swiper-slide {
+  height: 120px !important;
+}
+.visualBanner.expand.ie9 .swiper-container .swiper-wrapper {
+  height: auto !important;
+}
+.visualBanner.expand.ie9 .swiper-container .swiper-wrapper .swiper-slide {
+  height: auto !important;
+  float: none;
+}
+.visualBanner.expand.ie9
+  .swiper-container
+  .swiper-wrapper
+  .swiper-slide
+  + .swiper-slide {
+  margin-top: 8px;
+}
+.cardBenefits {
+  display: block;
+  position: relative;
+  color: #373a3c;
+}
+.cardBenefits img {
+  width: 100%;
+}
+.cardBenefits .info {
+  position: absolute;
+  top: 23px;
+  left: 27px;
+  width: 60%;
+  text-align: left;
+}
+.cardBenefits .info > * {
+  display: block;
+}
+.cardBenefits .tit {
+  font-size: 1.8rem;
+  line-height: 1.44444;
+  font-weight: 400;
+  padding-bottom: 8px;
+}
+.cardBenefits .subTxt,
+.cardBenefits .date {
+  font-size: 1.3rem;
+  line-height: 1.38462;
+  color: #373a3c;
+  opacity: 0.7;
+}
+.cardBenefits .subTxt b,
+.cardBenefits .date b {
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 400;
+}
+[lang='zh'] .cardBenefits .subTxt b,
+[lang='zh'] .cardBenefits .date b {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.cardBenefits .date {
+  padding-top: 2px;
+}
+.cardBenefits.type02 {
+  color: #fff;
+}
+.cardBenefits.type02 .subTxt,
+.cardBenefits.type02 .date {
+  color: #f8fafc;
+}
+.benefitList {
+  margin-top: 8px;
+}
+.benefitList > li {
+  display: table;
+  table-layout: fixed;
+  padding: 24px 0;
+  border-bottom: 1px solid #eaeaea;
+}
+.benefitList > li > * {
+  display: table-cell;
+}
+.benefitList > li:last-child {
+  border-bottom: 0;
+}
+.benefitList > li figure {
+  width: 56px;
+}
+.benefitList > li figure img {
+  width: 56px;
+}
+.benefitList > li .context {
+  width: 536px;
+}
+.benefitList > li .context em {
+  display: block;
+  width: 130px;
+  margin-left: 3px;
+  font-size: 1.8rem;
+  line-height: 1.44444;
+  color: #373a3c;
+  font-weight: 500;
+}
+.benefitList > li .bultType01 {
+  width: 100%;
+  margin-top: 10px;
+}
+.benefitList > li .bultType01 > li {
+  font-size: 1.5rem;
+  line-height: 1.53333;
+  color: #6b6e73;
+}
+.benefitList > li .bultType01 + .bultType01 {
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px solid #eaeaea;
+}
+.cardBenefitList li {
+  font-size: 1.6rem;
+}
+.giftPr {
+  margin-top: 80px;
+}
+.giftArea {
+  border: 1px solid #b9bcc0;
+  border-radius: 8px;
+}
+.giftArea.all .giftCon {
+  padding-bottom: 24px;
+}
+.giftArea.all .giftCon ~ .giftCon {
+  display: block;
+}
+.giftArea.all .usedInfoList {
+  display: block;
+}
+.giftArea.all .toggleBtn {
+  border-top: 0;
+}
+.giftArea.case .usedInfoList {
+  display: block;
+  margin-bottom: 24px;
+}
+.giftArea .more {
+  margin: 0 40px;
+}
+.giftArea .toggleBtn {
+  display: block;
+  width: 100%;
+  height: 55px;
+  line-height: 55px;
+  text-align: center;
+}
+.giftArea .toggleBtn em {
+  display: inline-block;
+  position: relative;
+  padding-right: 20px;
+  color: #373a3c;
+  font-weight: 700;
+}
+.giftArea .toggleBtn em.fold {
+  display: none;
+}
+.giftArea .toggleBtn em:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  width: 12px;
+  height: 12px;
+  margin-top: -4px;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/view/ico_expand_more02.png) no-repeat 0 0;
+}
+.giftArea .toggleBtn[aria-expanded='true'] em.look {
+  display: none;
+}
+.giftArea .toggleBtn[aria-expanded='true'] em.fold {
+  display: inline-block;
+}
+.giftArea .toggleBtn[aria-expanded='true'] em:after {
+  background-position: 0 -12px;
+}
+.giftArea .usedInfoList {
+  display: none;
+  margin: 24px 40px 0;
+}
+.giftCon {
+  position: relative;
+  margin: 0 40px;
+  padding-top: 24px;
+}
+.giftCon ~ .giftCon {
+  display: none;
+  border-top: 1px solid #dcdfe3;
+  border-bottom: 1px solid #dcdfe3;
+}
+.giftCon .date {
+  color: #6b6e73;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+[lang='zh'] .giftCon .date {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.giftCon .txtLink {
+  position: absolute;
+  top: 24px;
+  right: 0;
+  font-size: 1.4rem;
+}
+.giftCon .con {
+  margin-top: 14px;
+  border-top: 1px dashed #dcdfe3;
+}
+.giftCon .con .tit {
+  clear: both;
+  display: block;
+  padding: 17px 0 4px;
+  color: #373a3c;
+  font-weight: 500;
+}
+.giftCon .con .tit label {
+  min-height: 25px;
+}
+.giftCon .list {
+  overflow: hidden;
+}
+.giftCon .list li {
+  padding: 4px 0;
+}
+.giftCon .list li .listCon {
+  position: relative;
+  display: table;
+  table-layout: fixed;
+  padding: 8px;
+  width: 100%;
+  background: #f5f7fa;
+  border-radius: 8px;
+}
+.giftCon .list li .listCon.soldOut {
+  display: block;
+}
+.giftCon .list li .listCon.soldOut:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.6);
+  z-index: 10;
+}
+.giftCon .list li .listCon.soldOut .soldOut {
+  position: absolute;
+  width: 38px;
+  height: 24px;
+  top: 50%;
+  left: 50%;
+  margin: -12px 0 0 -19px;
+  border-radius: 8px;
+  background: rgba(55, 58, 60, 0.6);
+  font-size: 1.2rem;
+  color: #fff;
+  line-height: 24px;
+  text-align: center;
+  z-index: 10;
+}
+.giftCon .list li figure {
+  display: table-cell;
+  vertical-align: middle;
+  position: relative;
+  overflow: hidden;
+  width: 76px;
+  height: 76px;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/view/bg_prodLogo.png) no-repeat 50% 50%;
+  background-size: 60%;
+}
+.giftCon .list li figure:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(12, 38, 159, 0.03);
+  z-index: 1;
+}
+.giftCon .list li figure img {
+  display: block;
+  width: 76px;
+  height: 76px;
+  margin: 0 auto;
+  background: #fff;
+}
+.giftCon .list li .txtInfo {
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 16px;
+}
+.giftCon .list li .txtInfo > * {
+  display: block;
+}
+.giftCon .list li .txtInfo span {
+  color: #6b6e73;
+}
+.giftCon .list li .txtInfo em {
+  color: #8b8f94;
+  font-size: 1.3rem;
+  line-height: 1.38462;
+}
+.giftCon .list li .txtInfo em b {
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 400;
+}
+[lang='zh'] .giftCon .list li .txtInfo em b {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.brandPr {
+  margin-top: 80px;
+}
+.brandPr .controlBtn {
+  padding-bottom: 0 !important;
+}
+.brandPr .ts-paging {
+  bottom: 10px;
+}
+.brandPr .ts-paging .ts-paging-btn.ts-paging-active {
+  width: 26px;
+}
+.brandPr .ts-paging .ts-paging-btn.ts-paging-active:after {
+  height: 6px;
+}
+.brandPr .ts-paging .ts-paging-btn:after {
+  width: 6px;
+  height: 6px;
+}
+.recommend .titDep3 b {
+  padding-left: 4px;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #4d6ee4;
+}
+[lang='zh'] .recommend .titDep3 b {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+[lang='zh'] .recommend .titDep3 b {
+  color: #fe324b;
+}
+.recommendBox {
+  padding: 0 32px;
+  border: 1px solid #b9bcc0;
+  border-radius: 8px;
+}
+.bundle_prlist {
+  width: 100%;
+}
+.bundle_prlist ~ .bundle_prlist {
+  border-top: 1px solid #eaeaea;
+}
+.bundle_prlist .con li {
+  position: relative;
+  width: 100%;
+  padding: 26px 10% 26px 0;
+  font-size: 1.8rem;
+  line-height: 1.44444;
+  color: #373a3c;
+  font-weight: 400;
+}
+.bundle_prlist .con li ~ li {
+  border-top: 1px dashed #b9bcc0;
+}
+.bundle_prlist .con strong {
+  font-weight: 700;
+}
+.bundle_prlist .con .point {
+  color: #f42d10;
+}
+.bundle_prlist .con .point_blue {
+  color: #4d6ee4;
+}
+[lang='zh'] .bundle_prlist .con .point_blue {
+  color: #fe324b;
+}
+.bundle_prlist .con .num {
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+[lang='zh'] .bundle_prlist .con .num {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.bundle_prlist .txtLink {
+  position: absolute;
+  top: 26px;
+  right: 0;
+  font-size: 1.5rem;
+  line-height: 1.53333;
+}
+.recommendTab .swipeMenu .prodFlag {
+  display: inline-block;
+}
+.recommendTab .swipeMenu .prodFlag > span.rqpurch {
+  background: #e6240a;
+  color: #fff;
+}
+.bundle_pr > .titDep3 {
+  margin-top: 0;
+  padding-top: 40px;
+}
+.bundle_pr > .titArea {
+  margin-top: 0;
+}
+.bundle_pr > .titArea .txtLink {
+  font-size: 1.5rem;
+  line-height: 1.53333;
+}
+.bundle_pr .titDep5 {
+  margin-bottom: 0;
+  font-weight: 700;
+}
+.bundle_pr .conBox {
+  margin-top: 16px;
+  padding: 16px;
+}
+.bundle_pr .conBox .bultType01 {
+  margin-top: 0;
+}
+.bundle_pr .subTxt {
+  margin-top: 8px;
+}
+.bundle_pr .subTxt span {
+  color: #373a3c;
+  font-weight: 700;
+}
+.bundle_pr .subTxt em {
+  color: #f42d10;
+}
+.bundle_pr .departureViewMore {
+  margin: 24px 0 0;
+}
+.bundle_pr .departureViewMore .infoBox {
+  padding: 0;
+}
+.bundle_pr .tblH {
+  margin-top: 15px;
+}
+.bundle_pr .tblH tr td {
+  text-align: center;
+  vertical-align: middle;
+}
+.bundle_pr .tblH tr td.saleNum {
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 700;
+  color: #f42d10;
+}
+[lang='zh'] .bundle_pr .tblH tr td.saleNum {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.bundle_pr .tblH .priceArea > * {
+  display: block;
+}
+.bundle_pr .tblH .priceArea .saleNum {
+  font-weight: 700;
+  color: #f42d10;
+}
+.bundle_pr .tblH .priceArea .saleCont {
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 700;
+}
+[lang='zh'] .bundle_pr .tblH .priceArea .saleCont {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.bundle_pr .tblH .priceArea .saleCont > * {
+  display: inline-block;
+}
+.bundle_pr .tblH .priceArea .saleCont .originDollar {
+  color: #6b6e73;
+  text-decoration: line-through;
+}
+.bundle_pr .tblH .priceArea .saleCont .originPrice {
+  margin-left: 4px;
+  font-weight: 400;
+  font-size: 1.3rem;
+  color: #6b6e73;
+}
+.bundle_pr .tblH .priceArea .saleCont .originPrice b {
+  font-weight: 400;
+  font-family: Noto Sans KR, 'notokr', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+[lang='zh'] .bundle_pr .tblH .priceArea .saleCont .originPrice b {
+  font-family: Microsoft Yahei, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.bundle_pr .tblH .priceArea .salePrice {
+  color: #373a3c;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  line-height: 1.2;
+  letter-spacing: -0.03em;
+}
+[lang='zh'] .bundle_pr .tblH .priceArea .salePrice {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.bundle_pr .tblH .priceArea .salePrice > * {
+  display: inline-block;
+}
+.bundle_pr .tblH .priceArea .salePrice .saleDollar {
+  font-weight: 700;
+  color: #f42d10;
+}
+.bundle_pr .tblH .priceArea .salePrice .saleWon {
+  margin-left: 4px;
+  font-size: 1.3rem;
+  color: #6b6e73;
+}
+.bundle_pr .tblH .priceArea .salePrice .saleWon b {
+  font-size: 1.3rem;
+  line-height: 1.38462;
+  font-weight: 400;
+  font-family: Noto Sans KR, 'notokr', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+[lang='zh'] .bundle_pr .tblH .priceArea .salePrice .saleWon b {
+  font-family: Microsoft Yahei, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.bundle_pr .conList li {
+  position: relative;
+  padding: 10px 0;
+}
+.bundle_pr .conList .prCon {
+  display: block;
+  position: relative;
+  padding: 0 16px 10px 0;
+  min-height: 96px;
+}
+.bundle_pr .conList .prCon figure {
+  position: relative;
+  width: 96px;
+  height: 96px;
+  padding: 10px;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/view/bg_prodLogo.png) no-repeat 50% 50%;
+  background-size: 50%;
+}
+.bundle_pr .conList .prCon figure:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(12, 38, 159, 0.03);
+  z-index: 1;
+}
+.bundle_pr .conList .prCon figure img {
+  width: 100%;
+}
+.bundle_pr .conList .prCon .con .name {
+  display: block;
+  font-size: 1.5rem;
+  line-height: 1.53333;
+  color: #6b6e73;
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.bundle_pr .conList .prCon .con .name strong {
+  font-weight: 700;
+  color: #373a3c;
+}
+.bundle_pr .conList .prCon .con .name em {
+  padding-left: 4px;
+}
+.bundle_pr .conList .prCon .con .priceArea {
+  display: block;
+  padding-top: 8px;
+}
+.bundle_pr .conList .prCon .con .priceArea > * {
+  display: block;
+}
+.bundle_pr .conList .prCon .con .priceArea .saleCont {
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 600;
+}
+[lang='zh'] .bundle_pr .conList .prCon .con .priceArea .saleCont {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.bundle_pr .conList .prCon .con .priceArea .saleCont > * {
+  display: inline-block;
+}
+.bundle_pr .conList .prCon .con .priceArea .saleCont .saleNum {
+  color: #f42d10;
+}
+.bundle_pr .conList .prCon .con .priceArea .saleCont .saleDollar {
+  color: #373a3c;
+  margin-left: 4px;
+}
+.bundle_pr .conList .prCon .con .priceArea .salePrice {
+  margin-top: -5px;
+  color: #6b6e73;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  letter-spacing: -0.03em;
+}
+[lang='zh'] .bundle_pr .conList .prCon .con .priceArea .salePrice {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.bundle_pr .conList .prCon .con .priceArea .salePrice .saleWon {
+  font-size: 1.3rem;
+  line-height: 1.38462;
+}
+.bundle_pr .conList .prCon .con .priceArea .salePrice .saleWon b {
+  font-family: Noto Sans KR, 'notokr', 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 400;
+}
+[lang='zh'] .bundle_pr .conList .prCon .con .priceArea .salePrice .saleWon b {
+  font-family: Microsoft Yahei, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.bundle_pr .conList .prCon .con .priceArea .salePrice .originDollar {
+  font-size: 1.2rem;
+  margin-right: 5px;
+}
+.cheapPr {
+  overflow: hidden;
+  margin-top: 24px;
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+}
+.cheapPr .topLink {
+  position: relative;
+  display: block;
+  height: 65px;
+  background: #f7f7fd;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.53333;
+  color: #373a3c;
+}
+.cheapPr .topLink .link {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  display: block;
+  padding: 0 40px 0 16px;
+  width: 100%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.cheapPr .topLink .link:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 11px;
+  width: 12px;
+  height: 12px;
+  margin-top: -6px;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/order/ico_link_arr.png) no-repeat;
+}
+.cheapPr .topLink .link .subTxt {
+  display: block;
+  margin-top: 2px;
+  font-size: 1.3rem;
+  line-height: 1.38462;
+  color: #6b6e73;
+  font-weight: 400;
+}
+.cheapPr .conList {
+  padding: 8px 0;
+}
+.cheapPr .conList > li {
+  padding: 8px 0;
+}
+.cheapPr .conList .prCon {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  padding: 0 16px;
+}
+.cheapPr .conList .prCon > * {
+  display: table-cell;
+  vertical-align: middle;
+}
+.cheapPr .conList .prCon figure {
+  width: 96px;
+}
+.cheapPr .conList .prCon .con {
+  padding-left: 16px;
+}
+.cheapPr.case {
+  border: none;
+  border-radius: 0;
+}
+.cheapPr.case .topLink {
+  height: auto;
+  background: none;
+}
+.cheapPr.case .topLink .link {
+  position: static;
+  padding-left: 0;
+  -webkit-transform: none;
+  transform: none;
+}
+.cheapPr.case .subTxt {
+  margin-top: 5px;
+  font-size: 1.3rem;
+  color: #6b6e73;
+}
+.brandList {
+  margin-top: 20px;
+  border-bottom: 1px solid #eaeaea;
+}
+.brandList li a {
+  display: block;
+  padding: 16px 12px 10px;
+  border-top: 1px solid #eaeaea;
+}
+.brandList li a strong {
+  padding-bottom: 8px;
+  font-size: 1.5rem;
+  line-height: 1.53333;
+  color: #373a3c;
+  font-weight: 700;
+}
+.brandList li a strong em {
+  padding-left: 8px;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #6b6e73;
+  font-weight: 400;
+}
+[lang='zh'] .brandList li a strong em {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.brandList li a .prodFlag {
+  margin-top: 8px;
+}
+.mixPr {
+  border-top: 1px dashed #eaeaea;
+  margin-top: 16px;
+  padding-top: 50px;
+}
+.mixPr .conList {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  padding: 0 8px;
+}
+.mixPr .conList li {
+  display: table-cell;
+  vertical-align: top;
+  padding: 0;
+}
+.mixPr .conList li.pr {
+  width: 45%;
+}
+.mixPr .conList li.ico {
+  width: 64px;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/order/ico_add_plus.png) no-repeat 50% 75px;
+}
+.mixPr .conList .frmSel {
+  position: absolute;
+  top: -28px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+.mixPr .conList .frmSel input[type='checkbox'] {
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+.mixPr .conList .prCon {
+  padding: 0;
+  min-height: auto;
+}
+.mixPr .conList .prCon figure {
+  position: relative;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.mixPr .conList .prCon .badge {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  width: 40px;
+  padding: 5px 3px;
+  border-radius: 8px 0 8px 8px;
+  background: rgba(230, 36, 10, 0.8);
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 1.2rem;
+  color: #fff;
+  text-align: center;
+}
+.mixPr .conList .prCon .con {
+  padding-top: 12px;
+}
+.mixPr .conList .prCon .con .name em {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: block;
+  padding-left: 0;
+}
+.mixPr .conList .prCon .con .prodFlag {
+  margin-top: 8px;
+}
+.mixPr .conList .prCon .prodState {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  z-index: 1000;
+}
+.mixPr .conList .prCon .prodState.soldOut {
+  width: 70px;
+  height: 32px;
+  margin: -16px 0 0 -35px;
+  color: #fff;
+  font-size: 1.3rem;
+  line-height: 32px;
+  border-radius: 8px;
+  background: rgba(55, 58, 60, 0.6);
+}
+.mixPr .conList .prCon .priceArea .originPrice {
+  font-size: 1.3rem;
+  line-height: 1.38462;
+  color: #6b6e73;
+  text-decoration: line-through;
+}
+.mixPr .conList .prCon .priceArea .saleCont > * {
+  display: block;
+}
+.mixPr .conList .prCon .priceArea .saleCont .saleDollar {
+  margin-left: 0;
+}
+.mixPr .conList .prCon .priceArea .saleCont .originDollar {
+  margin-left: 4px;
+}
+.mixPr .conList .prCon .priceArea .salePrice > * {
+  display: block;
+}
+.mixPr .conList .prCon .priceArea .txtLoginBefore {
+  position: relative;
+  display: inline-block;
+  margin: 0 0 4px 0;
+  padding-left: 15px;
+  color: #f42d10;
+  font-size: 1.3rem;
+  line-height: 1.38462;
+}
+.mixPr .conList .prCon .priceArea .txtLoginBefore:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 2px;
+  left: 0;
+  width: 11px;
+  height: 13px;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/common/spr_ico.png) no-repeat -105px -24px;
+}
+.mixPr .conList .essential {
+  color: #4d6ee4;
+}
+[lang='zh'] .mixPr .conList .essential {
+  color: #fe324b;
+}
+.mixPr .btnSSG {
+  display: block;
+  margin: 16px auto 0;
+  width: 100%;
+  border-radius: 8px;
+}
+.mixTip_txt {
+  padding: 12px 16px 0;
+}
+.mixTip_txt p {
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: #373a3c;
+  text-align: center;
+  border-top: 1px dashed #eaeaea;
+  padding-top: 17px;
+}
+.mixTip_txt p em {
+  font-weight: 700;
+  color: #f42d10;
+}
+.mixTip_txt .price {
+  display: block;
+  font-size: 1.5rem;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
+  color: #707378;
+}
+[lang='zh'] .mixTip_txt .price {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.mixTip_txt .price .saleDollar {
+  display: inline-block;
+  margin: 0 4px;
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: #373a3c;
+}
+.mixTip_txt .price .saleWon b {
+  font-weight: 400;
+  font-family: Noto Sans KR, 'notokr', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+[lang='zh'] .mixTip_txt .price .saleWon b {
+  font-family: Microsoft Yahei, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.dcapplied {
+  overflow: hidden;
+  border-radius: 0 0 8px 8px;
+  border: 1px solid #eaeaea;
+  border-top: 0;
+  padding: 16px;
+  background: rgba(142, 158, 217, 0.08);
+}
+.dcapplied span {
+  float: right;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 600;
+}
+[lang='zh'] .dcapplied span {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.dcapplied span .originDollar {
+  color: #6b6e73;
+  font-size: 1.3rem;
+  line-height: 1.38462;
+  text-decoration: line-through;
+}
+.dcapplied span .saleDollar {
+  padding: 0 2px;
+  color: #373a3c;
+}
+.dcapplied span .saleWon {
+  font-size: 1.3rem;
+  line-height: 1.38462;
+  color: #8b8f94;
+  font-weight: 400;
+}
+.dcapplied span .saleWon b {
+  font-family: var(--default_font);
+}
+.dcapplied button {
+  clear: both;
+  margin-top: 16px;
+}
+.introBox {
+  margin-top: 16px;
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+  padding: 24px;
+  text-align: center;
+}
+.introBox b {
+  color: #4d6ee4;
+}
+[lang='zh'] .introBox b {
+  color: #fe324b;
+}
+.introBox b.point {
+  color: #f42d10;
+}
+.introBox strong {
+  font-weight: 700;
+  color: #373a3c;
+}
+.introBox em {
+  display: block;
+  padding-top: 10px;
+  font-size: 1.3rem;
+  line-height: 1.38462;
+  color: #6b6e73;
+}
+.introBox span {
+  display: block;
+}
+.recommendEtc_pr {
+  margin-top: 80px;
+}
+.recommendSwipe {
+  padding-bottom: 50px !important;
+}
+.recommendSwipe .prodCont {
+  overflow: hidden;
+  width: 100%;
+}
+.recommendSwipe .prodCont.soldOut {
+  position: relative;
+}
+.recommendSwipe .prodCont.soldOut:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.6);
+}
+.recommendSwipe .prodCont.soldOut .prodState.soldOut {
+  margin-top: -65px;
+}
+.recommendSwipe .prodCont .saleCont .saleWon {
+  display: inline-block;
+}
+.recommendSwipe .prodCont .saleWon {
+  display: block;
+  margin-top: -2px;
+  font-size: 1.3rem;
+  line-height: 1.38462;
+  color: #6b6e73;
+}
+.recommendSwipe .ts-paging {
+  bottom: 10px;
+}
+.recommendSwipe .ts-paging .ts-paging-btn.ts-paging-active {
+  width: 26px;
+}
+.recommendSwipe .ts-paging .ts-paging-btn.ts-paging-active:after {
+  height: 6px;
+}
+.recommendSwipe .ts-paging .ts-paging-btn:after {
+  width: 6px;
+  height: 6px;
+}
+.recommendSwipe.ie9 .swiper-container .swiper-wrapper {
+  height: 400px !important;
+}
+.recommendSwipe.ie9 .swiper-container .swiper-wrapper .swiper-slide {
+  height: 400px !important;
+}
+.recommendSwipe.ie9 .swiper-container .swiper-wrapper .prodCont > a {
+  padding: 0 8px;
+}
+.recommendSwipe.controlBtn .ts-prev,
+.recommendSwipe.controlBtn .ts-next {
+  margin-top: -82px;
+}
+.similar_pr {
+  margin-top: 80px;
+}
+.similar_pr .tblV tr:first-child td.currentPr {
+  border-top: 1px solid #373a3c;
+}
+.similar_pr .tblV tr:last-child td.currentPr {
+  border-bottom: 1px solid #373a3c;
+}
+.similar_pr .tblV tr th {
+  vertical-align: middle;
+  color: #373a3c;
+  font-weight: 500;
+}
+.similar_pr .tblV tr td {
+  text-align: center;
+  color: #6b6e73;
+  padding: 16px 24px;
+}
+.similar_pr .tblV tr td.currentPr {
+  border-left: 1px solid #373a3c;
+  border-right: 1px solid #373a3c;
+}
+.similar_pr .tblV tr td .bultType01 {
+  text-align: left;
+}
+.similar_pr .tblV figure {
+  position: relative;
+  overflow: hidden;
+  height: 128px;
+  margin: 0 auto;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/view/bg_prodLogo.png) no-repeat 50% 50%;
+  background-size: 40%;
+}
+.similar_pr .tblV figure:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(12, 38, 159, 0.03);
+  z-index: 1;
+}
+.similar_pr .tblV figure img {
+  display: block;
+  max-width: 128px;
+  width: 100%;
+  margin: 0 auto;
+}
+.similar_pr .tblV .brand {
+  color: #373a3c;
+  font-weight: 700;
+}
+.similar_pr .tblV .price {
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+[lang='zh'] .similar_pr .tblV .price {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.similar_pr .tblV .price .dollar {
+  font-size: 1.8rem;
+  line-height: 1.44444;
+  color: #373a3c;
+  font-weight: 700;
+}
+.similar_pr .tblV .price .won {
+  display: inline-block;
+}
+.similar_pr .tblV .price .won b {
+  font-family: Noto Sans KR, 'notokr', 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+[lang='zh'] .similar_pr .tblV .price .won b {
+  font-family: Microsoft Yahei, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.similar_pr .tblV .priceArea {
+  display: block;
+}
+.similar_pr .tblV .priceArea .originPrice {
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  display: block;
+  color: #6b6e73;
+  font-size: 1.3rem;
+  line-height: 1.2;
+  text-decoration: line-through;
+}
+[lang='zh'] .similar_pr .tblV .priceArea .originPrice {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.similar_pr .tblV .priceArea .saleCont {
+  display: block;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.2;
+}
+[lang='zh'] .similar_pr .tblV .priceArea .saleCont {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.similar_pr .tblV .priceArea .saleCont .priceWrap {
+  display: block;
+}
+.similar_pr .tblV .priceArea .saleCont .priceWrap .originPrice {
+  display: inline-block;
+  margin-left: 2px;
+}
+.similar_pr .tblV .priceArea .saleCont .saleNum {
+  display: inline-block;
+  color: #f42d10;
+  margin-right: 4px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+[lang='zh'] .similar_pr .tblV .priceArea .saleCont .saleNum {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.similar_pr .tblV .priceArea .saleCont .saleDollar {
+  display: inline-block;
+  color: #373a3c;
+  font-weight: 700;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+[lang='zh'] .similar_pr .tblV .priceArea .saleCont .saleDollar {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.similar_pr .tblV .priceArea .saleCont .saleWon {
+  display: inline-block;
+  margin-left: 4px;
+  color: #6b6e73;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.similar_pr .tblV .priceArea .saleCont .saleWon span {
+  font-size: 1.3rem;
+}
+.similar_pr .tblV .scopeTxt {
+  display: block;
+  text-decoration: underline;
+  vertical-align: 2px;
+}
+.similar_pr .tblV .scopeTxt b {
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 400;
+}
+[lang='zh'] .similar_pr .tblV .scopeTxt b {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.similar_pr .tblV .num {
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+[lang='zh'] .similar_pr .tblV .num {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.characterLimit {
+  margin-top: 5px;
+  font-size: 1.3rem;
+  line-height: 1.38462;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: right;
+}
+[lang='zh'] .characterLimit {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.characterLimit em {
+  color: #4d6ee4;
+}
+[lang='zh'] .characterLimit em {
+  color: #fe324b;
+}
+.characterLimit b {
+  font-family: Noto Sans KR, 'notokr', 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 400;
+}
+[lang='zh'] .characterLimit b {
+  font-family: Microsoft Yahei, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.enquiry {
+  margin-top: 8px;
+}
+.enquiry .formList {
+  margin-top: 24px;
+  border-top: 1px solid #dcdfe3;
+  border-bottom: 0;
+}
+.enquiry .formList .frmInp {
+  margin-top: 24px;
+  padding: 0;
+}
+.enquiry .formList label {
+  display: block;
+  height: auto;
+  padding: 0 0 4px;
+  font-size: 1.3rem;
+  line-height: 1.38462;
+  font-weight: 400;
+}
+.enquiry .enquiryType {
+  width: 340px;
+}
+.enquiry .textAreaCon {
+  position: relative;
+  margin-top: 30px !important;
+}
+.enquiry .textAreaCon .frmSel {
+  position: absolute;
+  top: -5px;
+  right: 0;
+}
+.enquiry .textAreaCon .frmSel label {
+  padding: 1px 0 4px 22px;
+}
+.enquiry .usedInfoList {
+  margin-top: 40px !important;
+}
+.enquiry .tit {
+  display: inline-block;
+  padding-right: 4px;
+  font-size: 1.8rem;
+  line-height: 1.44444;
+  font-weight: 500;
+}
+.enquiry .tipArea {
+  margin-top: 3px;
+  vertical-align: middle;
+}
+.enquiry .ansCheck {
+  margin: 0;
+}
+.enquiry .ansCheck .frmSel {
+  margin-top: 0;
+}
+.enquiry .ansCheck .frmSel input {
+  top: 8px;
+}
+.enquiry .ansCheck .frmSel label {
+  font-size: 1.5rem;
+  line-height: 1.53333;
+  height: auto;
+  padding: 2px 0 0 25px;
+}
+.enquiry .ansCheck .frmSel label:before {
+  top: 5px;
+}
+.enquiry .ansCheck .appCheck {
+  margin: 30px 0 0;
+}
+.orderProdInfo {
+  display: table;
+  table-layout: fixed;
+  margin-bottom: 24px;
+}
+.orderProdInfo figure {
+  overflow: hidden;
+  position: relative;
+  width: 136px;
+  height: 136px;
+  border-radius: 8px;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/view/bg_prodLogo.png) no-repeat 50% 50%;
+  background-size: 136px;
+  text-align: center;
+}
+.orderProdInfo figure img {
+  position: absolute;
+  top: -100%;
+  right: -100%;
+  left: -100%;
+  bottom: -100%;
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+.orderProdInfo figure::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(12, 38, 159, 0.03);
+  z-index: 1;
+}
+.orderProdInfo .optionCon {
+  display: table-cell;
+  vertical-align: middle;
+  width: 528px;
+  padding-left: 16px;
+}
+.orderProdInfo .optionCon .brandName {
+  display: block;
+  color: #373a3c;
+  font-weight: 700;
+}
+.orderProdInfo .optionCon .brandName .eng {
+  display: inline-block;
+  position: relative;
+  margin-left: 5px;
+}
+.orderProdInfo .optionCon .brandName .eng:before {
+  content: 'Â·';
+  display: inline-block;
+  padding-right: 4px;
+}
+.orderProdInfo .optionCon .prodName {
+  color: #6b6e73;
+}
+.orderProdInfo .formList {
+  margin-top: 25px;
+  border-top: 0;
+  border-bottom: 0;
+}
+.orderProdInfo .formList > .frmInp {
+  float: left;
+  width: 240px;
+  margin-top: 0;
+  display: block;
+}
+.orderProdInfo .formList > .frmInp + .frmInp {
+  margin-left: 16px;
+}
+.orderProdInfo .formList > .frmInp .selectWrap {
+  width: 240px;
+}
+.introBox {
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+}
+.introBox b {
+  color: #4d6ee4;
+}
+[lang='zh'] .introBox b {
+  color: #fe324b;
+}
+.introBox em {
+  display: block;
+  padding-top: 10px;
+  font-size: 1.3rem;
+  line-height: 1.38462;
+  color: #6b6e73;
+}
+.tipInfo {
+  margin-top: 25px;
+  border-radius: 8px;
+  background: #f8fafc;
+  padding: 16px;
+}
+.certainInfo {
+  margin-top: 40px;
+}
+.certainInfo .tblH {
+  margin-top: 16px;
+}
+.certainInfo .tblH tr td {
+  text-align: center;
+}
+.certainInfo .tblH tr td.price {
+  color: #4d6ee4;
+}
+[lang='zh'] .certainInfo .tblH tr td.price {
+  color: #fe324b;
+}
+.certainInfo .bultType01 {
+  margin-top: 16px;
+}
+.reservesTip {
+  font-weight: 700;
+  color: #373a3c;
+}
+.ImgPop {
+  margin: -8px 0;
+}
+.ImgPop .popNoti {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 100;
+  width: 198px;
+  height: 98px;
+  margin: -49px 0 0 -99px;
+  padding: 8px 0;
+  -webkit-animation-name: swipenoti;
+  animation-name: swipenoti;
+  -webkit-animation-duration: 5s;
+  animation-duration: 5s;
+  -webkit-animation-delay: 0.1s;
+  animation-delay: 0.1s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+@-webkit-keyframes swipenoti {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes swipenoti {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.swiperWrap.imgpopSwipe {
+  padding-bottom: 0;
+}
+.swiperWrap.imgpopSwipe .swiper-container {
+  width: 500px !important;
+  height: 500px !important;
+}
+.swiperWrap.imgpopSwipe .swiper-zoom-container {
+  display: block;
+}
+.swiperWrap.imgpopSwipe .swiper-zoom-container img {
+  width: 500px !important;
+  height: 500px !important;
+  max-height: 500px !important;
+  -o-object-fit: initial;
+  object-fit: initial;
+}
+.swiperWrap.imgpopSwipe .con {
+  width: 680px;
+  height: 500px;
+  text-align: center;
+}
+.swiperWrap.imgpopSwipe .con img {
+  width: 500px;
+  height: 500px;
+}
+.sizeInfoText {
+  font-size: 1.3rem;
+  line-height: 1.38462;
+  color: #6b6e73;
+}
+.sizeLocation {
+  padding-top: 8px;
+  font-size: 1.8rem;
+  line-height: 1.44444;
+  font-weight: 700;
+  color: #373a3c;
+}
+.sizeLocation em {
+  color: #4d6ee4;
+}
+[lang='zh'] .sizeLocation em {
+  color: #fe324b;
+}
+.sizeLocation em + em:before {
+  content: '>';
+  display: inline-block;
+  padding: 0 3px;
+}
+.sizeTable {
+  margin-top: 17px;
+}
+.sizeTable thead th,
+.sizeTable tbody th {
+  background: #f5f7fa;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
+  font-weight: 700;
+  vertical-align: middle;
+}
+[lang='zh'] .sizeTable thead th,
+[lang='zh'] .sizeTable tbody th {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.sizeTable td {
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
+}
+[lang='zh'] .sizeTable td {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.scrollWrap {
+  overflow: hidden;
+  padding-bottom: 24px;
+}
+.scrollWrap.scrollH {
+  overflow-x: auto;
+}
+.scrollWrap.scrollH table {
+  table-layout: fixed;
+}
+.scrollWrap.scrollH::-webkit-scrollbar {
+  height: 4px;
+}
+.scrollWrap.scrollH::-webkit-scrollbar-thumb {
+  background: #6b6e73;
+}
+.scrollWrap.scrollH::-webkit-scrollbar-track {
+  background: #fff;
+}
+.restock .ui-datepicker .ui-datepicker-buttonpane > button {
+  width: 100px !important;
+}
+.noData.prDetail_noData:before {
+  top: 110px;
+  width: 72px;
+  height: 72px;
+  margin-left: -36px;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/view/ico_empty.png) no-repeat 0 50%;
+}
+.pickGuide {
+  padding-top: 8px;
+}
+.pickGuide .usedInfoList {
+  margin-top: 40px !important;
+}
+.similarPr .prodList.prodThumb .prodCont {
+  width: 25% !important;
+}
+.similarPr .prodList.prodThumb .prodCont:nth-child(n + 5) {
+  margin-top: 20px;
+}
+.similarPr .prodList.prodThumb .prodCont figure {
+  min-height: 160px;
+  background-size: 50%;
+}
+.similarPr .prodList.prodThumb .prodCont .prodState {
+  top: 28%;
+}
+.similarPr .prodList.prodThumb .prodCont .typeBand {
+  margin-top: -30px;
+  height: auto;
+}
+.similarPr .prodList.prodThumb .prodCont .typeBand img {
+  margin-top: 0;
+}
+.similarPr .prodList.prodThumb .prodCont .priceArea .saleCont .saleWon {
+  font-size: 1.3rem;
+  line-height: 1.38462;
+}
+.report .formList {
+  border: 0;
+  margin: 0;
+}
+.report .formList .frmInp {
+  padding: 0;
+}
+.report .formList .frmInp .listCol2 li {
+  float: left;
+  width: 50%;
+  margin: 12px 0 0 0;
+}
+.report .formList .frmInp > label {
+  padding: 0;
+  height: auto;
+  line-height: 19px;
+  font-weight: 400;
+}
+.report .formList .frmInp ~ .frmInp {
+  margin-top: 24px;
+}
+.report .formList .frmInp textarea {
+  min-height: 100px;
+}
+.prInfo_conWrap .titDep2 span,
+.titDep3 span {
+  color: #6b6e73;
+  font-weight: 400;
+}
+.prodReview .titDep3 {
+  margin-top: 80px;
+}
+.prodReview .summary {
+  overflow: hidden;
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  padding: 48px 0;
+  text-align: center;
+  background: #f8fafc;
+  border-radius: 8px;
+}
+.prodReview .summary > * {
+  display: table-cell;
+  vertical-align: middle;
+}
+.prodReview .summary .rating {
+  width: 40%;
+}
+.prodReview .summary .rating strong {
+  display: block;
+  font-size: 2rem;
+  line-height: 1.4;
+  color: #373a3c;
+}
+.prodReview .summary .rating .textRating {
+  display: block;
+  margin-top: 10px;
+  color: #b9bcc0;
+  font-size: 4rem;
+  line-height: 1.2;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+[lang='zh'] .prodReview .summary .rating .textRating {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.prodReview .summary .rating .textRating b {
+  display: inline-block;
+  color: #373a3c;
+}
+.prodReview .summary .rating .textRating b:after {
+  content: '/';
+  display: inline-block;
+  color: #dee1e6;
+  font-weight: 400;
+}
+.prodReview .summary .rating .star {
+  margin-top: 12px;
+}
+.prodReview .summary .rating p {
+  margin-top: 20px;
+  line-height: 30px;
+}
+.prodReview .summary .indicatorWrap {
+  width: 60%;
+}
+.prodReview .summary .indicatorWrap > * {
+  display: block;
+}
+.prodReview .summary .indicatorWrap li {
+  display: inline-block;
+  width: 88px;
+  text-align: center;
+  margin-left: 18px;
+}
+.prodReview .summary .indicatorWrap li:nth-child(1) {
+  margin-left: 0;
+}
+.prodReview .summary .indicatorWrap li:nth-child(1) .indicator span {
+  background: #8ceab9;
+}
+.prodReview .summary .indicatorWrap li:nth-child(2) .indicator span {
+  background: #81e8e9;
+}
+.prodReview .summary .indicatorWrap li:nth-child(3) .indicator span {
+  background: #86c7f9;
+}
+.prodReview .summary .indicatorWrap li:nth-child(4) .indicator span {
+  background: #d98ee4;
+}
+.prodReview .summary .indicatorWrap .percent {
+  color: #1e2023;
+  font-weight: 700;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+[lang='zh'] .prodReview .summary .indicatorWrap .percent {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.prodReview .summary .indicatorWrap .title {
+  display: block;
+  margin-top: 16px;
+  color: #373a3c;
+  font-weight: 500;
+}
+.prodReview .summary .indicatorWrap .description {
+  font-size: 1.3rem;
+  line-height: 1.38462;
+  color: #6b6e73;
+}
+.prodReview .summary .indicatorWrap .indicator {
+  position: relative;
+  z-index: 10;
+  display: block;
+  width: 12px;
+  height: 100px;
+  margin: 6px auto 0;
+  border-radius: 40px;
+  background: #ebedf2;
+}
+.prodReview .summary .indicatorWrap .indicator span {
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  font-size: 0;
+  border-radius: 40px;
+  color: transparent;
+  background: #51b0f6;
+}
+.prodReview .summary .adultTip {
+  width: 60%;
+  color: #373a3c;
+}
+.prodReview .reviewPick {
+  margin-top: 80px;
+}
+.prodReview .reviewPick .tabType02 {
+  margin-bottom: 24px;
+  text-align: left;
+}
+.prodReview .reviewPick .swiperWrap {
+  padding: 0 0 40px;
+}
+.prodReview .reviewPick .swiperWrap .swiper-container {
+  text-align: left;
+}
+.prodReview .reviewPick .swiperWrap .ts-prev,
+.prodReview .reviewPick .swiperWrap .ts-next {
+  top: 30%;
+}
+.prodReview .reviewPick .swiperWrap .swiper-slide > a {
+  text-align: left;
+}
+.prodReview .reviewPick .swiperWrap .swiper-slide > div {
+  width: 100%;
+}
+.prodReview .reviewPick .swiperWrap .swiper-slide figure {
+  overflow: hidden;
+  display: block;
+  position: relative;
+  padding-top: 100%;
+  border-radius: 8px;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/view/bg_prodLogo.png) no-repeat 50% 50%;
+}
+.prodReview .reviewPick .swiperWrap .swiper-slide figure:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.2;
+  z-index: 0;
+}
+.prodReview .reviewPick .swiperWrap .swiper-slide figure img {
+  position: absolute;
+  top: -100%;
+  left: -100%;
+  right: -100%;
+  bottom: -100%;
+  width: 150%;
+  height: auto;
+  margin: auto;
+}
+.prodReview .reviewPick .swiperWrap .swiper-slide .rating {
+  margin-top: 18px;
+}
+.prodReview .reviewPick .swiperWrap .swiper-slide .rating .text {
+  margin-left: 4px;
+  color: #373a3c;
+  vertical-align: top;
+}
+.prodReview .reviewPick .swiperWrap .swiper-slide .authorInfo span {
+  color: #6b6e73;
+}
+.prodReview .reviewPick .swiperWrap .swiper-slide .prodOpt {
+  display: block;
+  margin-top: 16px;
+  color: #373a3c;
+  font-weight: 500;
+}
+.prodReview .reviewPick .swiperWrap .swiper-slide .text {
+  overflow: hidden;
+  height: 45px;
+  margin-top: 8px;
+  color: #6b6e73;
+}
+.prodReview .reviewPick .swiperWrap.ie9 .swiper-slide {
+  padding: 0 4px;
+}
+.prodReview .reviewPick .pickCase .ts-prev,
+.prodReview .reviewPick .pickCase .ts-next {
+  top: 45%;
+}
+.prodReview .reviewPick .pickCase a {
+  display: block;
+  padding: 24px 24px 24px 8px;
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+}
+.prodReview .reviewPick .pickCase a .rating {
+  margin: 0 0 0 16px !important;
+}
+.prodReview .reviewPick .pickCase a .con {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  border-spacing: 16px;
+}
+.prodReview .reviewPick .pickCase a .con > * {
+  display: table-cell;
+  vertical-align: top;
+}
+.prodReview .reviewPick .pickCase a .con figure {
+  overflow: hidden;
+  width: 100px;
+  height: 100px;
+  padding-top: 0 !important;
+  border-radius: 8px;
+}
+.prodReview .reviewPick .pickCase a .con figure img {
+  width: 100px;
+  height: 100px;
+  border-radius: 8px;
+}
+.prodReview .reviewPick .pickCase a .con .prodOpt {
+  margin-top: 0;
+}
+.prodReview .reviewPick .pickCase a .con .text {
+  min-height: 69px;
+  display: block;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  max-height: auto;
+}
+.prodReview .reviewPick .pickCase a .authorInfo {
+  margin-left: 16px;
+}
+.prodReview .photoRivewList {
+  position: relative;
+  min-height: 193px;
+}
+.prodReview .photoRivewList li {
+  width: 25%;
+}
+.prodReview .photoRivewList li a {
+  background: url(/img_up/shop_pds/banobagi/design/images/main/view/bg_prodLogo.png) no-repeat 50% 50%;
+  background-size: 80%;
+}
+.prodReview .photoRivewList li a:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+}
+.prodReview .photoRivewList li .moreNum {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 2.4rem;
+  line-height: 1.33333;
+  line-height: 1.41667;
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  z-index: 10;
+}
+[lang='zh'] .prodReview .photoRivewList li .moreNum {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.prodReview .photoRivewList li:nth-child(n + 5) {
+  display: none;
+}
+.prodReview .photoRivewList li.more {
+  display: block !important;
+  background: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.prodReview .photoRivewList li.more a {
+  background: none;
+}
+.prodReview .allReview .btnSorting {
+  display: inline-block;
+  position: relative;
+  padding-right: 20px;
+  color: #373a3c;
+}
+.prodReview .allReview .btnSorting:after {
+  content: '';
+  position: absolute;
+  top: calc(50% - 6px);
+  right: 4px;
+  width: 12px;
+  height: 12px;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/common/spr_form.png) no-repeat -474px 0;
+}
+.prodReview .allReview .btnSorting em {
+  display: inline-block;
+}
+.prodReview .allReview .btnSorting em ~ em:before {
+  content: 'Â·';
+  display: inline-block;
+  margin: 0 4px 0 2px;
+  color: #373a3c;
+}
+.prodReview .allReview .listNum {
+  margin-top: -42px;
+  height: 40px;
+}
+.prodReview .allReview .mySetting {
+  position: relative;
+  padding: 18px 0 17px 24px;
+  border-bottom: 1px solid #ebedf2;
+}
+.prodReview .allReview .mySetting .frmSwitch input {
+  opacity: 0;
+}
+.prodReview .allReview .mySetting .frmSwitch input + label {
+  padding: 0 0 0 44px;
+}
+.prodReview .allReview .mySetting .frmSwitch input + label:before {
+  left: 0;
+}
+.prodReview .allReview .mySetting .frmSwitch input + label:after {
+  left: 2px;
+}
+.prodReview .allReview .mySetting .frmSwitch input:checked + label:after {
+  left: 18px;
+}
+.prodReview .allReview .mySetting .setting {
+  position: absolute;
+  top: 14x;
+  right: 16px;
+  width: 24px;
+  height: 24px;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/common/ico_setting.png) no-repeat 50% 50%;
+}
+.prodReview .allReview .reviewList > li {
+  display: table;
+  width: 100%;
+  border-bottom: 1px solid #ebedf2;
+}
+.prodReview .allReview .reviewList > li .rating {
+  display: table-cell;
+  width: 168px;
+  text-align: center;
+  vertical-align: middle;
+}
+.prodReview .allReview .reviewList > li .rating .star {
+  display: block;
+}
+.prodReview .allReview .reviewList > li .rating .text {
+  display: block;
+  margin-top: 4px;
+  color: #373a3c;
+  font-weight: 500;
+}
+.prodReview .allReview .reviewList > li .review {
+  display: table-cell;
+  position: relative;
+  width: calc(100% - 168px);
+  padding: 16px 0;
+  vertical-align: middle;
+}
+.prodReview .allReview .reviewList > li .review .cont {
+  display: table;
+  width: 100%;
+}
+.prodReview .allReview .reviewList > li .review .cont.vod figure {
+  background: #a0adf0 url(/img_up/shop_pds/banobagi/design/images/main/common/bg_vodDefault.png) no-repeat 50% 50%;
+}
+.prodReview .allReview .reviewList > li .review .reviewImg {
+  display: table-cell;
+  width: 124px;
+  padding-right: 24px;
+  vertical-align: middle;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.prodReview .allReview .reviewList > li .review figure {
+  overflow: hidden;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border-radius: 8px;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/view/bg_prodLogo.png) no-repeat 50% 50%;
+  background-size: 70% auto;
+}
+.prodReview .allReview .reviewList > li .review figure img {
+  display: block;
+  width: 200%;
+  position: absolute;
+  top: -100%;
+  left: -100%;
+  right: -100%;
+  bottom: -100%;
+  margin: auto;
+}
+.prodReview .allReview .reviewList > li .review figure .uploadNum {
+  position: absolute;
+  right: 4px;
+  bottom: 8px;
+  height: 18px;
+  padding: 0 8px;
+  font-size: 1.3rem;
+  color: #fff;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 600;
+  line-height: 20px;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+}
+[lang='zh'] .prodReview .allReview .reviewList > li .review figure .uploadNum {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.prodReview .allReview .reviewList > li .review .textArea {
+  display: table-cell;
+  vertical-align: middle;
+}
+.prodReview .allReview .reviewList > li .review .textArea .optName {
+  display: block;
+  margin-top: 4px;
+  color: #373a3c;
+  font-weight: 500;
+}
+.prodReview .allReview .reviewList > li .review .textArea p {
+  margin-top: 8px;
+  padding-right: 130px;
+  color: #6b6e73;
+  display: block;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  max-height: auto;
+  max-height: 45px;
+  word-break: break-all;
+}
+.prodReview .allReview .reviewList > li .review .textArea .authorInfo {
+  position: relative;
+  margin-top: 8px;
+  z-index: 10;
+}
+.prodReview .allReview .reviewList > li .review .utilGroup {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+}
+.qnaWrap {
+  position: relative;
+  margin-top: 80px;
+}
+.qnaWrap .noData {
+  border-top: 1px solid #373a3c;
+}
+.qnaWrap .accordianList .toggleAction:first-child .ctrl {
+  border-top-color: #373a3c;
+}
+.qnaWrap .accordianList .toggleAction.secret .ctrl:after,
+.qnaWrap
+  .accordianList
+  .toggleAction.secret
+  .ctrl[aria-expanded='true']
+  + .accordCont {
+  display: none;
+}
+.qnaWrap .accordianList .toggleAction.secret .title {
+  position: relative;
+  padding-right: 20px;
+}
+.qnaWrap .accordianList .toggleAction.secret .title:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 0;
+  width: 16px;
+  height: 16px;
+  margin-top: -8px;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/view/ico_lock.png) no-repeat 50% 50%;
+}
+.qnaWrap .accordianList .toggleAction .ctrl {
+  display: table;
+  width: 100%;
+  padding: 0;
+}
+.qnaWrap .accordianList .toggleAction .ctrl .qnaFlag {
+  display: table-cell;
+  width: 112px;
+  text-align: center;
+  vertical-align: middle;
+}
+.qnaWrap .accordianList .toggleAction .ctrl .qnaFlag span {
+  display: inline-block;
+  min-width: 63px;
+  height: 26px;
+  color: #373a3c;
+  font-weight: 500;
+  font-size: 1.3rem;
+  line-height: 26px;
+  border-radius: 8px;
+  background: rgba(245, 247, 250, 0.5);
+}
+.qnaWrap .accordianList .toggleAction .ctrl .qnaFlag span.flagComplete {
+  color: #4d6ee4;
+}
+[lang='zh']
+  .qnaWrap
+  .accordianList
+  .toggleAction
+  .ctrl
+  .qnaFlag
+  span.flagComplete {
+  color: #fe324b;
+}
+.qnaWrap .accordianList .toggleAction .ctrl .textArea {
+  display: table-cell;
+  width: calc(100% - 112px);
+  padding: 26px 0 25px;
+}
+.qnaWrap .accordianList .toggleAction .ctrl .textArea .title {
+  display: inline-block;
+  font-size: 1.5rem;
+  line-height: 1.53333;
+  padding-right: 40px;
+  color: #373a3c;
+  font-weight: 500;
+  word-break: break-all;
+}
+.qnaWrap .accordianList .toggleAction .ctrl .textArea .authorInfo {
+  display: block;
+  margin-top: 12px;
+}
+.qnaWrap .accordianList .toggleAction .ctrl .textArea .authorInfo span {
+  color: #6b6e73;
+}
+.qnaWrap .accordianList .toggleAction .accordCont {
+  padding: 24px;
+  color: #6b6e73;
+}
+.qnaWrap .accordianList .toggleAction .accordCont .answer {
+  position: relative;
+  padding-left: 64px;
+  margin-top: 26px;
+}
+.qnaWrap .accordianList .toggleAction .accordCont .answer b {
+  color: #373a3c;
+  font-weight: 500;
+}
+.qnaWrap .accordianList .toggleAction .accordCont .answer p {
+  margin-top: 8px;
+  color: #6b6e73;
+}
+.qnaWrap .accordianList .toggleAction .accordCont .answer .date {
+  display: block;
+  margin-top: 16px;
+  font-size: 1.3rem;
+  line-height: 1.38462;
+  color: #6b6e73;
+}
+.qnaWrap .accordianList .toggleAction .accordCont .answer .date span {
+  display: inline-block;
+  margin-left: 25px;
+}
+.qnaWrap .accordianList .toggleAction .accordCont .answer:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 37px;
+  height: 24px;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/view/ico_answer.png) no-repeat 50% 50%;
+}
+.qnaWrap > a {
+  position: absolute;
+  top: -8px;
+  right: 0;
+  min-width: 120px;
+}
+.layCont .reviewDetail {
+  padding-top: 8px;
+}
+.layCont .reviewDetail .textIndicatorWrap {
+  margin-right: 0;
+}
+.layCont .reviewDetail .reviewCont {
+  padding: 0 64px;
+}
+.reviewDetail {
+  overflow: hidden;
+  height: 432px;
+}
+.reviewDetail > button {
+  position: absolute;
+  top: 50%;
+  margin-top: -20px;
+  width: 40px;
+  height: 40px;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/view/ctrl_review.png) no-repeat;
+  z-index: 10;
+}
+.reviewDetail .btnPrev {
+  left: 40px;
+}
+.reviewDetail .btnNext {
+  right: 40px;
+  background-position: -40px 0;
+}
+.reviewDetail .reviewSwipe {
+  float: left;
+  width: 240px;
+}
+.reviewDetail .reviewSwipe .swiper-slide {
+  height: 375px;
+}
+.reviewDetail .reviewSwipe .swiper-slide .swiperItem {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 375px;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/view/bg_prodLogo.png) no-repeat 50% 50%;
+  border-radius: 8px;
+}
+.reviewDetail .reviewSwipe .swiper-slide .swiperItem img {
+  position: absolute;
+  top: -100%;
+  right: -100%;
+  bottom: -100%;
+  left: -100%;
+  width: 150%;
+  height: auto;
+  margin: auto;
+}
+.reviewDetail .reviewSwipe .swiper-slide .swiperItem.vod {
+  background: #a0adf0 url(/img_up/shop_pds/banobagi/design/images/main/common/bg_vodDefault.png) no-repeat 50% 50%;
+}
+.reviewDetail .reviewSwipe .swiper-slide .swiperItem.vod a:before,
+.reviewDetail .reviewSwipe .swiper-slide .swiperItem.vod a:after {
+  display: none;
+}
+.reviewDetail .reviewSwipe .swiper-slide .videoArea {
+  position: relative;
+}
+.reviewDetail .reviewSwipe .swiper-slide .videoArea a {
+  display: block;
+  overflow: hidden;
+  width: 752px;
+  height: 400px;
+  margin: 0 auto;
+  border-radius: 0;
+  opacity: 0.8;
+}
+.reviewDetail .reviewSwipe .swiper-slide .videoArea a img {
+  overflow: hidden;
+  display: block;
+  width: 100%;
+}
+.reviewDetail .reviewSwipe .swiper-slide .videoArea a:before {
+  width: 54px;
+  height: 54px;
+  margin: -27px 0 0 -27px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  z-index: 101;
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.reviewDetail .reviewSwipe .swiper-slide .videoArea a:after {
+  width: 18px;
+  height: 18px;
+  margin: -7px 0 0 -6px;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/common/spr_ico.png) no-repeat -425px 0;
+  z-index: 101;
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.reviewDetail .reviewSwipe .ts-controls {
+  position: relative;
+  margin-top: 15px;
+  height: 24px;
+}
+.reviewDetail .reviewSwipe .ts-controls .ts-paging {
+  position: relative;
+  bottom: -6px;
+}
+.reviewDetail .reviewSwipe > button {
+  top: inherit;
+  bottom: 0;
+  margin: 0;
+  width: 24px;
+  height: 24px;
+  margin: 0;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/common/spr_swiper02.png) no-repeat;
+}
+.reviewDetail .reviewSwipe > button:after {
+  display: none;
+}
+.reviewDetail .reviewSwipe > button.ts-button-disabled {
+  opacity: 0.4;
+}
+.reviewDetail .reviewSwipe > button.ts-next {
+  top: inherit;
+  bottom: 0;
+  margin: 0;
+  right: 0;
+  width: 24px;
+  height: 24px;
+  margin: 0;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/common/spr_swiper02.png) no-repeat;
+  background-position: -24px 0;
+}
+.reviewDetail .reviewSwipe + .reviewContext {
+  float: left;
+  width: calc(100% - 240px);
+  padding-left: 24px;
+}
+.reviewDetail .reviewSwipe + .reviewContext .textIndicatorWrap {
+  margin-right: 20px;
+}
+.reviewDetail .reviewSwipe + .reviewContext .reviewCont {
+  padding: 0;
+}
+.reviewDetail .reviewContext {
+  overflow-y: auto;
+  width: calc(100%);
+  height: 408px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.reviewDetail .utilGroup {
+  display: inline-block;
+}
+.reviewDetail .reviewCont {
+  position: relative;
+  margin-top: 13px;
+}
+.reviewDetail .reviewCont .reviewTxt {
+  margin: 10px 20px 0 0;
+}
+.reviewDetail .reviewCont .reviewTxt .txt {
+  display: block;
+  height: auto;
+  text-align: left;
+}
+.reviewDetail .reviewCont .reviewFront .grade {
+  display: inline-block;
+}
+.reviewDetail .reviewCont .reviewFront .grade:before {
+  content: '';
+  width: 0;
+}
+.reviewDetail .reviewCont .reviewFront .utilGroup {
+  position: relative;
+  top: -5px;
+  margin-left: 30px;
+}
+.layPop
+  .reviewDetail
+  .utilGroup
+  .popWrap
+  .btPop[aria-expanded='true']
+  + .popLayCont {
+  right: -124px;
+}
+.layPop
+  .reviewDetail
+  .utilGroup
+  .popWrap
+  .btPop[aria-expanded='true']
+  + .popLayCont:before {
+  right: 132px;
+}
+.shareReview {
+  text-align: center;
+  padding: 0 24px;
+}
+.shareReview .popWrap .btPop[aria-expanded='true'] + .popLayCont {
+  right: 0;
+}
+.shareReview .popShare.popshareR .popLayCont:before {
+  right: 10px;
+}
+.shareReview .reviewDetail {
+  display: inline-block;
+  height: 480px;
+  margin-bottom: 48px;
+  overflow: inherit;
+}
+.shareReview .reviewDetail .reviewPhoto {
+  width: 400px;
+  float: left;
+  margin-right: 92px;
+}
+.shareReview .reviewDetail .reviewPhoto .detailImg {
+  width: 400px;
+  height: 400px;
+}
+.shareReview .reviewContext {
+  max-width: 560px;
+  min-width: 560px;
+  height: 479px;
+  text-align: left;
+  border-bottom: 1px solid #eaeaea;
+}
+.shareReview .reviewContext .reviewCont {
+  margin-top: 0;
+}
+.shareReview .reviewContext .reviewFront .grade:before {
+  width: 0;
+}
+.shareReview .reviewContext .reviewFront .utilGroup {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.shareReview .reviewContext .textIndicatorWrap {
+  margin: 24px 0 0;
+}
+.shareReview .reviewContext .textIndicatorWrap .prodInfo {
+  display: table;
+  min-height: 96px;
+  padding: 8px 0 8px 24px;
+}
+.shareReview .reviewContext .textIndicatorWrap .prodInfo figure {
+  display: table-cell;
+  width: 80px;
+  height: 80px;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/view/bg_prodLogo.png) no-repeat 50% 50%;
+  background-size: 60% auto;
+}
+.shareReview .reviewContext .textIndicatorWrap .prodInfo figure img {
+  display: block;
+  width: 100%;
+}
+.shareReview .reviewContext .textIndicatorWrap .prodInfo .textArea {
+  display: table-cell;
+  vertical-align: middle;
+}
+.shareReview .reviewContext .textIndicatorWrap .prodInfo .prodName,
+.shareReview .reviewContext .textIndicatorWrap .prodInfo .prodOption {
+  text-align: left;
+  margin: 0;
+  padding-left: 24px;
+}
+.shareReview .reviewTxt {
+  margin-top: 24px;
+}
+.myRivewSet .titDep5 {
+  margin-bottom: 8px;
+}
+.myRivewSet .titDep5 ~ .titDep5 {
+  margin: 24px 0 8px;
+}
+.myRivewSet .radBox {
+  width: calc(100% + 8px);
+  margin: 4px -4px 0;
+}
+.myRivewSet .radBox > .frmSel {
+  padding: 4px;
+}
+.myRivewSet .radBox > .frmSel label {
+  font-size: 1.5rem;
+  line-height: 1.53333;
+  line-height: 40px;
+}
+.videoSns {
+  position: relative;
+  margin: 0 -24px;
+}
+.youtubeArea {
+  width: 100%;
+}
+.snsconWrap {
+  padding: 15px 0;
+  height: 200px;
+  font-size: 1.8rem;
+  line-height: 1.44444;
+  color: #6b6e73;
+  overflow-x: hidden;
+}
+.layCont .noticeArea {
+  margin-top: 8px;
+}
+.noticeArea {
+  padding: 24px 0;
+  text-align: center;
+  background: #f7f7fd;
+}
+.noticeArea .noticeTxt {
+  display: inline-block;
+  position: relative;
+  padding-left: 50px;
+  font-size: 1.8rem;
+  line-height: 1.44444;
+  color: #1e2023;
+  text-align: left;
+}
+.noticeArea .noticeTxt:before {
+  content: '';
+  position: absolute;
+  top: 6px;
+  left: 0;
+  width: 42px;
+  height: 42px;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/mypage/review_won.png) no-repeat;
+}
+.noticeArea .noticeDesc {
+  margin: 16px 0 12px;
+  font-size: 1.3rem;
+  line-height: 1.38462;
+  color: #6b6e73;
+}
+.noticeArea .noticeTags {
+  display: inline-block;
+  height: 46px;
+  padding: 0 30px;
+  font-size: 1.3rem;
+  line-height: 1.38462;
+  line-height: 46px;
+  background: #fff;
+  border-radius: 8px;
+}
+.noticeArea .noticeTags .tagTit {
+  display: inline-block;
+  margin-right: 12px;
+  color: #1e2023;
+}
+.noticeArea .noticeTags .tagCont {
+  color: #4d6ee4;
+}
+[lang='zh'] .noticeArea .noticeTags .tagCont {
+  color: #fe324b;
+}
+.reviewProd {
+  padding: 24px;
+  margin-top: 24px;
+  text-align: center;
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+}
+.reviewProd figure {
+  display: inline-block;
+  width: 96px;
+  height: 96px;
+}
+.reviewProd figure img {
+  display: block;
+  width: 100%;
+}
+.reviewProd .prodCont {
+  display: inline-block;
+  max-width: calc(100% - 160px);
+  min-height: auto;
+  margin-left: 16px;
+  padding-top: 9px;
+  text-align: left;
+}
+.reviewProd .prodCont .brandName {
+  display: block;
+  color: #1e2023;
+  font-weight: 700;
+}
+.reviewProd .prodCont .prodName {
+  display: block;
+  margin-top: 8px;
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 700;
+}
+.reviewProd .prodCont .refNum {
+  display: inline-block;
+  color: #8b8f94;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+[lang='zh'] .reviewProd .prodCont .refNum {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.reviewProd .prodCont .prodOpt {
+  display: inline-block;
+  position: relative;
+  margin-left: 12px;
+  padding-left: 13px;
+  color: #8b8f94;
+}
+.reviewProd .prodCont .prodOpt li {
+  display: inline-block;
+}
+.reviewProd .prodCont .prodOpt:after {
+  content: '';
+  position: absolute;
+  top: 13px;
+  left: 0;
+  width: 1px;
+  height: 13px;
+  background: #eaeaea;
+}
+.ratingArea {
+  float: right;
+}
+.ratingArea .ratingText {
+  display: inline-block;
+  margin-right: 5px;
+  font-weight: 700;
+  line-height: 32px;
+  vertical-align: top;
+}
+.ratingArea .rating {
+  overflow: hidden;
+  display: inline-block;
+  position: relative;
+  width: 160px;
+  font-size: 0;
+}
+.ratingArea .rating > button {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/common/spr_starL.png) no-repeat;
+}
+.ratingArea .rating.rating1 > button:first-child {
+  background-position: 0 -32px;
+}
+.ratingArea .rating.rating2 > button {
+  background-position: 0 -32px;
+}
+.ratingArea .rating.rating2 > button:nth-child(2) ~ button {
+  background-position: 0 0;
+}
+.ratingArea .rating.rating3 > button {
+  background-position: 0 -32px;
+}
+.ratingArea .rating.rating3 > button:nth-child(3) ~ button {
+  background-position: 0 0;
+}
+.ratingArea .rating.rating4 > button {
+  background-position: 0 -32px;
+}
+.ratingArea .rating.rating4 > button:nth-child(4) ~ button {
+  background-position: 0 0;
+}
+.ratingArea .rating.rating5 > button {
+  background-position: 0 -32px;
+}
+.reviewOption {
+  margin-top: 40px;
+}
+.reviewOption .group > .tit {
+  font-size: 1.8rem;
+  line-height: 1.44444;
+  color: #1e2023;
+  font-weight: 700;
+}
+.reviewOption .group ~ .group {
+  margin-top: 40px;
+}
+.reviewOption .satisfaction {
+  overflow: hidden;
+}
+.reviewOption .satisfaction .tit {
+  float: left;
+  line-height: 32px;
+}
+.reviewOption .satisfaction .chkStar {
+  float: right;
+}
+.reviewOption .satisfaction .mixGrade {
+  float: right;
+  color: #6b6e73;
+}
+.reviewOption .satisfaction .mixGrade .text {
+  display: inline-block;
+  margin-right: 32px;
+  font-size: 1.5rem;
+  line-height: 32px;
+  font-weight: 700;
+}
+.reviewOption .optionList > li .tit {
+  padding-bottom: 4px;
+  font-size: 1.5rem;
+  line-height: 1.53333;
+  color: #373a3c;
+}
+.reviewOption .optionList > li .radBox.boxCol03 {
+  margin: 0 -4px;
+}
+.reviewOption .optionList > li .radBox.boxCol03 .frmSel {
+  padding: 0 4px;
+}
+.reviewOption .optionList > li .radBox.boxCol03 .frmSel label {
+  font-size: 1.5rem;
+  line-height: 1.53333;
+  line-height: 40px;
+}
+.reviewOption .optionList > li:first-child {
+  margin-top: 12px;
+}
+.reviewOption .optionList > li ~ li {
+  margin-top: 24px;
+}
+.reviewOption textarea {
+  margin-top: 8px;
+  min-height: 100px;
+}
+.reviewOption .reviewAttachList {
+  margin: 8px -6px 0;
+  font-size: 0;
+}
+.reviewOption .reviewAttachList > li {
+  display: inline-block;
+  width: 128px;
+  height: 128px;
+  margin: 0 6px;
+}
+.reviewOption .reviewAttachList > li .cont {
+  overflow: hidden;
+  position: relative;
+  height: 128px;
+  border-radius: 4px;
+  background: #f5f7fa;
+}
+.reviewOption .reviewAttachList > li .cont:after {
+  width: 16px;
+  height: 16px;
+  margin: -8px 0 0 -8px;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/common/spr_ico.png) no-repeat -117px -24px;
+}
+.reviewOption .reviewAttachList > li .cont figure {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 128px;
+  z-index: 1;
+}
+.reviewOption .reviewAttachList > li .cont figure img {
+  width: 100%;
+  height: 100%;
+}
+.reviewOption .reviewAttachList > li .cont figure:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.1);
+}
+.reviewOption .reviewAttachList > li .cont .del {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 36px;
+  height: 36px;
+  z-index: 3;
+}
+.reviewOption .reviewAttachList > li .cont .del:before {
+  width: 16px;
+  height: 16px;
+  margin: -8px 0 0 -8px;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/common/spr_ico.png) no-repeat -240px -50px;
+}
+.reviewOption .reviewAttachList > li .cont input[type='file'] {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  opacity: 0;
+  z-index: 2;
+}
+.reviewOption .reviewAttachList > li .cont.vod {
+  background: #a0adf0 url(/img_up/shop_pds/banobagi/design/images/main/common/bg_vodDefault.png) no-repeat 50% 50%;
+}
+.reviewOption .reviewAttachList > li .cont.vod:after {
+  display: none;
+}
+.reviewOption .reviewAttachList > li:nth-child(4) ~ li {
+  margin-top: 16px;
+}
+.reviewOption .reviewAttachList > li:only-child {
+  display: block;
+  margin: 0 auto;
+}
+.reviewOption .tipInfo {
+  padding: 14px 0;
+  font-size: 1.3rem;
+  line-height: 1.38462;
+  text-align: center;
+  background: none;
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+}
+.reviewOption .tipInfo strong {
+  color: #4d6ee4;
+}
+[lang='zh'] .reviewOption .tipInfo strong {
+  color: #fe324b;
+}
+.reviewOption ~ .chkApply {
+  padding-bottom: 16px;
+}
+.reviewOption ~ .chkApply .frmSel {
+  display: block;
+}
+.reviewOption ~ .chkApply .point_colBlue {
+  border-bottom: 1px solid;
+  border-color: #4d6ee4;
+  display: inline-block;
+  margin-left: 32px;
+}
+[lang='zh'] .reviewOption ~ .chkApply .point_colBlue {
+  border-color: #fe324b;
+}
+.reviewComplete .complete {
+  background: url(/img_up/shop_pds/banobagi/design/images/main/view/bg_reviewComp.png) no-repeat 50% 0;
+}
+.reviewComplete .presentInfo {
+  position: relative;
+  margin-top: 32px;
+  padding: 24px 16px 16px 120px;
+  border: 1px solid #dcdfe3;
+  border-radius: 8px;
+}
+.reviewComplete .presentInfo figure {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  width: 80px;
+  height: 80px;
+  padding: 3.5px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.reviewComplete .presentInfo figure img {
+  display: block;
+  width: 100%;
+}
+.reviewComplete .presentInfo em {
+  display: block;
+  font-weight: 700;
+}
+.reviewComplete .presentInfo .text {
+  display: block;
+  color: #6b6e73;
+}
+.reviewComplete .presentInfo .date {
+  display: block;
+  color: #6b6e73;
+  font-size: 1.3rem;
+  line-height: 1.38462;
+}
+.reviewComplete .titDep5 {
+  margin-top: 32px;
+}
+.fixSide {
+  width: 30%;
+  position: absolute;
+  top: 70px;
+  left: 50%;
+  margin-left: 20%;
+}
+.shoppingBasket .inner {
+  padding: 32px 0;
+  margin-top: -16px;
+  height: calc(100% - 32px);
+  border: 1px solid #b9bcc0;
+  border-radius: 4px;
+}
+.shoppingBasket:before {
+  content: '';
+  display: block;
+  height: 32px;
+}
+.shoppingBasket .front {
+  padding: 0 24px;
+}
+.shoppingBasket .prodName {
+  display: none;
+  margin-bottom: 10px;
+  font-size: 2rem;
+  line-height: 1.4;
+  color: #373a3c;
+  font-weight: 500;
+}
+.shoppingBasket .soldOutDel {
+  text-align: right;
+}
+.shoppingBasket .scrollArea {
+  overflow-y: auto;
+  margin: 0;
+  height: calc(100vh - 360px) !important;
+  max-height: calc(100vh - 360px) !important;
+  min-height: inherit;
+  padding: 0 32px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  z-index: 100;
+}
+.shoppingBasket .selectWrap {
+  width: 100%;
+}
+.shoppingBasket .selectWrap.colorSel .ui-selectmenu-menu .ui-menu button {
+  padding-left: 45px;
+}
+.shoppingBasket
+  .selectWrap.colorSel
+  .ui-selectmenu-menu
+  .ui-menu
+  button.ui-action-button {
+  margin: 0 0 15px 45px;
+}
+.shoppingBasket
+  .selectWrap.colorSel
+  .ui-selectmenu-menu
+  .ui-menu
+  button
+  .option {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 14px;
+  width: 24px;
+  height: 24px;
+  margin-top: -12px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+.shoppingBasket .selectWrap ~ .selectWrap {
+  margin-top: 8px;
+}
+.shoppingBasket .selectWrap .ui-selectmenu-button {
+  background: none;
+  border-color: #373a3c;
+}
+.shoppingBasket .selectWrap .ui-selectmenu-button.ui-selectmenu-button-open {
+  border-color: #4d6ee4;
+}
+[lang='zh']
+  .shoppingBasket
+  .selectWrap
+  .ui-selectmenu-button.ui-selectmenu-button-open {
+  border-color: #fe324b;
+}
+.shoppingBasket
+  .selectWrap
+  .ui-selectmenu-button.ui-selectmenu-button-open:after {
+  background-position: -18px 0;
+}
+.shoppingBasket .selectWrap .ui-selectmenu-button:after {
+  background-position: -475px 0;
+}
+.shoppingBasket .selectWrap .ui-selectmenu-button .ui-selectmenu-text {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.shoppingBasket .selectWrap .ui-selectmenu-button span {
+  color: #1e2023;
+  font-weight: 500;
+}
+.shoppingBasket .selectWrap .ui-selectmenu-button span.ui-selectmenu-text {
+  color: #1e2023;
+  font-weight: 400;
+}
+.shoppingBasket .selectWrap .ui-selectmenu-menu .ui-menu button {
+  height: auto;
+  min-height: 48px;
+  padding: 9px 4px 9px 14px;
+  line-height: 21px;
+  white-space: initial;
+}
+.shoppingBasket
+  .selectWrap
+  .ui-selectmenu-menu
+  .ui-menu
+  button.ui-action-button {
+  position: static;
+  min-height: 42px;
+  margin: 0 0 15px 15px;
+  padding: 0 14px;
+}
+.shoppingBasket .chkOptList {
+  margin-top: 24px;
+}
+.shoppingBasket .chkOptList .detailOptItem {
+  position: relative;
+  padding-bottom: 20px;
+}
+.shoppingBasket .chkOptList .detailOptItem ~ .detailOptItem {
+  margin-top: 8px;
+  border-top: 1px solid #eaeaea;
+  padding-top: 20px;
+}
+.shoppingBasket .chkOptList .detailOptItem.fixOpt .optName {
+  margin-right: 0;
+}
+.shoppingBasket .chkOptList .detailOptItem:first-child .del {
+  top: 2px;
+}
+.shoppingBasket .chkOptList .detailOptItem .optName {
+  display: block;
+  margin-right: 20px;
+  color: #6b6e73;
+}
+.shoppingBasket .chkOptList .detailOptItem .optName .noOption {
+  color: #b9bcc0;
+}
+.shoppingBasket .chkOptList .detailOptItem .amount {
+  margin-top: 16px;
+  text-align: right;
+}
+.shoppingBasket .chkOptList .detailOptItem .priceArea {
+  display: inline-block;
+}
+.shoppingBasket .chkOptList .detailOptItem .priceArea .dollar {
+  display: block;
+  font-size: 1.8rem;
+  line-height: 1.44444;
+  color: #373a3c;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 700;
+}
+[lang='zh'] .shoppingBasket .chkOptList .detailOptItem .priceArea .dollar {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.shoppingBasket .chkOptList .detailOptItem .priceArea .won {
+  display: block;
+  margin-top: -4px;
+  font-size: 1.3rem;
+  line-height: 1.38462;
+  color: #6b6e73;
+}
+.shoppingBasket .chkOptList .detailOptItem .frmNum {
+  float: left;
+  width: 116px;
+  height: 40px;
+  margin-top: 0;
+  font-weight: 700;
+}
+.shoppingBasket .chkOptList .detailOptItem .del {
+  position: absolute;
+  top: 22px;
+  right: -5px;
+  width: 20px;
+  height: 20px;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/view/ico_del.png) no-repeat 50% 50%;
+}
+.shoppingBasket .optionPr {
+  margin-bottom: 8px;
+}
+.shoppingBasket .optionPr .toggleBtn {
+  background: #fff;
+  border-color: #373a3c;
+}
+.shoppingBasket .optionPr .toggleBtn:after {
+  background-position: -475px 0;
+}
+.shoppingBasket .optionPr .toggleBtn .selectTit {
+  color: #6b6e73;
+}
+.shoppingBasket .optionPr .toggleBtn[aria-expanded='true'] {
+  border-color: #4d6ee4;
+}
+[lang='zh'] .shoppingBasket .optionPr .toggleBtn[aria-expanded='true'] {
+  border-color: #fe324b;
+}
+.shoppingBasket .optionPr .toggleBtn[aria-expanded='true']:after {
+  background-position: -18px 0;
+}
+.shoppingBasket .setprCon .info {
+  padding-left: 0;
+}
+.shoppingBasket .setprCon .brandTit {
+  display: block;
+}
+.shoppingBasket .setprCon .prodName {
+  display: block;
+  margin-bottom: 0;
+  font-size: 1.5rem;
+  line-height: 1.53333;
+  color: #373a3c;
+  font-weight: 500;
+}
+.shoppingBasket .setPr_list .prodName {
+  text-overflow: inherit;
+  white-space: inherit;
+}
+.shoppingBasket .optionPrTxt > li {
+  padding: 0;
+  border-bottom: 0;
+}
+.shoppingBasket .optionPrTxt > li:first-child:before {
+  top: 0;
+}
+.shoppingBasket .optionPrTxt > li ~ li {
+  padding-top: 16px;
+}
+.shoppingBasket .optionPrTxt .tit {
+  padding-right: 0;
+  font-weight: 500;
+}
+.shoppingBasket .basketBottom {
+  margin-top: 20px;
+  padding: 0 32px;
+}
+.shoppingBasket .basketBottom .priceArea {
+  position: relative;
+  text-align: right;
+}
+.shoppingBasket .basketBottom .priceArea em {
+  position: absolute;
+  left: 0;
+  font-size: 1.3rem;
+  line-height: 1.38462;
+  color: #6b6e73;
+}
+.shoppingBasket .basketBottom .priceArea strong {
+  display: block;
+  margin-top: 4px;
+  color: #4d6ee4;
+  font-size: 2.8rem;
+  line-height: 1.28571;
+  line-height: 1.42857;
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+[lang='zh'] .shoppingBasket .basketBottom .priceArea strong {
+  color: #fe324b;
+}
+[lang='zh'] .shoppingBasket .basketBottom .priceArea strong {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.shoppingBasket .basketBottom .priceArea .won {
+  display: block;
+  margin-top: -4px;
+  color: #4d6ee4;
+}
+[lang='zh'] .shoppingBasket .basketBottom .priceArea .won {
+  color: #fe324b;
+}
+.shoppingBasket .basketBottom .btnCart {
+  margin-top: 10px;
+  font: 0/0 Arial;
+}
+.shoppingBasket .basketBottom .btnCart .calculator {
+  display: inline-block;
+  min-width: 48px;
+  border-radius: 4px 0 0 4px;
+  border: 1px solid #1e2023;
+  border-right: 0;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/view/ico_calcu.png) no-repeat 50% 50%;
+  background-size: 18px auto;
+  vertical-align: top;
+}
+.shoppingBasket .basketBottom .btnCart .calculator + button {
+  min-width: calc(100% - 48px);
+  border-radius: 0 4px 4px 0;
+}
+.shoppingBasket .basketBottom .btnCart .btnLineG {
+  border-color: #1e2023 !important;
+}
+.shoppingBasket .basketBottom .btnCart.orderBtn .btnSSG {
+  width: 100%;
+  border-radius: 4px;
+  font-size: 1.5rem;
+  -webkit-box-shadow: 0 10px 20px 0 rgba(77, 110, 228, 0.4);
+  box-shadow: 0 10px 20px 0 rgba(77, 110, 228, 0.4);
+}
+.shoppingBasket .basketBottom .btnCart.orderBtn .btnSSG:disabled {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.shoppingBasket .inner.prodNone {
+  position: relative;
+}
+.shoppingBasket .inner.prodNone .soldOutText {
+  padding: 0 40px;
+  font-size: 2rem;
+  line-height: 1.4;
+  color: #6b6e73;
+  font-weight: 500;
+}
+.shoppingBasket .inner.prodNone .soldOutDesc {
+  display: block;
+  padding: 16px 40px 0;
+  color: #6b6e73;
+}
+.shoppingBasket .inner.prodNone .basketBottom {
+  position: absolute;
+  bottom: 32px;
+  width: 100%;
+}
+.shoppingBasket .inner.prodNone .basketBottom .btnCart .btnLineG {
+  width: 100%;
+  border-radius: 4px;
+}
+.shoppingBasket .inner.prodNone .basketBottom .btnCart .btnLineG:disabled {
+  border: 0 !important;
+}
+.shoppingBasket .inner.prodNone .basketBottom .btnCart.orderBtn .btnSSG {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.prodScroll {
+  overflow-x: scroll;
+  margin: 0 -32px 0 0;
+  padding-bottom: 8px;
+}
+.prodScroll::-webkit-scrollbar {
+  height: 4px;
+}
+.prodScroll::-webkit-scrollbar-track {
+  background: #fff;
+}
+.addCart .complete {
+  background: url(/img_up/shop_pds/banobagi/design/images/main/view/bg_addCart.png) no-repeat 50% 0;
+}
+.addCart .complete .txtLink {
+  padding-top: 6px;
+  font-size: 1.5rem;
+  line-height: 1.53333;
+}
+.addCart .presentInfo {
+  position: relative;
+  margin-top: 32px;
+  padding: 16px 16px 16px 120px;
+  border: 1px solid #dcdfe3;
+  border-radius: 8px;
+}
+.addCart .presentInfo figure {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  width: 80px;
+  height: 80px;
+  padding: 3.5px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background: url(/img_up/shop_pds/banobagi/design/images/main/view/bg_prodLogo.png) no-repeat 50% 50%;
+  background-size: 80% auto;
+}
+.addCart .presentInfo figure img {
+  display: block;
+  width: 100%;
+}
+.addCart .presentInfo .tit {
+  font-weight: 500;
+}
+.addCart .presentInfo em {
+  display: block;
+  font-weight: 700;
+}
+.addCart .presentInfo em.quantity {
+  color: col_gray03;
+}
+.addCart .presentInfo .text {
+  display: block;
+  color: #6b6e73;
+}
+.addCart .presentInfo .date {
+  display: block;
+  padding-top: 12px;
+  color: #6b6e73;
+  font-size: 1.3rem;
+  line-height: 1.38462;
+}
+.addCart .titDep5 {
+  margin-top: 32px;
+  font-weight: 700;
+}
+.addCart .prodCont .prodState.soldOut {
+  margin-top: -70px;
+}
+.addCart .prodCont .priceArea .saleCont .saleWon {
+  font-size: 1.3rem;
+  line-height: 1.38462;
+}
+.presentInfo {
+  margin-top: 16px !important;
+}
+.presentInfo p {
+  padding-left: 18px;
+  word-break: break-all;
+}
+.presentInfo p > * {
+  display: block;
+}
+.presentInfo p .tit {
+  color: #373a3c;
+  font-weight: 400;
+}
+.presentInfo p .quantity {
+  color: #8b8f94;
+  font-weight: 400 !important;
+}
+.presentInfo p .date {
+  font-family: 'Metropolis', 'Metro', 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #8b8f94;
+  font-weight: 400 !important;
+}
+[lang='zh'] .presentInfo p .date {
+  font-family: MetroPolis, Metro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+@media screen and (min-width: 1663px) {
+  .offLine_storeInfo li {
+    padding: 32px 16px;
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+  }
+  .offLine_storeInfo li > * {
+    display: table-cell;
+    vertical-align: top;
+  }
+  .offLine_storeInfo .storeName {
+    width: 248px;
+  }
+  .offLine_storeInfo .con {
+    padding-top: 0;
+  }
+  .optionWrap .optionsResult .optionsReflection + .optionsReflection {
+    padding-top: 16px;
+  }
+  .optionWrap .optionsResult .optionsReflection + .optionsReflection:before {
+    position: absolute;
+    top: 0;
+    left: 24px;
+    right: 24px;
+    width: 93%;
+  }
+  .optionsResult .optionsReflection {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    padding: 24px 60px 24px 23px;
+  }
+  .optionsResult .optionsReflection > * {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  .optionsResult .optionsReflection .optProp {
+    width: 40%;
+  }
+  .optionsResult .optionsReflection .quantity {
+    width: 60%;
+  }
+  .optionsResult .optionsReflection .btnDel {
+    top: 50%;
+    margin-top: -15px;
+  }
+  .prInfo_top .prSide .timesaleBanner {
+    height: 117px;
+    line-height: 122px;
+    padding: 0 210px 0 32px;
+  }
+  .prInfo_top .prSide .timesaleBanner .tit {
+    font-size: 2.4rem;
+    line-height: 1.33333;
+    line-height: 1.41667;
+  }
+  .prInfo_top .prSide .timesaleBanner .time {
+    width: 233px;
+    height: 117px;
+    padding-left: 80px;
+    background: url(/img_up/shop_pds/banobagi/design/images/main/view/bg_timebanner02.png) no-repeat 0 0;
+  }
+  .prInfo_top .prSide .timesCon span {
+    font-size: 2.4rem;
+    line-height: 1.33333;
+    line-height: 1.41667;
+  }
+  .noticeInfo_Tab .tabType06 > li a {
+    font-size: 1.5rem;
+  }
+  .giftArea .giftCon .list {
+    margin: 0 -16px;
+  }
+  .giftArea .giftCon .list li {
+    padding: 4px 16px;
+    float: left;
+    width: 50%;
+  }
+  .giftArea.case .giftCon .list li {
+    width: 100%;
+  }
+  .infoCode .code span,
+  .offLineCode .code span {
+    display: inline-block;
+  }
+  .infoCode .code span ~ span,
+  .offLineCode .code span ~ span {
+    margin-left: 33px;
+  }
+}
+@media screen and (min-width: 1903px) {
+  .shoppingBasket .inner {
+    padding: 40px 0;
+  }
+  .shoppingBasket .front {
+    padding: 0 40px 0 30px;
+  }
+  .shoppingBasket .prodName {
+    display: block;
+  }
+  .shoppingBasket .soldOutDel {
+    margin-top: 32px;
+  }
+  .shoppingBasket .scrollArea {
+    height: calc(100vh - 438px) !important;
+    max-height: calc(100vh - 438px) !important;
+  }
+}
